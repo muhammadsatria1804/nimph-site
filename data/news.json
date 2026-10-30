@@ -1,0 +1,299 @@
+{
+ "items": [],
+ "calendar": {
+  "updated": "2026-10-29T17:10+07:00",
+  "window_trading_days": 10,
+  "window": [
+   "2026-10-30",
+   "2026-11-12"
+  ],
+  "note": "desk/watchlist.json is empty, so the events below are for names flagged in intel/. Built from news by the cloud night shift: www.idx.id (GetCalendar) is blocked from the cloud. All dates unverified; re-check with tools/idx.py actions. 2026-10-29: past events removed (VISI listing, PRDA cutoff, FOMC); GOTO and BRIS results moved to 10-30 (not out by 17:00 WIB); TPIA buyback updated to Rp2 tn (10-29 to 2027-01-28).",
+  "events": [
+   {
+    "ticker": "PRDA",
+    "type": "rups_stock_split",
+    "date": "2026-11-23",
+    "detail": "RUPSLB on the 1:5 split (eligibility cutoff 10-29 passed); outside the window; new nominal trades 12-18",
+    "source": "Bisnisterkini, Prodia (PRDA) Siap Stock Split 1:5, Tunggu Restu RUPSLB November, 2026-10-15 17:43 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "GOTO",
+    "type": "results",
+    "date": "2026-10-30",
+    "detail": "Q3 2026 results expected; not seen in the press by 17:00 WIB on 10-29, so expected 10-29 evening or 10-30 (deadline 10-31)",
+    "source": "Kontan, 2026-10-26 06:25 WIB, as above",
+    "verified": false
+   },
+   {
+    "ticker": "BRIS",
+    "type": "results",
+    "date": "2026-10-30",
+    "detail": "Q3 2026 results, broker estimate; not seen in the press by 17:00 WIB on 10-29, so expected 10-29 evening or 10-30 (deadline 10-31)",
+    "source": "IDX Channel, Potensi Jadwal Rilis Kinerja Kuartal III-2026 Bank Besar, Analis Soroti Likuiditas, 2026-09-28",
+    "verified": false
+   },
+   {
+    "ticker": "BBRI",
+    "type": "results",
+    "date": "2026-10-30",
+    "detail": "Q3 2026 results, broker estimate (another list says 10-28)",
+    "source": "IDX Channel, as above",
+    "verified": false
+   },
+   {
+    "ticker": "TSPC",
+    "type": "dividend",
+    "cum": "2026-10-30",
+    "ex": "2026-11-02",
+    "recording": "2026-11-03",
+    "pay": "2026-11-20",
+    "amount_rp": 75,
+    "source": "Emitennews, TSPC Jadwal Dividen Rp75, Cum Date 30 Oktober, 2026-10-23 05:27 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "*",
+    "type": "results_deadline",
+    "date": "2026-10-31",
+    "detail": "Unaudited Q3 2026 filing deadline: BBNI, TLKM, ASII/UNTR, ICBP/INDF, PTBA/ITMG/AADI, ANTM/INCO/MDKA/AMMN, MEDC, EXCL/ISAT and others not yet seen",
+    "source": "night shift, 2026-10-26",
+    "verified": false
+   },
+   {
+    "ticker": "SIDO",
+    "type": "dividend",
+    "cum": "2026-11-02",
+    "ex": "2026-11-03",
+    "recording": "2026-11-04",
+    "pay": "2026-11-20",
+    "amount_rp": 10,
+    "source": "Liputan6, Sido Muncul Tebar Dividen Interim 2026 Rp 300 Miliar, Cek Jadwalnya, 2026-10-23 17:10 WIB; kumparan, Jadwal Dividen Interim SIDO 2026 Rp300 Miliar, Ini Tanggalnya, 2026-10-27 16:16 WIB (agrees). Emitennews 2026-10-25 has cum 10-28 / ex 10-29 instead: conflict",
+    "verified": false
+   },
+   {
+    "ticker": "WIFI",
+    "type": "rups",
+    "date": "2026-11-02",
+    "detail": "RUPSLB, rescheduled four times",
+    "source": "Kabarbursa, Empat Kali Berubah, ini Jadwal Terbaru RUPSLB Solusi Sinergi Digital (WIFI), 2026-09-25",
+    "verified": false
+   },
+   {
+    "ticker": "*HSC (80-82 stocks incl. BREN, DSSA, BYAN, DCII, PGUN, MTEL, TBIG, BNLI)",
+    "type": "index_exclusion",
+    "date": "2026-11-02",
+    "detail": "HSC-list stocks excluded from IHSG calculation",
+    "source": "Katadata, BEI Ubah Kriteria Evaluasi IHSG, Saham HSC Dikeluarkan Mulai 2 November, 2026-10-22 10:04 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "BRIS",
+    "type": "rups_proxy_deadline",
+    "date": "2026-11-05",
+    "detail": "eASY.KSEI proxy and voting deadline 12:00 WIB for the 11-06 RUPSLB",
+    "source": "Kontan, as for BRIS 11-06",
+    "verified": false
+   },
+   {
+    "ticker": "UNTR",
+    "type": "dividend",
+    "cum": "2026-11-05",
+    "ex": "2026-11-06",
+    "cum_cash": "2026-11-09",
+    "ex_cash": "2026-11-10",
+    "recording": "2026-11-09",
+    "pay": "2026-11-23",
+    "amount_rp": 430,
+    "detail": "interim, Rp1.47 tn total",
+    "source": "Emitennews, UNTR Jadwal Dividen Rp430, Cum Date 5 November, 2026-10-28 08:13 WIB; StockWatch, UNTR Tebar Dividen Interim Rp1,48 Triliun, Rp430 per Saham, Cek Jadwalnya (agrees on Rp430)",
+    "verified": false
+   },
+   {
+    "ticker": "BRIS",
+    "type": "rups_rights_issue",
+    "date": "2026-11-06",
+    "detail": "RUPSLB 10:00 WIB on rights issue II: up to 6.8 bn new shares, max dilution 12.85%; proxy deadline 11-05 12:00 WIB; completion target Q1 2027. Buyback only 'being studied' (IDX Channel, 2026-10-20 21:18 WIB)",
+    "source": "Kontan, BSI (BRIS) Bakal Rights Issue, Simak Jadwal RUPSLB dan Potensi Dilusi, 2026-10-15 19:54 WIB (updated 10-16); CNBC Indonesia, 2026-10-16",
+    "verified": false
+   },
+   {
+    "ticker": "DOOH",
+    "type": "rups_rights_issue",
+    "date": "2026-11-09",
+    "detail": "RUPSLB on rights issue (up to 95.24% dilution) and INET acquisition; no second source found on 2026-10-26",
+    "source": "HeyGoTrade, Aksi Korporasi Emiten, 2026-10-02",
+    "verified": false
+   },
+   {
+    "ticker": "PACK",
+    "type": "rups_rights_issue",
+    "date": "2026-11-30",
+    "detail": "Outside the window. Rights issue II up to US$463m (~Rp8.19 tn), dilution up to ~74.6%; price, ratio and cum dates not set",
+    "source": "Emitennews, Siap Right Issue, Emiten Haji Isam (PACK) Ini Gelar RUPSLB 30 November, 2026-10-25 13:01 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "XSPI",
+    "type": "dividend",
+    "detail": "cum date in the week of 10-26 to 10-30; amount and dates not read",
+    "source": "CNBC Indonesia, Jadwal Cum Date & Pembayaran Dividen Pekan Ini: Ada Emiten Kamu?, 2026-10-27 09:45 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "AALI",
+    "type": "buyback",
+    "until": "2026-12-28",
+    "amount_rp": 400000000000,
+    "source": "HeyGoTrade, Aksi Korporasi Emiten, 2026-10-02",
+    "verified": false
+   },
+   {
+    "ticker": "INDF",
+    "type": "buyback",
+    "from": "2026-10-26",
+    "until": "2026-12-31",
+    "amount_rp": 750000000000,
+    "source": "Suara, Dua Emiten Grup Salim INDF dan ICBP Mau Buyback Saham Rp750 Miliar, 2026-10-25 16:11 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "ICBP",
+    "type": "buyback",
+    "from": "2026-10-26",
+    "until": "2026-12-31",
+    "amount_rp": 750000000000,
+    "source": "Suara, as above",
+    "verified": false
+   },
+   {
+    "ticker": "AMMN",
+    "type": "buyback",
+    "from": "2026-10-22",
+    "until": "2027-01-22",
+    "amount_rp": 1000000000000,
+    "source": "Suara, Siapkan Dana Rp1 Triliun, AMMN Gelar Buyback Saham, 2026-10-25 16:35 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "UNTR",
+    "type": "buyback",
+    "from": "2026-10-01",
+    "until": "2026-12-31",
+    "amount_rp": 2000000000000,
+    "source": "investor.id, Aksi Serentak Serok Saham, BBCA Terbesar, 2026-10-27 06:32 WIB (Kiwoom Sekuritas roundup)",
+    "verified": false
+   },
+   {
+    "ticker": "BBCA",
+    "type": "buyback",
+    "from": "2026-03-12",
+    "until": "2027-03-11",
+    "amount_rp": 5000000000000,
+    "source": "investor.id, Aksi Serentak Serok Saham, BBCA Terbesar, 2026-10-27 06:32 WIB (Kiwoom Sekuritas roundup)",
+    "verified": false
+   },
+   {
+    "ticker": "BREN",
+    "type": "buyback",
+    "from": "2026-10-19",
+    "until": "2026-12-31",
+    "amount_rp": 1000000000000,
+    "source": "investor.id, Aksi Serentak Serok Saham, BBCA Terbesar, 2026-10-27 06:32 WIB (Kiwoom Sekuritas roundup)",
+    "verified": false
+   },
+   {
+    "ticker": "BRPT",
+    "type": "buyback",
+    "from": "2026-10-19",
+    "until": "2026-12-31",
+    "amount_rp": 1000000000000,
+    "source": "investor.id, Aksi Serentak Serok Saham, BBCA Terbesar, 2026-10-27 06:32 WIB (Kiwoom Sekuritas roundup)",
+    "verified": false
+   },
+   {
+    "ticker": "TPIA",
+    "type": "buyback",
+    "from": "2026-10-29",
+    "until": "2027-01-28",
+    "amount_rp": 2000000000000,
+    "source": "IDX Channel, Chandra Asri (TPIA) Perbesar Alokasi Buyback Saham Jadi Rp2 Triliun, 2026-10-29 09:25 WIB; CNBC Indonesia, Chandra Asri (TPIA) Siapkan Buyback Saham hingga Rp2 Triliun, 2026-10-29 11:18 WIB",
+    "verified": false,
+    "max_price_rp": 3000,
+    "broker": "BCA Sekuritas",
+    "detail": "enlarged to up to Rp2 tn from Rp1 tn (10-27 roundup figure); max price Rp3,000"
+   },
+   {
+    "ticker": "CUAN",
+    "type": "buyback",
+    "from": "2026-10-19",
+    "until": "2026-12-31",
+    "amount_rp": 500000000000,
+    "source": "investor.id, Aksi Serentak Serok Saham, BBCA Terbesar, 2026-10-27 06:32 WIB (Kiwoom Sekuritas roundup)",
+    "verified": false
+   },
+   {
+    "ticker": "DSSA",
+    "type": "buyback",
+    "from": "2026-10-19",
+    "until": "2027-01-18",
+    "amount_rp": 1000000000000,
+    "source": "investor.id, Aksi Serentak Serok Saham, BBCA Terbesar, 2026-10-27 06:32 WIB (Kiwoom Sekuritas roundup)",
+    "verified": false
+   },
+   {
+    "ticker": "BBRI",
+    "type": "buyback",
+    "until": "2027-01-21",
+    "amount_rp": 1000000000000,
+    "source": "investor.id, Aksi Serentak Serok Saham, BBCA Terbesar, 2026-10-27 06:32 WIB (Kiwoom Sekuritas roundup)",
+    "verified": false
+   },
+   {
+    "ticker": "KLBF",
+    "type": "buyback",
+    "from": "2026-09-17",
+    "until": "2026-12-17",
+    "amount_rp": 500000000000,
+    "source": "investor.id, Aksi Serentak Serok Saham, BBCA Terbesar, 2026-10-27 06:32 WIB (Kiwoom Sekuritas roundup)",
+    "verified": false
+   },
+   {
+    "ticker": "TOWR",
+    "type": "buyback",
+    "from": "2026-09-30",
+    "until": "2026-12-30",
+    "amount_rp": 500000000000,
+    "source": "investor.id, Aksi Serentak Serok Saham, BBCA Terbesar, 2026-10-27 06:32 WIB (Kiwoom Sekuritas roundup)",
+    "verified": false
+   },
+   {
+    "ticker": "BUAH",
+    "type": "dividend",
+    "pay": "2026-11-06",
+    "amount_rp": 10,
+    "detail": "interim; cum date not stated (probably passed)",
+    "source": "Stapo.id, Saham-Saham ini Siap Bagikan Dividen hingga November 2026, 2026-10-23 02:29 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "CSRA",
+    "type": "dividend",
+    "pay": "2026-11-13",
+    "amount_rp": 15,
+    "detail": "interim; cum date not stated (probably passed)",
+    "source": "Stapo.id, Saham-Saham ini Siap Bagikan Dividen hingga November 2026, 2026-10-23 02:29 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "ASII",
+    "type": "dividend",
+    "pay": "2026-10-30",
+    "amount_rp": 98,
+    "detail": "interim; cum date already passed",
+    "source": "Stapo.id, as above",
+    "verified": false
+   }
+  ]
+ }
+}

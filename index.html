@@ -50,7 +50,39 @@ header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; backg
 .tab.none::after { content: " · belum ada"; font: 400 11px var(--body); }
 button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
+.views { display: flex; gap: 4px; }
+.views a { font: 700 13px/1 var(--display); color: var(--muted); text-decoration: none; padding: 7px 11px; border-radius: 6px; }
+.views a[aria-current="page"] { background: var(--accent-soft); color: var(--accent); }
 main { padding-block: 22px 60px; }
+
+.upcoming { background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; margin-bottom: 22px; }
+.upcoming h2 { font: 700 13px/1 var(--display); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 0 0 10px; }
+.ev { display: grid; grid-template-columns: 74px 58px minmax(0, 1fr); gap: 4px 12px; padding: 7px 0; border-top: 1px solid var(--rule); font-size: 13px; }
+.upcoming h2 + .ev { border-top: 0; }
+.ev .d { font: 600 12px/1.5 var(--mono); }
+.ev .t { font: 600 12px/1.5 var(--mono); color: var(--accent); }
+.ev .x { min-width: 0; }
+.ev .x small { color: var(--muted); }
+.dayhead { font: 700 12px/1 var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 26px 0 10px; }
+.dayhead:first-child { margin-top: 0; }
+.item { background: var(--paper); border: 1px solid var(--rule); border-left: 4px solid var(--cat); border-radius: 6px; padding: 14px 16px; margin-bottom: 10px; min-width: 0; overflow-wrap: anywhere; }
+.item[data-cat="corporate-action"] { --cat: var(--accent); }
+.item[data-cat="news"] { --cat: var(--muted); }
+.item[data-cat="issue"] { --cat: var(--down); }
+.item[data-cat="rumour"] { --cat: var(--warn); }
+.item .top { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font: 600 11px/1.3 var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+.item .cat { color: var(--cat); }
+.item .tick { color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 3px; padding: 2px 5px; }
+.item h3 { font: 700 16px/1.35 var(--display); margin: 8px 0 6px; text-wrap: balance; }
+.item p { margin: 0 0 6px; max-width: 70ch; }
+.item .why { color: var(--muted); font-style: italic; }
+.st { border-radius: 3px; padding: 2px 6px; }
+.st-official, .st-confirmed { background: color-mix(in srgb, var(--up) 14%, transparent); color: var(--up); }
+.st-unconfirmed { background: color-mix(in srgb, var(--warn) 16%, transparent); color: var(--warn); }
+.st-denied { background: color-mix(in srgb, var(--down) 14%, transparent); color: var(--down); }
+.src { list-style: none; padding: 0; margin: 8px 0 0; font-size: 12.5px; display: grid; gap: 3px; }
+.src a { color: var(--accent); }
+.src small { color: var(--muted); }
 .meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
 .pill { font: 600 11px/1 var(--mono); text-transform: uppercase; letter-spacing: 0.06em; padding: 5px 8px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); }
 .pill.demo { background: color-mix(in srgb, var(--warn) 15%, transparent); color: var(--warn); }
@@ -83,18 +115,30 @@ footer { color: var(--muted); font-size: 12px; padding-bottom: 30px; }
   <div class="wrap">
     <div class="mast">
       <div class="brand">Stock <span>Nimphy</span></div>
-      <div class="tag">IDX paper desk · Rp150 jt book</div>
+      <nav class="views" aria-label="Pages">
+        <a href="#news" id="v-news">News</a>
+        <a href="#daily" id="v-daily">Harian</a>
+      </nav>
     </div>
-    <div class="days" id="days" aria-label="Trading days"></div>
-    <div class="tabs" id="tabs" role="tablist"></div>
+    <div id="dailyNav" hidden>
+      <div class="days" id="days" aria-label="Trading days"></div>
+      <div class="tabs" id="tabs" role="tablist"></div>
+    </div>
+    <div class="tabs" id="newsNav" role="tablist" hidden></div>
   </div>
 </header>
 
 <main class="wrap">
-  <div class="meta" id="meta"></div>
-  <article id="doc"><p class="empty">Loading the latest report…</p></article>
+  <section id="dailyView" hidden>
+    <div class="meta" id="meta"></div>
+    <article id="doc"><p class="empty">Loading the latest report…</p></article>
+  </section>
+  <section id="newsView" hidden>
+    <div id="upcoming"></div>
+    <div id="feed"><p class="empty">Loading the news…</p></div>
+  </section>
 </main>
-<footer class="wrap">Paper portfolio only. No broker is connected and no real order is placed. Updated after each desk shift.</footer>
+<footer class="wrap">News from IDX disclosures, regulators and credible Indonesian and international press; every item links its sources. Paper portfolio only: no broker is connected and no real order is placed. Updated after each desk shift.</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
@@ -191,7 +235,39 @@ async function renderDoc() {
   }
 }
 
+const CATS = [
+  ["all", "Semua"],
+  ["corporate-action", "Corporate Action"],
+  ["news", "Berita"],
+  ["issue", "Isu"],
+  ["rumour", "Dugaan"],
+];
+const STATUS = { official: "Resmi", confirmed: "Terkonfirmasi", unconfirmed: "Belum terkonfirmasi", denied: "Dibantah" };
+let news = null, newsFilter = "all";
+
+function esc(v) {
+  return String(v ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+}
+function safeUrl(u) { return /^https?:\/\//i.test(u || "") ? u : null; }
+function todayWib() { return new Date(Date.now() + 7 * 3600e3).toISOString().slice(0, 10); }
+
+function setView(v) {
+  document.getElementById("dailyNav").hidden = v !== "daily";
+  document.getElementById("dailyView").hidden = v !== "daily";
+  document.getElementById("newsNav").hidden = v !== "news";
+  document.getElementById("newsView").hidden = v !== "news";
+  for (const k of ["news", "daily"]) {
+    const a = document.getElementById("v-" + k);
+    if (k === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
+  }
+}
+
 function go(date, shift) {
+  setView("daily");
+  if (!index.length) {
+    document.getElementById("doc").innerHTML = `<p class="empty">No reports yet. The first one appears after the next desk shift.</p>`;
+    return;
+  }
   const day = index.find(d => d.date === date) || index[0];
   cur = { date: day.date, shift: pickShift(day, shift) };
   if (location.hash.slice(1) !== `${cur.date}-${cur.shift}`) history.replaceState(null, "", `#${cur.date}-${cur.shift}`);
@@ -199,21 +275,100 @@ function go(date, shift) {
   renderDoc();
 }
 
-function fromHash() {
-  const m = location.hash.match(/^#(\d{4}-\d{2}-\d{2})-(\w+)$/);
-  return m ? [m[1], m[2]] : [null, "plan"];
+function renderNewsNav() {
+  const nav = document.getElementById("newsNav");
+  nav.innerHTML = "";
+  for (const [k, label] of CATS) {
+    const b = document.createElement("button");
+    b.className = "tab";
+    b.role = "tab";
+    const n = k === "all" ? news.items.length : news.items.filter(i => i.category === k).length;
+    b.textContent = n ? `${label} · ${n}` : label;
+    b.setAttribute("aria-selected", k === newsFilter);
+    b.onclick = () => { location.hash = k === "all" ? "news" : "news-" + k; };
+    nav.appendChild(b);
+  }
 }
 
-window.addEventListener("hashchange", () => go(...fromHash()));
-fetch("data/index.json", { cache: "no-store" }).then(r => r.json()).then(data => {
-  index = data;
-  if (!index.length) {
-    document.getElementById("doc").innerHTML = `<p class="empty">No reports yet. The first one appears after the next desk shift.</p>`;
+function renderUpcoming() {
+  const box = document.getElementById("upcoming");
+  const today = todayWib();
+  const evs = (news.calendar?.events || []).filter(e => e.date >= today).sort((a, b) => a.date.localeCompare(b.date));
+  if (!evs.length || !["all", "corporate-action"].includes(newsFilter)) { box.innerHTML = ""; return; }
+  box.innerHTML = `<div class="upcoming"><h2>Jadwal aksi korporasi & laporan</h2>` + evs.map(e => {
+    const f = fmtDay(e.date);
+    return `<div class="ev"><span class="d">${f.dow} ${f.label}</span><span class="t">${esc(e.ticker)}</span>` +
+      `<span class="x">${esc(String(e.type || "").replace(/_/g, " "))}: ${esc(e.detail)}` +
+      `${e.verified === false ? ` <small>(belum diverifikasi)</small>` : ""}</span></div>`;
+  }).join("") + `</div>`;
+}
+
+function renderFeed() {
+  const feed = document.getElementById("feed");
+  const items = news.items.filter(i => newsFilter === "all" || i.category === newsFilter);
+  if (!items.length) {
+    const label = CATS.find(c => c[0] === newsFilter)[1];
+    feed.innerHTML = `<div class="empty"><strong>Belum ada data.</strong><br>${newsFilter === "all" ? "Berita" : label} akan terisi setelah shift berikutnya: pra-pasar sekitar 06:15 WIB dan sore sekitar 17:00 WIB.</div>`;
     return;
   }
-  go(...fromHash());
+  let html = "", lastDay = null;
+  for (const it of items) {
+    if (it.date !== lastDay) {
+      const f = fmtDay(it.date);
+      html += `<div class="dayhead">${f.dow} ${f.label}${it.date === todayWib() ? " · hari ini" : ""}</div>`;
+      lastDay = it.date;
+    }
+    const cat = CATS.find(c => c[0] === it.category)?.[1] || it.category;
+    const srcs = (it.sources || []).map(s => {
+      const u = safeUrl(s.url);
+      const t = esc(s.title || s.name);
+      return `<li>${s.primary ? "◆ " : ""}${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>` : t} <small>${esc(s.name)}${s.time ? " · " + esc(s.time) : ""}</small></li>`;
+    }).join("");
+    html += `<div class="item" data-cat="${esc(it.category)}">
+      <div class="top"><span class="cat">${esc(cat)}</span>${(it.tickers || []).map(t => `<span class="tick">${esc(t)}</span>`).join("")}
+        ${it.status ? `<span class="st st-${esc(it.status)}">${esc(STATUS[it.status] || it.status)}</span>` : ""}
+        ${it.time ? `<span>${esc(it.time)}</span>` : ""}${it.event_date ? `<span>Tanggal penting: ${esc(it.event_date)}</span>` : ""}</div>
+      <h3>${esc(it.headline)}</h3>
+      ${it.summary ? `<p>${esc(it.summary)}</p>` : ""}
+      ${it.why_it_matters ? `<p class="why">${esc(it.why_it_matters)}</p>` : ""}
+      ${srcs ? `<ul class="src">${srcs}</ul>` : ""}
+    </div>`;
+  }
+  feed.innerHTML = html;
+}
+
+async function showNews(filter) {
+  setView("news");
+  newsFilter = CATS.some(c => c[0] === filter) ? filter : "all";
+  if (!news) {
+    try {
+      news = await (await fetch("data/news.json", { cache: "no-store" })).json();
+    } catch (e) {
+      document.getElementById("feed").innerHTML = `<p class="empty">The news could not be loaded. Reload the page to try again.</p>`;
+      return;
+    }
+  }
+  renderNewsNav();
+  renderUpcoming();
+  renderFeed();
+}
+
+// #news, #news-<category>, #daily, #<date>-<section>; no hash opens the news.
+function route() {
+  const h = location.hash.slice(1);
+  const d = h.match(/^(\d{4}-\d{2}-\d{2})-(\w+)$/);
+  if (d) return go(d[1], d[2]);
+  if (h === "daily") return go(null, null);
+  const n = h.match(/^news-([\w-]+)$/);
+  showNews(n ? n[1] : "all");
+}
+
+window.addEventListener("hashchange", route);
+fetch("data/index.json", { cache: "no-store" }).then(r => r.json()).then(data => {
+  index = data;
+  route();
 }).catch(() => {
-  document.getElementById("doc").innerHTML = `<p class="empty">The report list could not be loaded. Reload the page to try again.</p>`;
+  route();
 });
 </script>
 
