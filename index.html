@@ -1,0 +1,220 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><style>*{box-sizing:border-box}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style></head><body>
+<title>Stock Nimphy</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Public+Sans:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a reading desk. Sticky masthead with day strip and shift tabs, one report column below. */
+:root {
+  --bg: #f3f5f4;
+  --paper: #ffffff;
+  --ink: #17221f;
+  --muted: #5b6b66;
+  --rule: #d7dfdc;
+  --accent: #0b6e5b;
+  --accent-soft: #e0efeb;
+  --up: #12805c;
+  --down: #c2402f;
+  --warn: #a36a00;
+  --display: "Archivo", "Helvetica Neue", Arial, sans-serif;
+  --body: "Public Sans", -apple-system, "Segoe UI", sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0f1513; --paper: #151d1a; --ink: #e3ebe8; --muted: #92a39d; --rule: #2a3632;
+  --accent: #4cc2a4; --accent-soft: #1b2e29; --up: #4cc28e; --down: #ef7a68; --warn: #e2a93b; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #0f1513; --paper: #151d1a; --ink: #e3ebe8; --muted: #92a39d; --rule: #2a3632;
+  --accent: #4cc2a4; --accent-soft: #1b2e29; --up: #4cc28e; --down: #ef7a68; --warn: #e2a93b; color-scheme: dark }
+
+body { background: var(--bg); color: var(--ink); font: 15px/1.6 var(--body); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
+.wrap { max-width: 860px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--paper); border-bottom: 1px solid var(--rule); }
+.mast { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding-block: 14px 8px; }
+.brand { font: 800 20px/1 var(--display); letter-spacing: -0.01em; }
+.brand span { color: var(--accent); }
+.tag { font: 500 11px/1 var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); }
+
+.days { display: flex; gap: 6px; overflow-x: auto; padding-block: 4px 10px; scrollbar-width: thin; }
+.day { flex: none; border: 1px solid var(--rule); background: transparent; color: var(--ink); border-radius: 6px; padding: 5px 10px; font: 500 12px/1.2 var(--mono); cursor: pointer; text-align: left; }
+.day small { display: block; color: var(--muted); font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; }
+.day[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.day[aria-pressed="true"] small { color: inherit; opacity: 0.75; }
+
+.tabs { display: flex; gap: 2px; overflow-x: auto; }
+.tab { flex: none; background: none; border: 0; border-bottom: 3px solid transparent; color: var(--muted); padding: 8px 12px 9px; font: 700 13px/1 var(--display); cursor: pointer; }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.tab.none { color: color-mix(in srgb, var(--muted) 55%, transparent); }
+.tab.none::after { content: " · belum ada"; font: 400 11px var(--body); }
+button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+main { padding-block: 22px 60px; }
+.meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
+.pill { font: 600 11px/1 var(--mono); text-transform: uppercase; letter-spacing: 0.06em; padding: 5px 8px; border-radius: 4px; background: var(--accent-soft); color: var(--accent); }
+.pill.demo { background: color-mix(in srgb, var(--warn) 15%, transparent); color: var(--warn); }
+
+article { background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 22px clamp(16px, 4vw, 34px) 30px; min-width: 0; overflow-wrap: anywhere; }
+article h1 { font: 800 clamp(22px, 4vw, 28px)/1.2 var(--display); letter-spacing: -0.015em; margin: 0 0 14px; text-wrap: balance; }
+article h2 { font: 700 18px/1.3 var(--display); margin: 30px 0 8px; padding-top: 14px; border-top: 1px solid var(--rule); text-wrap: balance; }
+article h3 { font: 700 15px/1.3 var(--display); margin: 22px 0 6px; }
+article p, article li { max-width: 68ch; }
+article ul, article ol { padding-left: 1.3em; }
+article li { margin: 3px 0; }
+article strong { font-weight: 600; }
+article a { color: var(--accent); }
+article code { font: 0.86em var(--mono); background: var(--accent-soft); padding: 1px 5px; border-radius: 3px; }
+article blockquote { margin: 12px 0; padding: 4px 14px; border-left: 3px solid var(--rule); color: var(--muted); }
+.tbl { overflow-x: auto; margin: 12px 0; border: 1px solid var(--rule); border-radius: 6px; }
+.tbl table { border-collapse: collapse; width: 100%; font-size: 13px; font-variant-numeric: tabular-nums; }
+.tbl th, .tbl td { padding: 7px 10px; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; overflow-wrap: normal; }
+.tbl th { font: 600 11px/1.3 var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); background: var(--bg); }
+.tbl tr:last-child td { border-bottom: 0; }
+.chk-pass { color: var(--up); font-weight: 600; }
+.chk-na { color: var(--muted); }
+.chk-fixed { color: var(--warn); font-weight: 600; }
+.empty { color: var(--muted); padding: 40px 0; text-align: center; line-height: 1.7; }
+.empty strong { color: var(--ink); font: 700 17px var(--display); }
+footer { color: var(--muted); font-size: 12px; padding-bottom: 30px; }
+</style>
+
+<header>
+  <div class="wrap">
+    <div class="mast">
+      <div class="brand">Stock <span>Nimphy</span></div>
+      <div class="tag">IDX paper desk · Rp150 jt book</div>
+    </div>
+    <div class="days" id="days" aria-label="Trading days"></div>
+    <div class="tabs" id="tabs" role="tablist"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="meta" id="meta"></div>
+  <article id="doc"><p class="empty">Loading the latest report…</p></article>
+</main>
+<footer class="wrap">Paper portfolio only. No broker is connected and no real order is placed. Updated after each desk shift.</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
+<script>
+// The three sections of a trading day, in the order they happen. Weekly appears only on Saturdays.
+const SHIFTS = [
+  ["premarket", "Laporan Pagi", "Pre-market shift, ready by about 06:15 WIB"],
+  ["plan", "Plan for Today", "Morning desk, ready by about 08:00 WIB"],
+  ["evening", "Post-market", "Evening shift, ready by about 17:00 WIB"],
+  ["weekly", "Weekly", "Saturday review"],
+];
+const DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+let index = [], cur = { date: null, shift: null };
+
+function fmtDay(d) {
+  const dt = new Date(d + "T00:00:00");
+  return { dow: DOW[dt.getDay()], label: dt.toLocaleDateString("en-GB", { day: "numeric", month: "short" }) };
+}
+
+function pickShift(day, want) {
+  if (want && SHIFTS.some(s => s[0] === want) && (want !== "weekly" || day.shifts.weekly)) return want;
+  // Open the newest section the day has so far, or the first one if nothing has run yet.
+  return SHIFTS.map(s => s[0]).filter(k => day.shifts[k]).pop() || "premarket";
+}
+
+function renderNav() {
+  const days = document.getElementById("days");
+  days.innerHTML = "";
+  for (const day of index) {
+    const f = fmtDay(day.date);
+    const b = document.createElement("button");
+    b.className = "day";
+    b.setAttribute("aria-pressed", day.date === cur.date);
+    b.innerHTML = `<small>${f.dow}</small>${f.label}`;
+    b.onclick = () => go(day.date, cur.shift);
+    days.appendChild(b);
+  }
+  const day = index.find(d => d.date === cur.date);
+  const tabs = document.getElementById("tabs");
+  tabs.innerHTML = "";
+  for (const [k, label] of SHIFTS) {
+    const weeklyOnly = Object.keys(day.shifts).join() === "weekly";
+    if (k === "weekly" ? !day.shifts.weekly : weeklyOnly) continue;
+    const b = document.createElement("button");
+    b.className = "tab";
+    b.role = "tab";
+    b.textContent = label;
+    if (!day.shifts[k]) b.classList.add("none");
+    b.setAttribute("aria-selected", k === cur.shift);
+    b.onclick = () => go(cur.date, k);
+    tabs.appendChild(b);
+  }
+}
+
+function decorate(root) {
+  root.querySelectorAll("table").forEach(t => {
+    const w = document.createElement("div");
+    w.className = "tbl";
+    t.replaceWith(w);
+    w.appendChild(t);
+  });
+  root.querySelectorAll("td").forEach(td => {
+    const v = td.textContent.trim().toLowerCase();
+    if (v === "pass") td.className = "chk-pass";
+    else if (v === "n/a") td.className = "chk-na";
+    else if (v === "fixed") td.className = "chk-fixed";
+  });
+}
+
+async function renderDoc() {
+  const day = index.find(d => d.date === cur.date);
+  const s = day.shifts[cur.shift];
+  const [, label, when] = SHIFTS.find(x => x[0] === cur.shift);
+  const f = fmtDay(cur.date);
+  document.getElementById("meta").innerHTML =
+    `<span class="pill">${label}</span><span class="pill">${f.dow} ${cur.date}</span>` +
+    (s?.demo ? `<span class="pill demo">Demo run · not committed</span>` : "");
+  const doc = document.getElementById("doc");
+  if (!s) {
+    const today = new Date(Date.now() + 7 * 3600e3).toISOString().slice(0, 10);
+    doc.innerHTML = cur.date >= today
+      ? `<div class="empty"><strong>Belum ada data.</strong><br>${label} untuk ${f.dow} ${cur.date} belum dibuat. ${when}.</div>`
+      : `<div class="empty"><strong>Tidak ada data.</strong><br>${label} tidak dibuat pada ${f.dow} ${cur.date}.</div>`;
+    return;
+  }
+  try {
+    const r = await fetch(s.file, { cache: "no-store" });
+    if (!r.ok) throw new Error(r.status);
+    const md = (await r.text()).replace(/^Stock Nimphy demo run[^\n]*\n+/, "");
+    doc.innerHTML = DOMPurify.sanitize(marked.parse(md));
+    decorate(doc);
+  } catch (e) {
+    doc.innerHTML = `<p class="empty">This report could not be loaded. Reload the page to try again.</p>`;
+  }
+}
+
+function go(date, shift) {
+  const day = index.find(d => d.date === date) || index[0];
+  cur = { date: day.date, shift: pickShift(day, shift) };
+  if (location.hash.slice(1) !== `${cur.date}-${cur.shift}`) history.replaceState(null, "", `#${cur.date}-${cur.shift}`);
+  renderNav();
+  renderDoc();
+}
+
+function fromHash() {
+  const m = location.hash.match(/^#(\d{4}-\d{2}-\d{2})-(\w+)$/);
+  return m ? [m[1], m[2]] : [null, "plan"];
+}
+
+window.addEventListener("hashchange", () => go(...fromHash()));
+fetch("data/index.json", { cache: "no-store" }).then(r => r.json()).then(data => {
+  index = data;
+  if (!index.length) {
+    document.getElementById("doc").innerHTML = `<p class="empty">No reports yet. The first one appears after the next desk shift.</p>`;
+    return;
+  }
+  go(...fromHash());
+}).catch(() => {
+  document.getElementById("doc").innerHTML = `<p class="empty">The report list could not be loaded. Reload the page to try again.</p>`;
+});
+</script>
+
+</body></html>
