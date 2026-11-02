@@ -27,7 +27,7 @@
   --bg: #0f1513; --paper: #151d1a; --ink: #e3ebe8; --muted: #92a39d; --rule: #2a3632;
   --accent: #4cc2a4; --accent-soft: #1b2e29; --up: #4cc28e; --down: #ef7a68; --warn: #e2a93b; color-scheme: dark }
 
-body { background: var(--bg); color: var(--ink); font: 15px/1.6 var(--body); }
+body { background: var(--bg); color: var(--ink); font: 16px/1.65 var(--body); }
 body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--paper); }
 .wrap { max-width: 1160px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
 
@@ -47,23 +47,31 @@ header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; backg
 .tab { flex: none; background: none; border: 0; border-bottom: 3px solid transparent; color: var(--muted); padding: 8px 12px 9px; font: 700 13px/1 var(--display); cursor: pointer; }
 .tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
 .tab.none { color: color-mix(in srgb, var(--muted) 55%, transparent); }
-.tab.none::after { content: " · belum ada"; font: 400 11px var(--body); }
+.tab.none::after { content: " (belum ada)"; font: 400 11px var(--body); }
 button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
 
 .views { display: flex; gap: 4px; }
 .views a { font: 700 13px/1 var(--display); color: var(--muted); text-decoration: none; padding: 7px 11px; border-radius: 6px; }
 .views a[aria-current="page"] { background: var(--accent-soft); color: var(--accent); }
 main { padding-block: 22px 60px; }
-#newsView { max-width: 860px; margin-inline: auto; }
+#newsView { display: grid; gap: 18px; }
+@media (min-width: 980px) {
+  #newsView { grid-template-columns: minmax(0, 1fr) 340px; align-items: start; }
+  #upcoming { grid-column: 2; grid-row: 1; position: sticky; top: var(--hdr, 150px); max-height: calc(100vh - var(--hdr, 150px) - 16px); overflow-y: auto; }
+  #feed { grid-column: 1; grid-row: 1; }
+}
 
-.upcoming { background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 14px 16px; margin-bottom: 22px; }
-.upcoming h2 { font: 700 13px/1 var(--display); text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 0 0 10px; }
-.ev { display: grid; grid-template-columns: 74px 58px minmax(0, 1fr); gap: 4px 12px; padding: 7px 0; border-top: 1px solid var(--rule); font-size: 13px; }
-.upcoming h2 + .ev { border-top: 0; }
-.ev .d { font: 600 12px/1.5 var(--mono); }
-.ev .t { font: 600 12px/1.5 var(--mono); color: var(--accent); }
-.ev .x { min-width: 0; }
-.ev .x small { color: var(--muted); }
+.upcoming { background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 16px; }
+.upcoming h2 { font: 700 16px/1.3 var(--display); margin: 0 0 4px; }
+.upcoming .sub { font-size: 13px; color: var(--muted); margin: 0 0 8px; }
+.ev { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 12px; padding: 12px 0; border-top: 1px solid var(--rule); }
+.evd { text-align: center; background: var(--accent-soft); color: var(--accent); border-radius: 8px; padding: 6px 0; align-self: start; }
+.evd b { display: block; font: 800 20px/1 var(--display); }
+.evd span, .evd small { display: block; font: 600 11px/1.4 var(--mono); text-transform: uppercase; }
+.evt { font: 700 14px/1.4 var(--display); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.evt .tick { font: 600 12px/1 var(--mono); background: var(--bg); border: 1px solid var(--rule); border-radius: 4px; padding: 3px 6px; }
+.ev p { margin: 4px 0 0; font-size: 14px; line-height: 1.55; }
+.ev .unv { display: inline-block; margin-top: 6px; font: 600 11px/1 var(--mono); color: var(--warn); }
 .dayhead { font: 700 12px/1 var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 26px 0 10px; }
 .dayhead:first-child { margin-top: 0; }
 .item { background: var(--paper); border: 1px solid var(--rule); border-left: 4px solid var(--cat); border-radius: 6px; padding: 14px 16px; margin-bottom: 10px; min-width: 0; overflow-wrap: anywhere; }
@@ -71,17 +79,19 @@ main { padding-block: 22px 60px; }
 .item[data-cat="news"] { --cat: var(--muted); }
 .item[data-cat="issue"] { --cat: var(--down); }
 .item[data-cat="rumour"] { --cat: var(--warn); }
-.item .top { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font: 600 11px/1.3 var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+.item .top { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; font: 600 11px/1.3 var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
 .item .cat { color: var(--cat); }
 .item .tick { color: var(--ink); background: var(--bg); border: 1px solid var(--rule); border-radius: 3px; padding: 2px 5px; }
 .item h3 { font: 700 16px/1.35 var(--display); margin: 8px 0 6px; text-wrap: balance; }
-.item p { margin: 0 0 6px; max-width: 70ch; }
+.item p { margin: 0 0 8px; max-width: 70ch; line-height: 1.65; }
+.item .lbl { display: block; font: 600 11px/1.4 var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); font-style: normal; margin-bottom: 2px; }
+.src .prim { font: 600 10px/1 var(--mono); text-transform: uppercase; color: var(--up); margin-left: 6px; }
 .item .why { color: var(--muted); font-style: italic; }
 .st { border-radius: 3px; padding: 2px 6px; }
 .st-official, .st-confirmed { background: color-mix(in srgb, var(--up) 14%, transparent); color: var(--up); }
 .st-unconfirmed { background: color-mix(in srgb, var(--warn) 16%, transparent); color: var(--warn); }
 .st-denied { background: color-mix(in srgb, var(--down) 14%, transparent); color: var(--down); }
-.src { list-style: none; padding: 0; margin: 8px 0 0; font-size: 12.5px; display: grid; gap: 3px; }
+.src { list-style: none; padding: 10px 0 0; margin: 10px 0 0; border-top: 1px solid var(--rule); font-size: 13px; display: grid; gap: 5px; }
 .src a { color: var(--accent); }
 .src small { color: var(--muted); }
 .meta { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 14px; }
@@ -115,8 +125,8 @@ article blockquote { margin: 12px 0; padding: 4px 14px; border-left: 3px solid v
 .card { background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; margin-bottom: 10px; min-width: 0; }
 .card > summary { list-style: none; cursor: pointer; padding: 12px 16px; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 2px 12px; }
 .card > summary::-webkit-details-marker { display: none; }
-.card > summary::after { content: "+"; grid-column: 2; grid-row: 1 / span 2; align-self: center; font: 600 18px/1 var(--mono); color: var(--muted); }
-.card[open] > summary::after { content: "–"; }
+.card > summary::after { content: "Buka"; grid-column: 2; grid-row: 1 / span 2; align-self: center; font: 600 11px/1 var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); border: 1px solid var(--rule); border-radius: 5px; padding: 6px 8px; }
+.card[open] > summary::after { content: "Tutup"; color: var(--muted); }
 summary:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: 8px; }
 .ct { font: 700 15px/1.3 var(--display); text-wrap: balance; }
 .hint { grid-column: 1; font-size: 12.5px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -133,16 +143,17 @@ aside .card-body li { margin: 6px 0; }
 .picks { background: var(--accent-soft); border-radius: 10px; padding: 14px 16px 16px; margin: 0 0 14px; }
 article .picks h2 { font: 700 15px/1.3 var(--display); color: var(--accent); margin: 0 0 4px; padding: 0; border: 0; }
 .picks .legend { font-size: 12px; color: var(--muted); margin: 0 0 12px; }
-.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(112px, 1fr)); gap: 10px; }
-.tile { position: relative; aspect-ratio: 1; display: flex; flex-direction: column; justify-content: space-between; text-align: left; background: var(--paper); color: var(--ink); border: 1px solid var(--rule); border-radius: 10px; padding: 10px 12px; font: inherit; cursor: pointer; --rc: var(--muted); }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; }
+.tile { position: relative; min-height: 130px; display: flex; flex-direction: column; justify-content: space-between; text-align: left; background: var(--paper); color: var(--ink); border: 1px solid var(--rule); border-radius: 10px; padding: 10px 12px; font: inherit; cursor: pointer; --rc: var(--muted); }
 .tile[data-r="4"], .tile[data-r="5"] { --rc: var(--up); }
 .tile[data-r="3"] { --rc: var(--ink); }
 .tile[data-r="1"], .tile[data-r="2"] { --rc: var(--down); }
 .tile .tk { font: 800 17px/1 var(--display); letter-spacing: 0.01em; }
 .tile .rt { font: 800 34px/1 var(--display); color: var(--rc); }
-.tile .rt small { font: 600 11px/1 var(--mono); color: var(--muted); margin-left: 2px; }
+.tile .rt small { font: 600 11px/1 var(--mono); color: var(--muted); margin-left: 4px; }
 .tile .lb { font: 500 11px/1.3 var(--mono); color: var(--muted); }
-.tile .fl { position: absolute; top: 9px; right: 10px; font: 700 10px/1 var(--mono); color: var(--warn); }
+.tile .fl { align-self: flex-start; min-height: 15px; margin-top: 4px; font: 700 9px/1 var(--mono); text-transform: uppercase; color: var(--warn); background: color-mix(in srgb, var(--warn) 14%, transparent); border-radius: 3px; padding: 3px 4px; }
+.tile .fl:empty { background: none; }
 .tile:hover { border-color: var(--accent); }
 .tile[aria-expanded="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 2px var(--accent); }
 .pick-detail { background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 4px 16px 12px; margin-top: 12px; }
@@ -166,7 +177,7 @@ footer { color: var(--muted); font-size: 12px; padding-bottom: 30px; }
     <div class="mast">
       <div class="brand">Stock <span>Nimphy</span></div>
       <nav class="views" aria-label="Pages">
-        <a href="#news" id="v-news">News</a>
+        <a href="#news" id="v-news">Berita</a>
         <a href="#daily" id="v-daily">Harian</a>
       </nav>
     </div>
@@ -181,31 +192,33 @@ footer { color: var(--muted); font-size: 12px; padding-bottom: 30px; }
 <main class="wrap">
   <section id="dailyView" hidden>
     <div class="meta" id="meta"></div>
-    <article id="doc"><p class="empty">Loading the latest report…</p></article>
+    <article id="doc"><p class="empty">Memuat laporan terbaru...</p></article>
   </section>
   <section id="newsView" hidden>
     <div id="upcoming"></div>
-    <div id="feed"><p class="empty">Loading the news…</p></div>
+    <div id="feed"><p class="empty">Memuat berita...</p></div>
   </section>
 </main>
-<footer class="wrap">News from IDX disclosures, regulators and credible Indonesian and international press; every item links its sources. Paper portfolio only: no broker is connected and no real order is placed. Updated after each desk shift.</footer>
+<footer class="wrap">Berita diambil dari keterbukaan informasi BEI, regulator, dan media terpercaya di Indonesia maupun luar negeri. Setiap berita mencantumkan sumbernya. Semua transaksi di sini hanya simulasi (paper): tidak ada broker yang terhubung dan tidak ada order sungguhan. Diperbarui setiap kali shift selesai.</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/3.1.6/purify.min.js"></script>
 <script>
 // The three sections of a trading day, in the order they happen. Weekly appears only on Saturdays.
 const SHIFTS = [
-  ["premarket", "Laporan Pagi", "Pre-market shift, ready by about 06:15 WIB"],
-  ["plan", "Plan for Today", "Morning desk, ready by about 08:00 WIB"],
-  ["evening", "Post-market", "Evening shift, ready by about 17:00 WIB"],
-  ["weekly", "Weekly", "Saturday review"],
+  ["premarket", "Laporan Pagi", "Laporan ini dibuat sebelum pasar buka, biasanya siap sekitar pukul 06.15 WIB"],
+  ["plan", "Plan for Today", "Rencana hari ini biasanya siap sekitar pukul 08.00 WIB"],
+  ["evening", "Post-market", "Laporan setelah pasar tutup biasanya siap sekitar pukul 17.00 WIB"],
+  ["weekly", "Mingguan", "Ulasan mingguan dibuat setiap Sabtu"],
 ];
-const DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const DOW = ["Min", "Sen", "Sel", "Rab", "Kam", "Jum", "Sab"];
+const DOW_LONG = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"];
+const MON = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"];
 let index = [], cur = { date: null, shift: null };
 
 function fmtDay(d) {
   const dt = new Date(d + "T00:00:00");
-  return { dow: DOW[dt.getDay()], label: dt.toLocaleDateString("en-GB", { day: "numeric", month: "short" }) };
+  return { dow: DOW[dt.getDay()], long: DOW_LONG[dt.getDay()], day: dt.getDate(), mon: MON[dt.getMonth()], label: `${dt.getDate()} ${MON[dt.getMonth()]}` };
 }
 
 function pickShift(day, want) {
@@ -243,6 +256,55 @@ function renderNav() {
   }
 }
 
+const CHECKS = {
+  "sources-dated": "Semua angka punya sumber dan waktu",
+  "primary-source": "Pakai sumber resmi",
+  "numbers-reconcile": "Angka antar file cocok",
+  "no-lookahead": "Tidak memakai data dari masa depan",
+  "price-fresh": "Harga yang dipakai terbaru",
+  "liquidity": "Saham cukup ramai diperdagangkan",
+  "concentration": "Tidak terlalu banyak di satu saham",
+  "lot-tick-valid": "Jumlah lot dan fraksi harga benar",
+  "ara-arb-band": "Batas naik dan turun harian dicek",
+  "fees-included": "Biaya transaksi sudah dihitung",
+  "event-date": "Tanggal acara perusahaan dicek",
+  "stop-defined": "Batas rugi (stop) sudah ditentukan",
+  "reward-risk": "Potensi untung minimal 2 kali risiko",
+  "bear-answered": "Argumen kontra sudah dijawab",
+  "rating-consistent": "Rating sesuai bukti",
+  "preflight": "Pemeriksaan sebelum order",
+};
+const HEADS = { check: "Pemeriksaan", result: "Hasil", note: "Catatan", item: "Komponen", value: "Nilai", ticker: "Saham", rating: "Rating", "ref price": "Harga acuan", flags: "Catatan", "one-line thesis": "Alasan singkat", source: "Sumber" };
+// Plain names for the headings older reports wrote in English.
+const TITLES = [
+  [/^(run note|stale-run note)/i, "Catatan proses"],
+  [/^data access/i, "Masalah akses data"],
+  [/^checks\b/i, "Pemeriksaan"],
+  [/^inputs read/i, "Data yang dibaca"],
+  [/^paper fills/i, "Transaksi paper sejak laporan terakhir"],
+  [/^alerts on paper/i, "Peringatan untuk saham yang dipegang"],
+  [/^paper portfolio/i, "Portofolio paper"],
+  [/^earnings-change and corp-action/i, "Laporan keuangan dan aksi korporasi"],
+  [/^strategy changes?/i, "Perubahan strategi"],
+  [/^tickets awaiting/i, "Tiket menunggu persetujuan"],
+  [/^calls settled/i, "Prediksi yang selesai dinilai"],
+  [/^new or strengthening patterns/i, "Pola yang muncul"],
+  [/^what the night shift found/i, "Temuan shift malam"],
+  [/^for the morning desk/i, "Untuk rencana pagi"],
+  [/^read first:?\s*/i, "Baca dulu: "],
+  [/^hit rate/i, "Tingkat ketepatan"],
+  [/^paper p&l/i, "Untung rugi paper dibanding IHSG"],
+  [/^patterns gaining/i, "Pola yang menguat atau melemah"],
+  [/^proposed strategy change/i, "Usulan perubahan strategi"],
+  [/^alerts$/i, "Peringatan"],
+  [/^gaps the desk/i, "Kekurangan yang perlu diketahui"],
+  [/^board$/i, "Status papan saham"],
+];
+function plainTitle(t) {
+  for (const [re, id] of TITLES) if (re.test(t)) return /^read first/i.test(t) ? t.replace(re, id) : id;
+  return t;
+}
+
 function decorate(root) {
   root.querySelectorAll("table").forEach(t => {
     const w = document.createElement("div");
@@ -252,14 +314,28 @@ function decorate(root) {
   });
   root.querySelectorAll("td").forEach(td => {
     const v = td.textContent.trim().toLowerCase();
-    if (v === "pass") td.className = "chk-pass";
-    else if (v === "n/a") td.className = "chk-na";
-    else if (v === "fixed") td.className = "chk-fixed";
+    if (v === "pass" || v === "lulus") { td.className = "chk-pass"; td.textContent = "Lulus"; }
+    else if (v === "n/a" || v === "tidak berlaku") { td.className = "chk-na"; td.textContent = "Tidak berlaku"; }
+    else if (v === "fixed" || v === "diperbaiki") { td.className = "chk-fixed"; td.textContent = "Diperbaiki"; }
+    else if (CHECKS[v]) td.textContent = CHECKS[v];
+    else if (/^[—–-]$/.test(v)) td.textContent = "Tidak ada";
   });
+  root.querySelectorAll("th").forEach(th => {
+    const v = th.textContent.trim().toLowerCase();
+    if (HEADS[v]) th.textContent = HEADS[v];
+  });
+  // Older reports use shorthand symbols; spell them out.
+  const walk = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
+  for (let n; (n = walk.nextNode());) {
+    n.nodeValue = n.nodeValue
+      .replace(/\s*≥\s*/g, " minimal ").replace(/\s*≤\s*/g, " maksimal ")
+      .replace(/\s*→\s*/g, " ke ").replace(/~(?=\s?(\d|Rp|US\$))/g, "sekitar ")
+      .replace(/±/g, "plus minus ").replace(/◆\s*/g, "");
+  }
 }
 
 // Sections that describe the run itself sit in the side column; "Read first" stays open.
-const ASIDE = /^(run note|stale-run note|data access|inputs read|checks)\b/i;
+const ASIDE = /^(run note|stale-run note|data access|inputs read|checks|catatan proses|masalah akses|pemeriksaan)/i;
 
 function split(root) {
   const pre = [], secs = [];
@@ -272,12 +348,12 @@ function split(root) {
 }
 
 function hintOf(title, nodes) {
-  if (/^checks\b/i.test(title)) {
+  if (/^(checks|pemeriksaan)/i.test(title)) {
     const n = c => nodes.reduce((k, el) => k + el.querySelectorAll("td." + c).length, 0);
-    return [[n("chk-pass"), "pass"], [n("chk-fixed"), "fixed"], [n("chk-na"), "n/a"]].filter(x => x[0]).map(x => x.join(" ")).join(" · ");
+    return [[n("chk-pass"), "lulus"], [n("chk-fixed"), "diperbaiki"], [n("chk-na"), "tidak berlaku"]].filter(x => x[0]).map(x => x.join(" ")).join(", ");
   }
   const first = nodes.find(el => el.tagName !== "DIV" || !el.classList.contains("tbl"));
-  if (!first) return nodes[0] ? `Tabel · ${nodes[0].querySelectorAll("tbody tr").length} baris` : "";
+  if (!first) return nodes[0] ? `Tabel berisi ${nodes[0].querySelectorAll("tbody tr").length} baris` : "";
   return first.textContent.replace(/\s+/g, " ").trim();
 }
 
@@ -288,13 +364,13 @@ function card({ title, nodes }, open) {
   const s = document.createElement("summary");
   const t = document.createElement("span");
   t.className = "ct";
-  t.textContent = title;
+  t.textContent = plainTitle(title);
   const h = document.createElement("span");
   h.className = "hint";
   const text = hintOf(title, nodes);
-  if (!nodes.length || /^none\b/i.test(text)) { d.classList.add("nil"); h.textContent = text || "Kosong"; }
+  if (!nodes.length || /^(none|tidak ada)\b/i.test(text)) { d.classList.add("nil"); h.textContent = /^none\b/i.test(text) ? "Tidak ada" : (text || "Tidak ada"); }
   else h.textContent = text;
-  if (/^read first/i.test(title)) d.classList.add("read");
+  if (/^(read first|baca dulu)/i.test(title)) d.classList.add("read");
   s.append(t, h);
   const b = document.createElement("div");
   b.className = "card-body";
@@ -304,20 +380,21 @@ function card({ title, nodes }, open) {
 }
 
 // The plan's Ratings (or Shortlist) section becomes "Saham Pilihan": a square per stock, details on tap.
+const RATING = { 5: "beli kuat", 4: "beli", 3: "tahan", 2: "kurangi", 1: "jual" };
 function picks({ nodes }) {
   const box = document.createElement("section");
   box.className = "picks";
-  box.innerHTML = `<h2>⭐ Saham Pilihan</h2>`;
+  box.innerHTML = `<h2>Saham Pilihan</h2>`;
   const wrap = nodes.find(el => el.classList?.contains("tbl"));
   const tbl = wrap?.querySelector("table");
   const heads = tbl ? [...tbl.querySelectorAll("th")].map(th => th.textContent.trim().toLowerCase()) : [];
   const col = re => heads.findIndex(h => re.test(h));
-  const c = { t: col(/ticker/), r: col(/rating/), p: col(/price/), f: col(/flag/), th: col(/thesis/), s: col(/source/) };
+  const c = { t: col(/ticker|saham/), r: col(/rating/), p: col(/price|harga/), f: col(/flag|catatan/), th: col(/thesis|alasan/), s: col(/source|sumber/) };
   if (c.t < 0 || c.r < 0) { box.append(...nodes); return box; }
 
   const legend = document.createElement("p");
   legend.className = "legend";
-  legend.textContent = "Rating 1–5 (5 beli kuat, 3 tahan, 1 jual). Rating 4–5 masuk shortlist. Ketuk kotak untuk detail.";
+  legend.textContent = "Rating 1 sampai 5: 5 beli kuat, 4 beli, 3 tahan, 2 kurangi, 1 jual. Saham dengan rating 4 atau 5 masuk daftar beli. Ketuk kotak untuk melihat detailnya.";
   const grid = document.createElement("div");
   grid.className = "tiles";
   const panel = document.createElement("div");
@@ -331,19 +408,21 @@ function picks({ nodes }) {
     const cell = i => (i >= 0 && td[i]) ? td[i] : null;
     const txt = i => cell(i)?.textContent.trim() || "";
     const tick = txt(c.t), rating = txt(c.r), num = parseInt(rating, 10);
-    const flags = txt(c.f).replace(/^[—–-]$/, "");
+    const flags = /^([—–-]|none|tidak ada)$/i.test(txt(c.f)) ? "" : txt(c.f);
     const b = document.createElement("button");
     b.className = "tile";
     b.type = "button";
     b.dataset.r = isNaN(num) ? "" : num;
     b.setAttribute("aria-expanded", "false");
-    b.setAttribute("aria-label", `${tick}, rating ${rating}`);
+    b.setAttribute("aria-label", `${tick}, rating ${num} dari 5`);
+    const word = RATING[num] || "";
     const add = (cls, text, tag = "span") => { const e = document.createElement(tag); e.className = cls; e.textContent = text; b.appendChild(e); return e; };
     add("tk", tick);
+    const flagEl = b.appendChild(document.createElement("span"));
     const rt = add("rt", isNaN(num) ? "–" : num);
-    const of = document.createElement("small"); of.textContent = "/5"; rt.appendChild(of);
-    add("lb", [rating.replace(/^\d+\s*/, "").replace(/\s*\(.*$/, ""), txt(c.p)].filter(Boolean).join(" · "));
-    if (flags) add("fl", "⚑ " + flags.replace(/\s*\(.*$/, "").replace("EARNINGS-CHANGE", "EARN").replace("CORP-ACTION", "CA"));
+    const of = document.createElement("small"); of.textContent = "dari 5"; rt.appendChild(of);
+    add("lb", [word, txt(c.p)].filter(Boolean).join(", "));
+    flagEl.className = "fl"; flagEl.textContent = (!flags ? "" : /earn|laba|laporan/i.test(flags) ? "Laba berubah" : /corp|aksi/i.test(flags) ? "Aksi korporasi" : "Ada catatan");
 
     b.addEventListener("click", () => {
       const open = b.getAttribute("aria-expanded") === "true";
@@ -352,7 +431,7 @@ function picks({ nodes }) {
       b.setAttribute("aria-expanded", "true");
       panel.replaceChildren();
       const h = document.createElement("h3");
-      h.textContent = `${tick} · rating ${rating}`;
+      h.textContent = `${tick}: rating ${num} dari 5${word ? " (" + word + ")" : ""}`;
       const dl = document.createElement("dl");
       const row = (label, src) => {
         if (!src) return;
@@ -361,10 +440,10 @@ function picks({ nodes }) {
         if (typeof src === "string") dd.textContent = src; else dd.append(...[...src.childNodes].map(n => n.cloneNode(true)));
         dl.append(dt, dd);
       };
-      row("Harga ref", cell(c.p));
-      row("Flag", flags ? cell(c.f) : null);
-      row("Tesis", cell(c.th));
-      watch.filter(li => li.textContent.trim().startsWith(tick + ":")).forEach(li => row("Pantau", li));
+      row("Harga acuan", cell(c.p));
+      row("Catatan", flags ? cell(c.f) : null);
+      row("Alasan", cell(c.th));
+      watch.filter(li => li.textContent.trim().startsWith(tick + ":")).forEach(li => row(/pantau|watch/i.test(li.parentElement.previousElementSibling?.textContent || "") ? "Yang dipantau" : "Penjelasan", li));
       row("Sumber", cell(c.s));
       panel.append(h, dl);
       panel.hidden = false;
@@ -376,7 +455,7 @@ function picks({ nodes }) {
   if (rest.length) {
     const more = document.createElement("details");
     more.className = "more";
-    more.innerHTML = "<summary>Shortlist, alasan, dan pemicu pantauan</summary>";
+    more.innerHTML = "<summary>Lihat daftar beli, alasan, dan hal yang dipantau</summary>";
     more.append(...rest);
     box.appendChild(more);
   }
@@ -390,9 +469,9 @@ function layout(doc, isPlan) {
   const side = document.createElement("aside");
   main.append(...pre);
   secs.forEach(sec => {
-    if (ASIDE.test(sec.title)) side.appendChild(card(sec, !/^checks\b/i.test(sec.title)));
-    else if (isPlan && /^(ratings|shortlist)\b/i.test(sec.title)) { const box = picks(sec), h1 = main.querySelector("h1"); h1 ? h1.after(box) : main.prepend(box); }
-    else main.appendChild(card(sec, /^read first/i.test(sec.title)));
+    if (ASIDE.test(sec.title)) side.appendChild(card(sec, !/^(checks|pemeriksaan)/i.test(sec.title)));
+    else if (isPlan && /^(ratings|shortlist|saham pilihan)/i.test(sec.title)) { const box = picks(sec), h1 = main.querySelector("h1"); h1 ? h1.after(box) : main.prepend(box); }
+    else main.appendChild(card(sec, /^(read first|baca dulu)/i.test(sec.title)));
   });
   const wrap = document.createElement("div");
   wrap.className = "report";
@@ -400,7 +479,7 @@ function layout(doc, isPlan) {
   if (side.children.length) {
     const h = document.createElement("div");
     h.className = "aside-h";
-    h.textContent = "Catatan run";
+    h.textContent = "Catatan proses";
     side.prepend(h);
     wrap.appendChild(side);
   }
@@ -418,14 +497,14 @@ async function renderDoc() {
   const [, label, when] = SHIFTS.find(x => x[0] === cur.shift);
   const f = fmtDay(cur.date);
   document.getElementById("meta").innerHTML =
-    `<span class="pill">${label}</span><span class="pill">${f.dow} ${cur.date}</span>` +
-    (s?.demo ? `<span class="pill demo">Demo run · not committed</span>` : "");
+    `<span class="pill">${label}</span><span class="pill">${f.long}, ${f.label}</span>` +
+    (s?.demo ? `<span class="pill demo">Contoh (demo)</span>` : "");
   const doc = document.getElementById("doc");
   if (!s) {
     const today = new Date(Date.now() + 7 * 3600e3).toISOString().slice(0, 10);
     doc.innerHTML = cur.date >= today
-      ? `<div class="empty"><strong>Belum ada data.</strong><br>${label} untuk ${f.dow} ${cur.date} belum dibuat. ${when}.</div>`
-      : `<div class="empty"><strong>Tidak ada data.</strong><br>${label} tidak dibuat pada ${f.dow} ${cur.date}.</div>`;
+      ? `<div class="empty"><strong>Belum ada data.</strong><br>${label} untuk ${f.long}, ${f.label} belum dibuat. ${when}.</div>`
+      : `<div class="empty"><strong>Tidak ada data.</strong><br>${label} tidak dibuat pada ${f.long}, ${f.label}.</div>`;
     return;
   }
   try {
@@ -449,13 +528,13 @@ async function renderDoc() {
     });
     meta.appendChild(btn);
   } catch (e) {
-    doc.innerHTML = `<p class="empty">This report could not be loaded. Reload the page to try again.</p>`;
+    doc.innerHTML = `<p class="empty">Laporan ini gagal dimuat. Muat ulang halaman untuk mencoba lagi.</p>`;
   }
 }
 
 const CATS = [
   ["all", "Semua"],
-  ["corporate-action", "Corporate Action"],
+  ["corporate-action", "Aksi Korporasi"],
   ["news", "Berita"],
   ["issue", "Isu"],
   ["rumour", "Dugaan"],
@@ -483,7 +562,7 @@ function setView(v) {
 function go(date, shift) {
   setView("daily");
   if (!index.length) {
-    document.getElementById("doc").innerHTML = `<p class="empty">No reports yet. The first one appears after the next desk shift.</p>`;
+    document.getElementById("doc").innerHTML = `<p class="empty">Belum ada laporan. Laporan pertama muncul setelah shift berikutnya selesai.</p>`;
     return;
   }
   const day = index.find(d => d.date === date) || index[0];
@@ -501,23 +580,55 @@ function renderNewsNav() {
     b.className = "tab";
     b.role = "tab";
     const n = k === "all" ? news.items.length : news.items.filter(i => i.category === k).length;
-    b.textContent = n ? `${label} · ${n}` : label;
+    b.textContent = n ? `${label} (${n})` : label;
     b.setAttribute("aria-selected", k === newsFilter);
     b.onclick = () => { location.hash = k === "all" ? "news" : "news-" + k; };
     nav.appendChild(b);
   }
 }
 
+const EVENT = {
+  results: "Rilis laporan keuangan",
+  results_deadline: "Batas akhir laporan keuangan",
+  dividend: "Pembagian dividen",
+  rups: "RUPS (rapat pemegang saham)",
+  rups_stock_split: "RUPS untuk pemecahan saham",
+  stock_split: "Pemecahan saham",
+  rights_issue: "Rights issue (penerbitan saham baru)",
+  buyback: "Pembelian kembali saham",
+  bonus: "Saham bonus",
+  macro: "Data ekonomi dan pasar",
+  index_exclusion: "Perubahan perhitungan IHSG",
+  rups_proxy_deadline: "Batas kuasa RUPS",
+  rups_rights_issue: "RUPS untuk rights issue (penerbitan saham baru)",
+};
+function dayText(d) { if (!d) return ""; const f = fmtDay(d); return `${f.long} ${f.label}`; }
+
 function renderUpcoming() {
   const box = document.getElementById("upcoming");
   const today = todayWib();
-  const evs = (news.calendar?.events || []).filter(e => e.date >= today).sort((a, b) => a.date.localeCompare(b.date));
+  const evs = (news.calendar?.events || [])
+    .map(e => ({ ...e, when: e.date || e.cum || e.ex || e.pay }))
+    .filter(e => e.when && e.when >= today)
+    .sort((a, b) => a.when.localeCompare(b.when));
   if (!evs.length || !["all", "corporate-action"].includes(newsFilter)) { box.innerHTML = ""; return; }
-  box.innerHTML = `<div class="upcoming"><h2>Jadwal aksi korporasi & laporan</h2>` + evs.map(e => {
-    const f = fmtDay(e.date);
-    return `<div class="ev"><span class="d">${f.dow} ${f.label}</span><span class="t">${esc(e.ticker)}</span>` +
-      `<span class="x">${esc(String(e.type || "").replace(/_/g, " "))}: ${esc(e.detail)}` +
-      `${e.verified === false ? ` <small>(belum diverifikasi)</small>` : ""}</span></div>`;
+  box.innerHTML = `<div class="upcoming"><h2>Jadwal penting</h2><p class="sub">Tanggal aksi korporasi dan laporan keuangan dalam dua minggu ke depan.</p>` + evs.map(e => {
+    const f = fmtDay(e.when);
+    const type = EVENT[e.type] || String(e.type || "Acara").replace(/_/g, " ");
+    const tick = !e.ticker || e.ticker.startsWith("*") ? "Banyak emiten" : e.ticker;
+    let body = "";
+    if (e.type === "dividend") {
+      const parts = [];
+      if (e.amount_rp) parts.push(`Rp${e.amount_rp} per saham.`);
+      if (e.cum) parts.push(`Hari terakhir beli agar dapat dividen (cum date): ${dayText(e.cum)}.`);
+      if (e.pay) parts.push(`Dibayar: ${dayText(e.pay)}.`);
+      body = parts.join(" ");
+    }
+    if (e.detail) body += (body ? " " : "") + e.detail;
+    return `<div class="ev"><div class="evd"><small>${f.dow}</small><b>${f.day}</b><span>${f.mon}</span></div>` +
+      `<div><div class="evt"><span class="tick">${esc(tick)}</span>${esc(type)}</div>` +
+      (body ? `<p>${esc(body)}</p>` : "") +
+      (e.verified === false ? `<span class="unv">Belum dipastikan</span>` : "") + `</div></div>`;
   }).join("") + `</div>`;
 }
 
@@ -526,29 +637,29 @@ function renderFeed() {
   const items = news.items.filter(i => newsFilter === "all" || i.category === newsFilter);
   if (!items.length) {
     const label = CATS.find(c => c[0] === newsFilter)[1];
-    feed.innerHTML = `<div class="empty"><strong>Belum ada data.</strong><br>${newsFilter === "all" ? "Berita" : label} akan terisi setelah shift berikutnya: pra-pasar sekitar 06:15 WIB dan sore sekitar 17:00 WIB.</div>`;
+    feed.innerHTML = `<div class="empty"><strong>Belum ada data.</strong><br>${newsFilter === "all" ? "Berita" : label} akan terisi setelah shift berikutnya: pra-pasar sekitar pukul 06.15 WIB dan sore sekitar pukul 17.00 WIB.</div>`;
     return;
   }
   let html = "", lastDay = null;
   for (const it of items) {
     if (it.date !== lastDay) {
       const f = fmtDay(it.date);
-      html += `<div class="dayhead">${f.dow} ${f.label}${it.date === todayWib() ? " · hari ini" : ""}</div>`;
+      html += `<div class="dayhead">${f.long}, ${f.label}${it.date === todayWib() ? " (hari ini)" : ""}</div>`;
       lastDay = it.date;
     }
     const cat = CATS.find(c => c[0] === it.category)?.[1] || it.category;
     const srcs = (it.sources || []).map(s => {
       const u = safeUrl(s.url);
       const t = esc(s.title || s.name);
-      return `<li>${s.primary ? "◆ " : ""}${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>` : t} <small>${esc(s.name)}${s.time ? " · " + esc(s.time) : ""}</small></li>`;
+      return `<li>${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>` : t} <small>${esc(s.name)}${s.time ? ", " + esc(s.time) : ""}</small>${s.primary ? `<span class="prim">Sumber resmi</span>` : ""}</li>`;
     }).join("");
     html += `<div class="item" data-cat="${esc(it.category)}">
       <div class="top"><span class="cat">${esc(cat)}</span>${(it.tickers || []).map(t => `<span class="tick">${esc(t)}</span>`).join("")}
         ${it.status ? `<span class="st st-${esc(it.status)}">${esc(STATUS[it.status] || it.status)}</span>` : ""}
-        ${it.time ? `<span>${esc(it.time)}</span>` : ""}${it.event_date ? `<span>Tanggal penting: ${esc(it.event_date)}</span>` : ""}</div>
+        ${it.time ? `<span>${esc(it.time)}</span>` : ""}${it.event_date ? `<span>Tanggal penting: ${esc(dayText(it.event_date) || it.event_date)}</span>` : ""}</div>
       <h3>${esc(it.headline)}</h3>
       ${it.summary ? `<p>${esc(it.summary)}</p>` : ""}
-      ${it.why_it_matters ? `<p class="why">${esc(it.why_it_matters)}</p>` : ""}
+      ${it.why_it_matters ? `<p class="why"><span class="lbl">Artinya buat kamu</span>${esc(it.why_it_matters)}</p>` : ""}
       ${srcs ? `<ul class="src">${srcs}</ul>` : ""}
     </div>`;
   }
@@ -562,13 +673,14 @@ async function showNews(filter) {
     try {
       news = await (await fetch("data/news.json", { cache: "no-store" })).json();
     } catch (e) {
-      document.getElementById("feed").innerHTML = `<p class="empty">The news could not be loaded. Reload the page to try again.</p>`;
+      document.getElementById("feed").innerHTML = `<p class="empty">Berita gagal dimuat. Muat ulang halaman untuk mencoba lagi.</p>`;
       return;
     }
   }
   renderNewsNav();
   renderUpcoming();
   renderFeed();
+  setHeaderOffset();
 }
 
 // #news, #news-<category>, #daily, #<date>-<section>; no hash opens the news.

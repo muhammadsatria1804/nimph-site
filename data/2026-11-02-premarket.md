@@ -1,130 +1,148 @@
-# Pre-market intel — Monday 2026-11-02 (IDX trading day)
+# Laporan Pagi: Senin, 2 November 2026
 
-Run: cloud night shift, 06:13 WIB (tools/clock.py: trading_day=true, before_open=true, last completed session 2026-10-30, next session 2026-11-02).
-Paper holdings: none (desk/paper/portfolio.json: cash Rp150,000,000, no positions; desk/watchlist.json empty). **intel/alerts.md: no change.**
-This run also covers Friday's close and the weekend: there was no 2026-10-30 evening run (see intel/weekly/2026-10-31.md).
+Dibuat oleh shift malam pukul 06.13 WIB, sebelum pasar buka. Hari ini hari perdagangan. Hari perdagangan terakhir yang sudah selesai adalah Jumat, 30 Oktober 2026.
 
-## Data access — read first
-- `tools/prices.py ^JKSE` and `tools/idx.py disclosures --hours 72` still return `unavailable` (proxy 403 on query1.finance.yahoo.com and www.idx.id, 06:14 WIB). **Thirteenth cloud run in a row.** No tool-checked disclosures, OHLCV, volume ratio, gap, ARA/ARB or flow numbers here: all figures come from news pages.
-- Refused or failed fetches: Bisnis (ICBP results page), bbntimes, WTOP. Those stories are **headline-only** unless another outlet is cited.
-- Asian markets had not opened at run time. Nickel was not refreshed.
+Portofolio paper belum memegang saham apa pun (uang tunai Rp150.000.000), dan tidak ada peringatan baru. Laporan ini juga mencakup penutupan Jumat dan berita akhir pekan, karena laporan sore Jumat tidak dibuat.
 
-## Read first: today is a heavy day
-1. **HSC stocks leave the IHSG calculation from today (11-02).** Also from November: BEI's short-selling list is emptied (5 names dropped incl. ASII, BBCA, BUMI, INDF) and 11 stocks leave the margin list (CNBC Indonesia, "November Baru Mulai, RI Langsung Diguncang 10 Kabar Panas Pekan ini!", 11-02 05:55 WIB). The list of the 11 margin names was not in the article.
-2. **Domestic data today (BPS / S&P Global):** October manufacturing PMI (September 52.48), October CPI (consensus 0.24% m/m, **3.25% y/y** vs 3.28% in September), September trade balance (August surplus US$3.55 bn). Same CNBC source.
-3. **US sold off hard on Friday:** Nasdaq −2.86%, S&P 500 −1.82% (worst day since June), Intel −29%. Gold −3.3% to about US$3,899. Brent US$117.64 (Dec contract expiry). Details below.
-4. **MSCI's November review results are due 11-11, effective 12-01** (investor.id, "BERITA POPULER: Arah Saham BMRI hingga Target Harga Baru GOTO", 11-02 05:00 WIB). Not yet in intel/calendar.json: the evening run should add it.
+## Catatan proses
+- Situs BEI dan Yahoo Finance masih tidak bisa dibuka dari cloud (ditolak pukul 06.14 WIB). Ini sudah 13 kali berturut-turut.
+- Karena itu semua angka di laporan ini berasal dari media, bukan dari data bursa langsung. Data volume, lonjakan harga, batas naik turun harian, dan arus dana asing belum dicek dengan data resmi.
+- Beberapa halaman gagal dibuka: Bisnis (berita laporan keuangan ICBP), bbntimes, dan WTOP. Berita dari sana hanya dibaca judulnya, kecuali ada media lain yang memuat isinya.
+- Bursa Asia belum buka saat laporan dibuat. Harga nikel belum diperbarui.
 
-## Friday 2026-10-30 close (press, not tool-checked)
-- **IHSG 5,057.05, −0.80% (−41.01 pts); intraday low 4,979.34.** Week −7.03% (from 5,439.26); October −16.70% (from 6,071.14); YTD −41.52%. Value Rp11.65 tn, volume 37.62 bn shares. Breadth **187 up / 523 down / 81 flat** (Kontan, "IHSG Turun 16,70% Sepanjang Oktober 2026, Ditutup 5.057 Pada Jumat (30/10)", 10-30 19:31 WIB). Five outlets agree on the close (weekly review).
-- **Foreign flow 10-30: net SELL Rp140.27 bn all markets; Rp172.43 bn regular** (net buy Rp32.16 bn in cash and negotiated) (Kontan, same). investor.id gives Rp176 bn regular (11-02 05:00 WIB): small gap, same direction. **Week: Rp3.06 tn net sell** (Rp6.67 tn the week before) (CNBC Indonesia, 11-02 05:55 WIB; legawa, "Kilas Ekonomi Sepekan #3", 11-01). YTD: Rp97.92 tn (legawa) vs Rp126 tn (investor.id): different basis, unreconciled.
+## Baca dulu: hari ini banyak kejadian penting
+1. Mulai hari ini saham-saham HSC (saham dengan kepemilikan sangat terpusat) tidak lagi dihitung dalam IHSG. Mulai November juga, daftar saham yang boleh dijual kosong dikosongkan (5 saham dikeluarkan, termasuk ASII, BBCA, BUMI, dan INDF), dan 11 saham keluar dari daftar saham yang boleh dibeli dengan pinjaman (margin). Nama ke-11 saham itu tidak disebut di artikelnya.
+2. Data ekonomi dalam negeri keluar hari ini: PMI manufaktur Oktober (angka indeks aktivitas pabrik, September 52,48), inflasi Oktober (perkiraan 0,24% dibanding bulan lalu dan 3,25% dibanding tahun lalu, September 3,28%), dan neraca dagang September (Agustus surplus 3,55 miliar dolar AS).
+3. Bursa Amerika jatuh cukup dalam hari Jumat: Nasdaq turun 2,86% dan S&P 500 turun 1,82%, penurunan harian terbesar sejak Juni. Saham Intel anjlok 29%. Emas turun 3,3% ke sekitar 3.899 dolar AS per ons. Minyak Brent 117,64 dolar AS per barel.
+4. Hasil evaluasi indeks MSCI bulan November diumumkan 11 November dan berlaku 1 Desember. Saham yang masuk atau keluar indeks ini biasanya dibeli atau dijual besar-besaran oleh investor asing.
 
-| Net buy (Rp bn) | | Net sell (Rp bn) | |
+Sumber: CNBC Indonesia (2 Nov, 05.55 WIB); investor.id (2 Nov, 05.00 WIB).
+
+## Penutupan pasar Jumat, 30 Oktober 2026
+- IHSG ditutup di 5.057,05, turun 0,80% atau 41,01 poin. Titik terendah hari itu 4.979,34.
+- Dalam seminggu IHSG turun 7,03% (dari 5.439,26). Sepanjang Oktober turun 16,70% (dari 6.071,14). Sejak awal tahun turun 41,52%.
+- Nilai transaksi Rp11,65 triliun dengan volume 37,62 miliar saham. Saham yang naik 187, turun 523, dan tidak berubah 81. Artinya jauh lebih banyak saham yang turun.
+- Lima media mencatat angka penutupan yang sama.
+
+Sumber: Kontan (30 Okt, 19.31 WIB).
+
+### Arus dana asing
+- Pada 30 Oktober asing menjual bersih (net sell asing, lebih banyak menjual daripada membeli) Rp172,43 miliar di pasar reguler. Kalau semua pasar dihitung, Rp140,27 miliar, karena di pasar tunai dan negosiasi asing justru membeli bersih Rp32,16 miliar. investor.id mencatat Rp176 miliar, sedikit berbeda tetapi arahnya sama.
+- Dalam seminggu asing menjual bersih Rp3,06 triliun, lebih kecil dari Rp6,67 triliun seminggu sebelumnya.
+- Sejak awal tahun angkanya berbeda antar sumber: Rp97,92 triliun atau Rp126 triliun, karena cara hitungnya berbeda.
+- Tekanan jual asing turun tajam, dari Rp1,07 triliun pada 29 Oktober menjadi sekitar Rp0,17 triliun. Ini hari pertama dalam seminggu di bawah Rp0,5 triliun. Tetapi satu hari belum bisa disebut tren.
+
+| Paling banyak dibeli asing | Rp miliar | Paling banyak dijual asing | Rp miliar |
 |---|---|---|---|
-| **GOTO** | 54.5 | **BBRI** | 206.5 |
-| BUMI | 40.4 | **TLKM** | 119.5 |
-| MDKA | 39.5 | AMMN | 59.3 |
+| GOTO | 54,5 | BBRI | 206,5 |
+| BUMI | 40,4 | TLKM | 119,5 |
+| MDKA | 39,5 | AMMN | 59,3 |
 
-Source: Kontan, 10-30 19:31 WIB (top 3 each side only; the full top 20 was not found).
+Hanya tiga teratas di tiap sisi yang ditemukan.
 
-- **Selling pressure eased sharply** from Rp1.07 tn on 10-29 to ~Rp0.17 tn: the first day in a week below Rp0.5 tn. One day is not a trend.
-- Sectors: transport −3.13%, basic materials −2.84%, infrastructure −1.96%, industrials −1.49%, property −1.43%, energy −0.91%; health +0.76%, financials +0.16% (Kontan).
-- **LQ45 top gainers:** PGAS +8.64%, PTBA +5.88%, EXCL +5.85%. **Top losers:** BRPT −6.96%, CUAN −6.83%, ISAT −6.83% (Kontan). BRPT at −6.96% is **probably at the 7% ARB** (tick rounding); unverified. No closing ARA/ARB list found: morning desk, run `tools/prices.py scan`.
-- BBCA last price **Rp4,980** (investor.id and Suara, both citing Samuel Sekuritas; date of close not stated, likely 10-30): up from Rp4,940 on 10-29.
+Sumber: Kontan (30 Okt, 19.31 WIB); CNBC Indonesia (2 Nov, 05.55 WIB); investor.id (2 Nov, 05.00 WIB).
 
-## Results released since the last intel (Indonesian issuers)
+### Sektor dan saham penggerak
+- Sektor yang turun: transportasi turun 3,13%, bahan baku turun 2,84%, infrastruktur turun 1,96%, industri turun 1,49%, properti turun 1,43%, energi turun 0,91%. Yang naik: kesehatan naik 0,76% dan keuangan naik 0,16%.
+- Saham LQ45 yang paling naik: PGAS naik 8,64%, PTBA naik 5,88%, EXCL naik 5,85%.
+- Yang paling turun: BRPT turun 6,96%, CUAN turun 6,83%, ISAT turun 6,83%. BRPT kemungkinan besar sudah menyentuh batas turun harian 7% (ARB), tetapi belum dipastikan.
+- Harga terakhir BBCA Rp4.980, naik dari Rp4.940 pada 29 Oktober (menurut Samuel Sekuritas, tanggal penutupannya tidak disebut, kemungkinan 30 Oktober).
 
-| Ticker | Period | Revenue | Net profit (attrib.) | Read | Source / time |
-|---|---|---|---|---|---|
-| **AMMN** | 9M 2026 | US$3.238 bn, +494% | **US$880 m vs loss of US$175 m**; Bisnis headline Rp15.56 tn | EBITDA US$1.833 bn (57% margin); copper +129% to 332 m lb, gold +616% to 541,337 oz; smelter at design capacity; net debt −13% YTD to ~US$5 bn (1.9x EBITDA); "on track to meet or beat" 2026 guidance; Rp1 tn buyback announced 10-22 | investortrust, "Laba Bersih Amman (AMMN) Meroket Jadi US$ 880 Juta hingga Kuartal III-2026", 10-30 15:22 WIB; CNBC Indonesia 10-30 13:04 WIB; Bisnis headline 10-30 |
-| **INCO** | 9M 2026 | US$896.07 m, +27% | **US$147.12 m, +180.5%** | EBITDA US$297 m (+78.9%). Driven by **nickel ore sales** (Bahodopi 2.38 m wmt, +285%; Pomalaa 1.90 m wmt, +582%), not price. **Q3 alone weaker: profit US$42.75 m, −29.7% q/q**; realized matte price −4.8% q/q to US$14,053/t; cash cost +4% to US$10,404/t; 9M matte output −12.5% | Kontan, "Penjualan Bijih Nikel Dongkrak Laba Vale Indonesia (INCO) Melonjak 180,5%", 10-30 06:27 WIB |
-| **TLKM** | 9M 2026 | Rp113.50 tn, +3.55% | **Rp14.44 tn, −3.73%** (total incl. minorities Rp19.46 tn, −1.92%) | Opex +5.94%, faster than revenue; EPS Rp146.31 (−3.57%); operating profit Rp27.99 tn. Not material (<10%). Q3 alone not given | investor.id, "Telkom (TLKM) Raup Laba Rp 14 Triliun hingga Kuartal III-2026", 11-02 05:10 WIB; Liputan6, "Pendapatan Tumbuh 3,54%, Telkom Kantongi Laba Rp 19,46 Triliun", 10-31 18:20 WIB |
-| **ICBP** | 9M 2026 | Rp64.4 tn, +14.54% | **−13.26%** (level not read) | headline-only (Bisnis refused). H1 was −33% on FX losses on loans, so 9M is an improvement in the rate of decline | Bisnis, "Penjualan ICBP Tumbuh 14,54% Jadi Rp64,4 Triliun, Laba Bersih Turun 13,26%", 10-31 |
-| **BBCA** | Q3 / 9M 2026 | — | Q3 Rp15.7 tn (+9% y/y, +5.6% q/q); 9M Rp45.2 tn (+4.2%) | Samuel Sekuritas: Buy, TP Rp5,800 (2.3x FY26 PBV) | investor.id 11-02 05:00 WIB; Suara, "Target Harga Saham BBCA di Tengah Koreksi Ekstrem", 11-01 22:11 WIB |
-| **GOTO** | Q3 2026 | — | **Rp557 bn, +46.8% q/q** per KB Valbury (Buy, TP cut from Rp61; new TP not in text) | **Conflict** with the Rp441 bn in the 10-30 intel (investor.id, tirto, detik, Okezone). Likely total vs attributable, or a different line; unverified | investor.id 11-02 05:00 WIB |
-| BMRI | — | — | — | Kiwoom: Buy, TP cut from Rp5,400 (new TP not in text; ~Rp4,800 implied by "29% upside" from Rp3,720) | investor.id 11-02 05:00 WIB |
-| DSNG | Q3 2026 | — | Rp1.46 tn | headline-only | Kontan headline "Dharma Satya (DSNG) Bukukan Laba Rp 1,46 Triliun pada Kuartal III-2026" |
-| JSMR | Q3 2026 | — | Rp2.66 tn | headline-only | IDN Times headline |
-| MPMX | Q3 2026 | — | Rp539 bn | headline-only | Suara headline, 10-30 17:16 WIB |
-| KAEF | 9M 2026 | — | net loss −94.5% | headline-only | Kontan headline "Kimia Farma (KAEF) Pangkas Rugi Bersih 94,5% hingga September 2026" |
+Sumber: Kontan (30 Okt); investor.id dan Suara (1 sampai 2 Nov).
 
-- **Still not found (search, 06:15 WIB): BBRI, BRIS, INDF, ADRO/AADI, ITMG, MEDC, MDKA, EXCL.** BBRI disclosed a **limited review by a public accountant of its 30 September 2026 accounts**, "tied to corporate action plans and/or shareholder aspirations" (Kontan, "BRI Jalani Limited Review Laporan September Ini, Penjelasan Manajemen", 2026-09-28 20:10 WIB). Its Q3 release may therefore come later than the 10-31 deadline: catalyst should check IDX for the filing and the reason. 8M 2026 bank-only profit Rp34.77 tn, +6.63% (same source).
-- BEI suspended or warned **62 issuers that missed the June 2026 interim report and fine** (Written Warning III and Rp150 m fine; regular-market names include ALTO, ARKA, BEBS, BHAT, CPRI, INDX, JMAS, MREI, PMMP, RAFI, SWAT, TAYS; all-market list includes BTEL, COAL, SRIL, TDPM, TELE) (Katadata, "BEI Denda 62 Emiten yang Telat Laporan Keuangan Rp150 Juta, Ada BEBS hingga BTEL", 10-30 12:00 WIB). Treat as BOARD flags.
+## Laporan keuangan yang baru keluar
+- AMMN (sembilan bulan pertama 2026): pendapatan 3,24 miliar dolar AS, naik hampir 6 kali lipat. Laba bersih 880 juta dolar AS, padahal tahun lalu rugi 175 juta dolar AS. Produksi tembaga naik 129% dan emas naik lebih dari 7 kali lipat, karena pabrik pengolahan (smelter) sudah berjalan penuh. Utang bersih turun 13% sejak awal tahun ke sekitar 5 miliar dolar AS. Perusahaan bilang target 2026 akan tercapai atau terlampaui. Ada juga pembelian kembali saham (buyback) Rp1 triliun sejak 22 Oktober.
+- INCO (sembilan bulan pertama 2026): pendapatan 896 juta dolar AS, naik 27%. Laba bersih 147 juta dolar AS, naik 180,5%. Kenaikan ini karena penjualan bijih nikel yang melonjak, bukan karena harga. Tetapi kuartal ketiga saja lebih lemah: laba 42,8 juta dolar AS, turun 29,7% dibanding kuartal kedua. Harga jual nikel olahan turun 4,8% dan biaya produksi naik 4%.
+- TLKM (sembilan bulan pertama 2026): pendapatan Rp113,5 triliun, naik 3,55%. Laba bersih bagian pemilik Rp14,44 triliun, turun 3,73%. Biaya naik lebih cepat (5,94%) dari pendapatan. Penurunan ini di bawah 10%, jadi tidak dianggap perubahan besar.
+- ICBP (sembilan bulan pertama 2026): penjualan Rp64,4 triliun, naik 14,54%. Laba bersih turun 13,26%. Paruh pertama tahun ini laba turun 33% karena rugi kurs atas pinjaman, jadi penurunannya mulai mengecil. Hanya judul beritanya yang terbaca.
+- BBCA: laba kuartal ketiga Rp15,7 triliun, naik 9% dibanding tahun lalu dan naik 5,6% dibanding kuartal kedua. Laba sembilan bulan Rp45,2 triliun, naik 4,2%. Samuel Sekuritas merekomendasikan beli dengan target harga Rp5.800.
+- GOTO: KB Valbury menyebut laba kuartal ketiga Rp557 miliar, naik 46,8% dibanding kuartal kedua. Angka ini berbeda dengan Rp441 miliar yang dimuat beberapa media sebelumnya. Kemungkinan bedanya karena yang satu laba total dan yang lain laba bagian pemilik. Belum dipastikan.
+- BMRI: Kiwoom Sekuritas tetap merekomendasikan beli, tetapi target harganya diturunkan dari Rp5.400 menjadi sekitar Rp4.800.
+- Hanya judul berita yang terbaca: DSNG laba kuartal ketiga Rp1,46 triliun; JSMR laba kuartal ketiga Rp2,66 triliun; MPMX laba Rp539 miliar; KAEF rugi bersih sembilan bulan berkurang 94,5%.
+- Belum ditemukan sampai pukul 06.15 WIB: BBRI, BRIS, INDF, ADRO dan AADI, ITMG, MEDC, MDKA, EXCL.
+- BBRI sedang menjalani peninjauan terbatas oleh akuntan publik atas laporan 30 September 2026, terkait rencana aksi korporasi atau aspirasi pemegang saham. Jadi laporannya mungkin keluar setelah batas 31 Oktober. Laba bank saja selama delapan bulan Rp34,77 triliun, naik 6,63%.
+- BEI memberi peringatan tertulis ketiga dan denda Rp150 juta kepada 62 perusahaan yang terlambat menyerahkan laporan keuangan Juni 2026. Di pasar reguler termasuk ALTO, ARKA, BEBS, BHAT, CPRI, INDX, JMAS, MREI, PMMP, RAFI, SWAT, dan TAYS. Di semua pasar termasuk BTEL, COAL, SRIL, TDPM, dan TELE. Hindari saham-saham ini.
 
-### EARNINGS-CHANGE pre-flags (night shift, for catalyst to confirm)
-- **AMMN — up, high.** Mechanism: smelter at capacity plus much higher copper and gold output turned a US$175 m 9M loss into a US$880 m profit. Next-4-quarter profit vs trailing four quarters: **far above +10%** (trailing base includes loss quarters). Confidence high on direction; size depends on Q4 2025, not read. **Offset:** gold −3.3% on Friday; foreigners net sold Rp59.3 bn on 10-30.
-- **INCO — up, medium.** 9M +180.5% on ore sales; but **Q3 fell 29.7% q/q** and the matte price is falling. Trailing growth is not the same as forward momentum: catalyst should size Q4 on ore volumes vs matte price.
-- **ICBP — down, low-medium.** 9M −13.26% on what H1 showed were FX losses on loans; with the rupiah at ~Rp18,150 (weaker than at 6-30), Q3/Q4 FX losses may persist. Operating business is growing (sales +14.5%). headline-only.
-- **GOTO — up, medium (unchanged).** Now with a profit-level conflict (Rp441 bn vs Rp557 bn for Q3): catalyst must read the release.
-- TLKM: −3.7% attributable, **below the 10% threshold**, no flag.
-- Carried from earlier notes, unchanged: PTBA up (medium), ERAA up (medium-low), BRMS down (medium-low), UNTR down, ASII down (low-medium), AALI up, ELSA up, LTLS up, ANTM up (but see gold below).
+Sumber: investortrust (30 Okt, 15.22 WIB); CNBC Indonesia (30 Okt, 13.04 WIB); Kontan (30 Okt, 06.27 WIB; 28 Sep, 20.10 WIB); investor.id (2 Nov, 05.10 WIB dan 05.00 WIB); Liputan6 (31 Okt, 18.20 WIB); Bisnis (31 Okt); Suara (1 Nov, 22.11 WIB); Katadata (30 Okt, 12.00 WIB).
 
-## Overnight global (US session Friday 10-30; weekend)
+### Tanda perubahan laba besar (perlu dicek desk pagi)
+- AMMN, naik, keyakinan tinggi: smelter berjalan penuh dan produksi tembaga serta emas jauh lebih tinggi, sehingga rugi berubah menjadi laba besar. Laba empat kuartal ke depan kemungkinan jauh di atas 12 bulan terakhir. Penghambatnya: emas turun 3,3% hari Jumat dan asing menjual bersih Rp59,3 miliar.
+- INCO, naik, keyakinan sedang: laba sembilan bulan naik tajam, tetapi kuartal ketiga turun hampir 30% dan harga nikel olahan menurun. Pertumbuhan masa lalu belum tentu berlanjut.
+- ICBP, turun, keyakinan rendah sampai sedang: rugi kurs bisa berlanjut karena rupiah sekarang sekitar Rp18.150 per dolar AS, lebih lemah dari akhir Juni. Bisnis utamanya tetap tumbuh (penjualan naik 14,5%).
+- GOTO, naik, keyakinan sedang: masih ada perbedaan angka laba kuartal ketiga.
+- TLKM: penurunan 3,7% di bawah batas 10%, jadi tidak ditandai.
+- Tanda dari laporan sebelumnya yang masih berlaku: PTBA naik, ERAA naik, BRMS turun, UNTR turun, ASII turun, AALI naik, ELSA naik, LTLS naik, ANTM naik (tetapi lihat harga emas di bawah).
 
-| Driver | Move | IHSG read-across | Source / time |
-|---|---|---|---|
-| US equities | **Dow 51,770.31 (−1.09%), S&P 500 7,580.07 (−1.82%), Nasdaq 25,437 (−2.86%)**, Russell 2000 2,811 (−1.66%) | Broad risk-off into the week; tech/AI-led (Intel −29%, its worst day on record, on Q4 guidance of US$15–16 bn vs ~US$17.3 bn consensus; Amazon capex ~US$220 bn for 2026). Negative for EM flows at the open | Investrade, "Market Review: October 30, 2026"; CNBC Indonesia 11-02 05:55 WIB agrees on the three closes |
-| US data | Chicago PMI 55.3 (56.0 expected; 58.8 prior); Q3 ECI +0.8% (in line) | Neutral | Investrade |
-| US 10-yr | ~4.91–4.93% (source inconsistent), down ~6 bp | Slight relief for EM bonds | Investrade |
-| Fed | Held at 3.75–4.00% on 10-28, **10–2 vote, two dissents for a hike**; market ~75% odds of a December hike | Higher-for-longer keeps pressure on IDR and SBN | legawa, 11-01 |
-| **Oil** | **Brent US$117.64 (+2.4%, expiring Dec contract; Jan US$113.43); WTI US$104.12 (+2.1%)**. October: Brent +13.6%, WTI +15.2% | Supports MEDC, ELSA, AKRA, PGAS (PGAS +8.64% on 10-30); hurts the trade balance, subsidies and IDR. 2026 deficit now projected **Rp734 tn (2.85% of GDP)** vs Rp689 tn (2.68%), on disaster spending and energy subsidies | Investrade; legawa |
-| **Gold** | **Dec futures US$3,898.90 (−3.29%)**; spot ~US$3,876, about a one-year low; silver −5.93% to US$49.28 | **Negative for ANTM, MDKA, BRMS, EMAS, ARCI, HRTA; partial for AMMN** | Investrade; legawa |
-| **Coal** | **Newcastle US$152.45/t (~+1.2% w/w), 24-month high** (CFD series) | Positive for PTBA, ADRO/AADI, ITMG, BUMI (PTBA +5.88% on 10-30) | legawa, citing Trading Economics |
-| CPO | ~MYR4,681/t, −3% w/w (CFD series) | Mild negative for AALI, TAPG, DSNG, LSIP; weak rupiah is the offset (Kontan, "Rupiah Tembus Rp 18.100, Saham Emiten Sawit Ini Berpotensi Ketiban Untung", headline-only) | legawa |
-| Nickel | not refreshed (last read LME US$16,234, 10-21/22) | INCO realized matte price fell 4.8% q/q in Q3 | — |
-| China | **NBS October manufacturing PMI 49.3** (50.1 prior; 50.0 expected), back in contraction; RatingDog PMI due today | Negative for coal and nickel demand at the margin | CNBC Indonesia 11-02 05:55 WIB |
-| ECB / BoJ | ECB held deposit rate 2.50% (Lagarde to step down Feb 2027); BoJ held 1.25% | Neutral | legawa |
-| Asia (11-02 open) | not available at 06:15 WIB | — | — |
-| This week | US midterms **11-03**; JOLTS 11-03; ADP 11-04; **NFP 11-06** (September +29k, unemployment 4.2%); ISM services | Event risk for USD and EM flows mid-week | CNBC Indonesia 11-02 05:55 WIB |
+## Pasar global (Jumat 30 Oktober dan akhir pekan)
+- Saham Amerika: Dow Jones 51.770 (turun 1,09%), S&P 500 7.580 (turun 1,82%), Nasdaq 25.437 (turun 2,86%). Penurunan dipimpin saham teknologi. Intel turun 29%, terburuk sepanjang sejarahnya, karena perkiraan pendapatan kuartal keempat di bawah harapan. Ini kabar buruk untuk arus dana asing ke bursa negara berkembang saat pembukaan.
+- Bunga acuan Amerika (Fed) ditahan di 3,75% sampai 4,00% pada 28 Oktober. Dua pejabat ingin menaikkan bunga. Pasar memperkirakan peluang sekitar 75% bunga naik bulan Desember. Bunga tinggi lebih lama akan terus menekan rupiah dan obligasi pemerintah.
+- Imbal hasil obligasi Amerika 10 tahun sekitar 4,91% sampai 4,93%, turun sedikit.
+- Minyak: Brent 117,64 dolar AS per barel (naik 2,4%) dan WTI 104,12 dolar AS. Sepanjang Oktober Brent naik 13,6%. Ini mendukung MEDC, ELSA, AKRA, dan PGAS, tetapi membebani neraca dagang, subsidi, dan rupiah. Defisit anggaran 2026 kini diperkirakan Rp734 triliun (2,85% dari PDB), naik dari Rp689 triliun.
+- Emas: turun 3,29% ke 3.898,90 dolar AS per ons, terendah dalam sekitar setahun. Perak turun 5,93%. Kabar buruk untuk ANTM, MDKA, BRMS, EMAS, ARCI, HRTA, dan sebagian untuk AMMN.
+- Batu bara Newcastle: 152,45 dolar AS per ton, naik sekitar 1,2% dalam seminggu dan tertinggi dalam 24 bulan. Kabar baik untuk PTBA, ADRO, AADI, ITMG, dan BUMI.
+- Minyak sawit (CPO): sekitar 4.681 ringgit per ton, turun 3% dalam seminggu. Sedikit negatif untuk AALI, TAPG, DSNG, dan LSIP, tetapi rupiah yang lemah membantu pendapatan mereka.
+- Nikel: belum diperbarui (terakhir 16.234 dolar AS per ton, 21 sampai 22 Oktober).
+- China: PMI manufaktur Oktober 49,3, turun dari 50,1. Di bawah 50 artinya aktivitas pabrik menyusut. Sedikit negatif untuk permintaan batu bara dan nikel.
+- Eropa dan Jepang: bank sentral Eropa menahan bunga 2,50%, bank sentral Jepang menahan 1,25%. Dampaknya netral.
+- Minggu ini di Amerika: pemilu sela 3 November, data lowongan kerja 3 November, data tenaga kerja swasta 4 November, dan data tenaga kerja utama 6 November. Data-data ini bisa menggerakkan dolar dan arus dana asing.
 
-### Rupiah and bonds
-- **10-30 close: Rp18,120 (CNBC) / Rp18,147 (legawa, Kontan sidebar) / ~Rp18,158 (Kontan market piece)**: snapshot differences; **JISDOR Rp18,138**. Week −0.37 to −0.44%; October −1.4%. Record weak close Rp18,175 on 10-28.
-- **10-yr SBN 7.64%** (touched 7.71% on 10-29, highest since May 2020), +~19 bp on the week. SUN auction 10-27: bids Rp31.1 tn (−52%), awarded Rp20.7 tn vs Rp30 tn target, bid-to-cover 1.04x (legawa, 11-01). **Read:** weak demand for government paper is a fresh stress point; watch for BI action.
-- BI-Rate 5.75%, unchanged; BI is offering hedging-cost incentives, SRBI issuance and SBN purchases; FX reserves (September US$146.3 bn) due **11-06**; Q3 GDP due **11-05** (Q2 5.29% y/y).
+Sumber: Investrade (Market Review 30 Okt); legawa (1 Nov); CNBC Indonesia (2 Nov, 05.55 WIB).
 
-## Analyst framing for the week
-- Herditya Wicaksana (MNC Sekuritas): selling likely to persist; **support 4,907, resistance 5,317**; picks EXCL (1,765–1,990), MEDC (1,430–1,465), TAPG (1,970–2,030), plus SQMI (Kontan, "IHSG Terkoreksi 7,03% Sepekan, Simak Proyeksi dan Rekomendasi Saham Pekan Depan", 10-30 18:57 WIB; investor.id, "Prediksi IHSG dan Rekomendasi Saham Senin, 2 November 2026", 10-30 20:00 WIB). No rationale given.
-- Alrich Paskalis Tambolang (Phintraco): IHSG may test **4,900–5,000**; above 5,000, sideways 5,000–5,200 (same sources).
-- Positives cited: government mitigation, issuer buybacks without an AGM extended into 2027. Negatives: MSCI, rupiah, possible Fed hike.
-- Hendra Wardana: ahead of the MSCI review watch ADRO, PTBA, MEDC (investor.id 11-02 05:00 WIB).
+### Rupiah dan obligasi
+- Rupiah ditutup sekitar Rp18.120 sampai Rp18.158 per dolar AS pada 30 Oktober (beda sumber, beda jam pencatatan). Kurs acuan Bank Indonesia (JISDOR) Rp18.138. Dalam seminggu rupiah melemah sekitar 0,4%, dan sepanjang Oktober melemah 1,4%. Rekor terlemah Rp18.175 pada 28 Oktober.
+- Imbal hasil obligasi pemerintah 10 tahun 7,64%. Pada 29 Oktober sempat 7,71%, tertinggi sejak Mei 2020.
+- Lelang surat utang negara 27 Oktober sepi: penawaran hanya Rp31,1 triliun (turun 52%) dan yang dimenangkan Rp20,7 triliun dari target Rp30 triliun. Artinya permintaan terhadap surat utang pemerintah melemah. Perhatikan apakah Bank Indonesia akan bertindak.
+- Bunga acuan Bank Indonesia tetap 5,75%. Cadangan devisa diumumkan 6 November (September 146,3 miliar dolar AS). Pertumbuhan ekonomi kuartal ketiga diumumkan 5 November (kuartal kedua 5,29%).
 
-## Attention scores (partial; press-based)
-Disclosure (+3), volume ratio (+2) and ARA/ARB (+1) cannot be tool-checked. The gap point (+2) is given where the press reports a close-to-close move of 3% or more. Flow point (+1) only for the six names in the published top 3 each side. **Read them as lower bounds.**
+Sumber: CNBC Indonesia; Kontan; legawa (1 Nov).
 
-| Ticker | Outlets (24–72 h) | Gap ≥3% | Flow | Partial score | Story |
-|---|---|---|---|---|---|
-| **AMMN** | 3 | 0 (not read) | +1 | **4+** | 9M US$880 m vs loss; gold −3.3% |
-| **PTBA** | 2 | +2 (+5.88%) | 0 | **4+** | coal at 24-month high; MSCI watch name |
-| **EXCL** | 2 | +2 (+5.85%) | 0 | **4+** | MNC pick; results not found |
-| **GOTO** | 2 | 0 | +1 | **3+** | top net buy; Q3 profit conflict; TP cut |
-| **TLKM** | 3 | 0 | +1 | **4+** | 9M attributable −3.7%; Rp119.5 bn net sell |
-| **INCO** | 4 | 0 | 0 | **4+** | 9M +180.5%, Q3 −29.7% q/q |
-| PGAS | 1 | +2 (+8.64%) | 0 | **3+** | oil; no story found |
-| BRPT | 1 | +2 (−6.96%, likely ARB) | 0 | **3+** | no story found |
-| ISAT | 1 | +2 (−6.83%) | 0 | **3+** | no story found (9M profit +37.2% was 10-28) |
-| CUAN | 1 | +2 (−6.83%) | 0 | **3+** | no story found |
-| BBRI | 1 | 0 | +1 | 2+ | Rp206.5 bn net sell; Q3 release status unclear (limited review) |
-| BBCA | 2 | 0 | 0 | 2+ | Samuel TP Rp5,800 |
-| ICBP | 1 | 0 | 0 | 1+ | 9M −13.3% (headline-only) |
+## Pandangan analis untuk minggu ini
+- Herditya Wicaksana (MNC Sekuritas): tekanan jual kemungkinan masih berlanjut. IHSG punya level penahan turun di 4.907 dan level penahan naik di 5.317. Saham pilihannya EXCL (Rp1.765 sampai Rp1.990), MEDC (Rp1.430 sampai Rp1.465), TAPG (Rp1.970 sampai Rp2.030), dan SQMI. Alasannya tidak dijelaskan.
+- Alrich Paskalis Tambolang (Phintraco): IHSG bisa menguji 4.900 sampai 5.000. Kalau bertahan di atas 5.000, kemungkinan bergerak datar di 5.000 sampai 5.200.
+- Hal positif yang disebut: langkah pemerintah, dan buyback tanpa RUPS yang diperpanjang sampai 2027. Hal negatif: evaluasi MSCI, rupiah, dan kemungkinan bunga Amerika naik.
+- Hendra Wardana: menjelang evaluasi MSCI, perhatikan ADRO, PTBA, dan MEDC.
 
-## Board
-- **HSC exclusion from IHSG effective today.** Short-sell list emptied; 11 names off the margin list (names not found).
-- 62 issuers at Written Warning III / suspended for the missing June interim report (Katadata, 10-30; names above).
-- Open from earlier notes: ARKO (suspended 10-28), MSIN and BSWD (suspended since 10-21), LUCY and VKTR (UMA). No new UMA notice found this weekend.
+Sumber: Kontan (30 Okt, 18.57 WIB); investor.id (30 Okt, 20.00 WIB; 2 Nov, 05.00 WIB).
 
-## Corporate actions in the window (from intel/calendar.json; not updated by this pre-market run)
-- **SIDO cum interim dividend today (11-02)**, Rp10; ex 11-03 (CNBC also lists it this week).
-- **TSPC ex dividend today (11-02)**, Rp75.
-- Prima Globalindo Logistik (PPGL) cum bonus shares this week (date not in the CNBC article): unverified.
-- UNTR cum 11-05 (Rp430). BRIS RUPSLB on its rights issue 11-06. TPIA buyback up to Rp2 tn (max Rp3,000) running; AMMN Rp1 tn buyback (from 10-22).
-- **To add in the evening calendar update:** MSCI review 11-11 (effective 12-01); Q3 GDP 11-05; FX reserves 11-06.
+## Skor perhatian (sebagian)
+Skor perhatian mengukur seberapa ramai sebuah saham dibicarakan dan bergerak. Hari ini hanya sebagian yang bisa dihitung karena data bursa tidak bisa dibuka, jadi angka sebenarnya bisa lebih tinggi.
 
-## For the morning desk (2026-11-02)
-1. **Risk-off open likely:** Nasdaq −2.9%, S&P −1.8%, gold −3.3%, China PMI back below 50. Against that, foreign selling on Friday fell to ~Rp0.17 tn and IHSG held 4,979 intraday. Supports 5,000 / 4,907; resistance 5,200 then 5,317.
-2. **Today's data (PMI, CPI, trade balance) and the HSC exclusion start** will move the index mid-morning; avoid reading the first hour as a trend.
-3. **Commodity split:** coal (24-month high) and oil (Brent US$117) favour PTBA, ADRO/AADI, MEDC, PGAS; gold's −3.3% is a headwind for ANTM, MDKA, BRMS, EMAS.
-4. **AMMN** is the strongest new results story (loss to US$880 m, smelter at capacity, guidance on track) but faces gold weakness and foreign selling: catalyst should read the release.
-5. **INCO**: 9M looks great, Q3 fell 30% q/q: don't buy the headline.
-6. **GOTO**: two different Q3 profit figures (Rp441 bn vs Rp557 bn): read the release before using either.
-7. **BBRI** Q3 still not out and under a limited review: check IDX for the filing and any corporate-action disclosure.
-8. Run `tools/prices.py scan` for Friday's ARA/ARB list (BRPT likely ARB) and refresh nickel and Asia; the cloud could not.
+| Saham | Skor minimal | Ceritanya |
+|---|---|---|
+| AMMN | 4 | Laba sembilan bulan 880 juta dolar AS, emas turun 3,3% |
+| PTBA | 4 | Batu bara di level tertinggi 24 bulan, naik 5,88% |
+| EXCL | 4 | Pilihan MNC Sekuritas, naik 5,85%, laporan keuangan belum ditemukan |
+| TLKM | 4 | Laba sembilan bulan turun 3,7%, dijual asing Rp119,5 miliar |
+| INCO | 4 | Laba sembilan bulan naik 180,5%, kuartal ketiga turun 29,7% |
+| GOTO | 3 | Paling banyak dibeli asing, angka laba masih berbeda |
+| PGAS | 3 | Naik 8,64% karena minyak, belum ada berita khusus |
+| BRPT | 3 | Turun 6,96%, kemungkinan kena batas turun harian |
+| ISAT | 3 | Turun 6,83%, belum ada berita khusus |
+| CUAN | 3 | Turun 6,83%, belum ada berita khusus |
+| BBRI | 2 | Dijual asing Rp206,5 miliar, laporan kuartal ketiga belum keluar |
+| BBCA | 2 | Target harga Samuel Sekuritas Rp5.800 |
+| ICBP | 1 | Laba sembilan bulan turun 13,3% |
+
+## Status papan saham
+- Mulai hari ini saham HSC tidak dihitung dalam IHSG. Daftar saham yang boleh dijual kosong dikosongkan, dan 11 saham keluar dari daftar margin.
+- 62 perusahaan mendapat peringatan tertulis ketiga atau dihentikan sementara karena terlambat menyerahkan laporan keuangan Juni.
+- Dari laporan sebelumnya: ARKO dihentikan sementara sejak 28 Oktober. MSIN dan BSWD dihentikan sementara sejak 21 Oktober. LUCY dan VKTR masuk pemantauan UMA (pergerakan harga atau volume yang tidak wajar). Tidak ada pengumuman UMA baru akhir pekan ini.
+
+## Aksi korporasi dalam dua minggu ke depan
+- SIDO: hari ini (2 November) hari terakhir beli untuk mendapat dividen interim (cum date) Rp10 per saham. Mulai besok (ex date) pembeli tidak lagi mendapat dividen.
+- TSPC: hari ini ex date dividen Rp75 per saham. Yang membeli hari ini tidak mendapat dividen.
+- Prima Globalindo Logistik (PPGL): cum date saham bonus minggu ini, tanggal pastinya tidak disebut. Belum dipastikan.
+- UNTR: cum date dividen Rp430 per saham pada 5 November.
+- BRIS: RUPS luar biasa untuk rights issue (penerbitan saham baru) pada 6 November.
+- TPIA sedang membeli kembali saham sampai Rp2 triliun dengan harga maksimal Rp3.000. AMMN sedang membeli kembali saham Rp1 triliun sejak 22 Oktober.
+- Perlu ditambahkan ke jadwal: evaluasi MSCI 11 November (berlaku 1 Desember), pertumbuhan ekonomi kuartal ketiga 5 November, dan cadangan devisa 6 November.
+
+## Untuk rencana pagi
+1. Pasar kemungkinan dibuka melemah, karena Nasdaq turun 2,9%, S&P 500 turun 1,8%, emas turun 3,3%, dan aktivitas pabrik China menyusut. Di sisi lain, jual bersih asing hari Jumat turun ke sekitar Rp0,17 triliun dan IHSG sempat bertahan di 4.979. Level penahan turun 5.000 lalu 4.907. Level penahan naik 5.200 lalu 5.317.
+2. Data ekonomi hari ini (PMI, inflasi, neraca dagang) dan dikeluarkannya saham HSC dari IHSG akan menggerakkan indeks di pagi hari. Jangan anggap gerakan jam pertama sebagai tren.
+3. Komoditas terbelah: batu bara (tertinggi 24 bulan) dan minyak (Brent 117 dolar AS) menguntungkan PTBA, ADRO, AADI, MEDC, dan PGAS. Emas yang turun 3,3% merugikan ANTM, MDKA, BRMS, dan EMAS.
+4. AMMN punya cerita laporan keuangan paling kuat (dari rugi menjadi laba 880 juta dolar AS, smelter berjalan penuh, target tercapai), tetapi ditekan harga emas dan jual asing. Laporannya perlu dibaca lengkap.
+5. INCO: laba sembilan bulan terlihat bagus, tetapi kuartal ketiga turun 30%. Jangan beli hanya karena judul berita.
+6. GOTO: ada dua angka laba kuartal ketiga yang berbeda (Rp441 miliar dan Rp557 miliar). Baca laporannya sebelum memakai salah satunya.
+7. BBRI: laporan kuartal ketiga belum keluar dan sedang ditinjau akuntan. Cek pengumuman di BEI.
+8. Daftar saham yang kena batas naik atau turun harian hari Jumat perlu dicek dengan data bursa (BRPT kemungkinan kena batas turun). Harga nikel dan bursa Asia juga perlu diperbarui.

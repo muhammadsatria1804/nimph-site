@@ -13,7 +13,7 @@
     "ticker": "PRDA",
     "type": "rups_stock_split",
     "date": "2026-11-23",
-    "detail": "RUPSLB on the 1:5 split (eligibility cutoff 10-29 passed); outside the window; new nominal trades 12-18",
+    "detail": "RUPS luar biasa untuk menyetujui pemecahan saham 1 menjadi 5. Jika disetujui, saham dengan harga baru mulai diperdagangkan 18 Desember.",
     "source": "Bisnisterkini, Prodia (PRDA) Siap Stock Split 1:5, Tunggu Restu RUPSLB November, 2026-10-15 17:43 WIB",
     "verified": false
    },
@@ -50,7 +50,8 @@
     "pay": "2026-11-20",
     "amount_rp": 75,
     "source": "Emitennews, TSPC Jadwal Dividen Rp75, Cum Date 30 Oktober, 2026-10-23 05:27 WIB",
-    "verified": false
+    "verified": false,
+    "detail": "Hari ini (2 November) adalah ex date: yang membeli mulai hari ini tidak lagi mendapat dividen."
    },
    {
     "ticker": "*",
@@ -69,13 +70,14 @@
     "pay": "2026-11-20",
     "amount_rp": 10,
     "source": "Liputan6, Sido Muncul Tebar Dividen Interim 2026 Rp 300 Miliar, Cek Jadwalnya, 2026-10-23 17:10 WIB; kumparan, Jadwal Dividen Interim SIDO 2026 Rp300 Miliar, Ini Tanggalnya, 2026-10-27 16:16 WIB (agrees). Emitennews 2026-10-25 has cum 10-28 / ex 10-29 instead: conflict",
-    "verified": false
+    "verified": false,
+    "detail": "Dividen interim (dibagikan sebelum tahun buku selesai), total Rp300 miliar. Satu sumber lain menyebut tanggal yang berbeda, jadi tanggal ini belum pasti."
    },
    {
     "ticker": "WIFI",
     "type": "rups",
     "date": "2026-11-02",
-    "detail": "RUPSLB, rescheduled four times",
+    "detail": "RUPS luar biasa. Jadwalnya sudah empat kali diubah.",
     "source": "Kabarbursa, Empat Kali Berubah, ini Jadwal Terbaru RUPSLB Solusi Sinergi Digital (WIFI), 2026-09-25",
     "verified": false
    },
@@ -83,7 +85,7 @@
     "ticker": "*HSC (80-82 stocks incl. BREN, DSSA, BYAN, DCII, PGUN, MTEL, TBIG, BNLI)",
     "type": "index_exclusion",
     "date": "2026-11-02",
-    "detail": "HSC-list stocks excluded from IHSG calculation",
+    "detail": "Sekitar 80 saham dalam daftar HSC (saham dengan kepemilikan sangat terpusat, misalnya BREN, DSSA, BYAN, DCII, MTEL, TBIG, BNLI) tidak lagi dihitung dalam IHSG mulai hari ini.",
     "source": "Katadata, BEI Ubah Kriteria Evaluasi IHSG, Saham HSC Dikeluarkan Mulai 2 November, 2026-10-22 10:04 WIB",
     "verified": false
    },
@@ -91,7 +93,7 @@
     "ticker": "BRIS",
     "type": "rups_proxy_deadline",
     "date": "2026-11-05",
-    "detail": "eASY.KSEI proxy and voting deadline 12:00 WIB for the 11-06 RUPSLB",
+    "detail": "Batas akhir memberi kuasa dan suara lewat eASY.KSEI pukul 12.00 WIB, untuk RUPS luar biasa tanggal 6 November.",
     "source": "Kontan, as for BRIS 11-06",
     "verified": false
    },
@@ -105,7 +107,7 @@
     "recording": "2026-11-09",
     "pay": "2026-11-23",
     "amount_rp": 430,
-    "detail": "interim, Rp1.47 tn total",
+    "detail": "Dividen interim, total sekitar Rp1,47 triliun.",
     "source": "Emitennews, UNTR Jadwal Dividen Rp430, Cum Date 5 November, 2026-10-28 08:13 WIB; StockWatch, UNTR Tebar Dividen Interim Rp1,48 Triliun, Rp430 per Saham, Cek Jadwalnya (agrees on Rp430)",
     "verified": false
    },
@@ -113,7 +115,7 @@
     "ticker": "BRIS",
     "type": "rups_rights_issue",
     "date": "2026-11-06",
-    "detail": "RUPSLB 10:00 WIB on rights issue II: up to 6.8 bn new shares, max dilution 12.85%; proxy deadline 11-05 12:00 WIB; completion target Q1 2027. Buyback only 'being studied' (IDX Channel, 2026-10-20 21:18 WIB)",
+    "detail": "RUPS luar biasa pukul 10.00 WIB untuk rights issue kedua: paling banyak 6,8 miliar saham baru. Kepemilikan pemegang saham lama bisa turun paling banyak 12,85% jika tidak ikut membeli. Target selesai awal 2027.",
     "source": "Kontan, BSI (BRIS) Bakal Rights Issue, Simak Jadwal RUPSLB dan Potensi Dilusi, 2026-10-15 19:54 WIB (updated 10-16); CNBC Indonesia, 2026-10-16",
     "verified": false
    },
@@ -121,7 +123,7 @@
     "ticker": "DOOH",
     "type": "rups_rights_issue",
     "date": "2026-11-09",
-    "detail": "RUPSLB on rights issue (up to 95.24% dilution) and INET acquisition; no second source found on 2026-10-26",
+    "detail": "RUPS luar biasa untuk rights issue dan pembelian perusahaan INET. Kepemilikan pemegang saham lama bisa turun hampir 95% jika tidak ikut membeli. Baru ada satu sumber.",
     "source": "HeyGoTrade, Aksi Korporasi Emiten, 2026-10-02",
     "verified": false
    },
@@ -129,7 +131,7 @@
     "ticker": "PACK",
     "type": "rups_rights_issue",
     "date": "2026-11-30",
-    "detail": "Outside the window. Rights issue II up to US$463m (~Rp8.19 tn), dilution up to ~74.6%; price, ratio and cum dates not set",
+    "detail": "RUPS luar biasa untuk rights issue kedua senilai paling banyak sekitar Rp8,19 triliun. Kepemilikan pemegang saham lama bisa turun sampai sekitar 75%. Harga dan rasio belum ditentukan.",
     "source": "Emitennews, Siap Right Issue, Emiten Haji Isam (PACK) Ini Gelar RUPSLB 30 November, 2026-10-25 13:01 WIB",
     "verified": false
    },
@@ -272,7 +274,7 @@
     "type": "dividend",
     "pay": "2026-11-06",
     "amount_rp": 10,
-    "detail": "interim; cum date not stated (probably passed)",
+    "detail": "Dividen interim. Tanggal terakhir beli (cum date) tidak disebutkan dan kemungkinan sudah lewat.",
     "source": "Stapo.id, Saham-Saham ini Siap Bagikan Dividen hingga November 2026, 2026-10-23 02:29 WIB",
     "verified": false
    },
@@ -281,7 +283,7 @@
     "type": "dividend",
     "pay": "2026-11-13",
     "amount_rp": 15,
-    "detail": "interim; cum date not stated (probably passed)",
+    "detail": "Dividen interim. Tanggal terakhir beli (cum date) tidak disebutkan dan kemungkinan sudah lewat.",
     "source": "Stapo.id, Saham-Saham ini Siap Bagikan Dividen hingga November 2026, 2026-10-23 02:29 WIB",
     "verified": false
    },
@@ -292,6 +294,30 @@
     "amount_rp": 98,
     "detail": "interim; cum date already passed",
     "source": "Stapo.id, as above",
+    "verified": false
+   },
+   {
+    "ticker": "*",
+    "type": "macro",
+    "date": "2026-11-11",
+    "detail": "Hasil evaluasi indeks MSCI bulan November diumumkan. Perubahan berlaku 1 Desember. Saham yang masuk atau keluar indeks ini biasanya diburu atau dilepas investor asing.",
+    "source": "investor.id, BERITA POPULER: Arah Saham BMRI hingga Target Harga Baru GOTO, 2026-11-02 05:00 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "*",
+    "type": "macro",
+    "date": "2026-11-05",
+    "detail": "Badan Pusat Statistik mengumumkan pertumbuhan ekonomi kuartal ketiga 2026. Kuartal kedua tumbuh 5,29% dibanding tahun lalu.",
+    "source": "Laporan pagi 2 November 2026",
+    "verified": false
+   },
+   {
+    "ticker": "*",
+    "type": "macro",
+    "date": "2026-11-06",
+    "detail": "Bank Indonesia mengumumkan cadangan devisa Oktober. September tercatat 146,3 miliar dolar AS.",
+    "source": "Laporan pagi 2 November 2026",
     "verified": false
    }
   ]
