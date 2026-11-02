@@ -103,6 +103,9 @@ article blockquote { margin: 12px 0; padding: 4px 14px; border-left: 3px solid v
 .tbl th, .tbl td { padding: 7px 10px; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; overflow-wrap: normal; }
 .tbl th { font: 600 11px/1.3 var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); background: var(--bg); }
 .tbl tr:last-child td { border-bottom: 0; }
+.picks { background: var(--accent-soft); border-radius: 8px; padding: 4px 16px 10px; margin: 0 0 8px; }
+article .picks h2 { border-top: 0; margin-top: 10px; padding-top: 6px; color: var(--accent); }
+.picks .tbl { background: var(--paper); }
 .chk-pass { color: var(--up); font-weight: 600; }
 .chk-na { color: var(--muted); }
 .chk-fixed { color: var(--warn); font-weight: 600; }
@@ -208,6 +211,26 @@ function decorate(root) {
   });
 }
 
+// The report's Ratings (or Shortlist) section goes first, under the Telegram brief's name for it.
+function promotePicks(root) {
+  const h = [...root.querySelectorAll("h2")].find(el => /^(ratings|shortlist)\b/i.test(el.textContent.trim()));
+  if (!h) return;
+  const box = document.createElement("section");
+  box.className = "picks";
+  const title = document.createElement("h2");
+  title.textContent = "⭐ Saham Pilihan";
+  box.appendChild(title);
+  let el = h.nextElementSibling;
+  while (el && el.tagName !== "H2") {
+    const next = el.nextElementSibling;
+    box.appendChild(el);
+    el = next;
+  }
+  h.remove();
+  const h1 = root.querySelector("h1");
+  h1 ? h1.after(box) : root.prepend(box);
+}
+
 async function renderDoc() {
   const day = index.find(d => d.date === cur.date);
   const s = day.shifts[cur.shift];
@@ -230,6 +253,7 @@ async function renderDoc() {
     const md = (await r.text()).replace(/^Stock Nimphy demo run[^\n]*\n+/, "");
     doc.innerHTML = DOMPurify.sanitize(marked.parse(md));
     decorate(doc);
+    if (cur.shift === "plan") promotePicks(doc);
   } catch (e) {
     doc.innerHTML = `<p class="empty">This report could not be loaded. Reload the page to try again.</p>`;
   }
