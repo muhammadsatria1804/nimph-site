@@ -1369,7 +1369,7 @@ async function showTeam(key) {
   tmPause();
   if (!run) {
     tm.data = null; tmReset(); tmRender(); tmStatus(); tmClock(); tmWires(); setHeaderOffset();
-    $t("tmFeed").innerHTML = `<li>Belum ada rekaman. Rekaman pertama dibuat otomatis saat desk pagi berjalan di Mac (pukul 07.30 WIB hari kerja), atau saat perintah nimph dijalankan.</li>`;
+    $t("tmFeed").innerHTML = `<li>Belum ada rekaman. Rekaman pertama dibuat otomatis saat desk pagi berjalan di Mac (pukul 07.00 WIB hari kerja), atau saat perintah nimph dijalankan.</li>`;
     return;
   }
   sel.value = `${run.date}-${run.shift}`;
