@@ -72,6 +72,43 @@ main { padding-block: 22px 60px; }
 .evt .tick { font: 600 12px/1 var(--mono); background: var(--bg); border: 1px solid var(--rule); border-radius: 4px; padding: 3px 6px; }
 .ev p { margin: 4px 0 0; font-size: 14px; line-height: 1.55; }
 .ev .unv { display: inline-block; margin-top: 6px; font: 600 11px/1 var(--mono); color: var(--warn); }
+.nsort { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; font: 600 12px/1.3 var(--mono); color: var(--muted); margin-bottom: 4px; }
+.nsort button { font: 600 12px/1 var(--display); padding: 6px 10px; border-radius: 6px; border: 1px solid var(--rule); background: var(--paper); color: var(--muted); cursor: pointer; }
+.nsort button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); border-color: transparent; }
+.nleg { flex-basis: 100%; font: 400 12.5px/1.5 var(--body, inherit); }
+.cos { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 290px), 1fr)); gap: 12px; align-items: start; }
+.co { background: var(--paper); border: 1px solid var(--rule); border-top: 4px solid var(--tone); border-radius: 8px; padding: 12px 14px 8px; min-width: 0; --tone: var(--rule); }
+.co.pos { --tone: var(--up); }
+.co.neg { --tone: var(--down); }
+.co.mk { --tone: var(--muted); grid-column: 1 / -1; background: var(--bg); }
+.co-h { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.co-t { font: 800 18px/1.1 var(--display); }
+.co.mk .co-t, .co.many .co-t { font-size: 15px; }
+.co.many .co-n { font: 600 11.5px/1.5 var(--mono); }
+.co-n { font-size: 12.5px; color: var(--muted); flex: 1; min-width: 0; }
+.co-l { list-style: none; margin: 8px 0 0; padding: 0; }
+.co-l li { border-top: 1px solid var(--rule); }
+.nl { all: unset; box-sizing: border-box; width: 100%; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 2px 10px; padding: 9px 2px; cursor: pointer; border-radius: 4px; }
+.nl:hover .nt { color: var(--accent); }
+.nl:focus-visible { outline: 2px solid var(--accent); }
+.nl .imp { grid-row: span 2; align-self: start; min-width: 30px; text-align: center; }
+.nt { font: 600 14px/1.4 var(--display); }
+.nl small { font: 500 11px/1.3 var(--mono); color: var(--muted); }
+.imp { display: inline-block; font: 700 12px/1 var(--mono); padding: 4px 6px; border-radius: 5px; white-space: nowrap; }
+.imp.neu { background: var(--bg); color: var(--muted); border: 1px solid var(--rule); }
+.imp.pos { color: var(--up); background: color-mix(in srgb, var(--up) 12%, transparent); }
+.imp.neg { color: var(--down); background: color-mix(in srgb, var(--down) 12%, transparent); }
+.imp.pos.lv3, .imp.pos.lv2 { color: #fff; background: var(--up); }
+.imp.neg.lv3, .imp.neg.lv2 { color: #fff; background: var(--down); }
+.imp.lv2 { opacity: .82; }
+.co-h .imp { margin-left: auto; }
+.nd { border: none; border-radius: 12px; padding: 0; width: min(640px, calc(100vw - 32px)); max-height: calc(100vh - 48px); background: var(--paper); color: var(--ink); box-shadow: 0 20px 60px rgba(0,0,0,.3); }
+.nd::backdrop { background: rgba(10, 12, 16, .45); }
+.nd .item { border: none; border-left: 4px solid var(--cat); border-radius: 0; margin: 0; padding: 18px 20px 20px; }
+.nd-x { position: sticky; top: 0; float: right; margin: 10px 12px 0 0; font: 600 12px/1 var(--display); padding: 7px 10px; border-radius: 6px; border: 1px solid var(--rule); background: var(--paper); color: var(--ink); cursor: pointer; z-index: 1; }
+.nd-imp { border-radius: 8px; padding: 10px 12px; margin: 4px 0 12px; background: var(--bg); }
+.nd-imp .per { margin-left: 10px; font: 600 12px/1.8 var(--mono); }
+.nd-imp p { margin: 6px 0 0; font-style: normal; color: var(--ink); }
 .dayhead { font: 700 12px/1 var(--mono); text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin: 26px 0 10px; }
 .dayhead:first-child { margin-top: 0; }
 .item { background: var(--paper); border: 1px solid var(--rule); border-left: 4px solid var(--cat); border-radius: 6px; padding: 14px 16px; margin-bottom: 10px; min-width: 0; overflow-wrap: anywhere; }
@@ -296,6 +333,26 @@ body.team-wide .wrap { max-width: 1600px; }
 @keyframes sp-type { 50% { transform: translateY(-1px); } }
 @keyframes sp-hop { 33% { transform: translateY(-6px); } 66% { transform: translateY(-2px); } }
 @keyframes sp-jump { 33% { transform: translateY(-5px) rotate(-6deg); } 66% { transform: translateY(-2px) rotate(4deg); } }
+/* Ornaments: the desk's own pixel characters (see SP) walking, blinking and twinkling around the page. */
+a.brand { color: inherit; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; }
+.brand-sp .sp { width: 34px; height: 26px; display: block; animation: sp-idle 3.2s steps(1) infinite; }
+.brand-sp .sp .legA { animation: sp-step 3.2s steps(1) infinite; }
+a.brand:hover .brand-sp .sp { animation: sp-jump .5s steps(3) 1; }
+.empty::before { content: ""; display: block; width: 44px; height: 33px; margin: 0 auto 12px; background: var(--sp-head) no-repeat center / contain; image-rendering: pixelated; animation: sp-bob .9s steps(2) infinite; }
+.dayhead { display: flex; align-items: center; gap: 8px; }
+.dayhead::before { content: ""; width: 10px; height: 10px; flex: none; background: var(--sp-spark) no-repeat center / contain; image-rendering: pixelated; animation: sp-twinkle 2.4s steps(1) infinite; }
+.parade { position: relative; height: 40px; overflow: hidden; margin-top: 30px; border-top: 1px dashed var(--rule); }
+.parade .walker { position: absolute; bottom: 4px; left: 0; animation: sp-walk var(--dur, 40s) linear infinite; animation-delay: var(--delay, 0s); }
+.parade .sp { width: 34px; height: 26px; animation: sp-bob .5s steps(2) infinite; }
+.parade .sp .legA { animation: sp-step .36s steps(1) infinite; }
+.parade .sp .legB { animation: sp-step .36s steps(1) infinite reverse; }
+@keyframes sp-idle { 0%, 70%, 100% { transform: none; } 75% { transform: translateY(-3px); } 80% { transform: none; } 85% { transform: translateY(-2px); } }
+@keyframes sp-twinkle { 0%, 100% { opacity: 1; transform: none; } 50% { opacity: .35; transform: scale(.7); } }
+@keyframes sp-walk { from { transform: translateX(-60px); } to { transform: translateX(calc(100vw + 60px)); } }
+@media (prefers-reduced-motion: reduce) {
+  .brand-sp .sp, .brand-sp .sp g, .empty::before, .dayhead::before, .parade .walker, .parade .sp, .parade .sp g { animation: none !important; }
+  .parade .walker { position: static; display: inline-block; margin-right: 8px; }
+}
 @media (max-width: 899px) {
   .tm-canvas { display: flex; flex-direction: column; }
   .tm-wires { display: none; }
@@ -310,7 +367,7 @@ body.team-wide .wrap { max-width: 1600px; }
 <header>
   <div class="wrap">
     <div class="mast">
-      <div class="brand">Stock <span>Nimphy</span></div>
+      <a class="brand" href="#news"><span class="brand-sp" id="brandSp" aria-hidden="true"></span>Stock <span>Nimphy</span></a>
       <nav class="views" aria-label="Pages">
         <a href="#news" id="v-news">Berita</a>
         <a href="#daily" id="v-daily">Harian</a>
@@ -354,7 +411,9 @@ body.team-wide .wrap { max-width: 1600px; }
     <div id="upcoming"></div>
     <div id="feed"><p class="empty">Memuat berita...</p></div>
   </section>
+  <dialog id="newsDlg" class="nd" aria-label="Detail berita"><button class="nd-x" onclick="this.closest('dialog').close()" aria-label="Tutup">Tutup</button><div class="nd-body"></div></dialog>
 </main>
+<div class="parade" id="parade" aria-hidden="true"></div>
 <footer class="wrap">Berita diambil dari keterbukaan informasi BEI, regulator, dan media terpercaya di Indonesia maupun luar negeri. Setiap berita mencantumkan sumbernya. Semua transaksi di sini hanya simulasi (paper): tidak ada broker yang terhubung dan tidak ada order sungguhan. Diperbarui setiap kali shift selesai.</footer>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.2/marked.min.js"></script>
@@ -791,6 +850,41 @@ function renderUpcoming() {
   }).join("") + `</div>`;
 }
 
+// News per company: one card per issuer with a one-line label per story; the full story opens in a popup.
+const IMPACT = { 3: "Sangat baik", 2: "Baik", 1: "Sedikit baik", 0: "Netral", "-1": "Sedikit buruk", "-2": "Buruk", "-3": "Sangat buruk" };
+let newsSort = "big", newsShown = [];
+
+// Older items have no score from the desk yet: a rough guess from the headline, marked as such in the popup.
+function guessImpact(it) {
+  const h = (it.headline || "").toLowerCase();
+  let s = 0;
+  if (/dihapus dari bursa|delisting|pkpu|pailit|gagal bayar/.test(h)) s = -3;
+  else if (/suspensi|batas turun|arb\b|rugi|anjlok|jatuh|turun|dibantah/.test(h)) s = it.category === "issue" ? -2 : -1;
+  else if (/rights issue|private placement|penambahan modal/.test(h)) s = -1;
+  else if (/buyback|membeli kembali|tender/.test(h)) s = 2;
+  else if (/dividen|kontrak|rekor|naik|tumbuh|untung|laba/.test(h)) s = 1;
+  if (it.category === "rumour" || it.status === "unconfirmed") s = Math.max(-1, Math.min(1, s));
+  return { score: s, why: "", auto: true };
+}
+// A story nobody official has confirmed counts for at most 1 either way.
+const capped = (it, v) => it.category === "rumour" || it.status === "unconfirmed" ? Math.max(-1, Math.min(1, v)) : v;
+function impactOf(it) { return it.impact && Number.isFinite(+it.impact.score) ? { ...it.impact, score: capped(it, +it.impact.score) } : guessImpact(it); }
+function scoreFor(it, t) { const v = it.impacts?.[t]; return v != null && Number.isFinite(+v) ? capped(it, +v) : impactOf(it).score; }
+function scopeOf(it) { const n = (it.tickers || []).length; return it.scope || (n && n <= 3 ? "company" : "market"); }
+function tone(s) { return s > 0 ? "pos" : s < 0 ? "neg" : "neu"; }
+function impBadge(s, full) {
+  const t = `${s > 0 ? "+" : s < 0 ? "−" : ""}${Math.abs(s)}`;
+  return `<span class="imp ${tone(s)} lv${Math.abs(s)}">${t}${full ? " " + IMPACT[s] : ""}</span>`;
+}
+
+function newsLine(it, t) {
+  newsShown.push(it);
+  const s = t ? scoreFor(it, t) : impactOf(it).score;
+  const cat = CATS.find(c => c[0] === it.category)?.[1] || "";
+  return `<li><button class="nl" data-n="${newsShown.length - 1}">${impBadge(s)}<span class="nt">${esc(it.short || it.headline)}</span>` +
+    `<small>${esc(cat)}${it.time ? ", " + esc(it.time) : ""}</small></button></li>`;
+}
+
 function renderFeed() {
   const feed = document.getElementById("feed");
   const items = news.items.filter(i => newsFilter === "all" || i.category === newsFilter);
@@ -799,30 +893,64 @@ function renderFeed() {
     feed.innerHTML = `<div class="empty"><strong>Belum ada data.</strong><br>${newsFilter === "all" ? "Berita" : label} akan terisi setelah shift berikutnya: pra-pasar sekitar pukul 06.15 WIB dan sore sekitar pukul 17.00 WIB.</div>`;
     return;
   }
-  let html = "", lastDay = null;
-  for (const it of items) {
-    if (it.date !== lastDay) {
-      const f = fmtDay(it.date);
-      html += `<div class="dayhead">${f.long}, ${f.label}${it.date === todayWib() ? " (hari ini)" : ""}</div>`;
-      lastDay = it.date;
+  newsShown = [];
+  const names = news.names || {};
+  const days = [...new Set(items.map(i => i.date))];
+  let html = `<div class="nsort" role="group" aria-label="Urutkan perusahaan">Urutkan:` +
+    [["big", "Dampak terbesar"], ["good", "Paling baik"], ["bad", "Paling buruk"]].map(([k, l]) =>
+      `<button data-sort="${k}" aria-pressed="${k === newsSort}">${l}</button>`).join("") +
+    `<span class="nleg">Nilai dampak dari −3 (sangat buruk) sampai +3 (sangat baik) untuk pemegang saham dalam beberapa minggu ke depan.</span></div>`;
+  for (const day of days) {
+    const f = fmtDay(day), list = items.filter(i => i.date === day);
+    const cos = {}, market = [];
+    for (const it of list) {
+      if (scopeOf(it) === "market") { market.push(it); continue; }
+      // One story about many companies at once (e.g. a delisting list) stays one card, not a dozen.
+      if (it.tickers.length > 3 && !it.impacts) (cos[it.tickers.join(" ")] ??= []).push(it);
+      else for (const t of it.tickers) (cos[t] ??= []).push(it);
     }
-    const cat = CATS.find(c => c[0] === it.category)?.[1] || it.category;
-    const srcs = (it.sources || []).map(s => {
-      const u = safeUrl(s.url);
-      const t = esc(s.title || s.name);
-      return `<li>${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>` : t} <small>${esc(s.name)}${s.time ? ", " + esc(s.time) : ""}</small>${s.primary ? `<span class="prim">Sumber resmi</span>` : ""}</li>`;
-    }).join("");
-    html += `<div class="item" data-cat="${esc(it.category)}">
-      <div class="top"><span class="cat">${esc(cat)}</span>${(it.tickers || []).map(t => `<span class="tick">${esc(t)}</span>`).join("")}
-        ${it.status ? `<span class="st st-${esc(it.status)}">${esc(STATUS[it.status] || it.status)}</span>` : ""}
-        ${it.time ? `<span>${esc(it.time)}</span>` : ""}${it.event_date ? `<span>Tanggal penting: ${esc(dayText(it.event_date) || it.event_date)}</span>` : ""}</div>
-      <h3>${esc(it.headline)}</h3>
-      ${it.summary ? `<p>${esc(it.summary)}</p>` : ""}
-      ${it.why_it_matters ? `<p class="why"><span class="lbl">Artinya buat kamu</span>${esc(it.why_it_matters)}</p>` : ""}
-      ${srcs ? `<ul class="src">${srcs}</ul>` : ""}
-    </div>`;
+    const rows = Object.entries(cos).map(([t, its]) => {
+      its.sort((a, b) => Math.abs(scoreFor(b, t)) - Math.abs(scoreFor(a, t)));
+      const sum = its.reduce((a, it) => a + scoreFor(it, t), 0);
+      return { t, its, net: Math.max(-3, Math.min(3, sum)), peak: Math.max(...its.map(it => Math.abs(scoreFor(it, t)))) };
+    });
+    const by = { big: (a, b) => b.peak - a.peak || Math.abs(b.net) - Math.abs(a.net) || b.net - a.net,
+                 good: (a, b) => b.net - a.net || b.peak - a.peak, bad: (a, b) => a.net - b.net || b.peak - a.peak };
+    rows.sort((a, b) => by[newsSort](a, b) || a.t.localeCompare(b.t));
+    html += `<div class="dayhead">${f.long}, ${f.label}${day === todayWib() ? " (hari ini)" : ""}</div><div class="cos">` +
+      rows.map(r => { const many = r.t.includes(" "); return `<div class="co ${tone(r.net)}${many ? " many" : ""}"><div class="co-h">` +
+        (many ? `<span class="co-t">${r.t.split(" ").length} perusahaan</span><span class="co-n">${esc(r.t.split(" ").join(", "))}</span>`
+          : `<span class="co-t">${esc(r.t)}</span><span class="co-n">${esc(names[r.t] || "")}</span>`) + `${impBadge(r.net, true)}</div>` +
+        `<ul class="co-l">${r.its.map(it => newsLine(it, many ? null : r.t)).join("")}</ul></div>`; }).join("") +
+      (market.length ? `<div class="co mk"><div class="co-h"><span class="co-t">Pasar dan sektor</span>` +
+        `<span class="co-n">Berita yang menyangkut banyak saham sekaligus</span></div><ul class="co-l">${market.map(it => newsLine(it)).join("")}</ul></div>` : "") +
+      `</div>`;
   }
   feed.innerHTML = html;
+  feed.querySelectorAll("[data-sort]").forEach(b => b.onclick = () => { newsSort = b.dataset.sort; renderFeed(); });
+  feed.querySelectorAll(".nl").forEach(b => b.onclick = () => openNews(newsShown[+b.dataset.n]));
+}
+
+function openNews(it) {
+  const d = document.getElementById("newsDlg"), imp = impactOf(it);
+  const cat = CATS.find(c => c[0] === it.category)?.[1] || it.category;
+  const per = it.impacts ? Object.entries(it.impacts).map(([t, v]) => `${esc(t)} ${impBadge(+v)}`).join(" ") : "";
+  const srcs = (it.sources || []).map(s => {
+    const u = safeUrl(s.url), t = esc(s.title || s.name);
+    return `<li>${u ? `<a href="${esc(u)}" target="_blank" rel="noopener">${t}</a>` : t} <small>${esc(s.name)}${s.time ? ", " + esc(s.time) : ""}</small>${s.primary ? `<span class="prim">Sumber resmi</span>` : ""}</li>`;
+  }).join("");
+  d.querySelector(".nd-body").innerHTML = `<div class="item" data-cat="${esc(it.category)}">
+    <div class="top"><span class="cat">${esc(cat)}</span>${(it.tickers || []).map(t => `<span class="tick">${esc(t)}</span>`).join("")}
+      ${it.status ? `<span class="st st-${esc(it.status)}">${esc(STATUS[it.status] || it.status)}</span>` : ""}
+      ${it.time ? `<span>${esc(it.time)}</span>` : ""}</div>
+    <h3>${esc(it.headline)}</h3>
+    <div class="nd-imp ${tone(imp.score)}">${impBadge(imp.score, true)}${per ? `<span class="per">${per}</span>` : ""}
+      <p>${imp.auto ? "Perkiraan otomatis dari judul berita. Desk belum memberi nilai untuk berita ini." : esc(imp.why)}</p></div>
+    ${it.summary ? `<p>${esc(it.summary)}</p>` : ""}
+    ${it.why_it_matters ? `<p class="why"><span class="lbl">Artinya buat kamu</span>${esc(it.why_it_matters)}</p>` : ""}
+    ${it.event_date ? `<p><span class="lbl">Tanggal penting</span>${esc(dayText(it.event_date) || it.event_date)}</p>` : ""}
+    ${srcs ? `<ul class="src">${srcs}</ul>` : ""}</div>`;
+  d.showModal();
 }
 
 async function showNews(filter) {
@@ -1282,6 +1410,20 @@ function route() {
   const n = h.match(/^news-([\w-]+)$/);
   showNews(n ? n[1] : "all");
 }
+
+// Ornaments: the head character in the masthead, a walking line of the team above the footer, and the same
+// character (as an image) on empty and loading states.
+function ornaments() {
+  $t("brandSp").innerHTML = tmSprite("head");
+  const uri = svg => `url("data:image/svg+xml,${encodeURIComponent(svg.replace('class="sp"', 'xmlns="http://www.w3.org/2000/svg" class="sp"'))}")`;
+  document.documentElement.style.setProperty("--sp-head", uri(tmSprite("head")));
+  document.documentElement.style.setProperty("--sp-spark", uri(`<svg class="sp" viewBox="0 0 5 5" shape-rendering="crispEdges" fill="#d97757">` +
+    `<rect x="2" y="0" width="1" height="5"/><rect x="0" y="2" width="5" height="1"/><rect x="1" y="1" width="3" height="3" opacity=".55"/></svg>`));
+  const team = ["head", ...TM_AGENTS];
+  $t("parade").innerHTML = team.map((id, i) =>
+    `<span class="walker" style="--dur:${38 + (i % 3) * 4}s;--delay:${-i * 4.6}s" title="${esc(tmName(id))}">${tmSprite(id)}</span>`).join("");
+}
+ornaments();
 
 window.addEventListener("hashchange", route);
 fetch("data/index.json", { cache: "no-store" }).then(r => r.json()).then(data => {

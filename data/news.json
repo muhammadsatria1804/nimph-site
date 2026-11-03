@@ -45,6 +45,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Buyback grup Prajogo sudah Rp830,7 miliar",
+   "impact": {
+    "score": 1,
+    "why": "Pembelian kembali saham menahan penurunan harga, tetapi kecil dibanding nilai pasar grup yang sangat besar."
+   },
    "date": "2026-11-03"
   },
   {
@@ -89,6 +95,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "Asing jual bersih Rp375,5 miliar",
+   "impact": {
+    "score": -1,
+    "why": "Penjualan bersih asing menekan saham besar, kecuali ENRG yang justru dibeli."
+   },
    "date": "2026-11-03"
   },
   {
@@ -115,6 +127,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "Laba emiten naik 14,2% di kuartal ketiga",
+   "impact": {
+    "score": 1,
+    "why": "Secara umum laba membaik, tetapi saham batu bara terbelah."
+   },
    "date": "2026-11-03"
   },
   {
@@ -148,6 +166,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "Analis: IHSG rawan berbalik",
+   "impact": {
+    "score": 0,
+    "why": "Ini pendapat analis, bukan kabar dari perusahaan."
+   },
    "date": "2026-11-03"
   },
   {
@@ -180,6 +204,15 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Produksi rekor di grup Merdeka",
+   "impact": {
+    "score": 2,
+    "why": "Produksi nikel MBMA rekor dan penjualan emas EMAS naik 69%, yang bisa menaikkan pendapatan kuartal berikutnya."
+   },
+   "impacts": {
+    "MDKA": 1
+   },
    "date": "2026-11-03"
   },
   {
@@ -203,6 +236,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Laba naik 6,7% jadi Rp1,08 triliun",
+   "impact": {
+    "score": 1,
+    "why": "Laba tumbuh, tetapi kenaikannya sedang."
+   },
    "date": "2026-11-03"
   },
   {
@@ -227,6 +266,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Suspensi disebut dicabut 3 Nov",
+   "impact": {
+    "score": 1,
+    "why": "Saham bisa diperdagangkan lagi, tetapi harga bisa bergerak liar setelah lama dihentikan."
+   },
    "date": "2026-11-03"
   },
   {
@@ -274,6 +319,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "IHSG jatuh 3,78%",
+   "impact": {
+    "score": -2,
+    "why": "Penurunan besar seluruh pasar menekan hampir semua saham."
+   },
    "date": "2026-11-03"
   },
   {
@@ -309,6 +360,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "Hasil rapat KSSK diumumkan sore ini",
+   "impact": {
+    "score": 0,
+    "why": "Belum ada keputusan, jadi belum ada dampak."
+   },
    "date": "2026-11-03"
   },
   {
@@ -341,6 +398,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "Penilaian ulang MSCI 11 sampai 12 Nov",
+   "impact": {
+    "score": -1,
+    "why": "Saham yang mungkin dikeluarkan dari indeks MSCI bisa dijual oleh dana asing."
+   },
    "date": "2026-11-03"
   },
   {
@@ -379,6 +442,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Harga minyak naik lagi",
+   "impact": {
+    "score": 1,
+    "why": "Harga minyak yang naik lagi menguntungkan produsen minyak dan gas."
+   },
    "date": "2026-11-03"
   },
   {
@@ -423,6 +492,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "Asing jual bersih Rp831,6 miliar di sesi pertama",
+   "impact": {
+    "score": -2,
+    "why": "Penjualan asing sebesar ini menekan saham besar, terutama bank."
+   },
    "date": "2026-11-03"
   },
   {
@@ -446,6 +521,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Laba turun 10,9%",
+   "impact": {
+    "score": -2,
+    "why": "Laba turun lebih dari 10%, cukup besar untuk menurunkan perkiraan laba ke depan."
+   },
    "date": "2026-11-03"
   },
   {
@@ -476,6 +557,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Laba turun 22,8%, simpanan menyusut",
+   "impact": {
+    "score": -2,
+    "why": "Laba dan simpanan nasabah sama-sama turun, tanda bisnis bank melemah."
+   },
    "date": "2026-11-03"
   },
   {
@@ -504,6 +591,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Kena ARB di jam pertama",
+   "impact": {
+    "score": -2,
+    "why": "Turun sampai batas harian menunjukkan tekanan jual yang kuat dan bisa berlanjut."
+   },
    "date": "2026-11-03"
   },
   {
@@ -534,6 +627,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Sempat ARB setelah laba turun",
+   "impact": {
+    "score": -2,
+    "why": "Laba turun cukup dalam dan pasar langsung menjual sahamnya sampai batas turun harian."
+   },
    "date": "2026-11-03"
   },
   {
@@ -557,6 +656,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Laba naik sekitar empat kali lipat",
+   "impact": {
+    "score": 1,
+    "why": "Kenaikan laba sebesar ini bisa mengubah penilaian saham, tetapi angkanya baru dari satu media dan belum dicek ke laporan resmi."
+   },
    "date": "2026-11-03"
   },
   {
@@ -587,6 +692,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Dividen Rp1 per saham, hari terakhir beli 10 Nov",
+   "impact": {
+    "score": 1,
+    "why": "Dividen kecil, dampaknya ke harga terbatas."
+   },
    "date": "2026-11-03"
   },
   {
@@ -619,6 +730,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Harga acuan sawit turun 6%",
+   "impact": {
+    "score": -1,
+    "why": "Harga jual sawit lebih rendah menekan pendapatan, sedikit tertolong pajak ekspor yang lebih ringan."
+   },
    "date": "2026-11-03"
   },
   {
@@ -667,6 +784,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Akan dihapus dari bursa 10 Nov",
+   "impact": {
+    "score": -3,
+    "why": "Setelah dihapus dari bursa, saham tidak bisa lagi diperjualbelikan di pasar reguler."
+   },
    "date": "2026-11-03"
   },
   {
@@ -690,6 +813,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Mau buyback Rp10 miliar",
+   "impact": {
+    "score": 2,
+    "why": "Untuk perusahaan sekecil TRIS, buyback Rp10 miliar cukup besar dibanding nilai pasarnya, jadi bisa menopang harga."
+   },
    "date": "2026-11-03"
   },
   {
@@ -727,6 +856,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Dividen interim, hari terakhir beli 10 Nov",
+   "impact": {
+    "score": 1,
+    "why": "Dividen tunai menambah imbal hasil, tetapi harga biasanya turun sebesar dividen setelah tanggal cum."
+   },
    "date": "2026-11-03"
   },
   {
@@ -759,6 +894,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Harga minyak turun 7,5%",
+   "impact": {
+    "score": -1,
+    "why": "Harga jual minyak dan gas lebih rendah menekan pendapatan produsen, tetapi harga masih jauh di atas rata-rata tahun lalu."
+   },
    "date": "2026-11-03"
   },
   {
@@ -787,6 +928,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "Wall Street bergerak campur",
+   "impact": {
+    "score": 0,
+    "why": "Tidak ada dampak langsung ke emiten tertentu."
+   },
    "date": "2026-11-03"
   },
   {
@@ -815,6 +962,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "PMI manufaktur naik ke 54,0",
+   "impact": {
+    "score": 1,
+    "why": "Pabrik makin sibuk, tanda ekonomi tumbuh."
+   },
    "date": "2026-11-02"
   },
   {
@@ -845,6 +998,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Laporan kuartal ketiga tertunda",
+   "impact": {
+    "score": -1,
+    "why": "Laporan yang tertunda menimbulkan ketidakpastian sampai angkanya terbit."
+   },
    "date": "2026-11-02"
   },
   {
@@ -866,6 +1025,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "UMA dan suspensi belum dihapus",
+   "impact": {
+    "score": 0,
+    "why": "Aturan bursa belum berubah."
+   },
    "date": "2026-11-02"
   },
   {
@@ -892,6 +1057,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Kena ARA tanpa berita",
+   "impact": {
+    "score": -1,
+    "why": "Kenaikan tanpa berita berisiko diberi tanda UMA atau dihentikan sementara oleh bursa."
+   },
    "date": "2026-11-02"
   },
   {
@@ -925,6 +1096,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "Saham batu bara terbelah",
+   "impact": {
+    "score": 0,
+    "why": "Pergerakan harga, bukan kabar dari perusahaan."
+   },
    "date": "2026-11-02"
   },
   {
@@ -962,6 +1139,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Dividen interim, hari terakhir beli 10 Nov",
+   "impact": {
+    "score": 1,
+    "why": "Dividen tunai menambah imbal hasil, harga biasanya turun sebesar dividen setelah tanggal cum."
+   },
    "date": "2026-11-02"
   },
   {
@@ -997,6 +1180,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "IHSG naik 0,79%",
+   "impact": {
+    "score": 1,
+    "why": "Pasar naik secara umum."
+   },
    "date": "2026-11-02"
   },
   {
@@ -1020,6 +1209,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Untung Rp441 miliar, target dinaikkan",
+   "impact": {
+    "score": 2,
+    "why": "Laba dan target tahunan yang dinaikkan mendukung penilaian saham, sebagian mungkin sudah tercermin di harga."
+   },
    "date": "2026-11-02"
   },
   {
@@ -1050,6 +1245,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Dividen Rp70 per saham, hari terakhir beli 10 Nov",
+   "impact": {
+    "score": 1,
+    "why": "Dividen tunai menambah imbal hasil, harga biasanya turun sebesar dividen setelah tanggal cum."
+   },
    "date": "2026-11-02"
   },
   {
@@ -1094,6 +1295,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "Asing jual bersih Rp342 miliar",
+   "impact": {
+    "score": -1,
+    "why": "Bank besar dan AADI dilepas asing."
+   },
    "date": "2026-11-02"
   },
   {
@@ -1124,6 +1331,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Penjualan 817 juta dolar AS, produksi nikel naik",
+   "impact": {
+    "score": 1,
+    "why": "Produksi naik, tetapi dampaknya ke laba belum besar."
+   },
    "date": "2026-11-02"
   },
   {
@@ -1152,6 +1365,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "Surplus dagang 3,36 miliar dolar AS",
+   "impact": {
+    "score": 1,
+    "why": "Surplus besar membantu rupiah."
+   },
    "date": "2026-11-02"
   },
   {
@@ -1180,6 +1399,12 @@
      "primary": false
     }
    ],
+   "scope": "market",
+   "short": "Inflasi Oktober 3,23%",
+   "impact": {
+    "score": 0,
+    "why": "Inflasi stabil, tidak mengubah arah suku bunga."
+   },
    "date": "2026-11-02"
   },
   {
@@ -1203,6 +1428,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Rights issue masih dibahas",
+   "impact": {
+    "score": -1,
+    "why": "Rights issue bisa mengurangi porsi pemegang saham lama, dan pengendali belum berkomitmen ikut membeli."
+   },
    "date": "2026-11-02"
   },
   {
@@ -1233,6 +1464,12 @@
      "primary": false
     }
    ],
+   "scope": "company",
+   "short": "Laba kuartal ketiga turun 37%",
+   "impact": {
+    "score": -2,
+    "why": "Penurunan laba sebesar ini menurunkan perkiraan laba ke depan."
+   },
    "date": "2026-11-02"
   }
  ],
@@ -1574,5 +1811,87 @@
     "verified": false
    }
   ]
+ },
+ "names": {
+  "AADI": "Adaro Andalan Indonesia",
+  "AALI": "Astra Agro Lestari",
+  "ADRO": "Alamtri Resources Indonesia",
+  "AKPI": "Argha Karya Prima Ind.",
+  "AMMN": "Amman Mineral Internasional",
+  "ANTM": "ANTAM (Persero)",
+  "BABP": "Bank MNC Internasional",
+  "BBCA": "Bank Central Asia",
+  "BBNI": "Bank Negara Indonesia (Persero)",
+  "BBRI": "Bank Rakyat Indonesia (Persero)",
+  "BLTZ": "Graha Layar Prima",
+  "BMRI": "Bank Mandiri (Persero)",
+  "BNBR": "Bakrie & Brothers",
+  "BNLI": "Bank Permata",
+  "BREN": "Barito Renewables Energy",
+  "BRIS": "Bank Syariah Indonesia (Persero)",
+  "BRMS": "Bumi Resources Minerals",
+  "BRPT": "Barito Pacific",
+  "BSWD": "Bank of India Indonesia",
+  "BUAH": "Segar Kumala Indonesia",
+  "BUMI": "Bumi Resources",
+  "BWPT": "Eagle High Plantations",
+  "CBRE": "Cakra Buana Resources Energi",
+  "COWL": "COWELL DEVELOPMENT",
+  "CSRA": "Cisadane Sawit Raya",
+  "CUAN": "Petrindo Jaya Kreasi",
+  "DEWA": "Darma Henwa",
+  "DFAM": "Dafam Property Indonesia",
+  "DOOH": "Era Media Sejahtera",
+  "DSSA": "Dian Swastatika Sentosa",
+  "ELSA": "Elnusa",
+  "EMAS": "Merdeka Gold Resources",
+  "EMTK": "Elang Mahkota Teknologi",
+  "ENRG": "Energi Mega Persada",
+  "ESSA": "ESSA Industries Indonesia",
+  "GOLL": "Golden Plantation",
+  "GOTO": "GoTo Gojek Tokopedia",
+  "HRTA": "Hartadinata Abadi",
+  "ICBP": "Indofood CBP Sukses Makmur",
+  "INDF": "Indofood Sukses Makmur",
+  "INDY": "Indika Energy",
+  "ITMG": "Indo Tambangraya Megah",
+  "JPFA": "JAPFA Comfeed Indonesia",
+  "KLBF": "Kalbe Farma",
+  "LCGP": "Eureka Prima Jakarta",
+  "LMAS": "Limas Indonesia Makmur",
+  "LSIP": "PP London Sumatra Indonesia",
+  "MABA": "Marga Abhinaya Abadi",
+  "MAPA": "Map Aktif Adiperkasa",
+  "MAPI": "Mitra Adiperkasa",
+  "MBMA": "Merdeka Battery Materials",
+  "MDKA": "Merdeka Copper Gold",
+  "MEDC": "Medco Energi Internasional",
+  "MIKA": "Mitra Keluarga Karyasehat",
+  "MKNT": "Mitra Komunikasi Nusantara",
+  "MMIX": "Multi Medika Internasional",
+  "MORA": "Ekamas Mora Republik",
+  "MTRA": "Mitra Pemuda",
+  "PACK": "Abadi Nusantara Hijau Investama",
+  "PEHA": "Phapros",
+  "PGEO": "Pertamina Geothermal Energy",
+  "PRDA": "Prodia Widyahusada",
+  "PTBA": "Bukit Asam (Persero)",
+  "PTRO": "Petrosea",
+  "RATU": "Raharja Energi Cepu",
+  "ROCK": "Rockfields Properti Indonesia",
+  "SBAT": "Sejahtera Bintang Abadi Textile",
+  "SRIL": "Sri Rejeki Isman",
+  "SUGI": "Sugih Energy",
+  "TAPG": "Triputra Agro Persada",
+  "TDPM": "Tianrong Chemicals Industry",
+  "TELE": "Omni Inovasi Indonesia",
+  "TINS": "TIMAH (Persero)",
+  "TLKM": "Telkom Indonesia (Persero)",
+  "TOWR": "Sarana Menara Nusantara",
+  "TOYS": "Sunindo Adipersada",
+  "TPIA": "Chandra Asri Pacific",
+  "TRIS": "Trisula International",
+  "UNTR": "United Tractors",
+  "WIFI": "Solusi Sinergi Digital"
  }
 }
