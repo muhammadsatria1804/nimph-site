@@ -262,6 +262,40 @@ body.team-wide .wrap { max-width: 1600px; }
 @keyframes tm-dot { 0%, 80%, 100% { opacity: .25; transform: translateY(0); } 40% { opacity: 1; transform: translateY(-3px); } }
 @keyframes tm-blink { 50% { opacity: .3; } }
 @keyframes tm-in { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+/* Agent characters: small pixel creatures, one per agent. Their pose follows the agent's real state. */
+.who { display: flex; align-items: center; gap: 8px; }
+.who .nm { flex: 1; min-width: 0; }
+.sp { width: 44px; height: 33px; flex: none; shape-rendering: crispEdges; overflow: visible; }
+.sp.mini { width: 22px; height: 17px; vertical-align: -4px; margin-right: 4px; }
+.sp g { transform-box: fill-box; transform-origin: center; }
+.sp .happy { display: none; }
+.sp .eyes { animation: sp-blink 4.6s steps(1) infinite; }
+.tm-node.idle .sp { filter: grayscale(.45); opacity: .85; }
+.tm-node.working .sp { animation: sp-bob .9s steps(2) infinite; }
+.tm-node.working:not(.tooling) .sp .eyes { animation: sp-look 2.6s steps(1) infinite; }
+.tm-node.working .sp .tip { animation: sp-tip .5s steps(1) infinite; }
+.tm-node.tooling .sp { animation-duration: .5s; }
+.tm-node.tooling .sp .legA { animation: sp-step .36s steps(1) infinite; }
+.tm-node.tooling .sp .legB { animation: sp-step .36s steps(1) infinite reverse; }
+.tm-node.tooling .sp .armL { animation: sp-type .24s steps(1) infinite; }
+.tm-node.tooling .sp .armR { animation: sp-type .24s steps(1) infinite reverse; }
+.tm-node.done .sp { animation: sp-hop .6s steps(3) 1; }
+.tm-node.done .sp .eyes { display: none; }
+.tm-node.done .sp .happy { display: inline; }
+.tm-node.failed .sp { filter: grayscale(1); transform: rotate(-10deg) translateY(2px); }
+.tm-node.flash .sp { animation: sp-jump .5s steps(3) 1; }
+.tm-feed li.av { padding-left: 30px; }
+.tm-feed li.av::before { display: none; }
+.tm-feed li.av > .sp.mini { position: absolute; left: 0; top: 9px; }
+.bub b .sp.mini { vertical-align: -5px; }
+@keyframes sp-blink { 0%, 92%, 100% { transform: none; } 94% { transform: scaleY(.2); } }
+@keyframes sp-look { 0% { transform: translateX(-1px); } 50% { transform: translateX(1px) translateY(-1px); } }
+@keyframes sp-tip { 50% { opacity: .2; } }
+@keyframes sp-bob { 50% { transform: translateY(-3px); } }
+@keyframes sp-step { 50% { transform: translateY(-1px); } }
+@keyframes sp-type { 50% { transform: translateY(-1px); } }
+@keyframes sp-hop { 33% { transform: translateY(-6px); } 66% { transform: translateY(-2px); } }
+@keyframes sp-jump { 33% { transform: translateY(-5px) rotate(-6deg); } 66% { transform: translateY(-2px) rotate(4deg); } }
 @media (max-width: 899px) {
   .tm-canvas { display: flex; flex-direction: column; }
   .tm-wires { display: none; }
@@ -269,7 +303,7 @@ body.team-wide .wrap { max-width: 1600px; }
   .tm-ctrl { margin-left: 0; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .tm-node.working, .tm-node.tool.tooling, .dots i, .tm-status.live::before, .bub, .tm-feed li { animation: none; }
+  .tm-node.working, .tm-node.tool.tooling, .dots i, .tm-status.live::before, .bub, .tm-feed li, .sp, .sp g { animation: none !important; }
 }
 </style>
 
@@ -848,13 +882,59 @@ const NS = "http://www.w3.org/2000/svg";
 const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
 let tm = { runs: null, run: null, data: null, i: 0, cursor: 0, playing: false, speed: 5, last: 0, poll: null, st: null };
 
+// Each agent's character: a 16x12 pixel body shared by all, plus that agent's own colors and accessory.
+// B body, E eyes, H/J arms, L/M legs (alternate pairs), A accessory, a accessory detail.
+const SP_BASE = [
+  "................", "................", "................",
+  "...BBBBBBBBBB...", "...BBBBBBBBBB...", "...BBEBBBBEBB...",
+  ".HHBBEBBBBEBBJJ.", ".HHBBBBBBBBBBJJ.", "...BBBBBBBBBB...",
+  "...BBBBBBBBBB...", "....L.M..L.M....", "....L.M..L.M....",
+];
+const SP_HAPPY = [[4, 6], [5, 5], [6, 6], [9, 6], [10, 5], [11, 6]];
+const SP = {
+  head: { b: "#d97757", A: "#2b2b2b", a: "#9aa0a6", acc: ["", "....AAAAAAAA....", "...A........A...", "..AA........AA..", "..AA........AA.."] },
+  scout: { b: "#e3a33b", A: "#5a4a36", a: "#ff4f40", acc: [".....a....a.....", ".....A....A.....", ".....A....A....."] },
+  tape: { b: "#5b8dd6", A: "#2e9d5c", acc: ["", "", "..AAAAAAAAAAAA..", "...AAAAAAAAAA..."] },
+  fundamentals: { b: "#4aa391", A: "#1d1d1f", acc: ["", "", "", "", "....AAA..AAA....", "....A.AAAA.A....", "....A.A..A.A....", "....AAA..AAA...."] },
+  catalyst: { b: "#c95fa8", a: "#ffcc33", acc: ["........aa......", ".......aa.......", "........aa......"] },
+  bull: { b: "#3e9b57", A: "#f1e4c3", acc: ["..A..........A..", "..AA........AA..", "...AA......AA..."] },
+  bear: { b: "#b4583c", a: "#efc0a8", acc: ["", "...BBB....BBB...", "...BaB....BaB..."] },
+  risk: { b: "#7b8794", A: "#f2c230", acc: ["", ".....AAAAAA.....", "....AAAAAAAA....", "..AAAAAAAAAAAA.."] },
+  pm: { b: "#7d5fc9", A: "#222222", a: "#d0453a", acc: [".....AAAAAA.....", ".....aaaaaa.....", "...AAAAAAAAAA...", "", "", "", "", "", ".......aa.......", ".......aa......."] },
+};
+const SP_GROUP = { B: "body", E: "eyes", H: "armL", J: "armR", L: "legA", M: "legB", A: "acc", a: "tip" };
+const spCache = {};
+function tmSprite(id, mini) {
+  const c = SP[id];
+  if (!c) return "";
+  const key = id + (mini ? "-m" : "");
+  if (spCache[key]) return spCache[key];
+  const grid = SP_BASE.map((row, y) => [...row].map((ch, x) => { const o = (c.acc[y] || "")[x]; return o && o !== "." ? o : ch; }));
+  const fill = { B: c.b, H: c.b, J: c.b, L: c.b, M: c.b, E: "#1d1d1f", A: c.A, a: c.a };
+  const groups = {};
+  grid.forEach((row, y) => {
+    for (let x = 0; x < 16;) {
+      const ch = row[x];
+      let w = 1;
+      while (x + w < 16 && row[x + w] === ch) w++;
+      if (ch !== ".") (groups[SP_GROUP[ch]] ??= { fill: fill[ch], r: [] }).r.push(`<rect x="${x}" y="${y}" width="${w}" height="1"/>`);
+      x += w;
+    }
+  });
+  const order = ["legA", "legB", "armL", "armR", "body", "acc", "tip", "eyes"];
+  const happy = `<g class="happy" fill="#1d1d1f">${SP_HAPPY.map(([x, y]) => `<rect x="${x}" y="${y}" width="1" height="1"/>`).join("")}</g>`;
+  return spCache[key] = `<svg class="sp${mini ? " mini" : ""}" viewBox="0 0 16 12" aria-hidden="true">` +
+    order.filter(g => groups[g]).map(g => `<g class="${g}" fill="${groups[g].fill}">${groups[g].r.join("")}</g>`).join("") + happy + `</svg>`;
+}
+
 function tmName(id) { return TM_NODES[id]?.nm || id; }
 function tmTime(t) { return new Date(t + 7 * 3600e3).toISOString().slice(11, 19).replace(/:/g, "."); }
 const $t = id => document.getElementById(id);
 
 function tmNodeHtml(id, cls = "") {
   const n = TM_NODES[id];
-  return `<div class="tm-node ${cls} idle" id="tn-${id}"><div class="nm">${n.nm}${n.md ? `<span class="md">${n.md}</span>` : ""}<span class="st"></span></div>` +
+  const nm = `<div class="nm">${n.nm}${n.md ? `<span class="md">${n.md}</span>` : ""}<span class="st"></span></div>`;
+  return `<div class="tm-node ${cls} idle" id="tn-${id}">${SP[id] ? `<div class="who">${tmSprite(id)}${nm}</div>` : nm}` +
     `<div class="rl">${n.rl}</div><div class="tks"></div><div class="now"></div>${cls === "tool" ? `<div class="tm-res"></div>` : ""}</div>`;
 }
 
@@ -1021,7 +1101,8 @@ function tmLine(e) {
     case "write": main = `${b(e.frm)} menulis ${TM_WRITE[e.to] || "file"}`; q = ""; break;
     case "end": main = esc(e.text); q = e.detail; break;
   }
-  return `<li style="--c:${TM_COLOR[e.kind]}"><time>${tmTime(e.t)}</time>${main}${q ? `<span class="q">${esc(q)}</span>` : ""}</li>`;
+  const who = SP[e.frm] ? e.frm : e.kind === "result" && SP[e.to] ? e.to : e.kind === "end" ? "head" : null;
+  return `<li${who ? ` class="av"` : ""} style="--c:${TM_COLOR[e.kind]}">${who ? tmSprite(who, true) : ""}<time>${tmTime(e.t)}</time>${main}${q ? `<span class="q">${esc(q)}</span>` : ""}</li>`;
 }
 
 function tmFeed(lines, prepend) {
@@ -1069,8 +1150,8 @@ function tmRender() {
   TM_STAGES.forEach((_, i) => { $t("ts-" + i).className = s.seen.has(i) && (i < cur || s.ended) ? "past" : i === cur && !s.ended ? "now" : ""; });
   const deb = s.debate.slice(-6);
   $t("tmDebate").innerHTML = `<div class="ttl">Debat</div>` + (deb.length ? deb.map(d => d.who === "relay"
-    ? `<div class="bub relay"><b>Desk head ke ${esc(tmName(d.to))}</b>${d.via ? "Meneruskan argumen " + esc(tmName(d.via)) + ": " : ""}${esc(d.text.slice(0, 160))}</div>`
-    : `<div class="bub ${d.who}"><b>${esc(tmName(d.who))}${d.ticker ? ", " + esc(d.ticker) : ""}</b>${esc(d.text.slice(0, 200))}</div>`).join("")
+    ? `<div class="bub relay"><b>${tmSprite("head", true)}Desk head ke ${esc(tmName(d.to))}</b>${d.via ? "Meneruskan argumen " + esc(tmName(d.via)) + ": " : ""}${esc(d.text.slice(0, 160))}</div>`
+    : `<div class="bub ${d.who}"><b>${tmSprite(d.who, true)}${esc(tmName(d.who))}${d.ticker ? ", " + esc(d.ticker) : ""}</b>${esc(d.text.slice(0, 200))}</div>`).join("")
     : `<div class="empty-d">Belum ada debat di run ini.</div>`);
   const box = $t("tmDebate");
   box.scrollTop = box.scrollHeight;
