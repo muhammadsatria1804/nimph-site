@@ -937,40 +937,6 @@
    "date": "2026-11-03"
   },
   {
-   "id": "makro-pmi-oktober",
-   "time": "belum diketahui",
-   "tickers": [],
-   "category": "news",
-   "headline": "PMI manufaktur Oktober naik ke 54,0",
-   "summary": "PMI manufaktur Indonesia (indeks aktivitas pabrik) Oktober 2026 naik ke 54,0. Pada September angkanya 52,48. Angka di atas 50 artinya aktivitas pabrik bertambah. Angka ini pertama muncul di judul berita Bisnis, lalu dikutip juga oleh Kontan pada sore harinya.",
-   "why_it_matters": "Pabrik makin sibuk dan ekonomi dalam negeri masih tumbuh. Ini kabar baik untuk saham industri dan barang konsumen.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Bisnis.com",
-     "title": "PMI Manufaktur Indonesia Melesat ke Level 54,0 pada Oktober 2026",
-     "url": "https://ekonomi.bisnis.com/read/20261102/257/2017508/pmi-manufaktur-indonesia-melesat-ke-level-540-pada-oktober-2026",
-     "time": "2026-11-02",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "IHSG Berpeluang Menguat pada Selasa (3/11), Waspadai Sentimen Saham HSC",
-     "url": "https://investasi.kontan.co.id/news/ihsg-berpeluang-menguat-pada-selasa-311-waspadai-sentimen-saham-hsc",
-     "time": "2026-11-02 17:34 WIB",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "PMI manufaktur naik ke 54,0",
-   "impact": {
-    "score": 1,
-    "why": "Pabrik makin sibuk, tanda ekonomi tumbuh."
-   },
-   "date": "2026-11-02"
-  },
-  {
    "id": "BBRI-laporan-kuartal3-tertunda",
    "time": "20.10 WIB",
    "tickers": [
@@ -1007,33 +973,6 @@
    "date": "2026-11-02"
   },
   {
-   "id": "BEI-uma-suspensi-belum-dihapus",
-   "time": "17.54 WIB",
-   "tickers": [],
-   "category": "issue",
-   "headline": "BEI: UMA dan suspensi saham belum dihapus, baru akan dikurangi",
-   "summary": "Direktur Utama BEI Jeffrey Hendrik mengatakan aturan UMA (peringatan karena gerak harga tidak wajar) dan suspensi (penghentian sementara perdagangan saham) masih berlaku. BEI akan menguranginya setelah cara pengawasan baru diterapkan, yaitu membekukan rekening yang diduga memanipulasi harga. Tanggal mulainya belum ditetapkan dan komite yang membahasnya baru rapat pertama minggu ini. Pengeluaran saham HSC dari IHSG pada 2 November adalah aturan terpisah.",
-   "why_it_matters": "Saham yang naik atau turun tidak wajar masih bisa kena UMA atau dihentikan sementara. Uang bisa tertahan kalau sahamnya disuspensi.",
-   "status": "official",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "EmitenNews",
-     "title": "BEI: UMA & Suspensi Saham Akan Dibatasi per 2 November, Belum Dihapus",
-     "url": "https://emitennews.com/news/bei-uma-suspensi-saham-akan-dibatasi-per-2-november-belum-dihapus",
-     "time": "2026-11-01 17:54 WIB",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "UMA dan suspensi belum dihapus",
-   "impact": {
-    "score": 0,
-    "why": "Aturan bursa belum berubah."
-   },
-   "date": "2026-11-02"
-  },
-  {
    "id": "ara-saham-kecil-2nov",
    "time": "16.20 WIB",
    "tickers": [
@@ -1062,45 +1001,6 @@
    "impact": {
     "score": -1,
     "why": "Kenaikan tanpa berita berisiko diberi tanda UMA atau dihentikan sementara oleh bursa."
-   },
-   "date": "2026-11-02"
-  },
-  {
-   "id": "batubara-terbelah-dewa-bumi-indy",
-   "time": "16.17 WIB",
-   "tickers": [
-    "DEWA",
-    "INDY",
-    "BUMI",
-    "PTBA"
-   ],
-   "category": "news",
-   "headline": "DEWA, INDY, dan BUMI naik kencang, sementara PTBA dan AADI turun",
-   "summary": "Pada Senin 2 November 2026, DEWA naik 11,21%, INDY naik 8,15%, dan BUMI naik 7,56%. Ketiganya menjadi saham LQ45 yang paling naik. Di sisi lain AADI turun 6,75% dan PTBA turun 4,01%. Asing membeli BUMI Rp36,21 miliar dan DEWA Rp15,37 miliar di sesi pertama, tetapi menjual PTBA Rp49,87 miliar. Tidak ditemukan berita khusus yang menjelaskan kenaikan DEWA, INDY, dan BUMI.",
-   "why_it_matters": "Saham batu bara tidak bergerak bersama. Kenaikan tanpa berita bisa cepat berbalik, jadi jangan mengejar harga.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "IHSG Ditutup Menguat ke 5.096,8 Hari Ini (2/11), Top Gainers LQ45: DEWA, INDY, BUMI",
-     "url": "https://investasi.kontan.co.id/news/ihsg-ditutup",
-     "time": "2026-11-02 16:17 WIB",
-     "primary": false
-    },
-    {
-     "name": "Suara",
-     "title": "BUMI Meroket 7%, Saham-saham Ini Jadi Motor Penggerak IHSG Sesi I",
-     "url": "https://www.suara.com/bisnis/2026/11/02/134740/bumi-meroket-7-saham-saham-ini-jadi-motor-penggerak-ihsg-sesi-i",
-     "time": "2026-11-02 13:47 WIB",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "Saham batu bara terbelah",
-   "impact": {
-    "score": 0,
-    "why": "Pergerakan harga, bukan kabar dari perusahaan."
    },
    "date": "2026-11-02"
   },
@@ -1144,47 +1044,6 @@
    "impact": {
     "score": 1,
     "why": "Dividen tunai menambah imbal hasil, harga biasanya turun sebesar dividen setelah tanggal cum."
-   },
-   "date": "2026-11-02"
-  },
-  {
-   "id": "IHSG-hsc-dikeluarkan",
-   "time": "16.03 WIB",
-   "tickers": [],
-   "category": "news",
-   "headline": "IHSG naik 0,79% di hari pertama saham HSC tidak lagi dihitung",
-   "summary": "IHSG ditutup di 5.096,83 pada Senin 2 November 2026, naik 39,78 poin atau 0,79%. Pagi harinya IHSG sempat turun ke sekitar 4.980, lalu berbalik naik sekitar pukul 10.00 WIB. Mulai hari ini sekitar 81 saham HSC (saham yang kepemilikannya sangat terpusat) tidak dihitung dalam IHSG, dan bobotnya sekitar 18% dibagikan ke 837 saham lain. Saham yang naik 315, turun 285, dan tidak berubah 118. BEI bilang perubahan ini tidak langsung membuat indeks naik atau turun tajam.",
-   "why_it_matters": "Sekarang saham besar seperti BBCA, BBRI, dan BMRI lebih menentukan arah IHSG. Gerak indeks bisa terasa berbeda dari biasanya selama beberapa minggu.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "CNBC Indonesia",
-     "title": "IHSG Ditutup Menguat 0,79% ke 5.096,83",
-     "url": "https://www.cnbcindonesia.com/market/20261102154020-17-781613/ihsg-ditutup-menguat-079-ke-509683",
-     "time": "2026-11-02 16:03 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "IHSG Ditutup Menguat ke 5.096,8 Hari Ini (2/11), Top Gainers LQ45: DEWA, INDY, BUMI",
-     "url": "https://investasi.kontan.co.id/news/ihsg-ditutup",
-     "time": "2026-11-02 16:17 WIB",
-     "primary": false
-    },
-    {
-     "name": "CNN Indonesia",
-     "title": "IHSG Bangkit ke 5.096 Awali November",
-     "url": "https://www.cnnindonesia.com/ekonomi/20261102162026-92-1422398/ihsg-bangkit-ke-5096-awali-november",
-     "time": "2026-11-02 16:23 WIB",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "IHSG naik 0,79%",
-   "impact": {
-    "score": 1,
-    "why": "Pasar naik secara umum."
    },
    "date": "2026-11-02"
   },
@@ -1254,56 +1113,6 @@
    "date": "2026-11-02"
   },
   {
-   "id": "asing-net-sell-sesi1-2nov",
-   "time": "13.01 WIB",
-   "tickers": [
-    "AADI",
-    "BMRI",
-    "BBRI",
-    "TLKM",
-    "PTBA",
-    "TPIA",
-    "BUMI",
-    "PTRO"
-   ],
-   "category": "news",
-   "headline": "Asing masih jual bersih Rp342 miliar di sesi pertama, bank besar dan AADI dilepas",
-   "summary": "Di sesi pertama Senin 2 November 2026, investor asing membeli Rp2,21 triliun dan menjual Rp2,55 triliun, sehingga jual bersih Rp342,08 miliar. Yang paling banyak dijual adalah AADI Rp94,95 miliar, BMRI Rp81,76 miliar, BBRI Rp71,29 miliar, TLKM Rp67,28 miliar, dan PTBA Rp49,87 miliar. Yang paling banyak dibeli adalah TPIA Rp47,80 miliar, BUMI Rp36,21 miliar, dan PTRO Rp23,52 miliar. Angka satu hari penuh belum terbit sampai pukul 17.05 WIB.",
-   "why_it_matters": "Kenaikan IHSG hari ini terjadi saat asing masih menjual. Kenaikan yang tidak didukung pembelian asing biasanya lebih mudah berbalik.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "CNBC Indonesia",
-     "title": "IHSG Menguat di Sesi I, 10 Saham Ini Banyak Diborong Asing",
-     "url": "https://www.cnbcindonesia.com/market/20261102125835-17-781503/ihsg-menguat-di-sesi-i-10-saham-ini-banyak-diborong-asing",
-     "time": "2026-11-02 13:01 WIB",
-     "primary": false
-    },
-    {
-     "name": "kumparan",
-     "title": "TPIA hingga BUMI Jadi Incaran Investor Asing, AADI dan BMRI Banyak Dilepas di Sesi I",
-     "url": "https://kumparan.com/kumparanbisnis/tpia-hingga-bumi-jadi-incaran-investor-asing-aadi-dan-bmri-banyak-dilepas-di-sesi-i-28UiDNdrQR7",
-     "time": "2026-11-02 13:41 WIB",
-     "primary": false
-    },
-    {
-     "name": "investor.id",
-     "title": "2 Saham Paling Banyak Ditinggal Asing",
-     "url": "https://investor.id/market/460330/2-saham-paling-banyak-ditinggal-asing",
-     "time": "2026-11-02 13:00 WIB",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "Asing jual bersih Rp342 miliar",
-   "impact": {
-    "score": -1,
-    "why": "Bank besar dan AADI dilepas asing."
-   },
-   "date": "2026-11-02"
-  },
-  {
    "id": "MDKA-penjualan-kuartal3",
    "time": "12.39 WIB",
    "tickers": [
@@ -1336,74 +1145,6 @@
    "impact": {
     "score": 1,
     "why": "Produksi naik, tetapi dampaknya ke laba belum besar."
-   },
-   "date": "2026-11-02"
-  },
-  {
-   "id": "makro-neraca-dagang-september",
-   "time": "11.40 WIB",
-   "tickers": [],
-   "category": "news",
-   "headline": "Surplus dagang September 3,36 miliar dolar AS, jauh di atas perkiraan",
-   "summary": "Neraca dagang Indonesia September 2026 surplus 3,36 miliar dolar AS, dengan ekspor 27,59 miliar dolar AS dan impor 24,23 miliar dolar AS. Agustus surplus 3,55 miliar dolar AS. Surplus menyusut karena harga minyak naik dan membuat impor lebih mahal. Tiga ekonom memperkirakan hanya sekitar 1 sampai 1,79 miliar dolar AS.",
-   "why_it_matters": "Surplus yang besar membantu menahan pelemahan rupiah. Rupiah yang lebih stabil biasanya membuat asing lebih tenang masuk ke saham.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "CNBC Indonesia",
-     "title": "Breaking News! Neraca Dagang RI Surplus US$3,36 Miliar September 2026",
-     "url": "https://www.cnbcindonesia.com/news/20261102094835-4-781419/breaking-news-neraca-dagang-ri-surplus-us-336-miliar-september-2026",
-     "time": "2026-11-02 11:40 WIB",
-     "primary": false
-    },
-    {
-     "name": "Media Indonesia",
-     "title": "BPS Neraca Perdagangan September 2026 Surplus US3,36 Miliar",
-     "url": "https://mediaindonesia.com/ekonomi/951253/bps-neraca-perdagangan-september-2026-surplus-us336-miliar",
-     "time": "2026-11-02",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "Surplus dagang 3,36 miliar dolar AS",
-   "impact": {
-    "score": 1,
-    "why": "Surplus besar membantu rupiah."
-   },
-   "date": "2026-11-02"
-  },
-  {
-   "id": "makro-inflasi-oktober",
-   "time": "11.30 WIB",
-   "tickers": [],
-   "category": "news",
-   "headline": "Inflasi Oktober 3,23%, sedikit lebih rendah dari September",
-   "summary": "Badan Pusat Statistik mengumumkan inflasi Oktober 2026 sebesar 0,22% dibanding September dan 3,23% dibanding Oktober 2025. Pada September angkanya 3,28%. Pendorong utamanya cabai merah, cabai rawit, dan tomat. Inflasi inti, yang tidak menghitung harga pangan dan harga yang diatur pemerintah, hanya 0,12% dibanding bulan lalu.",
-   "why_it_matters": "Harga naik lebih pelan dari yang ditakutkan. Ini mengurangi tekanan bagi Bank Indonesia untuk menaikkan bunga, yang baik untuk saham.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "CNN Indonesia",
-     "title": "BPS Umumkan Inflasi Oktober 2026 Capai 3,23 Persen",
-     "url": "https://www.cnnindonesia.com/ekonomi/20261102112207-532-1422218/bps-umumkan-inflasi-oktober-2026-capai-323-persen",
-     "time": "2026-11-02 11:30 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "BPS: Inflasi Pada Oktober 2026 Turun Jadi 0,22%",
-     "url": "https://nasional.kontan.co.id/news/bps-inflasi-pada-oktober-2026-turun-jadi-022",
-     "time": "2026-11-02",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "Inflasi Oktober 3,23%",
-   "impact": {
-    "score": 0,
-    "why": "Inflasi stabil, tidak mengubah arah suku bunga."
    },
    "date": "2026-11-02"
   },
@@ -1839,7 +1580,6 @@
   "COWL": "COWELL DEVELOPMENT",
   "CSRA": "Cisadane Sawit Raya",
   "CUAN": "Petrindo Jaya Kreasi",
-  "DEWA": "Darma Henwa",
   "DFAM": "Dafam Property Indonesia",
   "DOOH": "Era Media Sejahtera",
   "DSSA": "Dian Swastatika Sentosa",
@@ -1853,7 +1593,6 @@
   "HRTA": "Hartadinata Abadi",
   "ICBP": "Indofood CBP Sukses Makmur",
   "INDF": "Indofood Sukses Makmur",
-  "INDY": "Indika Energy",
   "ITMG": "Indo Tambangraya Megah",
   "JPFA": "JAPFA Comfeed Indonesia",
   "KLBF": "Kalbe Farma",
@@ -1876,7 +1615,6 @@
   "PGEO": "Pertamina Geothermal Energy",
   "PRDA": "Prodia Widyahusada",
   "PTBA": "Bukit Asam (Persero)",
-  "PTRO": "Petrosea",
   "RATU": "Raharja Energi Cepu",
   "ROCK": "Rockfields Properti Indonesia",
   "SBAT": "Sejahtera Bintang Abadi Textile",
