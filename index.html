@@ -170,6 +170,107 @@ article .picks h2 { font: 700 15px/1.3 var(--display); color: var(--accent); mar
 .empty { color: var(--muted); padding: 40px 0; text-align: center; line-height: 1.7; }
 .empty strong { color: var(--ink); font: 700 17px var(--display); }
 footer { color: var(--muted); font-size: 12px; padding-bottom: 30px; }
+
+/* Tim: the desk's agents at work, replayed from recorded run events (ops/events.py). */
+body.team-wide .wrap { max-width: 1600px; }
+.tm-bar { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; margin-bottom: 14px; }
+.tm-bar select, .tm-bar button { font: 600 13px/1 var(--display); color: var(--ink); background: var(--paper); border: 1px solid var(--rule); border-radius: 6px; padding: 8px 10px; cursor: pointer; }
+.tm-bar #tmRun { max-width: 100%; }
+.tm-status { display: inline-flex; align-items: center; gap: 7px; font: 600 12px/1 var(--mono); text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); }
+.tm-status::before { content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--muted); }
+.tm-status.live { color: var(--down); }
+.tm-status.live::before { background: var(--down); animation: tm-blink 1.2s infinite; }
+.tm-status.done { color: var(--up); }
+.tm-status.done::before { background: var(--up); }
+.tm-ctrl { display: flex; align-items: center; gap: 8px; margin-left: auto; flex-wrap: wrap; }
+.tm-ctrl input[type=range] { width: 180px; accent-color: var(--accent); }
+.tm-clock { font: 600 13px/1 var(--mono); min-width: 74px; }
+.tm-stages { list-style: none; padding: 0; margin: 0 0 14px; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; }
+.tm-stages li { background: var(--paper); border: 1px solid var(--rule); border-radius: 8px; padding: 8px 10px; font: 700 13px/1.25 var(--display); color: var(--muted); transition: all .35s; }
+.tm-stages li small { display: block; font: 500 11px/1.3 var(--body); }
+.tm-stages li.now { border-color: var(--accent); color: var(--ink); box-shadow: inset 0 -3px 0 var(--accent); }
+.tm-stages li.past { color: var(--up); background: var(--accent-soft); border-color: transparent; }
+.tm-stages li.past small::after { content: " (selesai)"; }
+.tm-stages li.skip { opacity: .55; }
+.tm-main { display: grid; gap: 16px; }
+@media (min-width: 1100px) { .tm-main { grid-template-columns: minmax(0, 1fr) 330px; align-items: start; } }
+.tm-canvas { position: relative; background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; padding: 18px; display: grid; gap: 14px 16px;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1fr) minmax(0, 1.5fr) minmax(0, .9fr) minmax(0, .9fr) minmax(0, .85fr);
+  grid-template-areas: "sched head head head . out" "scout research debate risk pm out" "tools tools tools tools tools out"; }
+.tm-wires { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; overflow: visible; }
+.tm-wires .wire { fill: none; stroke: var(--rule); stroke-width: 1.5; }
+.tm-wires .flow { fill: none; stroke-width: 2; stroke-linecap: round; opacity: .85; }
+.tm-wires .dot { filter: drop-shadow(0 0 4px currentColor); }
+.tm-col { display: flex; flex-direction: column; gap: 10px; justify-content: center; min-width: 0; position: relative; z-index: 1; }
+.tm-node { position: relative; z-index: 1; background: var(--paper); border: 1.5px solid var(--rule); border-radius: 9px; padding: 9px 11px; min-width: 0; transition: border-color .3s, background .3s, box-shadow .3s, opacity .3s; }
+.tm-node.agent { background: color-mix(in srgb, var(--accent-soft) 55%, var(--paper)); }
+.tm-node .nm { font: 700 14px/1.2 var(--display); display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.tm-node .rl { font-size: 11.5px; color: var(--muted); line-height: 1.35; }
+.tm-node .md { font: 500 10px/1 var(--mono); color: var(--muted); border: 1px solid var(--rule); border-radius: 3px; padding: 2px 4px; text-transform: uppercase; }
+.tm-node .st { font: 600 10px/1 var(--mono); text-transform: uppercase; letter-spacing: .04em; margin-left: auto; color: var(--muted); }
+.tm-node .now { font-size: 11.5px; line-height: 1.4; margin-top: 5px; color: var(--ink); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.tm-node .now:empty { display: none; }
+.tm-node .tks { display: flex; gap: 4px; flex-wrap: wrap; margin-top: 5px; }
+.tm-node .tks span { font: 600 10px/1 var(--mono); padding: 3px 5px; border-radius: 3px; background: var(--bg); border: 1px solid var(--rule); }
+.tm-node .tks span.run { border-color: var(--accent); color: var(--accent); }
+.tm-node .tks span.ok { background: var(--accent-soft); border-color: transparent; color: var(--up); }
+.tm-node.idle { opacity: .62; }
+.tm-node.working { border-color: var(--accent); opacity: 1; animation: tm-pulse 1.8s ease-in-out infinite; }
+.tm-node.working .st { color: var(--accent); }
+.tm-node.tooling { border-color: var(--warn); }
+.tm-node.tooling .st { color: var(--warn); }
+.tm-node.done { border-color: color-mix(in srgb, var(--up) 50%, var(--rule)); opacity: 1; }
+.tm-node.done .st { color: var(--up); }
+.tm-node.failed { border-color: var(--down); }
+.tm-node.failed .st { color: var(--down); }
+.tm-node.flash { box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 28%, transparent); }
+.dots { display: inline-flex; gap: 3px; vertical-align: middle; }
+.dots i { width: 4px; height: 4px; border-radius: 50%; background: currentColor; animation: tm-dot 1.2s infinite; }
+.dots i:nth-child(2) { animation-delay: .2s; }
+.dots i:nth-child(3) { animation-delay: .4s; }
+.tm-tools { grid-area: tools; display: grid; grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 8px; border: 1.5px dashed color-mix(in srgb, var(--warn) 50%, var(--rule)); border-radius: 10px; padding: 26px 10px 10px; position: relative; }
+.tm-tools::before { content: "Alat (program Python, menghitung tanpa menilai)"; position: absolute; top: 8px; left: 12px; font: 700 10px/1 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--warn); }
+.tm-node.tool { background: color-mix(in srgb, var(--warn) 8%, var(--paper)); padding: 8px 9px; }
+.tm-node.tool .nm { font: 600 12.5px/1.2 var(--mono); }
+.tm-node.tool.tooling { animation: tm-glow 1s ease-in-out infinite; }
+.tm-res { position: absolute; left: 0; bottom: calc(100% + 8px); width: 240px; z-index: 5; background: var(--ink); color: var(--paper); font: 500 11px/1.45 var(--mono); padding: 8px 10px; border-radius: 7px; opacity: 0; pointer-events: none; transition: opacity .3s; overflow-wrap: anywhere; }
+.tm-res.show { opacity: .96; }
+.tm-node.tool:nth-last-child(-n+4) .tm-res { left: auto; right: 0; }
+.tm-res b { display: block; font-family: var(--display); margin-bottom: 3px; }
+.tm-debate { border: 1px solid var(--rule); border-radius: 8px; padding: 8px; display: flex; flex-direction: column; gap: 6px; max-height: 240px; min-height: 90px; overflow-y: auto; background: var(--bg); }
+.tm-debate .ttl { font: 700 10px/1 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--muted); text-align: center; }
+.tm-debate .empty-d { font-size: 11px; color: var(--muted); text-align: center; padding: 6px 0; }
+.bub { max-width: 92%; font-size: 11.5px; line-height: 1.4; padding: 6px 8px; border-radius: 8px; animation: tm-in .4s ease-out; }
+.bub b { display: block; font: 700 10px/1.3 var(--mono); text-transform: uppercase; }
+.bub.bull { align-self: flex-start; background: color-mix(in srgb, var(--up) 13%, var(--paper)); border-bottom-left-radius: 2px; }
+.bub.bull b { color: var(--up); }
+.bub.bear { align-self: flex-end; background: color-mix(in srgb, var(--down) 12%, var(--paper)); border-bottom-right-radius: 2px; }
+.bub.bear b { color: var(--down); }
+.bub.relay { align-self: center; background: var(--paper); border: 1px dashed var(--rule); }
+.tm-out { grid-area: out; }
+.tm-feed { background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; padding: 14px 14px 6px; }
+@media (min-width: 1100px) { .tm-feed { position: sticky; top: var(--hdr, 150px); max-height: calc(100vh - var(--hdr, 150px) - 16px); overflow-y: auto; } }
+.tm-feed h2 { font: 700 15px/1.2 var(--display); margin: 0 0 8px; }
+.tm-feed ol { list-style: none; margin: 0; padding: 0; }
+.tm-feed li { padding: 8px 0 8px 12px; border-top: 1px solid var(--rule); font-size: 13px; line-height: 1.45; position: relative; animation: tm-in .35s ease-out; }
+.tm-feed li::before { content: ""; position: absolute; left: 0; top: 13px; width: 6px; height: 6px; border-radius: 50%; background: var(--c, var(--muted)); }
+.tm-feed time { font: 600 11px/1 var(--mono); color: var(--muted); margin-right: 6px; }
+.tm-feed .q { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; overflow-wrap: anywhere; }
+.tm-note { font-size: 12.5px; color: var(--muted); margin: 12px 0 0; }
+@keyframes tm-pulse { 0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--accent) 35%, transparent); } 50% { box-shadow: 0 0 0 6px color-mix(in srgb, var(--accent) 0%, transparent); } }
+@keyframes tm-glow { 0%, 100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--warn) 40%, transparent); } 50% { box-shadow: 0 0 0 5px transparent; } }
+@keyframes tm-dot { 0%, 80%, 100% { opacity: .25; transform: translateY(0); } 40% { opacity: 1; transform: translateY(-3px); } }
+@keyframes tm-blink { 50% { opacity: .3; } }
+@keyframes tm-in { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
+@media (max-width: 899px) {
+  .tm-canvas { display: flex; flex-direction: column; }
+  .tm-wires { display: none; }
+  .tm-stages { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .tm-ctrl { margin-left: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .tm-node.working, .tm-node.tool.tooling, .dots i, .tm-status.live::before, .bub, .tm-feed li { animation: none; }
+}
 </style>
 
 <header>
@@ -179,6 +280,7 @@ footer { color: var(--muted); font-size: 12px; padding-bottom: 30px; }
       <nav class="views" aria-label="Pages">
         <a href="#news" id="v-news">Berita</a>
         <a href="#daily" id="v-daily">Harian</a>
+        <a href="#team" id="v-team">Tim</a>
       </nav>
     </div>
     <div id="dailyNav" hidden>
@@ -193,6 +295,26 @@ footer { color: var(--muted); font-size: 12px; padding-bottom: 30px; }
   <section id="dailyView" hidden>
     <div class="meta" id="meta"></div>
     <article id="doc"><p class="empty">Memuat laporan terbaru...</p></article>
+  </section>
+  <section id="teamView" hidden>
+    <div class="tm-bar">
+      <select id="tmRun" aria-label="Pilih rekaman"></select>
+      <span id="tmStatus" class="tm-status"></span>
+      <div class="tm-ctrl">
+        <button id="tmPlay" type="button">Putar</button>
+        <select id="tmSpeed" aria-label="Kecepatan"><option value="1">Kecepatan asli</option><option value="5" selected>5 kali lebih cepat</option><option value="20">20 kali lebih cepat</option><option value="60">60 kali lebih cepat</option></select>
+        <input id="tmSeek" type="range" min="0" max="1000" value="0" aria-label="Posisi waktu">
+        <span id="tmClock" class="tm-clock"></span>
+      </div>
+    </div>
+    <ol class="tm-stages" id="tmStages"></ol>
+    <div class="tm-main">
+      <div>
+        <div class="tm-canvas" id="tmCanvas"></div>
+        <p class="tm-note">Setiap gerakan di sini adalah kejadian nyata yang direkam saat desk berjalan: agen mulai dan selesai, alat dijalankan beserta hasilnya, dan pesan antar agen. Tidak ada animasi karangan. Desk pagi dan perintah nimph di Mac direkam. Shift pra-pasar dan sore berjalan di cloud, jadi belum terekam di sini.</p>
+      </div>
+      <aside class="tm-feed"><h2>Aktivitas</h2><ol id="tmFeed"></ol></aside>
+    </div>
   </section>
   <section id="newsView" hidden>
     <div id="upcoming"></div>
@@ -553,7 +675,10 @@ function setView(v) {
   document.getElementById("dailyView").hidden = v !== "daily";
   document.getElementById("newsNav").hidden = v !== "news";
   document.getElementById("newsView").hidden = v !== "news";
-  for (const k of ["news", "daily"]) {
+  document.getElementById("teamView").hidden = v !== "team";
+  document.body.classList.toggle("team-wide", v === "team");
+  if (v !== "team") { tmPause(); clearInterval(tm.poll); }
+  for (const k of ["news", "daily", "team"]) {
     const a = document.getElementById("v-" + k);
     if (k === v) a.setAttribute("aria-current", "page"); else a.removeAttribute("aria-current");
   }
@@ -683,9 +808,393 @@ async function showNews(filter) {
   setHeaderOffset();
 }
 
-// #news, #news-<category>, #daily, #<date>-<section>; no hash opens the news.
+
+// ---- Tim: the agents at work. Every animation is one recorded event of a real run (ops/events.py).
+const TM_STAGES = [
+  ["Cari", "Scout mencari saham"], ["Riset", "Tape, fundamentals, catalyst"], ["Debat", "Bull melawan bear"],
+  ["Ukur risiko", "Risk menghitung lot"], ["Putuskan", "PM memberi rating"], ["Laporan", "Ditulis dan dikirim"],
+];
+const TM_STAGE_OF = { scout: 0, tape: 1, fundamentals: 1, catalyst: 1, bull: 2, bear: 2, risk: 3, pm: 4 };
+const TM_NODES = {
+  schedule: { nm: "Jadwal", rl: "membangunkan desk sesuai jadwal" },
+  head: { nm: "Desk head", rl: "Claude utama: menjalankan siklus, membagi tugas, menulis laporan", md: "Opus" },
+  scout: { nm: "Scout", rl: "mencari 3 saham teratas", md: "Haiku" },
+  tape: { nm: "Tape", rl: "grafik dan arus dana", md: "Haiku" },
+  fundamentals: { nm: "Fundamentals", rl: "laporan keuangan", md: "Sonnet" },
+  catalyst: { nm: "Catalyst", rl: "cerita di balik berita", md: "Sonnet" },
+  bull: { nm: "Bull", rl: "argumen untuk membeli", md: "Sonnet" },
+  bear: { nm: "Bear", rl: "argumen untuk menolak", md: "Sonnet" },
+  risk: { nm: "Risk", rl: "batas rugi dan jumlah lot", md: "Sonnet" },
+  pm: { nm: "PM", rl: "rating dan tiket", md: "Opus" },
+  clock: { nm: "clock.py", rl: "pasar buka hari ini?" }, prices: { nm: "prices.py", rl: "harga saham" },
+  flow: { nm: "flow.py", rl: "arus dana asing" }, idx: { nm: "idx.py", rl: "berita dan laporan BEI" },
+  size: { nm: "size.py", rl: "jumlah lot" }, ledger: { nm: "ledger.py", rl: "menilai prediksi lama" },
+  paper: { nm: "paper.py", rl: "transaksi paper" }, web: { nm: "Web", rl: "cari dan baca berita" },
+  git: { nm: "GitHub", rl: "menyimpan hasil" },
+  notes: { nm: "Catatan analis", rl: "per saham" }, report: { nm: "Laporan", rl: "laporan harian" },
+  intel: { nm: "Catatan shift", rl: "pra-pasar dan sore" }, desk: { nm: "Tiket dan buku", rl: "tiket dan daftar pantau" },
+  telegram: { nm: "Telegram", rl: "ringkasan ke HP kamu" },
+};
+const TM_TOOLS = ["clock", "prices", "flow", "idx", "size", "ledger", "paper", "web", "git"];
+const TM_AGENTS = ["scout", "tape", "fundamentals", "catalyst", "bull", "bear", "risk", "pm"];
+const TM_OUT = ["notes", "report", "intel", "desk", "telegram"];
+const TM_WIRES = [["schedule", "head"], ["head", "scout"], ["scout", "tape"], ["scout", "fundamentals"], ["scout", "catalyst"],
+  ["tape", "bull"], ["fundamentals", "bull"], ["catalyst", "bear"], ["fundamentals", "bear"], ["bull", "risk"], ["bear", "risk"],
+  ["risk", "pm"], ["pm", "report"], ["report", "telegram"]];
+const TM_COLOR = { delegate: "var(--accent)", tool: "var(--warn)", result: "var(--warn)", message: "#8a63d2", done: "var(--up)",
+  failed: "var(--down)", write: "var(--accent)", start: "var(--muted)", end: "var(--up)", think: "var(--muted)" };
+const TM_WRITE = { notes: "catatan analis", report: "laporan harian", intel: "catatan shift", desk: "tiket dan buku", telegram: "ringkasan Telegram" };
+const NS = "http://www.w3.org/2000/svg";
+const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
+let tm = { runs: null, run: null, data: null, i: 0, cursor: 0, playing: false, speed: 5, last: 0, poll: null, st: null };
+
+function tmName(id) { return TM_NODES[id]?.nm || id; }
+function tmTime(t) { return new Date(t + 7 * 3600e3).toISOString().slice(11, 19).replace(/:/g, "."); }
+const $t = id => document.getElementById(id);
+
+function tmNodeHtml(id, cls = "") {
+  const n = TM_NODES[id];
+  return `<div class="tm-node ${cls} idle" id="tn-${id}"><div class="nm">${n.nm}${n.md ? `<span class="md">${n.md}</span>` : ""}<span class="st"></span></div>` +
+    `<div class="rl">${n.rl}</div><div class="tks"></div><div class="now"></div>${cls === "tool" ? `<div class="tm-res"></div>` : ""}</div>`;
+}
+
+function tmBuild() {
+  const c = $t("tmCanvas");
+  if (c.dataset.built) return;
+  c.dataset.built = 1;
+  c.innerHTML = `<svg class="tm-wires" id="tmWires" aria-hidden="true"></svg>
+    <div class="tm-col" style="grid-area:sched">${tmNodeHtml("schedule")}</div>
+    <div class="tm-col" style="grid-area:head">${tmNodeHtml("head", "agent")}</div>
+    <div class="tm-col" style="grid-area:scout">${tmNodeHtml("scout", "agent")}</div>
+    <div class="tm-col" style="grid-area:research">${["tape", "fundamentals", "catalyst"].map(a => tmNodeHtml(a, "agent")).join("")}</div>
+    <div class="tm-col" style="grid-area:debate">${tmNodeHtml("bull", "agent")}<div class="tm-debate" id="tmDebate"></div>${tmNodeHtml("bear", "agent")}</div>
+    <div class="tm-col" style="grid-area:risk">${tmNodeHtml("risk", "agent")}</div>
+    <div class="tm-col" style="grid-area:pm">${tmNodeHtml("pm", "agent")}</div>
+    <div class="tm-col tm-out">${TM_OUT.map(id => tmNodeHtml(id)).join("")}</div>
+    <div class="tm-tools">${TM_TOOLS.map(id => tmNodeHtml(id, "tool")).join("")}</div>`;
+  $t("tmStages").innerHTML = TM_STAGES.map(([a, b], i) => `<li id="ts-${i}">${i + 1}. ${a}<small>${b}</small></li>`).join("");
+  $t("tmPlay").onclick = () => tm.playing ? tmPause() : tmPlay();
+  $t("tmSpeed").onchange = e => { tm.speed = +e.target.value; };
+  $t("tmSeek").oninput = e => tmSeek(tm.data.started + (tm.data.updated - tm.data.started) * e.target.value / 1000);
+  $t("tmRun").onchange = e => { location.hash = "team-" + e.target.value; };
+  addEventListener("resize", tmWires);
+}
+
+// Edge points between two nodes, relative to the canvas.
+function tmPath(a, b) {
+  const c = $t("tmCanvas"), na = $t("tn-" + a), nb = $t("tn-" + b);
+  if (!na || !nb || !c.offsetParent) return null;
+  const R = c.getBoundingClientRect(), A = na.getBoundingClientRect(), B = nb.getBoundingClientRect();
+  const ax = A.left + A.width / 2 - R.left, ay = A.top + A.height / 2 - R.top;
+  const bx = B.left + B.width / 2 - R.left, by = B.top + B.height / 2 - R.top;
+  if (Math.abs(bx - ax) > Math.abs(by - ay)) {
+    const s = bx > ax ? 1 : -1, x1 = ax + s * A.width / 2, x2 = bx - s * B.width / 2, m = (x1 + x2) / 2;
+    return `M${x1},${ay} C${m},${ay} ${m},${by} ${x2},${by}`;
+  }
+  const s = by > ay ? 1 : -1, y1 = ay + s * A.height / 2, y2 = by - s * B.height / 2, m = (y1 + y2) / 2;
+  return `M${ax},${y1} C${ax},${m} ${bx},${m} ${bx},${y2}`;
+}
+
+function tmWires() {
+  const svg = $t("tmWires");
+  if (!svg) return;
+  svg.querySelectorAll(".wire").forEach(w => w.remove());
+  for (const [a, b] of TM_WIRES) {
+    const d = tmPath(a, b);
+    if (!d) continue;
+    const p = document.createElementNS(NS, "path");
+    p.setAttribute("d", d);
+    p.setAttribute("class", "wire");
+    svg.prepend(p);
+  }
+}
+
+function tmFlash(id) {
+  const n = $t("tn-" + id);
+  if (!n) return;
+  n.classList.add("flash");
+  setTimeout(() => n.classList.remove("flash"), 500);
+}
+
+// One moving dot along the path from a to b: a delegation, a tool call, a result, a message.
+function tmFlow(a, b, color, then) {
+  const svg = $t("tmWires"), d = reduced ? null : tmPath(a, b);
+  if (!d || svg.querySelectorAll(".dot").length > 14) { tmFlash(b); then && then(); return; }
+  const p = document.createElementNS(NS, "path"), c = document.createElementNS(NS, "circle");
+  p.setAttribute("d", d); p.setAttribute("class", "flow"); p.style.stroke = color;
+  c.setAttribute("r", 5); c.setAttribute("class", "dot"); c.style.fill = color; c.style.color = color;
+  svg.append(p, c);
+  const len = p.getTotalLength(), t0 = performance.now(), dur = Math.max(350, 900 / Math.sqrt(tm.speed));
+  p.style.strokeDasharray = len; p.style.strokeDashoffset = len;
+  (function step(now) {
+    const k = Math.min(1, (now - t0) / dur), e = k < .5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2, pt = p.getPointAtLength(e * len);
+    c.setAttribute("cx", pt.x); c.setAttribute("cy", pt.y); p.style.strokeDashoffset = len * (1 - e);
+    if (k < 1) return requestAnimationFrame(step);
+    c.remove(); tmFlash(b); p.style.transition = "opacity .7s"; p.style.opacity = 0; setTimeout(() => p.remove(), 800);
+    then && then();
+  })(t0);
+}
+
+function tmShowResult(tool, text) {
+  const box = $t("tn-" + tool)?.querySelector(".tm-res");
+  if (!box || reduced) return;
+  box.innerHTML = `<b>Hasil ${esc(tmName(tool))}</b>${esc(text.slice(0, 160)) || "(kosong)"}`;
+  box.classList.add("show");
+  clearTimeout(box._t);
+  box._t = setTimeout(() => box.classList.remove("show"), Math.max(900, 2600 / Math.sqrt(tm.speed)));
+}
+
+function tmReset() {
+  tm.st = { inst: {}, now: {}, pending: {}, used: {}, wrote: {}, debate: [], seen: new Set(), stage: -1, started: false, ended: false, failed: false, model: null };
+  tm.i = 0;
+  $t("tmFeed").innerHTML = "";
+}
+
+function tmApply(e, anim) {
+  const s = tm.st, col = TM_COLOR[e.kind];
+  // An agent's last words and its finish summary are often the same text: show it once.
+  s.debate.push = function (d) { const l = this[this.length - 1]; if (!l || l.text !== d.text) Array.prototype.push.call(this, d); };
+  const node = id => TM_NODES[id] ? id : "head";
+  switch (e.kind) {
+    case "start":
+      s.started = true; s.model = e.detail;
+      anim && tmFlow("schedule", "head", col);
+      break;
+    case "delegate":
+      s.inst[e.inst] = { agent: e.to, ticker: e.ticker, status: "running", tools: 0 };
+      s.now[e.to] = (e.ticker ? e.ticker + ": " : "") + e.text;
+      if (e.to in TM_STAGE_OF) { s.stage = Math.max(s.stage, TM_STAGE_OF[e.to]); s.seen.add(TM_STAGE_OF[e.to]); }
+      anim && tmFlow(node(e.frm), node(e.to), col);
+      break;
+    case "think":
+      s.now[e.frm] = e.text;
+      if (e.frm === "bull" || e.frm === "bear") s.debate.push({ who: e.frm, text: e.text, ticker: e.ticker });
+      break;
+    case "tool":
+      s.pending[e.to] = (s.pending[e.to] || 0) + 1;
+      if (s.inst[e.inst]) s.inst[e.inst].tools++;
+      s.now[e.frm] = e.to === "web" ? "Mencari: " + e.text : e.to === "git" ? "Menyimpan ke GitHub" : `Menjalankan ${tmName(e.to)} ${e.text}`;
+      anim && tmFlow(node(e.frm), e.to, col);
+      break;
+    case "result":
+      s.pending[e.frm] = Math.max(0, (s.pending[e.frm] || 0) - 1);
+      if (s.inst[e.inst]) s.inst[e.inst].tools = Math.max(0, s.inst[e.inst].tools - 1);
+      s.used[e.frm] = e.text;
+      if (anim) { tmShowResult(e.frm, e.text); tmFlow(e.frm, node(e.to), col); }
+      break;
+    case "message":
+      s.now[e.to] = "Menerima pesan" + (e.via ? " berisi argumen " + tmName(e.via) : "");
+      if (e.to === "bull" || e.to === "bear") s.debate.push({ who: "relay", via: e.via, to: e.to, text: e.text, ticker: e.ticker });
+      if (anim) e.via ? tmFlow(e.via, "head", col, () => tmFlow("head", e.to, col)) : tmFlow(node(e.frm), node(e.to), col);
+      break;
+    case "done":
+    case "failed":
+      if (s.inst[e.inst]) s.inst[e.inst].status = e.kind;
+      s.now[e.frm] = e.text;
+      if (e.frm === "bull" || e.frm === "bear") s.debate.push({ who: e.frm, text: e.text, ticker: e.ticker });
+      anim && tmFlow(node(e.frm), "head", col);
+      break;
+    case "write":
+      s.wrote[e.to] = (s.wrote[e.to] || 0) + 1;
+      if (["report", "intel", "telegram"].includes(e.to)) { s.stage = Math.max(s.stage, 5); s.seen.add(5); }
+      anim && tmFlow(node(e.frm), e.to, col);
+      break;
+    case "end":
+      s.ended = true; s.failed = /gagal/i.test(e.text);
+      anim && tmFlow("head", "report", col);
+      break;
+  }
+}
+
+function tmLine(e) {
+  const b = id => `<b>${esc(tmName(id))}</b>`, tk = e.ticker ? ` untuk ${esc(e.ticker)}` : "";
+  let main = "", q = e.text;
+  switch (e.kind) {
+    case "start": main = "Desk dibangunkan oleh jadwal"; q = e.detail ? "Model: " + e.detail : ""; break;
+    case "delegate": main = `${b(e.frm)} menugaskan ${b(e.to)}${tk}`; break;
+    case "think": main = `${b(e.frm)} berpikir`; break;
+    case "tool": main = e.to === "web" ? `${b(e.frm)} mencari di web` : e.to === "git" ? `${b(e.frm)} menyimpan ke GitHub` : `${b(e.frm)} menjalankan ${b(e.to)}`; break;
+    case "result": main = e.frm === "web" ? `Hasil web diterima ${b(e.to)}` : `${b(e.frm)} mengirim hasil ke ${b(e.to)}`; break;
+    case "message": main = e.via ? `${b("head")} meneruskan argumen ${b(e.via)} ke ${b(e.to)}` : `${b(e.frm)} mengirim pesan ke ${b(e.to)}`; break;
+    case "done": main = `${b(e.frm)} selesai${tk}`; break;
+    case "failed": main = `${b(e.frm)} gagal${tk}`; break;
+    case "write": main = `${b(e.frm)} menulis ${TM_WRITE[e.to] || "file"}`; q = ""; break;
+    case "end": main = esc(e.text); q = e.detail; break;
+  }
+  return `<li style="--c:${TM_COLOR[e.kind]}"><time>${tmTime(e.t)}</time>${main}${q ? `<span class="q">${esc(q)}</span>` : ""}</li>`;
+}
+
+function tmFeed(lines, prepend) {
+  const f = $t("tmFeed");
+  if (prepend) f.insertAdjacentHTML("afterbegin", lines.reverse().join(""));
+  else f.innerHTML = lines.reverse().join("");
+  while (f.children.length > 160) f.lastElementChild.remove();
+}
+
+function tmRender() {
+  const s = tm.st;
+  const set = (id, cls, st, tks, now) => {
+    const n = $t("tn-" + id);
+    if (!n) return;
+    n.className = n.className.replace(/\b(idle|working|tooling|done|failed)\b/g, "").trim() + " " + cls;
+    n.querySelector(".st").innerHTML = st;
+    n.querySelector(".tks").innerHTML = tks || "";
+    n.querySelector(".now").textContent = now || "";
+  };
+  const thinking = `berpikir <span class="dots"><i></i><i></i><i></i></span>`;
+  for (const a of TM_AGENTS) {
+    const all = Object.values(s.inst).filter(x => x.agent === a), run = all.filter(x => x.status === "running");
+    const tks = all.filter(x => x.ticker).map(x => `<span class="${x.status === "running" ? "run" : x.status === "done" ? "ok" : ""}">${esc(x.ticker)}</span>`).join("");
+    if (run.length) {
+      const tool = run.some(x => x.tools > 0);
+      set(a, tool ? "working tooling" : "working", (tool ? "memakai alat" : thinking) + (run.length > 1 ? ` (${run.length})` : ""), tks, s.now[a]);
+    } else if (all.length) set(a, all.some(x => x.status === "failed") ? "failed" : "done", all.some(x => x.status === "failed") ? "gagal" : "selesai", tks, s.now[a]);
+    else set(a, "idle", "menunggu", "", "");
+  }
+  const headRun = s.started && !s.ended;
+  set("head", headRun ? "working" : s.ended ? (s.failed ? "failed" : "done") : "idle",
+    headRun ? (Object.values(s.inst).some(x => x.status === "running") ? "mengawasi" : thinking) : s.ended ? (s.failed ? "gagal" : "selesai") : "menunggu", "", s.now.head);
+  const md = $t("tn-head").querySelector(".md");
+  const m = (s.model || "").match(/opus|sonnet|haiku|fable/i);
+  if (md && m) md.textContent = m[0][0].toUpperCase() + m[0].slice(1).toLowerCase();
+  set("schedule", s.started ? "done" : "idle", s.started ? "selesai" : "menunggu");
+  for (const t of TM_TOOLS) {
+    const p = s.pending[t] || 0;
+    set(t, p ? "working tooling" : s.used[t] != null ? "done" : "idle", p ? "berjalan" : s.used[t] != null ? "dipakai" : "", "", "");
+  }
+  for (const o of TM_OUT) set(o, s.wrote[o] ? "done" : "idle", s.wrote[o] ? `ditulis ${s.wrote[o]} kali` : "", "", "");
+  const running = Object.values(s.inst).filter(x => x.status === "running").map(x => TM_STAGE_OF[x.agent]).filter(x => x != null);
+  const cur = s.ended ? 6 : running.length ? Math.max(...running) : s.stage;
+  // A stage counts as done only if one of its agents actually ran in this run.
+  TM_STAGES.forEach((_, i) => { $t("ts-" + i).className = s.seen.has(i) && (i < cur || s.ended) ? "past" : i === cur && !s.ended ? "now" : ""; });
+  const deb = s.debate.slice(-6);
+  $t("tmDebate").innerHTML = `<div class="ttl">Debat</div>` + (deb.length ? deb.map(d => d.who === "relay"
+    ? `<div class="bub relay"><b>Desk head ke ${esc(tmName(d.to))}</b>${d.via ? "Meneruskan argumen " + esc(tmName(d.via)) + ": " : ""}${esc(d.text.slice(0, 160))}</div>`
+    : `<div class="bub ${d.who}"><b>${esc(tmName(d.who))}${d.ticker ? ", " + esc(d.ticker) : ""}</b>${esc(d.text.slice(0, 200))}</div>`).join("")
+    : `<div class="empty-d">Belum ada debat di run ini.</div>`);
+  const box = $t("tmDebate");
+  box.scrollTop = box.scrollHeight;
+}
+
+function tmClock() {
+  const d = tm.data;
+  if (!d || !d.events.length) { $t("tmClock").textContent = ""; return; }
+  const span = Math.max(1, d.updated - d.started);
+  $t("tmSeek").value = Math.round(1000 * Math.min(1, Math.max(0, (tm.cursor - d.started) / span)));
+  $t("tmClock").textContent = tmTime(Math.min(tm.cursor, d.updated)) + " WIB";
+}
+
+function tmStep(now) {
+  if (!tm.playing || !tm.data) return;
+  const ev = tm.data.events, dt = Math.min(200, now - (tm.last || now));
+  tm.last = now;
+  if (tm.i >= ev.length) {
+    if (tm.data.status !== "running") { tmPause(); tmClock(); return; }
+    return requestAnimationFrame(tmStep);
+  }
+  // Catch up when a live run is far ahead of the replay; skip quiet stretches either way.
+  const lag = ev[ev.length - 1].t - tm.cursor, speed = tm.data.status === "running" ? Math.max(tm.speed, lag / 45000) : tm.speed;
+  tm.cursor += dt * speed;
+  if (ev[tm.i].t - tm.cursor > 2500) tm.cursor = ev[tm.i].t - 250;
+  const lines = [];
+  let n = 0;
+  while (tm.i < ev.length && ev[tm.i].t <= tm.cursor) {
+    tmApply(ev[tm.i], n < 6);
+    lines.push(tmLine(ev[tm.i]));
+    tm.i++; n++;
+  }
+  if (n) { tmRender(); tmFeed(lines, true); }
+  tmClock();
+  requestAnimationFrame(tmStep);
+}
+
+function tmPlay() {
+  if (!tm.data?.events.length) return;
+  if (tm.i >= tm.data.events.length && tm.data.status !== "running") tmSeek(tm.data.started);
+  tm.playing = true; tm.last = 0;
+  $t("tmPlay").textContent = "Jeda";
+  requestAnimationFrame(tmStep);
+}
+
+function tmPause() {
+  tm.playing = false;
+  if ($t("tmPlay")) $t("tmPlay").textContent = "Putar";
+}
+
+function tmSeek(t) {
+  tmReset();
+  const ev = tm.data.events, lines = [];
+  while (tm.i < ev.length && ev[tm.i].t <= t) { tmApply(ev[tm.i], false); lines.push(tmLine(ev[tm.i])); tm.i++; }
+  tm.cursor = t;
+  tmFeed(lines.slice(-160), false);
+  tmRender();
+  tmClock();
+}
+
+function tmStatus() {
+  const s = $t("tmStatus"), d = tm.data;
+  const live = d && d.status === "running";
+  s.className = "tm-status" + (live ? " live" : d && d.status === "done" ? " done" : "");
+  s.textContent = !d ? "Belum ada rekaman" : live ? "Sedang berjalan (tertunda sekitar 2 menit)" : d.status === "done" ? "Selesai, bisa diputar ulang" : "Berhenti dengan galat";
+}
+
+async function tmLoad(file) {
+  const r = await fetch(file, { cache: "no-store" });
+  return r.json();
+}
+
+async function showTeam(key) {
+  setView("team");
+  tmBuild();
+  if (!tm.runs) {
+    try { tm.runs = await tmLoad("data/events/index.json"); } catch (e) { tm.runs = []; }
+  }
+  const sel = $t("tmRun");
+  sel.innerHTML = tm.runs.map(r => {
+    const f = fmtDay(r.date), lab = SHIFTS.find(x => x[0] === r.shift)?.[1] || r.shift;
+    const st = r.status === "running" ? "sedang berjalan" : r.status === "done" ? "selesai" : "galat";
+    return `<option value="${r.date}-${r.shift}">${f.long} ${f.label}, ${lab}${r.demo ? " (demo)" : ""}, ${st}, ${r.steps} langkah</option>`;
+  }).join("") || `<option>Belum ada rekaman</option>`;
+  const run = tm.runs.find(r => `${r.date}-${r.shift}` === key) || tm.runs[0];
+  clearInterval(tm.poll);
+  tmPause();
+  if (!run) {
+    tm.data = null; tmReset(); tmRender(); tmStatus(); tmClock(); tmWires(); setHeaderOffset();
+    $t("tmFeed").innerHTML = `<li>Belum ada rekaman. Rekaman pertama dibuat otomatis saat desk pagi berjalan di Mac (pukul 07.30 WIB hari kerja), atau saat perintah nimph dijalankan.</li>`;
+    return;
+  }
+  sel.value = `${run.date}-${run.shift}`;
+  tm.run = run;
+  try { tm.data = await tmLoad(run.file); } catch (e) { tm.data = null; }
+  tmStatus();
+  setHeaderOffset();
+  if (!tm.data?.events.length) { tmReset(); tmRender(); tmWires(); return; }
+  requestAnimationFrame(() => {
+    tmWires();
+    if (tm.data.status === "running") {
+      // Live: show where the run is, minus the last minute, then play into the present.
+      const ev = tm.data.events;
+      tmSeek(Math.max(tm.data.started, ev[ev.length - 1].t - 60000));
+      tmPlay();
+      tm.poll = setInterval(async () => {
+        try {
+          const d = await tmLoad(run.file + "?t=" + Date.now());
+          if (d.events.length >= tm.data.events.length) { tm.data = d; tmStatus(); if (!tm.playing && d.events.length > tm.i) tmPlay(); }
+          if (d.status !== "running") clearInterval(tm.poll);
+        } catch (e) { /* the next poll tries again */ }
+      }, 20000);
+    } else {
+      tmSeek(tm.data.started);
+      tmPlay();
+    }
+  });
+}
+
+// #news, #news-<category>, #daily, #<date>-<section>, #team, #team-<date>-<shift>; no hash opens the news.
 function route() {
   const h = location.hash.slice(1);
+  const tmm = h.match(/^team(?:-(.+))?$/);
+  if (tmm) return showTeam(tmm[1]);
   const d = h.match(/^(\d{4}-\d{2}-\d{2})-(\w+)$/);
   if (d) return go(d[1], d[2]);
   if (h === "daily") return go(null, null);
