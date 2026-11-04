@@ -1,5 +1,15 @@
 [
  {
+  "date": "2026-11-04",
+  "shift": "plan",
+  "file": "data/events/2026-11-04-plan.json",
+  "status": "running",
+  "demo": false,
+  "started": null,
+  "updated": null,
+  "steps": 0
+ },
+ {
   "date": "2026-11-03",
   "shift": "plan",
   "file": "data/events/2026-11-03-plan.json",
