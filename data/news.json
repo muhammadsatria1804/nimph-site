@@ -1,6 +1,510 @@
 {
  "items": [
   {
+   "id": "emas-tembus-4000-dolar",
+   "time": "21.05 WIB",
+   "tickers": [
+    "ANTM",
+    "MDKA",
+    "BRMS",
+    "AMMN"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Emas naik ke atas 4.000 dolar",
+   "impact": {
+    "score": 1,
+    "why": "Harga emas yang naik membantu pendapatan penambang emas, tetapi baru satu hari."
+   },
+   "headline": "Harga emas naik lebih dari 2% ke atas 4.000 dolar AS per ons",
+   "summary": "Pada Rabu 4 November emas berjangka naik 2,86% ke 4.052,90 dolar AS per ons, menurut TheStreet pukul 09.05 waktu New York. Perak naik 4,94%. Emas naik karena dolar dan imbal hasil obligasi Amerika turun. Kenaikan ini mendukung saham tambang emas di Indonesia.",
+   "why_it_matters": "Saham emas seperti ANTM punya angin tambahan hari ini. Cek dulu apakah harganya sudah naik terlalu jauh.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "TheStreet",
+     "title": "Stock Market Today (Nov. 4, 2026): Stocks rise, oil collapses after Dems sweep midterm elections",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026",
+     "time": "2026-11-04 21:05 WIB",
+     "primary": false
+    },
+    {
+     "name": "investor.id",
+     "title": "Prediksi IHSG dan Rekomendasi Saham Kamis, 5 November 2026",
+     "url": "https://investor.id/market/460717/prediksi-ihsg-dan-rekomendasi-saham-kamis-5-november-2026",
+     "time": "2026-11-04 19:00 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
+   "id": "hormuz-empat-tanker-ranjau",
+   "time": "21.00 WIB",
+   "tickers": [],
+   "category": "issue",
+   "scope": "market",
+   "short": "Empat tanker terbakar kena ranjau di Hormuz",
+   "impact": {
+    "score": 0,
+    "why": "Risiko ini bisa membuat minyak naik lagi, arahnya belum jelas."
+   },
+   "headline": "Iran sebut empat kapal tanker terbakar kena ranjau di Selat Hormuz",
+   "summary": "Garda Revolusi Iran menyatakan pada Rabu 4 November bahwa empat kapal tanker minyak terbakar setelah menabrak ranjau di Selat Hormuz. Kabar ini muncul di tengah harapan damai Amerika dan Iran setelah pemilu sela. Pemimpin tertinggi Iran juga menyatakan permusuhan dengan Amerika akan berlanjut, siapa pun partai yang berkuasa. Klaim tanker ini baru dari pihak Iran.",
+   "why_it_matters": "Harga minyak bisa berbalik naik cepat. Saham energi bisa bergerak liar ke dua arah.",
+   "status": "unconfirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "TheStreet",
+     "title": "Stock Market Today (Nov. 4, 2026): Stocks rise, oil collapses after Dems sweep midterm elections",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026",
+     "time": "2026-11-04 19:36 WIB",
+     "primary": false
+    },
+    {
+     "name": "OilPrice",
+     "title": "Iran Says Four Oil Tankers Destroyed by Mines Near Strait of Hormuz",
+     "url": "https://oilprice.com/Latest-Energy-News/World-News/Iran-Says-Four-Oil-Tankers-Destroyed-by-Mines-Near-Strait-of-Hormuz.html",
+     "time": "2026-11-04",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
+   "id": "rupiah-18168-proyeksi-5nov",
+   "time": "19.37 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Rupiah Rp18.168, dolar melemah",
+   "impact": {
+    "score": 0,
+    "why": "Rupiah hampir tidak bergerak, tetapi dolar yang melemah bisa membantu."
+   },
+   "headline": "Rupiah ditutup Rp18.168 per dolar, perkiraan hari ini Rp18.050 sampai Rp18.200",
+   "summary": "Pada Rabu 4 November rupiah ditutup Rp18.168 per dolar AS, melemah 0,04%. Kurs acuan Bank Indonesia (JISDOR) Rp18.140, menguat Rp8. Indeks dolar turun ke level terendah dalam lima pekan. HFX International Berjangka memperkirakan rupiah bergerak di Rp18.050 sampai Rp18.200 hari ini, tergantung data ekonomi kuartal ketiga.",
+   "why_it_matters": "Rupiah yang menguat biasanya membuat asing lebih mau membeli saham Indonesia.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Dolar AS di Level Terendah Lima Pekan, Rupiah Masih Melemah Simak Proyeksi (5/11)",
+     "url": "https://investasi.kontan.co.id/news/dolar-as-di-level-terendah-lima-pekan-rupiah-masih-melemah-simak-proyeksi-511",
+     "time": "2026-11-04 19:37 WIB",
+     "primary": false
+    },
+    {
+     "name": "investor.id",
+     "title": "Prediksi IHSG dan Rekomendasi Saham Kamis, 5 November 2026",
+     "url": "https://investor.id/market/460717/prediksi-ihsg-dan-rekomendasi-saham-kamis-5-november-2026",
+     "time": "2026-11-04 19:00 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
+   "id": "UNTR-JPFA-cum-dividen-5nov",
+   "time": "19.00 WIB",
+   "tickers": [
+    "UNTR",
+    "JPFA"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Hari terakhir beli untuk dapat dividen",
+   "impact": {
+    "score": 1,
+    "why": "Dividen tunai menambah hasil, tetapi harga biasanya turun sebesar dividen besok."
+   },
+   "impacts": {
+    "UNTR": 1,
+    "JPFA": 1
+   },
+   "headline": "Hari ini hari terakhir beli UNTR dan JPFA supaya dapat dividen",
+   "summary": "Kamis 5 November adalah hari terakhir beli (cum date) untuk dividen interim UNTR Rp430 per saham dan dividen JPFA Rp90 per saham. Mulai Jumat 6 November (ex date) harga biasanya turun kira-kira sebesar dividennya. Asing menjual bersih UNTR Rp25 miliar pada Rabu.",
+   "why_it_matters": "Membeli hari ini hanya untuk dividen jarang menguntungkan, karena harga turun besok dan ada potongan pajak dividen.",
+   "status": "confirmed",
+   "event_date": "2026-11-05",
+   "sources": [
+    {
+     "name": "Katadata",
+     "title": "14 Emiten Tebar Dividen November 2026, ITMG hingga UNTR Cek Jadwal dan Nilainya",
+     "url": "https://katadata.co.id/finansial/bursa/6ae959331006b/14-emiten-tebar-dividen-november-2026-itmg-hingga-untr-cek-jadwal-dan-nilainya",
+     "time": "2026-11-03",
+     "primary": false
+    },
+    {
+     "name": "Fortune IDN",
+     "title": "Daftar Saham Bagi Dividen November 2026, Cek Jadwal dan Nilainya",
+     "url": "https://www.fortuneidn.com/market/daftar-saham-bagi-dividen-november-2026-d7w02-00-lflgw-yfqz01",
+     "time": "2026-11-03",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
+   "id": "ANTM-laba-9bulan-naik-479",
+   "time": "18.34 WIB",
+   "tickers": [
+    "ANTM"
+   ],
+   "category": "news",
+   "scope": "company",
+   "short": "Laba sembilan bulan naik 47,9%",
+   "impact": {
+    "score": 1,
+    "why": "Laba naik besar, tetapi kuartal ketiga melemah, harga sudah naik 8,33% dan baru satu media yang terbaca."
+   },
+   "headline": "Laba ANTM sembilan bulan pertama 2026 naik 47,9% ke Rp8,84 triliun",
+   "summary": "Pendapatan ANTM sembilan bulan pertama 2026 Rp88,48 triliun, naik 22,8% dibanding setahun sebelumnya. Laba bersih Rp8,84 triliun, naik 47,9%. Tetapi kuartal ketiga saja lebih lemah dari kuartal kedua: pendapatan turun 22,8% ke Rp25,77 triliun dan laba turun 17,9% ke Rp2,45 triliun. Samuel Sekuritas mempertahankan saran beli dengan target Rp4.000. Asing membeli bersih ANTM Rp53 miliar pada Rabu dan harga emas naik ke atas 4.000 dolar AS.",
+   "why_it_matters": "ANTM punya alasan kuat untuk naik, tetapi sudah naik tajam kemarin. Beli setelah naik tajam berisiko kalau ada aksi ambil untung.",
+   "status": "unconfirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Laba ANTM Melonjak 47,9% hingga September 2026, Simak Prospeknya",
+     "url": "https://investasi.kontan.co.id/news/laba-antm-melonjak-479-hingga-september-2026-simak-prospeknya",
+     "time": "2026-11-04 18:34 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
+   "id": "asing-net-buy-sehari-4nov",
+   "time": "17.59 WIB",
+   "tickers": [
+    "BBCA",
+    "ANTM",
+    "ASII",
+    "BMRI",
+    "BRPT"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Asing beli bersih Rp264,64 miliar",
+   "impact": {
+    "score": 1,
+    "why": "Asing berhenti menjual untuk satu hari, tanda awal tekanan mereda tetapi belum pasti berlanjut."
+   },
+   "headline": "Asing beli bersih Rp264,64 miliar sepanjang Rabu, BBCA paling diburu",
+   "summary": "Pada Rabu 4 November asing membeli Rp4,10 triliun dan menjual Rp3,83 triliun, jadi beli bersih Rp264,64 miliar. Saham yang paling banyak dibeli asing: BBCA Rp133 miliar, ANTM Rp53 miliar, ASII Rp36 miliar, TINS Rp26 miliar, dan TLKM Rp25 miliar. Yang paling banyak dijual: BMRI Rp97 miliar, TPIA Rp28 miliar, GOTO Rp25 miliar, UNTR Rp25 miliar, dan BRPT Rp22 miliar. Sehari sebelumnya asing masih jual bersih sekitar Rp575 miliar.",
+   "why_it_matters": "Kalau asing terus membeli beberapa hari, itu tanda pasar bisa berhenti turun. Satu hari saja belum cukup.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Katadata",
+     "title": "Asing Catat Net Buy Rp 265 Miliar saat IHSG Berbalik Menguat 0,32%",
+     "url": "https://katadata.co.id/finansial/bursa/6aeb0ff8882d1/asing-catat-net-buy-rp-265-miliar-saat-ihsg-berbalik-menguat-0-32",
+     "time": "2026-11-04 17:59 WIB",
+     "primary": false
+    },
+    {
+     "name": "investor.id",
+     "title": "Asing Mendadak Ramai Serok Saham BBCA",
+     "url": "https://investor.id/market/460658/asing-mendadak-ramai-serok-saham-bbca",
+     "time": "2026-11-04",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
+   "id": "BBCA-diborong-asing-133miliar",
+   "time": "17.59 WIB",
+   "tickers": [
+    "BBCA"
+   ],
+   "category": "news",
+   "scope": "company",
+   "short": "Paling banyak dibeli asing, Rp133 miliar",
+   "impact": {
+    "score": 1,
+    "why": "Pembelian asing mendukung harga, tetapi tidak mengubah laba perusahaan."
+   },
+   "headline": "Asing borong BBCA Rp133 miliar, analis lihat peluang pantulan",
+   "summary": "Pada Rabu 4 November BBCA menjadi saham yang paling banyak dibeli asing, Rp133 miliar sepanjang hari. Mandiri Sekuritas menyarankan beli spekulatif dengan level penahan turun Rp4.880 dan penahan naik Rp5.000. BRI Danareksa Sekuritas memberi target Rp5.000 sampai Rp5.275. Analis mencatat tanda pantulan, tetapi tekanan turun belum hilang.",
+   "why_it_matters": "Saham bank besar biasanya pulih lebih dulu kalau asing kembali. Tunggu harga bertahan di atas Rp5.000.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Katadata",
+     "title": "Asing Catat Net Buy Rp 265 Miliar saat IHSG Berbalik Menguat 0,32%",
+     "url": "https://katadata.co.id/finansial/bursa/6aeb0ff8882d1/asing-catat-net-buy-rp-265-miliar-saat-ihsg-berbalik-menguat-0-32",
+     "time": "2026-11-04 17:59 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Simak Rekomendasi Saham BRPT, CPIN, dan BBCA untuk Perdagangan Kamis (5/11)",
+     "url": "https://investasi.kontan.co.id/news/simak-rekomendasi-saham-brpt-cpin-dan-bbca-untuk-perdagangan-kamis-511",
+     "time": "2026-11-05 06:05 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
+   "id": "BRPT-TPIA-tertekan-msci",
+   "time": "11.43 WIB",
+   "tickers": [
+    "BRPT",
+    "BRMS",
+    "CUAN",
+    "TPIA"
+   ],
+   "category": "issue",
+   "scope": "company",
+   "short": "Terancam keluar indeks MSCI 12 November",
+   "impact": {
+    "score": -1,
+    "why": "Kalau keluar dari indeks, dana asing yang mengikuti indeks wajib menjual, tetapi ini masih perkiraan analis."
+   },
+   "impacts": {
+    "BRPT": -1,
+    "BRMS": -1,
+    "CUAN": -1,
+    "TPIA": -1
+   },
+   "headline": "BRPT terancam dikeluarkan dan BRMS terancam turun kelas di indeks MSCI",
+   "summary": "MSCI mengumumkan hasil peninjauan indeks November pada Kamis 12 November dini hari WIB, berlaku 1 Desember 2026. Mirae Asset Sekuritas memperkirakan BRPT bisa dikeluarkan dari indeks MSCI Standard. BRMS diperkirakan turun ke kelompok indeks yang lebih kecil karena harganya di bawah Rp440 hampir sepanjang 19 sampai 30 Oktober. BRPT turun 6,70% ke Rp975 pada Rabu dan dijual asing Rp22 miliar. Mirae menyarankan tunggu dulu untuk BRPT, dengan area teknikal Rp985 sampai Rp1.130.",
+   "why_it_matters": "Saham grup Prajogo, termasuk CUAN, bisa terus tertekan sampai pengumuman. Lebih aman menunggu hasilnya.",
+   "status": "unconfirmed",
+   "event_date": "2026-11-12",
+   "sources": [
+    {
+     "name": "Warta Finansial (mengutip Mirae Asset Sekuritas)",
+     "title": "MSCI Review Diumumkan Besok, BRMS dan BRPT Berisiko Terdepak dari Indeks",
+     "url": "https://wartafinansial.com/detail/805086/msci-review-diumumkan-besok-brms-dan-brpt-berisiko-terdepak-dari-indeks",
+     "time": "2026-11-04 11:43 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Simak Rekomendasi Saham BRPT, CPIN, dan BBCA untuk Perdagangan Kamis (5/11)",
+     "url": "https://investasi.kontan.co.id/news/simak-rekomendasi-saham-brpt-cpin-dan-bbca-untuk-perdagangan-kamis-511",
+     "time": "2026-11-05 06:05 WIB",
+     "primary": false
+    },
+    {
+     "name": "Katadata",
+     "title": "Asing Catat Net Buy Rp 265 Miliar saat IHSG Berbalik Menguat 0,32%",
+     "url": "https://katadata.co.id/finansial/bursa/6aeb0ff8882d1/asing-catat-net-buy-rp-265-miliar-saat-ihsg-berbalik-menguat-0-32",
+     "time": "2026-11-04 17:59 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
+   "id": "PDB-kuartal3-5nov",
+   "time": "10.54 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Data ekonomi kuartal ketiga keluar hari ini",
+   "impact": {
+    "score": 0,
+    "why": "Arah dampaknya baru jelas setelah angka keluar."
+   },
+   "headline": "Pertumbuhan ekonomi kuartal ketiga diumumkan hari ini, perkiraan 5,2%",
+   "summary": "BPS mengumumkan pertumbuhan ekonomi kuartal ketiga 2026 pada Kamis 5 November. Perkiraan rata-rata 31 ekonom yang disurvei Bloomberg 5,2% dibanding kuartal ketiga 2025. Kuartal kedua 2026 tumbuh 5,29%. Perkiraan lain berkisar 5% sampai 5,23%.",
+   "why_it_matters": "Angka di bawah 5% bisa menekan saham bank dan konsumsi. Angka sesuai perkiraan bisa membantu pantulan IHSG.",
+   "status": "confirmed",
+   "event_date": "2026-11-05",
+   "sources": [
+    {
+     "name": "Bloomberg Technoz",
+     "title": "Konsensus Bloomberg: Ekonomi RI Kuartal III-2026 Tumbuh 5,2%",
+     "url": "https://www.bloombergtechnoz.com/detail-news/126695/konsensus-bloomberg-ekonomi-ri-kuartal-iii-2026-tumbuh-5-2",
+     "time": "2026-11-04 10:54 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Belanja Pemerintah & Investasi Lambat, Ekonomi Kuartal III Diprediksi Tumbuh 5,23%",
+     "url": "https://nasional.kontan.co.id/news/belanja-pemerintah-investasi-lambat-ekonomi-kuartal-iii-diprediksi-tumbuh-523",
+     "time": "2026-11-04",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
+   "id": "CPIN-rekomendasi-beli-saat-turun",
+   "time": "06.05 WIB",
+   "tickers": [
+    "CPIN"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Analis sarankan beli saat turun",
+   "impact": {
+    "score": 0,
+    "why": "Ini pendapat analis berdasarkan grafik, tidak mengubah laba perusahaan."
+   },
+   "headline": "MNC Sekuritas sarankan beli CPIN saat turun, target Rp2.460 sampai Rp2.640",
+   "summary": "MNC Sekuritas menyarankan beli CPIN saat harga turun, dengan level penahan turun Rp2.090 dan penahan naik Rp2.400. Targetnya Rp2.460 sampai Rp2.640. Tren CPIN masih turun, tetapi analis melihat volume beli mulai muncul. CPIN juga masuk daftar pilihan MNC untuk hari ini bersama ENRG, ICBP, dan UNVR.",
+   "why_it_matters": "Saham pakan ternak bisa terbantu harga bahan bakar yang turun. Tetap pasang batas rugi di bawah Rp2.090 kalau ikut.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Simak Rekomendasi Saham BRPT, CPIN, dan BBCA untuk Perdagangan Kamis (5/11)",
+     "url": "https://investasi.kontan.co.id/news/simak-rekomendasi-saham-brpt-cpin-dan-bbca-untuk-perdagangan-kamis-511",
+     "time": "2026-11-05 06:05 WIB",
+     "primary": false
+    },
+    {
+     "name": "IDX Channel",
+     "title": "IHSG Masih Rawan Terkoreksi, Perhatikan CPIN, ENRG, ICBP, dan UNVR",
+     "url": "https://www.idxchannel.com/market-news/ihsg-masih-rawan-terkoreksi-perhatikan-cpin-enrg-icbp-dan-unvr",
+     "time": "2026-11-04",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
+   "id": "IHSG-prediksi-5nov",
+   "time": "05.40 WIB",
+   "tickers": [
+    "BBCA",
+    "CPIN",
+    "ICBP",
+    "PGAS",
+    "ANTM",
+    "AALI"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Analis: IHSG mendatar 4.800 sampai 5.000",
+   "impact": {
+    "score": 0,
+    "why": "Ini perkiraan analis, bukan kabar perusahaan."
+   },
+   "headline": "Analis perkirakan IHSG bergerak mendatar di 4.800 sampai 5.000",
+   "summary": "Phintraco Sekuritas memperkirakan IHSG bergerak mendatar di 4.800 sampai 5.000 pada Kamis 5 November. BRI Danareksa Sekuritas memberi rentang 4.830 sampai 4.962, dan menyebut rata-rata harga 20 hari masih di 5.420 sehingga tren turun masih kuat. MNC Sekuritas mewaspadai koreksi ke 4.763 sampai 4.807. Saham yang direkomendasikan analis antara lain BBCA, CPIN, ICBP, PGAS, ANTM, dan AALI.",
+   "why_it_matters": "Level 5.000 jadi penentu. Selama IHSG di bawahnya, pantulan masih bisa gagal.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "investortrust",
+     "title": "IHSG Berpeluang Lanjutkan Technical Rebound, Saham BBCA hingga PGAS Layak Dilirik",
+     "url": "https://investortrust.id/market/121567/ihsg-berpeluang-lanjutkan-technical-rebound-saham-bbca-hingga-pgas-layak-dilirik",
+     "time": "2026-11-05 05:40 WIB",
+     "primary": false
+    },
+    {
+     "name": "investor.id",
+     "title": "IHSG Dapat Angin Segar, 5 Saham Siap Menggeliat",
+     "url": "https://investor.id/market/460758/ihsg-dapat-angin-segar-5-saham-siap-menggeliat",
+     "time": "2026-11-05 05:41 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Simak Rekomendasi Saham BRPT, CPIN, dan BBCA untuk Perdagangan Kamis (5/11)",
+     "url": "https://investasi.kontan.co.id/news/simak-rekomendasi-saham-brpt-cpin-dan-bbca-untuk-perdagangan-kamis-511",
+     "time": "2026-11-05 06:05 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
+   "id": "minyak-anjlok-87persen-brent-94",
+   "time": "05.09 WIB",
+   "tickers": [
+    "MEDC",
+    "ENRG",
+    "ELSA",
+    "AADI",
+    "BUMI"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Minyak jatuh 8,7%, Brent 94 dolar",
+   "impact": {
+    "score": -1,
+    "why": "Minyak yang jatuh menekan laba dan harga saham minyak, gas dan batu bara, walau besarnya belum bisa dihitung."
+   },
+   "impacts": {
+    "MEDC": -1,
+    "ENRG": -1,
+    "ELSA": -1,
+    "AADI": -1,
+    "BUMI": -1
+   },
+   "headline": "Harga minyak jatuh 8,7%, Brent ke 94,62 dolar AS per barel",
+   "summary": "Pada Rabu 4 November minyak Brent ditutup 94,62 dolar AS per barel, turun 8,98 dolar AS atau 8,7%. Minyak WTI ditutup 88,12 dolar AS, turun 8,3%. Keduanya terendah sejak 31 Agustus. Pasar berharap perang Amerika dan Iran lebih cepat berakhir setelah Partai Demokrat menang pemilu sela. Tetapi Iran menyatakan empat kapal tanker terbakar karena ranjau di Selat Hormuz, jadi harga bisa memantul lagi.",
+   "why_it_matters": "Saham minyak dan batu bara bisa turun di awal sesi. Jangan membelinya hanya karena terlihat murah.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Astig (mengutip Reuters)",
+     "title": "Brent settled at $94.62 as Vance blamed the Iran war for the Republican rout",
+     "url": "https://astig.ph/brent-settles-94-62-vance-iran-war-midterms-2026/",
+     "time": "2026-11-05 05:09 WIB",
+     "primary": false
+    },
+    {
+     "name": "Vibiznews",
+     "title": "Rekomendasi Harga Minyak 5 November 2026 : Anjlok Karena Hasil Pemilu Midterm AS; Berpeluang Bargain Hunting",
+     "url": "https://vibiznews.com/index.php/2026/11/05/rekomendasi-harga-minyak-5-november-2026-anjlok-karena-hasil-pemilu-midterm-as-berpeluang-bargain-hunting/",
+     "time": "2026-11-05 06:09 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
+   "id": "wallstreet-melonjak-pemilu-sela",
+   "time": "04.02 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Wall Street melonjak, Dow naik 3%",
+   "impact": {
+    "score": 1,
+    "why": "Bursa dunia yang naik besar biasanya membuat IHSG dibuka lebih kuat, tetapi tren IHSG masih turun."
+   },
+   "headline": "Wall Street melonjak setelah Partai Demokrat menang pemilu sela Amerika",
+   "summary": "Pada Rabu 4 November waktu Amerika, Dow Jones naik 3,03% ke 53.356,12. S&P 500 naik 1,58% ke 7.688,62 dan Nasdaq naik 1,44% ke 25.736,51. Investor menilai kemenangan Partai Demokrat di DPR dan Senat memperbesar peluang perang dengan Iran berakhir. Saham energi paling turun karena harga minyak jatuh. Indeks dolar turun 0,4% ke 101,51, terendah dalam lima pekan.",
+   "why_it_matters": "Suasana pasar dunia membaik dan dolar melemah, jadi IHSG punya peluang naik hari ini. Tetap tunggu konfirmasi sebelum membeli.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "TheStreet",
+     "title": "Stock Market Today (Nov. 4, 2026): Stocks rise, oil collapses after Dems sweep midterm elections",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-04-2026",
+     "time": "2026-11-05 04:02 WIB",
+     "primary": false
+    },
+    {
+     "name": "Vibiznews",
+     "title": "Rekomendasi Harga Minyak 5 November 2026 : Anjlok Karena Hasil Pemilu Midterm AS; Berpeluang Bargain Hunting",
+     "url": "https://vibiznews.com/index.php/2026/11/05/rekomendasi-harga-minyak-5-november-2026-anjlok-karena-hasil-pemilu-midterm-as-berpeluang-bargain-hunting/",
+     "time": "2026-11-05 06:09 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-05"
+  },
+  {
    "id": "INTP-laba-naik-ekspor",
    "time": "4 Nov",
    "tickers": [
@@ -3052,6 +3556,7 @@
   "CBRE": "Cakra Buana Resources Energi",
   "CNMA": "Nusantara Sejahtera Raya",
   "COWL": "COWELL DEVELOPMENT",
+  "CPIN": "Charoen Pokphand Indonesia",
   "CSRA": "Cisadane Sawit Raya",
   "CUAN": "Petrindo Jaya Kreasi",
   "DFAM": "Dafam Property Indonesia",
