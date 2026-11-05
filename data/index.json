@@ -5,6 +5,10 @@
    "premarket": {
     "file": "data/2026-11-05-premarket.md",
     "demo": false
+   },
+   "plan": {
+    "file": "data/2026-11-05-plan.md",
+    "demo": false
    }
   }
  },
