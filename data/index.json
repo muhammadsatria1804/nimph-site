@@ -2,6 +2,10 @@
  {
   "date": "2026-11-05",
   "shifts": {
+   "evening": {
+    "file": "data/2026-11-05-evening.md",
+    "demo": false
+   },
    "premarket": {
     "file": "data/2026-11-05-premarket.md",
     "demo": false
