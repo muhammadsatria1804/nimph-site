@@ -274,48 +274,6 @@
    "date": "2026-11-04"
   },
   {
-   "id": "IHSG-prediksi-4nov",
-   "time": "19.00 WIB",
-   "tickers": [],
-   "category": "news",
-   "scope": "market",
-   "short": "Analis: IHSG rawan uji 4.650 sampai 4.850",
-   "impact": {
-    "score": -1,
-    "why": "Analis melihat ruang turun lagi sebelum ada pantulan."
-   },
-   "headline": "Analis perkirakan IHSG masih rawan turun ke 4.650 sampai 4.850 hari ini",
-   "summary": "Phintraco Sekuritas menyebut level penahan turun di 4.900, dan kalau tembus IHSG bisa menguji 4.650 sampai 4.750. MNC Sekuritas memperkirakan koreksi ke 4.763 sampai 4.845, dengan peluang memantul ke 4.908 sampai 4.914. Kiwoom Sekuritas melihat titik terendah di sekitar 4.850 dan menyarankan investor berani memakai paling banyak 20% sampai 25% dana. Analis lain menyebut ITMG, BBCA, dan ASII untuk dibeli bertahap.",
-   "why_it_matters": "Kalau ingin membeli, belilah bertahap dan sedikit, dengan batas rugi yang jelas.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "investor.id",
-     "title": "Prediksi IHSG dan Rekomendasi Saham Rabu, 4 November 2026",
-     "url": "https://investor.id/market/460549/prediksi-ihsg-dan-rekomendasi-saham-rabu-4-november-2026",
-     "time": "2026-11-03 19:00 WIB",
-     "primary": false
-    },
-    {
-     "name": "investor.id",
-     "title": "Seberapa Dalam Lagi IHSG Bisa Turun? Siap-siap Uji Nyali",
-     "url": "https://investor.id/market/460560/seberapa-dalam-lagi-ihsg-bisa-turun-siapsiap-uji-nyali",
-     "time": "2026-11-03 19:59 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "Simak Rekomendasi Teknikal Saham ITMG, BBCA, dan ASII untuk Rabu (4/11)",
-     "url": "https://investasi.kontan.co.id/news/simak-rekomendasi-teknikal-saham-itmg-bbca-dan-asii-untuk-rabu-411",
-     "time": "2026-11-04 05:00 WIB",
-     "primary": false
-    }
-   ],
-   "expires": "2026-11-04",
-   "date": "2026-11-04"
-  },
-  {
    "id": "TAPG-dividen-interim",
    "time": "18.46 WIB",
    "tickers": [
@@ -1759,127 +1717,6 @@
    "date": "2026-11-03"
   },
   {
-   "id": "asing-net-sell-sehari-2nov",
-   "time": "19.44 WIB",
-   "tickers": [
-    "ENRG",
-    "TPIA",
-    "BUMI",
-    "BMRI",
-    "BBCA",
-    "AADI",
-    "PTBA",
-    "TINS"
-   ],
-   "category": "news",
-   "headline": "Asing jual bersih Rp375,54 miliar di pasar reguler, tetapi borong ENRG",
-   "summary": "Sepanjang Senin 2 November 2026 investor asing menjual bersih Rp375,54 miliar di pasar reguler. Kalau semua pasar dihitung, jual bersihnya hanya Rp112,48 miliar, karena di pasar tunai dan negosiasi asing membeli bersih Rp263,07 miliar. Saham yang paling banyak dibeli asing adalah ENRG Rp289,16 miliar, TPIA Rp47,65 miliar, dan BUMI Rp46,75 miliar. Yang paling banyak dijual adalah BMRI Rp157,88 miliar, BBCA Rp116,14 miliar, dan AADI Rp109,54 miliar. Sejak awal tahun asing sudah menjual bersih Rp98,03 triliun.",
-   "why_it_matters": "Kenaikan IHSG hari Senin belum didukung pembelian asing di pasar biasa. Pembelian besar di ENRG kemungkinan transaksi negosiasi, jadi belum tentu tanda minat baru.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "IHSG Menguat Jadi 5.096, Senin (2/11), Net Sell Asing Berlanjut di Saham-Saham Ini",
-     "url": "https://pusatdata.kontan.co.id/news/ihsg-menguat-jadi-5096-senin-211-net-sell-asing-berlanjut-di-saham-saham-ini",
-     "time": "2026-11-02 19:22 WIB",
-     "primary": false
-    },
-    {
-     "name": "investortrust",
-     "title": "Net Sell Saham Berlanjut Rp 112,48 Miliar, Terbanyak Landa Dua Bank Ini",
-     "url": "https://investortrust.id/market/121295/net-sell-saham-berlanjut-rp-112-48-miliar-terbanyak-landa-dua-bank-ini",
-     "time": "2026-11-02 19:44 WIB",
-     "primary": false
-    },
-    {
-     "name": "Investor Daily",
-     "title": "November Baru Dimulai, 3 Saham Digempur Asing, IHSG Melawan",
-     "url": "https://investor.id/market/460419/november-baru-dimulai-3-saham-digempur-asing-ihsg-melawan",
-     "time": "2026-11-02 21:07 WIB",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "Asing jual bersih Rp375,5 miliar",
-   "impact": {
-    "score": -1,
-    "why": "Penjualan bersih asing menekan saham besar, kecuali ENRG yang justru dibeli."
-   },
-   "date": "2026-11-03"
-  },
-  {
-   "id": "laba-emiten-kuartal3-naik",
-   "time": "17.46 WIB",
-   "tickers": [
-    "PTBA",
-    "ADRO",
-    "AADI",
-    "UNTR"
-   ],
-   "category": "news",
-   "headline": "Laba gabungan emiten naik 14,2% di kuartal ketiga, batu bara terbelah",
-   "summary": "Menurut BRI Danareksa Sekuritas, laba gabungan emiten yang sudah melapor naik 14,2% di kuartal ketiga 2026 dibanding kuartal ketiga 2025, dan naik 17,1% untuk sembilan bulan pertama 2026. Laba inti, tanpa pos sekali jadi, naik lebih pelan: 7,9% di kuartal ketiga dan 10,7% untuk sembilan bulan. Di batu bara, laba PTBA dan ADRO di atas perkiraan, sedangkan AADI di bawah perkiraan. Untuk kuartal keempat, kecepatan pengiriman batu bara jadi kunci bagi PTBA, ADRO, dan UNTR.",
-   "why_it_matters": "Laba perusahaan secara umum masih tumbuh meski IHSG jatuh. Di batu bara, pilih yang labanya di atas perkiraan, bukan semua saham batu bara sekaligus.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Investor Daily",
-     "title": "Laba Emiten Mekar, PTBA & ADRO Cs Punya Kans hingga Akhir 2026",
-     "url": "https://investor.id/market/460391/laba-emiten-mekar-ptba-adro-cs-punya-kans-hingga-akhir-2026",
-     "time": "2026-11-02 17:46 WIB",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "Laba emiten naik 14,2% di kuartal ketiga",
-   "impact": {
-    "score": 1,
-    "why": "Secara umum laba membaik, tetapi saham batu bara terbelah."
-   },
-   "date": "2026-11-03"
-  },
-  {
-   "id": "IHSG-prediksi-3nov",
-   "time": "17.34 WIB",
-   "tickers": [
-    "BBRI",
-    "ESSA",
-    "MAPA",
-    "PGEO"
-   ],
-   "category": "news",
-   "headline": "Analis: IHSG rawan berbalik, level penahan di 5.073 dan 5.027",
-   "summary": "MNC Sekuritas melihat level penahan turun IHSG pada Selasa 3 November di 5.073 dan level penahan naik di 5.125, dan menyebut indeks rawan berbalik arah. BRI Danareksa Sekuritas melihat IHSG bisa menguji 5.116 sampai 5.170, dengan level penahan turun 5.027 sampai 4.962. IHSG masih jauh di bawah rata-rata 200 hari di 6.846, jadi tren besarnya tetap turun. MNC Sekuritas menyebut BBRI, ESSA, MAPA, dan PGEO untuk diperhatikan.",
-   "why_it_matters": "Kenaikan Senin belum mengubah tren turun. Untuk swing, lebih aman menunggu IHSG bertahan di atas 5.170 sebelum menambah posisi.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "IHSG Berpeluang Menguat pada Selasa (3/11), Waspadai Sentimen Saham HSC",
-     "url": "https://investasi.kontan.co.id/news/ihsg-berpeluang-menguat-pada-selasa-311-waspadai-sentimen-saham-hsc",
-     "time": "2026-11-02 17:34 WIB",
-     "primary": false
-    },
-    {
-     "name": "Investor Daily",
-     "title": "Prediksi IHSG dan Rekomendasi Saham Selasa, 3 November 2026",
-     "url": "https://investor.id/market/460395/prediksi-ihsg-dan-rekomendasi-saham-selasa-3-november-2026",
-     "time": "2026-11-02 18:30 WIB",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "Analis: IHSG rawan berbalik",
-   "impact": {
-    "score": 0,
-    "why": "Ini pendapat analis, bukan kabar dari perusahaan."
-   },
-   "date": "2026-11-03"
-  },
-  {
    "id": "MDKA-grup-merdeka-produksi",
    "time": "17.10 WIB",
    "tickers": [
@@ -1980,100 +1817,6 @@
    "date": "2026-11-03"
   },
   {
-   "id": "IHSG-anjlok-378-terendah-enam-tahun",
-   "time": "16.08 WIB",
-   "tickers": [
-    "ANTM",
-    "EMTK",
-    "HRTA",
-    "MAPI"
-   ],
-   "category": "news",
-   "headline": "IHSG jatuh 3,78% ke 4.904, terendah sejak Oktober 2020",
-   "summary": "IHSG ditutup di 4.904,29 pada Selasa 3 November 2026, turun 192,54 poin atau 3,78%. Pagi harinya IHSG sempat naik ke sekitar 5.126, lalu berbalik turun dan menembus 5.000 sebelum pukul 11.00 WIB. Hanya 57 saham naik, 624 turun, dan 37 tidak berubah, dan semua sektor turun, terutama bahan baku (turun sekitar 6%) dan energi (turun 4,38%). Saham LQ45 yang paling turun adalah ANTM (turun 6,98%), EMTK (turun 6,92%), dan HRTA (turun 6,90%), sedangkan MAPI satu-satunya yang naik (naik 2,89%). Ini level penutupan terendah dalam lebih dari enam tahun. Rupiah ditutup melemah tipis 4 poin ke Rp18.160 per dolar AS.",
-   "why_it_matters": "Hampir semua saham turun bersamaan, jadi ini tekanan pasar secara umum, bukan masalah satu perusahaan. Saat seperti ini lebih aman menunggu tanda pasar berhenti turun daripada menebak titik terendah.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "IHSG Anjlok 3,78% ke 4.904 pada Selasa (3/11/2026), ANTM, EMTK, HRTA Top Losers LQ45",
-     "url": "https://investasi.kontan.co.id/news/ihsg-anjlok-378-ke-4904-pada-selasa-3112026-antm-emtk-hrta-top-losers-lq45",
-     "time": "2026-11-03 16:08 WIB",
-     "primary": false
-    },
-    {
-     "name": "CNBC Indonesia",
-     "title": "IHSG Ditutup Anjlok 3,78% ke 4.904,29",
-     "url": "https://www.cnbcindonesia.com/market/20261103153044-17-781952/ihsg-ditutup-anjlok-378-ke-490429",
-     "time": "2026-11-03 16:04 WIB",
-     "primary": false
-    },
-    {
-     "name": "VIVA",
-     "title": "IHSG Ambruk ke 4.904, Level Terendah dalam Enam Tahun Terakhir",
-     "url": "https://www.viva.co.id/bisnis/1940737-ihsg-ambruk-ke-4904-level-terendah-dalam-enam-tahun-terakhir",
-     "time": "2026-11-03 16:27 WIB",
-     "primary": false
-    },
-    {
-     "name": "IDX Channel",
-     "title": "Rupiah Hari Ini Ditutup Melemah ke Rp18.160 per USD",
-     "url": "https://idxchannel.com/market-news/rupiah-hari-ini-ditutup-melemah-ke-rp18160-per-usd",
-     "time": "2026-11-03 15:51 WIB",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "IHSG jatuh 3,78%",
-   "impact": {
-    "score": -2,
-    "why": "Penurunan besar seluruh pasar menekan hampir semua saham."
-   },
-   "date": "2026-11-03"
-  },
-  {
-   "id": "KSSK-konferensi-pers-diundur",
-   "time": "15.27 WIB",
-   "tickers": [],
-   "category": "news",
-   "headline": "Konferensi pers hasil rapat KSSK diundur ke pukul 17.00 WIB",
-   "summary": "Konferensi pers hasil rapat berkala Komite Stabilitas Sistem Keuangan (KSSK) keempat tahun 2026 diundur dari pukul 16.00 ke 17.00 WIB pada Selasa 3 November 2026. KSSK adalah rapat Kementerian Keuangan, Bank Indonesia, OJK, dan LPS tentang kesehatan sistem keuangan. Alasan pengunduran tidak disebut. Investor menunggu apakah ada langkah untuk menahan gejolak pasar dan pelemahan rupiah. Menurut satu media, sebelum konferensi pers Presiden Prabowo Subianto memanggil para menteri ekonomi dan pimpinan KSSK ke Istana untuk rapat tertutup. Wakil Menteri Keuangan Suahasil Nazara disebut membenarkan ada rapat dengan Presiden. Kabar rapat di Istana ini baru dari satu media.",
-   "why_it_matters": "Kalau pemerintah dan Bank Indonesia mengumumkan langkah untuk pasar atau rupiah, IHSG bisa memantul. Kalau isinya hanya umum, tekanan bisa berlanjut.",
-   "status": "confirmed",
-   "event_date": "2026-11-03",
-   "sources": [
-    {
-     "name": "IDX Channel",
-     "title": "Konferensi Pers Hasil Rapat Berkala KSSK IV Tahun 2026 Diundur, Ada Apa?",
-     "url": "https://www.idxchannel.com/economics/konferensi-pers-hasil-rapat-berkala-kssk-iv-tahun-2026-diundur-ada-apa",
-     "time": "2026-11-03 15:27 WIB",
-     "primary": false
-    },
-    {
-     "name": "Okezone",
-     "title": "Hasil Rapat Berkala KSSK IV 2026 Mundur, Ada Apa?",
-     "url": "https://economy.okezone.com/read/2026/11/03/320/3251824/hasil-rapat-berkala-kssk-iv-2026-mundur-ada-apa",
-     "time": "2026-11-03 WIB",
-     "primary": false
-    },
-    {
-     "name": "Batavia Pos",
-     "title": "IHSG Anjlok Hampir 4% Selasa 3 November, Presiden Langsung Gelar Rapat dengan KSSK",
-     "url": "https://bataviapos.id/ella-devianti-effendi/ihsg-anjlok-hampir-4-selasa-3-november-presiden-langsung-gelar-rapat-dengan-kssk/",
-     "time": "2026-11-03 15:34 WIB",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "Hasil rapat KSSK diumumkan sore ini",
-   "impact": {
-    "score": 0,
-    "why": "Belum ada keputusan, jadi belum ada dampak."
-   },
-   "date": "2026-11-03"
-  },
-  {
    "id": "MSCI-review-11-12nov",
    "time": "14.35 WIB",
    "tickers": [
@@ -2152,56 +1895,6 @@
    "impact": {
     "score": 1,
     "why": "Harga minyak yang naik lagi menguntungkan produsen minyak dan gas."
-   },
-   "date": "2026-11-03"
-  },
-  {
-   "id": "asing-net-sell-sesi1-3nov",
-   "time": "13.44 WIB",
-   "tickers": [
-    "BBRI",
-    "TLKM",
-    "ANTM",
-    "BUMI",
-    "TPIA",
-    "BRIS",
-    "BMRI",
-    "BBNI"
-   ],
-   "category": "news",
-   "headline": "Asing jual bersih Rp831,55 miliar hanya di sesi pertama",
-   "summary": "Pada sesi pertama Selasa 3 November 2026, investor asing menjual bersih saham senilai Rp831,55 miliar di semua pasar. Mereka membeli sekitar Rp1,61 triliun dan menjual sekitar Rp2,44 triliun. Yang paling banyak dijual BBRI (Rp173,45 miliar), TLKM (Rp95,77 miliar), ANTM (Rp69,40 miliar), BUMI (Rp59,93 miliar), dan TPIA (Rp54,46 miliar). Yang paling banyak dibeli justru bank: BRIS (Rp37,87 miliar), BMRI (Rp27,88 miliar), dan BBNI (Rp16,63 miliar). Sejak awal 2026 sampai 2 November, jual bersih asing sudah Rp98,03 triliun.",
-   "why_it_matters": "Penjualan asing yang besar adalah penyebab utama IHSG turun. Selama asing terus menjual, kenaikan harga biasanya tidak bertahan lama.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Bloomberg Technoz",
-     "title": "Investor Asing Net Sell Rp800 M di Sesi I Jadi Sebab IHSG Turun",
-     "url": "https://www.bloombergtechnoz.com/detail-news/126596/investor-asing-net-sell-rp800-m-di-sesi-i-jadi-sebab-ihsg-turun",
-     "time": "2026-11-03 13:44 WIB",
-     "primary": false
-    },
-    {
-     "name": "Detik Finance",
-     "title": "IHSG Terjun ke 4.900, Saham BUMN Ramai Dilepas Asing",
-     "url": "https://finance.detik.com/bursa-dan-valas/d-8736552/ihsg-terjun-ke-4-900-saham-bumn-ramai-dilepas-asing",
-     "time": "2026-11-03 16:18 WIB",
-     "primary": false
-    },
-    {
-     "name": "investortrust",
-     "title": "Net Sell Asing Dekati Rp100 Triliun",
-     "url": "https://investortrust.id/market/121376/net-sell-asing-dekati-rp100-triliun",
-     "time": "2026-11-03 13:48 WIB",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "Asing jual bersih Rp831,6 miliar di sesi pertama",
-   "impact": {
-    "score": -2,
-    "why": "Penjualan asing sebesar ini menekan saham besar, terutama bank."
    },
    "date": "2026-11-03"
   },
@@ -2604,40 +2297,6 @@
    "impact": {
     "score": -1,
     "why": "Harga jual minyak dan gas lebih rendah menekan pendapatan produsen, tetapi harga masih jauh di atas rata-rata tahun lalu."
-   },
-   "date": "2026-11-03"
-  },
-  {
-   "id": "wallstreet-campur-jelang-pemilu-sela",
-   "time": "04.50 WIB",
-   "tickers": [],
-   "category": "news",
-   "headline": "Bursa Amerika campur jelang pemilu sela, saham teknologi masih dijual",
-   "summary": "Pada Senin 2 November 2026 indeks Dow Jones naik 0,41% ke 51.983,98, tetapi S&P 500 turun 0,51% ke 7.541,40 dan Nasdaq turun 1,07% ke 25.164,32. Saham teknologi dan chip masih dijual. Bunga obligasi Amerika 10 tahun turun ke 4,894%, dan emas naik 1,48% ke 3.956,60 dolar AS per ons. Pasar memperkirakan peluang 76% bank sentral Amerika menaikkan bunga pada Desember. Pemilu sela Amerika berlangsung Selasa 3 November.",
-   "why_it_matters": "Hasil pemilu sela bisa membuat pasar dunia naik turun tajam pada Rabu pagi. Harga emas yang memantul baik untuk saham emas seperti ANTM dan MDKA.",
-   "status": "confirmed",
-   "event_date": "2026-11-03",
-   "sources": [
-    {
-     "name": "Yahoo Finance",
-     "title": "Stock market today: S&P 500 and Nasdaq extend tech sell-off, Dow gains as oil prices plunge",
-     "url": "https://finance.yahoo.com/markets/live/stock-market-today-monday-november-2-dow-sp-500-nasdaq-091835095.html",
-     "time": "2026-11-03 04:50 WIB",
-     "primary": false
-    },
-    {
-     "name": "TheStreet",
-     "title": "Stock Market Today (Nov. 2, 2026): Apple falls after posting slower earnings growth; S&P 500 falls ahead of U.S. midterms",
-     "url": "https://thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-02-2026",
-     "time": "2026-11-03 04:01 WIB",
-     "primary": false
-    }
-   ],
-   "scope": "market",
-   "short": "Wall Street bergerak campur",
-   "impact": {
-    "score": 0,
-    "why": "Tidak ada dampak langsung ke emiten tertentu."
    },
    "date": "2026-11-03"
   },
@@ -3365,7 +3024,6 @@
   "AADI": "Adaro Andalan Indonesia",
   "AALI": "Astra Agro Lestari",
   "ABDA": "Asuransi Bina Dana Arta",
-  "ADRO": "Alamtri Resources Indonesia",
   "AIMS": "Artha Mahiya Investama",
   "AKPI": "Argha Karya Prima Ind.",
   "AMMN": "Amman Mineral Internasional",
@@ -3402,17 +3060,14 @@
   "DUCK": "Jaya Bersama Indo",
   "ELSA": "Elnusa",
   "EMAS": "Merdeka Gold Resources",
-  "EMTK": "Elang Mahkota Teknologi",
   "ENRG": "Energi Mega Persada",
   "ENVY": "Envy Technologies Indonesia",
-  "ESSA": "ESSA Industries Indonesia",
   "FORU": "Fortune Indonesia",
   "GIAA": "Garuda Indonesia (Persero)",
   "GMFI": "Garuda Maintenance Facility Aero Asia",
   "GOLL": "Golden Plantation",
   "GOTO": "GoTo Gojek Tokopedia",
   "HAJJ": "Arsy Buana Travelindo",
-  "HRTA": "Hartadinata Abadi",
   "ICBP": "Indofood CBP Sukses Makmur",
   "IDEA": "Idea Indonesia Akademi",
   "IFII": "Indonesia Fibreboard Industry",
@@ -3427,8 +3082,6 @@
   "LMAS": "Limas Indonesia Makmur",
   "LSIP": "PP London Sumatra Indonesia",
   "MABA": "Marga Abhinaya Abadi",
-  "MAPA": "Map Aktif Adiperkasa",
-  "MAPI": "Mitra Adiperkasa",
   "MBMA": "Merdeka Battery Materials",
   "MDKA": "Merdeka Copper Gold",
   "MEDC": "Medco Energi Internasional",
@@ -3463,7 +3116,6 @@
   "TDPM": "Tianrong Chemicals Industry",
   "TELE": "Omni Inovasi Indonesia",
   "TINS": "TIMAH (Persero)",
-  "TLKM": "Telkom Indonesia (Persero)",
   "TMPO": "Tempo Inti Media",
   "TOWR": "Sarana Menara Nusantara",
   "TOYS": "Sunindo Adipersada",
