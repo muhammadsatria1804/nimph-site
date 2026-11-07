@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-11-07",
+  "shifts": {
+   "weekly": {
+    "file": "data/2026-11-07-weekly.md",
+    "demo": false
+   }
+  }
+ },
+ {
   "date": "2026-11-06",
   "shifts": {
    "premarket": {
