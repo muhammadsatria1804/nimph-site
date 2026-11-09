@@ -1,7 +1,15 @@
 [
  {
+  "date": "2026-11-10",
+  "shifts": {}
+ },
+ {
   "date": "2026-11-09",
   "shifts": {
+   "evening": {
+    "file": "data/2026-11-09-evening.md",
+    "demo": false
+   },
    "premarket": {
     "file": "data/2026-11-09-premarket.md",
     "demo": false
