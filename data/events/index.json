@@ -5,9 +5,9 @@
   "file": "data/events/2026-11-09-plan.json",
   "status": "running",
   "demo": false,
-  "started": null,
-  "updated": null,
-  "steps": 0
+  "started": 1794193336386,
+  "updated": 1794193413448,
+  "steps": 22
  },
  {
   "date": "2026-11-06",
