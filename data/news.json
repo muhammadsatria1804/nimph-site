@@ -1,6 +1,285 @@
 {
  "items": [
   {
+   "id": "BBRI-laba-9bulan-2026",
+   "time": "22.23 WIB",
+   "tickers": [
+    "BBRI"
+   ],
+   "category": "news",
+   "scope": "company",
+   "short": "Laba sembilan bulan naik 16,8%",
+   "impact": {
+    "score": 1,
+    "why": "Laba naik, tetapi pendapatan bunga kuartal ketiga turun dan kenaikan laba datang dari cadangan kredit yang lebih kecil."
+   },
+   "headline": "BBRI mencatat laba bersih Rp48,16 triliun di sembilan bulan pertama 2026, naik 16,8%, tetapi pendapatan bunga kuartal ketiga turun 7,6%",
+   "summary": "Bank Rakyat Indonesia (BBRI) mencatat laba bersih sembilan bulan pertama 2026 Rp48,16 triliun, naik 16,8% dibanding periode yang sama tahun lalu. Kredit tumbuh 14,5% ke Rp1.647,1 triliun, tetapi kredit mikro hanya naik 0,3%. Kredit macet kotor membaik ke 2,85%, sementara kredit berisiko naik ke 9,97%. Di kuartal ketiga saja pendapatan bunga turun 7,6% dibanding kuartal kedua ke Rp37,3 triliun, dan margin bunga bersih turun ke 7,4% dari 7,7%; laba kuartal ketiga naik 9,4% ke Rp16,8 triliun karena biaya cadangan kredit lebih kecil. Perbandingan dengan perkiraan analis belum ditemukan.",
+   "why_it_matters": "Angka laba terlihat bagus, tetapi bisnis inti melambat dan asing masih menjual BBRI. Tunggu asing berhenti menjual sebelum membeli.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Suara",
+     "title": "Kinerja BRI Kuartal III-2026, Laba Ditopang Pemulihan Kredit Mikro dan Kenaikan DPK",
+     "url": "https://www.suara.com/bisnis/2026/11/09/222332/kinerja-bri-kuartal-iii-2026-laba-ditopang-pemulihan-kredit-mikro-dan-kenaikan-dpk",
+     "time": "2026-11-09 22:23 WIB",
+     "primary": false
+    },
+    {
+     "name": "IDX Channel",
+     "title": "Menggerakkan Ekonomi dan Berkontribusi untuk Negeri, BRI Cetak Laba Rp48,2 T di Triwulan III-2026",
+     "url": "https://www.idxchannel.com/banking/menggerakkan-ekonomi-dan-berkontribusi-untuk-negeri-bri-cetak-laba-rp482-t-di-triwulan-iii-2026",
+     "time": "2026-11-09",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-10"
+  },
+  {
+   "id": "IHSG-prediksi-10nov",
+   "time": "21.34 WIB",
+   "tickers": [
+    "BBCA",
+    "ADRO",
+    "ANTM",
+    "ASII",
+    "ADMR",
+    "MEDC",
+    "PSAB",
+    "RAJA"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Analis: IHSG uji 5.100 sampai 5.200",
+   "impact": {
+    "score": 0,
+    "why": "Perkiraan analis, bukan kabar perusahaan."
+   },
+   "headline": "Analis memperkirakan IHSG Selasa menguji 5.100 sampai 5.200, dengan batas bawah 5.000",
+   "summary": "Phintraco Sekuritas memperkirakan IHSG menguji 5.100 sampai 5.200 pada Selasa 10 November. Republik Investor menyebut batas bawah 5.000 lalu 4.900 sampai 4.960, dan batas atas 5.180 sampai 5.200. MNC Sekuritas melihat kemungkinan turun sebentar ke 4.995 sampai 5.037, dan koreksi lebih dalam kalau IHSG jatuh di bawah 4.824. Saham yang disebut: BBCA, ADRO, ANTM, ASII (Republik Investor) serta ADMR, MEDC, PSAB, RAJA (MNC Sekuritas).",
+   "why_it_matters": "IHSG masih di dekat 5.000. Kalau gagal bertahan di atasnya, tekanan bisa kembali. Analis menyarankan membeli bertahap dan menyimpan uang tunai.",
+   "status": "confirmed",
+   "event_date": "2026-11-10",
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "IHSG Menguat 0,46%, Simak Rekomendasi Saham pada Selasa (10/11/2026)",
+     "url": "https://investasi.kontan.co.id/news/ihsg-menguat-046-simak-rekomendasi-saham-pada-selasa-10112026",
+     "time": "2026-11-09 21:34 WIB",
+     "primary": false
+    },
+    {
+     "name": "Investor Daily",
+     "title": "Prediksi IHSG dan Rekomendasi Saham Selasa, 10 November 2026",
+     "url": "https://investor.id/market/461298/prediksi-ihsg-dan-rekomendasi-saham-selasa-10-november-2026",
+     "time": "2026-11-09 18:30 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-10"
+  },
+  {
+   "id": "asing-sehari-9nov",
+   "time": "18.39 WIB",
+   "tickers": [
+    "BBCA",
+    "ASII",
+    "BMRI",
+    "BBNI",
+    "BBRI",
+    "ANTM",
+    "AMMN",
+    "BRPT"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Asing beli bersih Rp98 miliar, terpusat BBCA",
+   "impact": {
+    "score": 0,
+    "why": "Asing membeli bersih dua hari beruntun, tetapi hanya di BBCA dan ASII; saham lain masih dijual."
+   },
+   "impacts": {
+    "BBCA": 1,
+    "ASII": 1,
+    "ANTM": -1
+   },
+   "headline": "Asing membeli bersih Rp98,24 miliar sepanjang Senin, dipimpin BBCA Rp523 miliar dan ASII Rp200 miliar, sambil menjual bank BUMN dan ANTM",
+   "summary": "Sepanjang Senin 9 November asing membeli bersih Rp98,24 miliar di seluruh pasar, setelah beli bersih Rp328,20 miliar pada Jumat. Yang paling banyak dibeli: BBCA Rp523,15 miliar, ASII Rp200,06 miliar, DEWA Rp18,87 miliar, PTRO Rp15,06 miliar, dan INKP Rp11,86 miliar. Yang paling banyak dijual: BMRI Rp144,10 miliar, BBNI Rp99,47 miliar, BBRI Rp94,66 miliar, ANTM Rp75,38 miliar, dan BREN Rp29,94 miliar. AMMN dijual Rp25,28 miliar dan BRPT Rp20,65 miliar. Tanpa BBCA dan ASII, asing sebenarnya menjual bersih sekitar Rp625 miliar.",
+   "why_it_matters": "Dana asing belum kembali ke pasar secara luas. Saham yang terus dijual asing, seperti ANTM dan bank BUMN, lebih sulit naik dalam beberapa hari ke depan.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Investortrust",
+     "title": "Pemodal Asing Kembali Net Buy, Saahm BBCA dan ASII Dibidik",
+     "url": "https://investortrust.id/market/121997/pemodal-asing-kembali-net-buy-saahm-bbca-dan-asii-dibidik",
+     "time": "2026-11-09 18:39 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Bank Himbara Teratas, Cek Saham Net Sell Terbesar Asing, Senin (9/11)",
+     "url": "https://investasi.kontan.co.id/news/bank-himbara-teratas-cek-saham-net-sell-terbesar-asing-senin-911",
+     "time": "2026-11-09 22:15 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-10"
+  },
+  {
+   "id": "AKRA-ambil-alih-spbu-bp",
+   "time": "14.59 WIB",
+   "tickers": [
+    "AKRA"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Ambil alih penuh pengelola SPBU BP",
+   "impact": {
+    "score": 1,
+    "why": "AKRA kini mengendalikan penuh jaringan SPBU BP, tetapi nilainya tidak diungkap dan perusahaan menyebutnya tidak material."
+   },
+   "headline": "AKRA membeli 49,9% saham Aneka Petroindo Raya, pengelola SPBU BP, dari BP Global Investments",
+   "summary": "AKR Corporindo (AKRA) membeli 11.444.565 saham atau 49,9% PT Aneka Petroindo Raya, pengelola SPBU BP di Indonesia, dari BP Global Investments Limited pada Senin 9 November. Dengan ini AKRA mengelola penuh SPBU BP. Nilai transaksi dan jumlah SPBU tidak diungkap. Perusahaan menyebut transaksi ini tidak berdampak negatif material dan bukan transaksi material atau transaksi afiliasi. Baru diberitakan satu media yang mengutip keterbukaan informasi; dokumen aslinya belum dibaca.",
+   "why_it_matters": "Ini menambah porsi bisnis BBM eceran AKRA, tetapi tanpa nilai transaksi dampaknya ke laba belum bisa dihitung.",
+   "status": "unconfirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Suara",
+     "title": "Emiten AKRA Kuasai 100 Persen Pengelolaan SPBU BP",
+     "url": "https://suara.com/bisnis/2026/11/09/145926/emiten-akra-kuasai-100-persen-pengelolaan-spbu-bp",
+     "time": "2026-11-09 14:59 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-10"
+  },
+  {
+   "id": "minyak-brent-anjlok-9nov",
+   "time": "04.38 WIB",
+   "tickers": [
+    "ENRG",
+    "MEDC"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Minyak Brent anjlok ke sekitar 93 dolar",
+   "impact": {
+    "score": -1,
+    "why": "Minyak yang turun tajam menekan pendapatan produsen minyak, tetapi meringankan subsidi dan inflasi di Indonesia."
+   },
+   "impacts": {
+    "ENRG": -1,
+    "MEDC": -1
+   },
+   "headline": "Minyak Brent turun sekitar 5,5% ke sekitar 92,9 dolar AS per barel setelah Trump bilang serangan baru ke Iran kecil kemungkinannya",
+   "summary": "Pada Senin 9 November harga minyak Brent turun sekitar 5,5% sampai 5,8% ke sekitar 92,6 sampai 92,9 dolar AS per barel, dan WTI turun 4,14% ke 87,07 dolar AS. Awal bulan Brent masih di atas 112 dolar AS. Presiden Trump bilang serangan baru ke Iran sangat kecil kemungkinannya selama perundingan berjalan, dan Perdana Menteri Qatar menemui Trump di Washington. Iran meminta blokade laut dicabut dan sanksi dihapus, sementara Menteri Luar Negeri Amerika bilang perundingan belum dekat ke kesepakatan.",
+   "why_it_matters": "Saham minyak seperti ENRG dan MEDC kehilangan dukungan harga. Harga bisa berbalik naik cepat kalau perundingan gagal, jadi jangan menebak arah minyak.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "AP lewat BNN Bloomberg",
+     "title": "World markets bounce back after a recovery for AI stocks on Wall Street",
+     "url": "https://bnnbloomberg.ca/markets/dow-jones/2026/11/09/world-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street",
+     "time": "2026-11-10 04:38 WIB",
+     "primary": false
+    },
+    {
+     "name": "JournalArta",
+     "title": "Stock Market Today: S&P 500 Up 2.35%, Nasdaq Up 2.74%",
+     "url": "https://journalarta.com/en/2026/11/10/stock-market-today-sp-500-surges-2-35-to-7549-94-and-nasdaq-jumps-2-74-as-oil-falls-and-vix-drops/",
+     "time": "2026-11-10 04:14 WIB",
+     "primary": false
+    },
+    {
+     "name": "TheStreet",
+     "title": "Stock Market Today (Nov. 9, 2026): Nasdaq, S&P 500 rise over 2% amid oil backslide, tech comeback",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202",
+     "time": "2026-11-10 04:13 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-10"
+  },
+  {
+   "id": "wallstreet-melonjak-9nov",
+   "time": "04.14 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Wall Street naik lebih dari 2%",
+   "impact": {
+    "score": 1,
+    "why": "Pasar Amerika yang naik tajam dan rasa takut yang turun biasanya membuat bursa Asia, termasuk IHSG, dibuka lebih kuat."
+   },
+   "headline": "Wall Street melonjak Senin: Dow Jones naik 1.104 poin, Nasdaq naik 2,74%, indeks ketakutan VIX turun 21,92%",
+   "summary": "Pada Senin 9 November waktu Amerika, Dow Jones naik 2,15% ke 52.389,75, S&P 500 naik 2,35% ke 7.549,94, dan Nasdaq naik 2,74% ke 25.253,14. Sekitar 75% saham di Amerika naik, dipimpin saham teknologi dan chip yang dibeli lagi setelah jatuh minggu lalu, serta harga minyak yang turun. Indeks ketakutan pasar (VIX) turun 21,92% ke 20,02 dan indeks dolar turun 0,61%. Nvidia justru turun sekitar 4% sampai 5% karena dewan direksi menyelidiki direktur utamanya. Selasa malam pukul 20.30 WIB keluar data inflasi Amerika.",
+   "why_it_matters": "IHSG kemungkinan dibuka naik pagi ini. Tetapi analis menyebut pantulan ini masih rapuh, jadi jangan langsung membeli di pembukaan.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "JournalArta",
+     "title": "Stock Market Today: S&P 500 Up 2.35%, Nasdaq Up 2.74%",
+     "url": "https://journalarta.com/en/2026/11/10/stock-market-today-sp-500-surges-2-35-to-7549-94-and-nasdaq-jumps-2-74-as-oil-falls-and-vix-drops/",
+     "time": "2026-11-10 04:14 WIB",
+     "primary": false
+    },
+    {
+     "name": "TheStreet",
+     "title": "Stock Market Today (Nov. 9, 2026): Nasdaq, S&P 500 rise over 2% amid oil backslide, tech comeback",
+     "url": "https://www.thestreet.com/stock-market-today/stock-market-today-dow-jones-sp-500-nasdaq-updates-nov-09-202",
+     "time": "2026-11-10 04:13 WIB",
+     "primary": false
+    },
+    {
+     "name": "AP lewat BNN Bloomberg",
+     "title": "World markets bounce back after a recovery for AI stocks on Wall Street",
+     "url": "https://bnnbloomberg.ca/markets/dow-jones/2026/11/09/world-markets-bounce-back-after-a-recovery-for-ai-stocks-on-wall-street",
+     "time": "2026-11-10 04:38 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-10"
+  },
+  {
+   "id": "inflasi-amerika-10nov",
+   "time": "04.14 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Data inflasi Amerika malam ini",
+   "impact": {
+    "score": 0,
+    "why": "Inflasi Amerika yang tinggi bisa menaikkan peluang bunga Amerika naik, yang biasanya menahan dana asing masuk."
+   },
+   "headline": "Data inflasi Amerika bulan Oktober keluar Selasa 10 November pukul 20.30 WIB",
+   "summary": "Data inflasi Amerika bulan Oktober keluar Selasa 10 November pukul 20.30 WIB. Bulan sebelumnya inflasi tahunan 3,7% dan inflasi inti (tanpa makanan dan energi) 2,6%. Setelah data kerja yang kuat minggu lalu, peluang bunga Amerika naik pada Desember sekitar 77% sampai 80%. Perkiraan ekonom untuk bulan ini belum ditemukan. Bunga obligasi Amerika 10 tahun Senin naik tipis ke 4,864%.",
+   "why_it_matters": "Efek data ini baru terasa di IHSG Rabu pagi. Hati-hati menambah posisi besar sebelum datanya keluar.",
+   "status": "confirmed",
+   "event_date": "2026-11-10",
+   "sources": [
+    {
+     "name": "FXNX",
+     "title": "US CPI 10 November 2026: release time and what it measures",
+     "url": "https://fxnx.com/en/blog/us-cpi-10-november-2026-release-time-what-measures",
+     "time": "2026-11-02",
+     "primary": false
+    },
+    {
+     "name": "JournalArta",
+     "title": "Stock Market Today: S&P 500 Up 2.35%, Nasdaq Up 2.74%",
+     "url": "https://journalarta.com/en/2026/11/10/stock-market-today-sp-500-surges-2-35-to-7549-94-and-nasdaq-jumps-2-74-as-oil-falls-and-vix-drops/",
+     "time": "2026-11-10 04:14 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-10"
+  },
+  {
    "id": "CBRE-rights-issue-48miliar",
    "time": "tidak tercantum",
    "tickers": [
@@ -459,7 +738,7 @@
    ],
    "category": "corporate-action",
    "scope": "company",
-   "short": "RUPSLB rights issue digelar, hasil belum ada",
+   "short": "RUPSLB setujui rights issue jumbo",
    "impact": {
     "score": -3,
     "why": "Rights issue sampai 154,78 miliar saham di nilai nominal Rp10 bisa mendilusi pemegang saham yang tidak menebus sampai 95,24%."
@@ -468,12 +747,19 @@
     "DOOH": -3,
     "INET": 1
    },
-   "headline": "DOOH menggelar RUPS luar biasa Senin 9 November untuk rights issue sampai 154,78 miliar saham; hasilnya belum ditemukan",
-   "summary": "Era Media Sejahtera (DOOH) menggelar rapat umum pemegang saham luar biasa pada Senin 9 November. Agendanya rights issue paling banyak 154,78 miliar saham baru dengan nilai nominal Rp10 per saham. Pemegang saham yang tidak ikut menebus bisa terdilusi (porsinya mengecil) sampai 95,24%. Anak usahanya berencana membeli 6,685 miliar saham INET (29,88%) di Rp300 per saham, sekitar Rp2,005 triliun, didanai pinjaman pemegang saham dengan batas Rp5 triliun dan bunga 7,5% per tahun. Rencana ini diumumkan awal Oktober. Rapat sudah digelar Senin 9 November, tetapi hasilnya belum ditemukan di media sampai sore. Di sesi pertama hari itu asing membeli bersih DOOH Rp8,88 miliar.",
+   "headline": "RUPS luar biasa DOOH menyetujui rights issue sampai 154,78 miliar saham, pembelian 29,88% INET, dan ganti nama menjadi Nexora Energy Infrastructure",
+   "summary": "Rapat umum pemegang saham luar biasa Era Media Sejahtera (DOOH) pada Senin 9 November menyetujui rights issue (penawaran saham baru kepada pemegang saham lama) paling banyak 154,78 miliar saham baru dengan waran. Rapat juga menyetujui pembelian 6,685 miliar saham INET (29,88%) lewat anak usaha, pinjaman dari pengendali sampai Rp5 triliun, kenaikan modal dasar dari Rp245 miliar ke Rp3 triliun, dan ganti nama menjadi PT Nexora Energy Infrastructure Tbk. Pemegang saham yang tidak ikut menebus bisa terdilusi (porsinya mengecil) sampai 95,24%. Harga, rasio, dan jadwal rights issue belum diumumkan, dan pembelian INET masih menunggu izin regulator.",
    "why_it_matters": "Dilusi sebesar ini sangat merugikan pemegang saham yang tidak ikut menebus. Untuk trader kecil, DOOH lebih baik dihindari sampai harga dan jadwal rights issue jelas.",
    "status": "confirmed",
-   "event_date": "2026-11-09",
+   "event_date": null,
    "sources": [
+    {
+     "name": "Kontan",
+     "title": "DOOH Bertransformasi Jadi Nexora Energy Infrastructure, Siapkan Akuisisi INET",
+     "url": "https://investasi.kontan.co.id/news/dooh-bertransformasi-jadi-nexora-energy-infrastructure-siapkan-akuisisi-inet",
+     "time": "2026-11-10 05:36 WIB",
+     "primary": false
+    },
     {
      "name": "Heygotrade, mengutip keterbukaan informasi",
      "title": "Aksi Korporasi Emiten (DOOH Rights Issue & Akuisisi INET, Dividen Interim BMRI, Buyback AALI, DADA ARB)",
@@ -684,42 +970,6 @@
      "title": "IHSG Berpeluang Lanjutkan Rebound, Saham BBCA hingga UNVR Layak Dilirik",
      "url": "https://investortrust.id/market/121912/ihsg-berpeluang-lanjutkan-rebound-saham-bbca-hingga-unvr-layak-dilirik",
      "time": "2026-11-09 05:35 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-09"
-  },
-  {
-   "id": "asing-sesi1-9nov",
-   "time": "12.26 WIB",
-   "tickers": [
-    "BBCA",
-    "ASII",
-    "BMRI",
-    "BBRI",
-    "BBNI",
-    "ANTM",
-    "AMMN",
-    "BRPT"
-   ],
-   "category": "news",
-   "scope": "market",
-   "short": "Asing beli bersih Rp104 miliar sesi pertama",
-   "impact": {
-    "score": 0,
-    "why": "Asing membeli BBCA dalam jumlah besar tetapi menjual bank BUMN dan saham tambang; arus satu hari penuh belum terbit."
-   },
-   "headline": "Asing membeli bersih Rp104,08 miliar di sesi pertama, terutama BBCA Rp396 miliar, dan menjual BMRI, BBRI, BBNI",
-   "summary": "Di sesi pertama Senin 9 November asing membeli Rp1,72 triliun dan menjual Rp1,62 triliun, jadi beli bersih Rp104,08 miliar. Yang paling banyak dibeli: BBCA Rp396,06 miliar, ASII Rp64,03 miliar, dan DSSA Rp13,87 miliar. Yang paling banyak dijual: BMRI Rp85,17 miliar, BBRI Rp70,64 miliar, BBNI Rp53,94 miliar, ANTM Rp35,05 miliar, dan AMMN Rp17,91 miliar. BRPT juga dijual bersih Rp12,04 miliar. Angka satu hari penuh belum terbit saat laporan sore ditulis.",
-   "why_it_matters": "Kalau beli bersih bertahan sampai sore, asing membeli bersih dua hari beruntun untuk pertama kali dalam beberapa minggu. Tetapi pembelian terpusat di satu saham, BBCA.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "CNBC Indonesia",
-     "title": "IHSG Sepanjang Sesi I, Asing Borong 10 Saham Ini",
-     "url": "https://www.cnbcindonesia.com/market/20261109122328-17-783505/ihsg-sepanjang-sesi-i-asing-borong-10-saham-ini",
-     "time": "2026-11-09 12:26 WIB",
      "primary": false
     }
    ],
@@ -2508,7 +2758,10 @@
   "AADI": "Adaro Andalan Indonesia",
   "AALI": "Astra Agro Lestari",
   "ABMM": "ABM Investama",
+  "ADMR": "Alamtri Minerals Indonesia",
+  "ADRO": "Alamtri Resources Indonesia",
   "AIMS": "Artha Mahiya Investama",
+  "AKRA": "AKR Corporindo",
   "AKSI": "Mineral Sumberdaya Mandiri",
   "AMMN": "Amman Mineral Internasional",
   "ANTM": "ANTAM (Persero)",
@@ -2568,6 +2821,7 @@
   "PLAS": "Polaris Investama",
   "POLU": "Golden Flower",
   "PRDA": "Prodia Widyahusada",
+  "PSAB": "J RESOURCES ASIA PASIFIK",
   "PTBA": "Bukit Asam (Persero)",
   "PTSP": "Pioneerindo Gourmet International",
   "RAJA": "Rukun Raharja",
