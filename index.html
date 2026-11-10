@@ -1426,6 +1426,20 @@ function ornaments() {
 }
 ornaments();
 
+// GitHub Pages lets browsers keep the page for 10 minutes: if a newer page is out, load it (once per version).
+const PAGE_VERSION = "6732edaa3782";
+async function checkPage() {
+  try {
+    const v = (await (await fetch("data/page.json", { cache: "no-store" })).json()).version;
+    if (v && v !== PAGE_VERSION && sessionStorage.getItem("reloadedFor") !== v) {
+      sessionStorage.setItem("reloadedFor", v);
+      location.reload();
+    }
+  } catch (e) { /* offline or storage blocked: keep the page as it is */ }
+}
+checkPage();
+document.addEventListener("visibilitychange", () => { if (!document.hidden) checkPage(); });
+
 window.addEventListener("hashchange", route);
 fetch("data/index.json", { cache: "no-store" }).then(r => r.json()).then(data => {
   index = data;
