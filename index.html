@@ -1344,7 +1344,8 @@ function tmStatus() {
   const s = $t("tmStatus"), d = tm.data;
   const live = d && d.status === "running";
   s.className = "tm-status" + (live ? " live" : d && d.status === "done" ? " done" : "");
-  s.textContent = !d ? "Belum ada rekaman" : live ? "Sedang berjalan (tertunda sekitar 2 menit)" : d.status === "done" ? "Selesai, bisa diputar ulang" : "Berhenti dengan galat";
+  s.textContent = !d ? "Belum ada rekaman" : live ? "Live: desk sedang jalan (delay sekitar 2 menit)" : d.status === "done" ? "Selesai, bisa di-replay"
+    : "Berhenti di tengah jalan: " + (d.reason || "laporan tidak sempat dibuat");
 }
 
 async function tmLoad(file) {
@@ -1361,7 +1362,7 @@ async function showTeam(key) {
   const sel = $t("tmRun");
   sel.innerHTML = tm.runs.map(r => {
     const f = fmtDay(r.date), lab = SHIFTS.find(x => x[0] === r.shift)?.[1] || r.shift;
-    const st = r.status === "running" ? "sedang berjalan" : r.status === "done" ? "selesai" : "galat";
+    const st = r.status === "running" ? "live" : r.status === "done" ? "selesai" : "berhenti";
     return `<option value="${r.date}-${r.shift}">${f.long} ${f.label}, ${lab}${r.demo ? " (demo)" : ""}, ${st}, ${r.steps} langkah</option>`;
   }).join("") || `<option>Belum ada rekaman</option>`;
   const run = tm.runs.find(r => `${r.date}-${r.shift}` === key) || tm.runs[0];
