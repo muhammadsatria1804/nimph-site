@@ -1,6 +1,427 @@
 {
  "items": [
   {
+   "id": "ASII-target-brids-6950",
+   "time": "21.43 WIB",
+   "tickers": [
+    "ASII"
+   ],
+   "category": "news",
+   "scope": "company",
+   "short": "Target harga naik ke Rp6.950",
+   "impact": {
+    "score": 1,
+    "why": "Perkiraan laba 2026 dinaikkan 5,3%, tetapi perkiraan 2027 justru diturunkan, jadi dampaknya kecil."
+   },
+   "headline": "BRI Danareksa naikkan target harga ASII ke Rp6.950, perkiraan laba 2026 naik 5,3% ke Rp29,14 triliun",
+   "summary": "Pada Selasa 10 November BRI Danareksa Sekuritas mempertahankan rekomendasi beli ASII dan menaikkan target harga ke Rp6.950 dari Rp6.850. Perkiraan laba bersih 2026 naik 5,3% ke Rp29,14 triliun, tetapi perkiraan 2027 turun 2,1% ke Rp33,06 triliun karena revisi United Tractors. Pangsa pasar mobil Astra turun ke 46,5% di kuartal ketiga 2026 dari 50,9% di semester pertama, tetapi margin mobil membaik ke 2,4% dari 1,6%. ASII ditutup Rp5.350 dan dibeli asing Rp137,95 miliar, terbesar di bursa.",
+   "why_it_matters": "Asing sedang membeli ASII dan target analis sekitar 30% di atas harga. Tetapi pangsa pasar mobil terus turun.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Laba Astra (ASII) Diproyeksi Meningkat pada 2026, Simak Target Harga Sahamnya",
+     "url": "https://investasi.kontan.co.id/news/laba-astra-asii-diproyeksi-meningkat-pada-2026-simak-target-harga-sahamnya",
+     "time": "2026-11-10 21:43 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "id": "asing-sehari-10nov",
+   "time": "21.41 WIB",
+   "tickers": [
+    "ASII",
+    "TINS",
+    "BBCA",
+    "BMRI",
+    "ANTM",
+    "TLKM",
+    "BRPT",
+    "BREN"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Asing beli bersih Rp171,89 miliar",
+   "impact": {
+    "score": 1,
+    "why": "Beli asing tiga hari beruntun dan mulai menyebar ke lebih banyak saham adalah tanda awal dana asing kembali."
+   },
+   "headline": "Asing beli bersih Rp171,89 miliar sepanjang Selasa, ASII dan TINS paling diburu, TLKM dan BRPT paling dilepas",
+   "summary": "Pada Selasa 10 November asing membeli bersih Rp171,89 miliar di seluruh pasar, hari ketiga beruntun. Paling banyak dibeli: ASII Rp137,95 miliar, TINS Rp81,79 miliar, BBCA Rp81,61 miliar, BMRI Rp61,04 miliar, dan ANTM Rp43,37 miliar. Paling banyak dijual: TLKM Rp69,42 miliar, BRPT Rp51,05 miliar, BREN Rp41,19 miliar, ITMG Rp19,69 miliar, dan KLBF Rp17,85 miliar. Sumber lain menyebut angka beli bersih sekitar Rp118,59 miliar.",
+   "why_it_matters": "Beli asing tidak lagi hanya di BBCA dan ASII. Tetapi data inflasi Amerika semalam bisa membuat asing menahan diri hari ini.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "IHSG Naik 5 Hari Berturut-turut, Cek Saham Net Buy Terbesar Asing, Selasa (10/11)",
+     "url": "https://investasi.kontan.co.id/news/ihsg-naik-5-hari-berturut-turut-cek-saham-net-buy-terbesar-asing-selasa-1011",
+     "time": "2026-11-10 21:41 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Asing Banyak Melepas Saham-Saham Ini Saat IHSG Menguat 1% ke 5.125, Selasa (10/11)",
+     "url": "https://investasi.kontan.co.id/news/asing-banyak-melepas-saham-saham-ini-saat-ihsg-menguat-1-ke-5125-selasa-1011",
+     "time": "2026-11-10 21:56 WIB",
+     "primary": false
+    },
+    {
+     "name": "Periskop",
+     "title": "Asing Net Buy Sekitar Rp118,59 Miliar Hari Ini, ASII Paling Diburu",
+     "url": "https://periskop.id/pasar-modal/20261110/asing-beli-bersih-saham-hari-ini-asii-paling-diburu",
+     "time": "2026-11-10 sore WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "id": "BEI-HSC-383-saham",
+   "time": "21.09 WIB",
+   "tickers": [],
+   "category": "issue",
+   "scope": "market",
+   "short": "383 saham akan keluar dari IHSG",
+   "impact": {
+    "score": -1,
+    "why": "Saham dengan pemilik sangat terkumpul bisa dijual dana indeks dan makin bergejolak setelah keluar dari perhitungan IHSG."
+   },
+   "headline": "BEI ubah cara menentukan saham berkepemilikan terkumpul (HSC): 383 saham masuk daftar dan akan dikeluarkan dari perhitungan IHSG",
+   "summary": "Pada Selasa 10 November bursa mengumumkan kriteria baru saham HSC (high shareholding concentration): 10 pemegang saham atau kurang menguasai minimal 92,5% saham. Batas nilai pasar minimal Rp5 triliun dan ukuran gerak harga dihapus, sehingga jumlahnya naik dari 83 menjadi 383 saham. Tambahan 300 saham ini sekitar 6,16% dari nilai pasar IHSG dan akan dikeluarkan dari perhitungan IHSG. Direktur Utama BEI Jeffrey Hendrik menyebut daftar baru diumumkan dalam waktu dekat; tanggal berlakunya dan nama sahamnya belum ada.",
+   "why_it_matters": "Hindari saham kecil yang naik tanpa berita sampai daftarnya keluar. Saham seperti ini mudah digerakkan sedikit pihak.",
+   "status": "official",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "BEI Ubah Metodologi, 383 Saham Masuk Daftar HSC",
+     "url": "https://investasi.kontan.co.id/news/bei-ubah-metodologi-383-saham-masuk-daftar-hsc",
+     "time": "2026-11-10 18:04 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "BEI Bakal Keluarkan 300 Saham Lagi dari Perhitungan IHSG, Ini Alasan dan Kriterianya",
+     "url": "https://investasi.kontan.co.id/news/bei-bakal-keluarkan-300-saham-lagi-dari-ihsg-ini-alasan-dan-kriterianya",
+     "time": "2026-11-10 21:09 WIB",
+     "primary": false
+    },
+    {
+     "name": "Bisnis.com",
+     "title": "BEI Umumkan 383 Saham Masuk Daftar HSC, Keluar dari Perhitungan IHSG",
+     "url": "https://market.bisnis.com/read/20261110/7/2020168/bei-umumkan-383-saham-masuk-daftar-hsc-keluar-dari-perhitungan-ihsg",
+     "time": "2026-11-10 sore WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "id": "SUN-yield-7persen-10nov",
+   "time": "16.37 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Obligasi negara dijual di bawah harga pokok",
+   "impact": {
+    "score": 0,
+    "why": "Imbal hasil obligasi yang tinggi menandakan investor meminta imbalan lebih karena risiko rupiah, tetapi tidak langsung mengubah laba perusahaan."
+   },
+   "headline": "Obligasi negara jangka panjang dijual di bawah harga pokok, imbal hasil 7,63% sampai 7,70%",
+   "summary": "Pada Selasa 10 November empat seri obligasi negara jangka panjang diperdagangkan dengan imbal hasil 7,63% sampai 7,70%. Contohnya seri FR0102 yang jatuh tempo 2054 di 7,70%, dengan harga 90,55% dari nilai pokok. Bunga acuan Bank Indonesia 5,75%. Analis menyebut imbal hasil bisa tetap tinggi kalau tekanan rupiah dan kebutuhan dana pemerintah berlanjut.",
+   "why_it_matters": "Bunga obligasi yang tinggi membuat saham harus menawarkan imbal hasil lebih besar supaya menarik, terutama saham bank dan properti.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Obligasi Negara Dijual di Bawah Par, Yield SUN Tembus 7,7% Menggoda Investor",
+     "url": "https://investasi.kontan.co.id/news/obligasi-negara-dijual-di-bawah-par-yield-sun-tembus-77-menggoda-investor",
+     "time": "2026-11-10 16:37 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "id": "RAJA-akuisisi-kapal-lng",
+   "time": "08.45 WIB",
+   "tickers": [
+    "RAJA"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Beli saham pemilik kapal LNG",
+   "impact": {
+    "score": 1,
+    "why": "Nilainya tidak diungkap dan sahamnya sudah naik 23,28%, jadi dampaknya belum bisa diukur."
+   },
+   "headline": "RAJA lewat anak usaha membeli 90% Kapalindo Nusantara Jaya, pemegang 25% perusahaan kapal LNG Golden Maritim",
+   "summary": "Anak usaha RAJA, Banawa Rezeki Optima, membeli 90% PT Kapalindo Nusantara Jaya. Kapalindo memegang 25% Golden Maritim, yang mengoperasikan satu kapal pengangkut LNG dan satu kapal pengangkut gas besar. Nilai transaksi dan tanggal selesainya tidak diungkap. Laba bersih RAJA sembilan bulan pertama 2026 sebesar 31,08 juta dolar AS, naik 75,06% dibanding periode yang sama tahun lalu, dan sahamnya naik 23,28% pada Selasa.",
+   "why_it_matters": "Kenaikan besar kemarin sudah memasukkan sebagian kabar ini. Jangan mengejar sebelum dokumen resminya dibaca.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Detik Finance",
+     "title": "ULTJ Bagikan Dividen Rp 1,04 Triliun, RAJA Ekspansi ke Bisnis Kapal Pengangkut LNG",
+     "url": "https://finance.detik.com/bursa-dan-valas/d-8745974/ultj-bagikan-dividen-rp-1-04-triliun-raja-ekspansi-ke-bisnis-kapal-pengangkut-lng",
+     "time": "2026-11-10 08:45 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "id": "MSCI-review-november-2026",
+   "time": "06.30 WIB",
+   "tickers": [
+    "BRPT",
+    "BRMS",
+    "UNTR"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Hasil MSCI Kamis dini hari",
+   "impact": {
+    "score": -1,
+    "why": "Saham yang dikeluarkan dari indeks MSCI biasanya terus dijual dana asing sampai tanggal berlaku."
+   },
+   "impacts": {
+    "BRMS": -2,
+    "BRPT": -1,
+    "UNTR": -1
+   },
+   "headline": "Hasil penilaian ulang MSCI keluar Kamis 12 November dini hari WIB; BRMS dan BRPT berisiko turun kelas",
+   "summary": "MSCI mengumumkan hasil penilaian ulang indeks November pada 11 November waktu Amerika, yaitu Kamis 12 November dini hari WIB, dan perubahan berlaku 1 Desember. Mirae Asset memperkirakan peluang BRMS turun dari indeks utama ke indeks saham kecil sekitar 90% dan peluang BRPT keluar sekitar 40%. KISI Sekuritas memperkirakan dana asing keluar 50 sampai 90 juta dolar AS dari BRMS dan 40 sampai 70 juta dolar AS dari BRPT. Keputusan apakah Indonesia dipindah ke kelompok pasar tersendiri (standalone) baru keluar paling lambat Juni 2027.",
+   "why_it_matters": "Jangan membeli BRPT atau BRMS sebelum hasilnya keluar. Kalau tidak dikeluarkan, harganya bisa memantul.",
+   "status": "confirmed",
+   "event_date": "2026-11-12",
+   "sources": [
+    {
+     "name": "Katadata",
+     "title": "Saham BRMS dan BRPT Dinilai Berpotensi Terdepak dari MSCI, Bagaimana Kansnya?",
+     "url": "https://katadata.co.id/finansial/bursa/6aec332bf1b89/saham-brms-dan-brpt-dinilai-berpotensi-terdepak-dari-msci-bagaimana-kansnya",
+     "time": "2026-11-05 19:28 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan English",
+     "title": "Indonesia Stocks (IHSG) Brace for MSCI November Review",
+     "url": "https://english.kontan.co.id/news/indonesia-stocks-ihsg-brace-for-msci-november-review",
+     "time": "2026-11-09 06:12 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "id": "ex-date-dividen-11nov",
+   "time": "06.30 WIB",
+   "tickers": [
+    "ITMG",
+    "TAPG",
+    "MEDC",
+    "SSMS",
+    "AVIA",
+    "BWPT"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Ex date dividen, harga turun",
+   "impact": {
+    "score": 0,
+    "why": "Harga turun sebesar dividen pada ex date, tetapi nilai bagi pemegang lama tidak berubah karena dividennya dibayar."
+   },
+   "impacts": {
+    "ITMG": 0,
+    "TAPG": 0,
+    "MEDC": 0,
+    "SSMS": 0,
+    "AVIA": 0,
+    "BWPT": 0
+   },
+   "headline": "Ex date dividen hari ini untuk ITMG, TAPG, MEDC, SSMS, AVIA, dan BWPT",
+   "summary": "Mulai Rabu 11 November pembeli saham ITMG, TAPG, MEDC, SSMS, AVIA, dan BWPT tidak lagi mendapat dividen. Dividennya: ITMG sekitar Rp1.191, TAPG Rp70, MEDC sekitar Rp21,65, SSMS Rp52,49, AVIA Rp12, dan BWPT Rp1 per saham. Harga biasanya turun sebesar dividen, untuk ITMG bisa sekitar 4,8%. ITMG juga dijual asing Rp19,69 miliar pada Selasa.",
+   "why_it_matters": "Penurunan harga hari ini di saham-saham ini bukan tanda lemah. Jangan salah membaca grafik.",
+   "status": "confirmed",
+   "event_date": "2026-11-11",
+   "sources": [
+    {
+     "name": "Katadata",
+     "title": "14 Emiten Tebar Dividen November, ITMG, JPFA hingga UNTR Cek Jadwal dan Nilainya",
+     "url": "https://katadata.co.id/finansial/bursa/6ae959331006b/14-emiten-tebar-dividen-november-itmg-jpfa-hingga-untr-cek-jadwal-dan-nilainya",
+     "time": "2026-11-03 10:51 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Asing Banyak Melepas Saham-Saham Ini Saat IHSG Menguat 1% ke 5.125, Selasa (10/11)",
+     "url": "https://investasi.kontan.co.id/news/asing-banyak-melepas-saham-saham-ini-saat-ihsg-menguat-1-ke-5125-selasa-1011",
+     "time": "2026-11-10 21:56 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "id": "IHSG-prediksi-11nov",
+   "time": "05.46 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Analis lihat IHSG 5.000 sampai 5.235",
+   "impact": {
+    "score": 0,
+    "why": "Perkiraan analis ditulis sebelum data inflasi Amerika keluar, jadi perlu dibaca hati-hati."
+   },
+   "headline": "Analis perkirakan IHSG Rabu bergerak antara 5.000 dan 5.235, ditulis sebelum data inflasi Amerika",
+   "summary": "Phintraco Sekuritas memperkirakan IHSG menguji 5.200 sampai 5.235, dengan titik tengah 5.100 dan batas bawah 5.000. BRI Danareksa Sekuritas menyebut batas atas terdekat 5.127 dan batas bawah 5.050, lalu 4.960 sampai 4.920. MNC Sekuritas melihat ruang naik ke 5.356 sampai 5.520 tetapi mewaspadai koreksi ke 5.015 sampai 5.104. Semua perkiraan ini ditulis Selasa sore, sebelum data inflasi Amerika yang lebih panas dari perkiraan keluar.",
+   "why_it_matters": "Level 5.000 dan 5.050 adalah batas bawah yang perlu dijaga. Kalau tembus, kenaikan dua hari terakhir gagal.",
+   "status": "confirmed",
+   "event_date": "2026-11-11",
+   "sources": [
+    {
+     "name": "investor.id",
+     "title": "IHSG Bakal Menguat di Tanggal Cantik 11-11, PGEO hingga AMMN Masuk Radar",
+     "url": "https://investor.id/market/461485/ihsg-bakal-menguat-di-tanggal-cantik-1111-pgeo-hingga-ammn-masuk-radar",
+     "time": "2026-11-11 05:46 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "IHSG Menguat 1,02%, Simak Proyeksi Perdagangan Rabu (11/11)",
+     "url": "https://investasi.kontan.co.id/news/ihsg-menguat-102-simak-proyeksi-perdagangan-rabu-1111",
+     "time": "2026-11-10 18:49 WIB",
+     "primary": false
+    },
+    {
+     "name": "investor.id",
+     "title": "Prediksi IHSG dan Rekomendasi Saham Rabu, 11 November 2026",
+     "url": "https://investor.id/market/461440/prediksi-ihsg-dan-rekomendasi-saham-rabu-11-november-2026",
+     "time": "2026-11-10 18:30 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "id": "wallstreet-turun-10nov",
+   "time": "05.44 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Wall Street turun setelah inflasi panas",
+   "impact": {
+    "score": -1,
+    "why": "Wall Street yang turun dan dolar yang menguat biasanya membuat IHSG dan rupiah dibuka lebih lemah."
+   },
+   "headline": "Wall Street turun Selasa: Nasdaq turun 0,74%, S&P 500 turun 0,38% setelah data inflasi Amerika lebih tinggi dari perkiraan",
+   "summary": "Pada Selasa 10 November waktu Amerika, Dow Jones turun 0,30% ke 52.231,89, S&P 500 turun 0,38% ke 7.520,93, dan Nasdaq turun 0,74% ke 25.065,87. Saham yang turun sekitar 2,3 kali lebih banyak dari yang naik, dan sektor teknologi paling lemah dengan turun 1,4%. Nvidia turun 5,4%, total 9,6% dalam dua hari, karena pemeriksaan internal yang menyangkut direktur utamanya. Indeks dolar naik 0,6% ke 102,26. Pasar saham Amerika tetap buka normal pada Rabu walau hari libur Veteran.",
+   "why_it_matters": "Kenaikan IHSG dua hari terakhir bisa tertahan pagi ini. Tunggu reaksi Asia dan rupiah sebelum membeli.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Reuters lewat GV Wire",
+     "title": "Wall St Ends Lower as Hot Inflation Data, Fed Comments Heighten Rate Worries",
+     "url": "https://gvwire.com/2026/11/10/wall-st-ends-lower-as-hot-inflation-data-fed-comments-heighten-rate-worries/",
+     "time": "2026-11-11 05:44 WIB",
+     "primary": false
+    },
+    {
+     "name": "JournalArta",
+     "title": "Stock Market Today: S&P 500 Slips 0.38%, Nasdaq Falls 0.74%",
+     "url": "https://journalarta.com/en/2026/11/11/stock-market-today-sp-500-slips-0-38-to-7520-93-and-nasdaq-falls-0-74-as-10-year-yield-rises-to-4-98/",
+     "time": "2026-11-11 04:15 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Wall Street Melemah, Inflasi AS Picu Kekhawatiran Kenaikan Suku Bunga The Fed",
+     "url": "https://investasi.kontan.co.id/news/wall-street-melemah-inflasi-as-picu-kekhawatiran-kenaikan-suku-bunga-the-fed",
+     "time": "2026-11-10 22:28 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "id": "inflasi-amerika-oktober-panas",
+   "time": "05.44 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Inflasi Amerika di atas perkiraan",
+   "impact": {
+    "score": -1,
+    "why": "Bunga Amerika yang hampir pasti naik membuat dana asing lebih menahan diri di pasar berkembang seperti Indonesia."
+   },
+   "headline": "Harga konsumen Amerika naik 0,4% pada Oktober, di atas perkiraan 0,3%; pasar yakin bunga Amerika naik Desember",
+   "summary": "Harga konsumen Amerika bulan Oktober naik 0,4% dalam sebulan, sedangkan ekonom memperkirakan 0,3%. Ini bulan ketiga beruntun dengan kenaikan 0,4% atau lebih, dan inflasi inti (tanpa makanan dan energi) naik 0,3%, juga di atas perkiraan. Pejabat bank sentral Amerika Christopher Waller mendukung kenaikan bunga Desember, dan Lorie Logan menyebut perlu dua kali kenaikan lagi. Pasar kini memperkirakan bunga pasti naik minimal 0,25 poin persen pada rapat 8 dan 9 Desember, dan imbal hasil obligasi 2 tahun naik hampir 0,19 poin persen ke 4,736%. Angka inflasi tahunan belum ditemukan.",
+   "why_it_matters": "Saham bank dan properti paling rentan saat bunga Amerika naik. Rupiah juga bisa melemah.",
+   "status": "confirmed",
+   "event_date": "2026-12-09",
+   "sources": [
+    {
+     "name": "Reuters lewat GV Wire",
+     "title": "Wall St Ends Lower as Hot Inflation Data, Fed Comments Heighten Rate Worries",
+     "url": "https://gvwire.com/2026/11/10/wall-st-ends-lower-as-hot-inflation-data-fed-comments-heighten-rate-worries/",
+     "time": "2026-11-11 05:44 WIB",
+     "primary": false
+    },
+    {
+     "name": "StockTitan",
+     "title": "The Stock Market Today, November 10, 2026, Closed Lower on the Day BLS Data Show Core Prices Rising Again",
+     "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-10-2026",
+     "time": "2026-11-11 pagi WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-11"
+  },
+  {
+   "id": "minyak-terendah-dua-bulan-10nov",
+   "time": "04.15 WIB",
+   "tickers": [
+    "MEDC",
+    "ENRG"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Minyak di level terendah dua bulan",
+   "impact": {
+    "score": -1,
+    "why": "Minyak yang turun mengurangi pendapatan perusahaan minyak seperti MEDC dan ENRG."
+   },
+   "headline": "Minyak Brent turun ke 91,84 dolar AS per barel, terendah dalam dua bulan",
+   "summary": "Pada Selasa 10 November minyak Brent turun 0,79% ke 91,84 dolar AS per barel dan WTI turun 0,66% ke 86,28 dolar AS. Reuters menyebut minyak di level terendah dua bulan karena pejabat Amerika meredam kabar serangan militer ke Iran. Senin malam Brent sudah turun tajam sekitar 5,5%. Hari ini juga ex date dividen MEDC, jadi harganya biasanya turun sekitar Rp21,65.",
+   "why_it_matters": "Jangan beli saham minyak hanya karena sudah turun. Maskapai dan transportasi justru diuntungkan biaya bahan bakar yang lebih murah.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Reuters lewat GV Wire",
+     "title": "Wall St Ends Lower as Hot Inflation Data, Fed Comments Heighten Rate Worries",
+     "url": "https://gvwire.com/2026/11/10/wall-st-ends-lower-as-hot-inflation-data-fed-comments-heighten-rate-worries/",
+     "time": "2026-11-11 05:44 WIB",
+     "primary": false
+    },
+    {
+     "name": "JournalArta",
+     "title": "Stock Market Today: S&P 500 Slips 0.38%, Nasdaq Falls 0.74%",
+     "url": "https://journalarta.com/en/2026/11/11/stock-market-today-sp-500-slips-0-38-to-7520-93-and-nasdaq-falls-0-74-as-10-year-yield-rises-to-4-98/",
+     "time": "2026-11-11 04:15 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-11"
+  },
+  {
    "id": "BBRI-laba-9bulan-2026",
    "time": "22.23 WIB",
    "tickers": [
@@ -53,7 +474,7 @@
    "summary": "Rapat umum pemegang saham luar biasa Ultrajaya (ULTJ) pada 6 November menyetujui pembelian seluruh Frisian Flag Indonesia senilai Rp14,57 triliun. Rapat juga menyetujui rights issue (penawaran saham baru kepada pemegang saham lama) paling banyak 10 miliar saham, padahal berita sebelumnya menyebut 7,88 miliar saham di Rp2.150; angka resminya perlu dicek di dokumen BEI. Rapat juga menyetujui dividen spesial Rp100 per saham, total Rp1,04 triliun. Wakil FrieslandCampina masuk ke jajaran pengurus. Tanggal cum date dividen dan jadwal rights issue belum ditemukan.",
    "why_it_matters": "Dividen spesial menarik, tetapi kalau jumlah saham hampir dua kali lipat, laba per saham bisa turun. Tunggu jadwal dividen dan harga rights issue yang resmi sebelum membeli.",
    "status": "confirmed",
-   "event_date": null,
+   "event_date": "2026-11-16",
    "sources": [
     {
      "name": "IDX Channel",
@@ -67,6 +488,13 @@
      "title": "Komisaris ULTJ Resign di Tengah Proses Akuisisi Frisian Flag",
      "url": "https://www.cnbcindonesia.com/market/20261109113221-17-783487/komisaris-ultj-resign-di-tengah-proses-akuisisi-frisian-flag",
      "time": "2026-11-09 13:10 WIB",
+     "primary": false
+    },
+    {
+     "name": "Detik Finance",
+     "title": "ULTJ Bagikan Dividen Rp 1,04 Triliun, RAJA Ekspansi ke Bisnis Kapal Pengangkut LNG",
+     "url": "https://finance.detik.com/bursa-dan-valas/d-8745974/ultj-bagikan-dividen-rp-1-04-triliun-raja-ekspansi-ke-bisnis-kapal-pengangkut-lng",
+     "time": "2026-11-10 08:45 WIB",
      "primary": false
     }
    ],
@@ -168,7 +596,7 @@
     "AADI": 0
    },
    "headline": "Adaro Strategic Investments memindahkan seluruh saham ADRO ke empat pemiliknya; saham AADI senilai Rp32,9 triliun juga berpindah",
-   "summary": "Pada Selasa 10 November terjadi pemindahan saham besar di pasar negosiasi senilai sekitar Rp66,8 triliun. Adaro Strategic Investments (ASI) memindahkan seluruh 48,77% saham ADRO di Rp2.413 per saham (Rp33,89 triliun) ke empat pemiliknya: Triputra Investindo Arya 14,63%, Saratoga 12,78%, Persada Capital Investama 12,23%, dan Trinugraha Thohir 9,14%. Perusahaan menyebut pengendali tidak berubah, jadi tidak ada penawaran tender wajib. Di AADI berpindah sekitar 3,2 miliar saham di Rp10.286 (Rp32,92 triliun), hanya 0,6% di atas harga pasar; penerimanya belum disebut. Di sesi pertama asing menjual bersih AADI Rp17,00 miliar dan ADRO Rp16,58 miliar.",
+   "summary": "Pada Selasa 10 November terjadi pemindahan saham besar di pasar negosiasi senilai sekitar Rp66,8 triliun. Adaro Strategic Investments (ASI) memindahkan seluruh 48,77% saham ADRO di Rp2.413 per saham (Rp33,89 triliun) ke empat pemiliknya: Triputra Investindo Arya 14,63%, Saratoga 12,78%, Persada Capital Investama 12,23%, dan Trinugraha Thohir 9,14%. Perusahaan menyebut pengendali tidak berubah, jadi tidak ada penawaran tender wajib. Di AADI berpindah sekitar 3,2 miliar saham di Rp10.286 (Rp32,92 triliun), hanya 0,6% di atas harga pasar; penerimanya belum disebut. Di sesi pertama asing menjual bersih AADI Rp17,00 miliar dan ADRO Rp16,58 miliar. Rabu pagi Kontan menegaskan manajemen ADRO menyebut pengendali tidak berubah dan operasi tidak terganggu; pembagian 3,2 miliar saham AADI per penerima belum disebut.",
    "why_it_matters": "Untuk AADI, saham yang dipantau, ini tidak mengubah laba. Tetapi pemilik langsung yang baru nanti bisa menjual sebagian sahamnya. Desk pagi perlu membaca laporan perubahan pemegang saham AADI di keterbukaan informasi BEI.",
    "status": "confirmed",
    "event_date": null,
@@ -185,6 +613,13 @@
      "title": "Transaksi Jumbo Rp 66,8 Triliun di ADRO-AADI, Pengendali Lepas Seluruh Saham?",
      "url": "https://katadata.co.id/finansial/bursa/6af2b67dcd076/transaksi-jumbo-rp-66-8-triliun-di-adro-aadi-pengendali-lepas-seluruh-saham",
      "time": "2026-11-10 13:15 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Beralih Ke-4 Perusahaan, Inilah Penjelasan Transaksi Nego Rp 66 T Saham ADRO & AADI",
+     "url": "https://investasi.kontan.co.id/news/beralih-ke-4-perusahaan-inilah-penjelasan-transaksi-nego-rp-66-t-saham-adro-aadi",
+     "time": "2026-11-11 05:31 WIB",
      "primary": false
     }
    ],
@@ -489,9 +924,9 @@
     "score": -1,
     "why": "Ketidakpastian politik bisa membuat asing menahan diri dan menekan rupiah, walau IHSG hari ini belum terpengaruh."
    },
-   "headline": "Wakil Presiden Gibran Rakabuming Raka mengajukan pengunduran diri kepada Presiden Prabowo; Menteri Sekretaris Negara membenarkan",
-   "summary": "Menteri Sekretaris Negara Prasetyo Hadi membenarkan bahwa Wakil Presiden Gibran Rakabuming Raka mengajukan pengunduran diri kepada Presiden Prabowo Subianto pada Selasa pagi 10 November. Keduanya bertemu sekitar dua setengah jam di Istana. Alasannya dikaitkan dengan putusan Mahkamah Konstitusi dan Mahkamah Agung, serta desakan sebagian anggota DPR memakai hak menyatakan pendapat. Belum jelas apakah Presiden menerima pengunduran diri ini dan bagaimana proses penggantinya di MPR. Kabar ini keluar sekitar pukul 15.20 WIB, sebelum pasar tutup, dan IHSG tetap ditutup naik 1,02%.",
-   "why_it_matters": "Pasar biasanya tidak suka ketidakpastian politik. Ekonom yang dikutip Kontan menilai asing bisa menunggu dulu atau mengambil untung, dan rupiah bisa tertekan kalau prosesnya berlarut-larut. Perhatikan pembukaan Rabu.",
+   "headline": "Wakil Presiden Gibran ajukan niat mundur; Istana bantah Presiden menolak, tetapi belum ada keputusan resmi",
+   "summary": "Pada Selasa pagi 10 November Wakil Presiden Gibran Rakabuming Raka bertemu Presiden Prabowo sekitar dua setengah jam dan menyampaikan niat mundur, terkait putusan Mahkamah Agung dan Mahkamah Konstitusi soal dokumen pendidikannya. Rabu pukul 05.59 WIB Menteri Sekretaris Negara Prasetyo Hadi membantah bahwa Presiden menolak niat itu, tetapi juga tidak menyebut Presiden menerimanya; Gibran minta kesempatan membuktikan dokumennya di Pengadilan Tata Usaha Negara. Anggota DPR Ahmad Doli Kurnia menyebut, kalau jabatan kosong, MPR wajib memilih pengganti dalam 60 hari dari dua calon yang diajukan Presiden. Setelah paripurna DPR Selasa, 50 anggota dari enam fraksi disebut mendorong hak menyatakan pendapat (langkah resmi DPR yang bisa mengarah ke pemakzulan).",
+   "why_it_matters": "Selama belum jelas, asing bisa menahan diri dan rupiah bisa tertekan. Jangan menambah posisi besar sampai prosesnya lebih pasti.",
    "status": "confirmed",
    "event_date": null,
    "sources": [
@@ -514,6 +949,20 @@
      "title": "Isu Pengunduran Diri Wakil Presiden Mencuat, Rupiah Terancam Tekanan Politik",
      "url": "https://investasi.kontan.co.id/news/isu-pengunduran-diri-wakil-presiden-mencuat-rupiah-terancam-tekanan-politik",
      "time": "2026-11-10 16:47 WIB",
+     "primary": false
+    },
+    {
+     "name": "Antara",
+     "title": "Mensesneg bantah Prabowo tolak niatan pengunduran diri Gibran",
+     "url": "https://www.antaranews.com/berita/5845523/mensesneg-bantah-prabowo-tolak-niatan-pengunduran-diri-gibran",
+     "time": "2026-11-11 05:59 WIB",
+     "primary": false
+    },
+    {
+     "name": "CNN Indonesia",
+     "title": "DPR: Tak Ada Aturan Prabowo Harus Setujui Pengunduran Diri Gibran",
+     "url": "https://www.cnnindonesia.com/nasional/20261110175100-32-1425538/dpr-tak-ada-aturan-prabowo-harus-setujui-pengunduran-diri-gibran",
+     "time": "2026-11-10 18:15 WIB",
      "primary": false
     }
    ],
