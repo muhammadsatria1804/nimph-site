@@ -46,54 +46,6 @@
    "date": "2026-11-12"
   },
   {
-   "id": "wapres-gibran-mundur",
-   "time": "21.30 WIB",
-   "tickers": [],
-   "category": "news",
-   "scope": "market",
-   "short": "Wapres Gibran dikabarkan mundur",
-   "impact": {
-    "score": -1,
-    "why": "Kabar politik besar yang belum resmi bisa membuat asing menahan diri dan rupiah tertekan."
-   },
-   "headline": "Wakil Presiden Gibran dikabarkan menyerahkan surat mundur kepada Presiden; surat ke MPR dan DPR dijadwalkan Kamis",
-   "summary": "Rabu 11 November, Gibran Rakabuming Raka dikabarkan menyerahkan surat pengunduran diri kepada Presiden Prabowo di Bandara Halim Perdanakusuma. Ketua Projo Budi Arie Setiadi membenarkannya dengan kata \"Betul\", tetapi Istana belum mengumumkan secara resmi. Menurut NU Online, surat resmi ke MPR dan DPR dijadwalkan Kamis 12 November. Di DPR, usulan hak menyatakan pendapat (langkah resmi yang bisa mengarah ke pemberhentian) ditandatangani 120 anggota dari delapan fraksi.",
-   "why_it_matters": "Pagi ini pasar bisa bergerak tajam di pembukaan. Jangan membeli sebelum ada kejelasan resmi dan reaksi rupiah terlihat.",
-   "status": "unconfirmed",
-   "event_date": "2026-11-12",
-   "sources": [
-    {
-     "name": "NU Online",
-     "title": "Wapres Gibran Mengundurkan Diri, Sampaikan Surat Resmi ke MPR dan DPR Kamis Besok",
-     "url": "https://www.nu.or.id/nasional/wapres-gibran-mengundurkan-diri-sampaikan-surat-resmi-ke-mpr-dan-dpr-kamis-besok-4K4pX",
-     "time": "2026-11-11 21:30 WIB",
-     "primary": false
-    },
-    {
-     "name": "Lampost",
-     "title": "Budi Arie Benarkan Gibran Mundur dari Jabatan Wapres, Istana Belum Umumkan Proses Resmi",
-     "url": "https://lampost.co/nasional/budi-arie-benarkan-gibran-mundur-dari-jabatan-wapres-istana-belum-umumkan-proses-resmi/",
-     "time": "2026-11-11 20:10 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kompas",
-     "title": "Gibran Dikabarkan Mundur, Sempat Terlihat \"Jogging\" Keluar Istana Wapres",
-     "url": "https://www.kompas.id/artikel/gibran-dikabarkan-mundur-sempat-terlihat-jogging-keluar-istana-wapres",
-     "time": "2026-11-11 malam",
-     "primary": false
-    },
-    {
-     "name": "Aktual",
-     "title": "Kronologi Polemik Ijazah Kesetaraan Gibran: Dari Surat 2019, Putusan MK & MA, Usulan HMP hingga Pengajuan Mundur",
-     "url": "https://aktual.com/kronologi-polemik-ijazah-kesetaraan-gibran-dari-surat-2019-putusan-mk-ma-usulan-hmp-hingga-pengajuan-mundur/",
-     "time": "2026-11-12 02:14 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-12"
-  },
-  {
    "id": "IHSG-prediksi-12nov",
    "time": "19.22 WIB",
    "tickers": [
@@ -129,6 +81,55 @@
      "title": "Prediksi IHSG dan Rekomendasi Saham Kamis, 12 November 2026",
      "url": "https://investor.id/market/461588/prediksi-ihsg-dan-rekomendasi-saham-kamis-12-november-2026",
      "time": "2026-11-11 18:30 WIB",
+     "primary": false
+    }
+   ],
+   "expires": "2026-11-12",
+   "date": "2026-11-12"
+  },
+  {
+   "id": "BEI-HSC-383-saham",
+   "time": "19.17 WIB",
+   "tickers": [],
+   "category": "issue",
+   "scope": "market",
+   "short": "383 saham HSC keluar dari IHSG mulai Jumat",
+   "impact": {
+    "score": -1,
+    "why": "Saham dengan pemilik sangat terkumpul bisa dijual dana indeks dan makin bergejolak setelah keluar dari perhitungan IHSG."
+   },
+   "headline": "Daftar 383 saham HSC sudah diumumkan; saham-saham ini tidak dihitung lagi dalam IHSG mulai Jumat 13 November",
+   "summary": "Bursa dan KSEI mengumumkan daftar 383 saham HSC (high shareholding concentration, saham yang minimal 92,5% dimiliki 10 pemegang saham terbesar) pada Rabu malam 11 November, berdasarkan data 30 Oktober. Mulai Jumat 13 November saham-saham ini tidak lagi dihitung dalam IHSG. Nama yang disebut media antara lain BREN, BYAN, BDMN, HMSP, TBIG, WIKA, MTEL, OCAP, EDGE, dan IBST. Tambahan 300 saham di daftar ini sekitar 6,16% dari nilai pasar IHSG. Daftar lengkapnya belum dibaca desk dari pengumuman resmi.",
+   "why_it_matters": "Mulai besok gerak IHSG bisa sedikit berbeda karena bobot saham lain berubah. Saham di daftar ini mudah digerakkan sedikit pihak, jadi hati-hati kalau naik tanpa berita.",
+   "status": "official",
+   "event_date": "2026-11-13",
+   "sources": [
+    {
+     "name": "EmitenNews",
+     "title": "Resmi! 383 Saham HSC Didepak dari IHSG, Efektif Mulai 13 November 2026",
+     "url": "https://emitennews.com/news/resmi-383-saham-hsc-didepak-dari-ihsg-efektif-mulai-13-november-2026",
+     "time": "2026-11-11 19:17 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "BEI Ubah Metodologi, 383 Saham Masuk Daftar HSC",
+     "url": "https://investasi.kontan.co.id/news/bei-ubah-metodologi-383-saham-masuk-daftar-hsc",
+     "time": "2026-11-10 18:04 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "BEI Bakal Keluarkan 300 Saham Lagi dari Perhitungan IHSG, Ini Alasan dan Kriterianya",
+     "url": "https://investasi.kontan.co.id/news/bei-bakal-keluarkan-300-saham-lagi-dari-ihsg-ini-alasan-dan-kriterianya",
+     "time": "2026-11-10 21:09 WIB",
+     "primary": false
+    },
+    {
+     "name": "Bisnis.com",
+     "title": "BEI Umumkan 383 Saham Masuk Daftar HSC, Keluar dari Perhitungan IHSG",
+     "url": "https://market.bisnis.com/read/20261110/7/2020168/bei-umumkan-383-saham-masuk-daftar-hsc-keluar-dari-perhitungan-ihsg",
+     "time": "2026-11-10 sore WIB",
      "primary": false
     }
    ],
@@ -180,6 +181,160 @@
    "date": "2026-11-12"
   },
   {
+   "id": "rupiah-rekor-terendah-12nov",
+   "time": "16.39 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Rupiah ditutup terlemah sepanjang sejarah",
+   "impact": {
+    "score": -1,
+    "why": "Rupiah yang terus melemah menekan saham dengan utang dolar atau bahan baku impor, dan bisa membuat asing menahan diri."
+   },
+   "headline": "Rupiah ditutup melemah 0,49% ke Rp18.239 per dolar AS, penutupan terlemah sepanjang sejarah",
+   "summary": "Rupiah ditutup di Rp18.239 per dolar AS pada Kamis 12 November, melemah 0,49%. Kurs acuan Bank Indonesia (JISDOR) Rp18.241. Pasar yakin bank sentral Amerika menaikkan bunga pada Desember, dan arus keluar dana karena MSCI ikut menekan. Bank Indonesia disebut masuk pasar untuk menahan pelemahan. Untuk Jumat, rupiah diperkirakan bergerak di Rp18.180 sampai Rp18.300; data harga produsen Amerika keluar Jumat pukul 20.30 WIB.",
+   "why_it_matters": "Saham naik kuat hari ini walau rupiah melemah. Kalau rupiah terus jatuh, kenaikan saham bisa sulit bertahan. Pantau angka Rp18.300.",
+   "status": "confirmed",
+   "event_date": "2026-11-13",
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Rupiah Cetak Rekor Penutupan Terendah, Tekanan The Fed dan MSCI Membayangi",
+     "url": "https://investasi.kontan.co.id/news/rupiah-cetak-rekor-penutupan-terendah-tekanan-the-fed-dan-msci-membayangi",
+     "time": "2026-11-12 16:39 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-12"
+  },
+  {
+   "id": "MSCI-review-november-2026",
+   "time": "16.38 WIB",
+   "tickers": [
+    "BRPT",
+    "BRMS",
+    "RAJA",
+    "CTRA",
+    "JSMR",
+    "AVIA",
+    "MTEL",
+    "EMTK",
+    "WIFI"
+   ],
+   "category": "news",
+   "scope": "company",
+   "short": "MSCI keluarkan BRPT dan BRMS",
+   "impact": {
+    "score": -1,
+    "why": "Dana indeks masih akan menjual sampai 30 November, tetapi sebagian besar saham ini hanya turun sedikit hari pertama, jadi sebagian kabar sudah masuk harga."
+   },
+   "impacts": {
+    "BRPT": -1,
+    "BRMS": -1,
+    "RAJA": -1,
+    "CTRA": -1,
+    "JSMR": -1,
+    "AVIA": -1,
+    "MTEL": -1,
+    "EMTK": -1,
+    "WIFI": -1
+   },
+   "headline": "MSCI mengeluarkan BRPT dan BRMS dari indeks utamanya, dan tujuh saham lain dari indeks saham kecil",
+   "summary": "Hasil penilaian ulang MSCI keluar Kamis 12 November dini hari WIB. BRPT dan BRMS dikeluarkan dari MSCI Global Standard (indeks saham besar yang diikuti banyak dana asing); BRMS turun ke indeks saham kecil, sedangkan BRPT keluar dari keduanya. AVIA, CTRA, MTEL, EMTK, JSMR, RAJA, dan WIFI dikeluarkan dari indeks saham kecil, dan tidak ada saham Indonesia yang masuk indeks utama. Perubahan dijalankan pada penutupan Senin 30 November dan berlaku 1 Desember 2026. Sebelum pengumuman, KISI Sekuritas memperkirakan dana keluar 50 sampai 90 juta dolar AS dari BRMS dan 40 sampai 70 juta dolar AS dari BRPT. Pada hari pertama setelah pengumuman, Kamis 12 November, pukul 10.30 WIB BRPT turun 3,27% ke Rp740, BRMS turun 2,68% ke Rp290, MTEL turun 4,29%, sedangkan RAJA naik 0,96% dan CTRA naik 0,40%. WIFI paling tertekan: ditutup turun 5,13% ke Rp740 setelah sempat menyentuh batas turun harian di Rp730. Di sesi pertama asing menjual BRMS Rp45,80 miliar dan RAJA Rp32,55 miliar.",
+   "why_it_matters": "IHSG naik 2,66%, tetapi saham-saham ini tidak ikut naik. Itu tanda tekanan jual dana indeks masih ada. Tunggu sampai setelah 30 November sebelum membeli.",
+   "status": "confirmed",
+   "event_date": "2026-11-30",
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Cek Kinerja 9 Saham Terdampak Rebalancing MSCI Sesi 1 Kamis (12/11), Mayoritas Turun",
+     "url": "https://investasi.kontan.co.id/news/cek-kinerja-9-saham-terdampak-rebalancing-msci-sesi-1-kamis-1211-mayoritas-turun",
+     "time": "2026-11-12 11:46 WIB",
+     "primary": false
+    },
+    {
+     "name": "Katadata",
+     "title": "IHSG Melonjak 2,66%, Saham Grup Bakrie VKTR, BNBR hingga ELTY Masuk Top Gainers",
+     "url": "https://katadata.co.id/finansial/bursa/6af589073ad9b/ihsg-melonjak-2-66-saham-grup-bakrie-vktr-bnbr-hingga-elty-masuk-top-gainers",
+     "time": "2026-11-12 16:38 WIB",
+     "primary": false
+    },
+    {
+     "name": "CNBC Indonesia",
+     "title": "Dana Asing Masuk Rp 83,6 M di Sesi I, Asing Borong 10 Saham Ini",
+     "url": "https://www.cnbcindonesia.com/market/20261112125718-17-784624/dana-asing-masuk-rp-836-m-di-sesi-i-asing-borong-10-saham-ini",
+     "time": "2026-11-12 13:01 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Hasil Review MSCI: Saham BRPT, BRMS Dicoret dari MSCI Global Standard Index",
+     "url": "https://investasi.kontan.co.id/news/hasil-review-msci-saham-brpt-brms-dicoret-dari-msci-global-standard-index",
+     "time": "2026-11-12 05:34 WIB",
+     "primary": false
+    },
+    {
+     "name": "CNBC Indonesia",
+     "title": "Hasil Rebalancing MSCI November 2026: 9 Saham Ditendang, BRPT-RAJA",
+     "url": "https://www.cnbcindonesia.com/research/20261112054342-128-784462/hasil-rebalancing-msci-november-2026-9-saham-ditendang-brpt-raja",
+     "time": "2026-11-12 05:56 WIB",
+     "primary": false
+    },
+    {
+     "name": "Katadata",
+     "title": "MSCI Keluarkan BRPT dan BRMS dari Indeks Global, Depak 7 Saham dari Small Cap",
+     "url": "https://katadata.co.id/finansial/bursa/6af4ed8e37df4/msci-keluarkan-brpt-dan-brms-dari-indeks-global-depak-7-saham-dari-small-cap",
+     "time": "2026-11-12 pagi",
+     "primary": false
+    },
+    {
+     "name": "Bloomberg Technoz",
+     "title": "Gelagat Investor Asing di Saham BRPT & BRMS Jelang Review MSCI",
+     "url": "https://www.bloombergtechnoz.com/detail-news/127399/gelagat-investor-asing-di-saham-brpt-brms-jelang-review-msci",
+     "time": "2026-11-11 13:57 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-12"
+  },
+  {
+   "id": "MORA-WIFI-turun-12nov",
+   "time": "16.38 WIB",
+   "tickers": [
+    "MORA",
+    "WIFI",
+    "ARCI"
+   ],
+   "category": "issue",
+   "scope": "company",
+   "short": "Turun dekat batas bawah harian",
+   "impact": {
+    "score": -1,
+    "why": "Saham yang turun ke batas bawah saat pasar naik kuat menunjukkan tekanan jual yang khusus pada saham itu."
+   },
+   "impacts": {
+    "MORA": -1,
+    "WIFI": -1,
+    "ARCI": -1
+   },
+   "headline": "MORA turun 6,98% ke batas bawah harian; WIFI dan ARCI juga paling turun saat IHSG naik",
+   "summary": "Saat IHSG naik 2,66% pada Kamis 12 November, MORA turun 6,98% ke Rp1.200, sama dengan batas turun harian (ARB, penurunan maksimal yang diizinkan bursa dalam sehari, saat ini 7%). ARCI turun 5,53% ke Rp940. WIFI turun 5,13% ke Rp740 setelah sempat menyentuh ARB di Rp730; WIFI baru dikeluarkan dari indeks saham kecil MSCI. Media tidak menyebut berita perusahaan untuk MORA dan ARCI. Daftar resmi saham yang kena ARB tidak ditemukan.",
+   "why_it_matters": "Saham yang turun saat pasar naik sedang dijual oleh pihak tertentu. Hindari dulu sampai alasannya jelas.",
+   "status": "confirmed",
+   "event_date": null,
+   "expires": "2026-11-14",
+   "sources": [
+    {
+     "name": "Katadata",
+     "title": "IHSG Melonjak 2,66%, Saham Grup Bakrie VKTR, BNBR hingga ELTY Masuk Top Gainers",
+     "url": "https://katadata.co.id/finansial/bursa/6af589073ad9b/ihsg-melonjak-2-66-saham-grup-bakrie-vktr-bnbr-hingga-elty-masuk-top-gainers",
+     "time": "2026-11-12 16:38 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-12"
+  },
+  {
    "id": "minyak-naik-iran-11nov",
    "time": "16.34 WIB",
    "tickers": [
@@ -211,6 +366,149 @@
      "title": "Oil 1% Iran Nuclear Standoff Lifts Brent to $92.81",
      "url": "https://journalarta.com/en/2026/11/11/oil-rises-iran-nuclear-material-standoff/",
      "time": "2026-11-11",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-12"
+  },
+  {
+   "id": "ARA-tanpa-berita-12nov",
+   "time": "16.28 WIB",
+   "tickers": [
+    "TRON",
+    "VKTR",
+    "AGAR",
+    "AIMS"
+   ],
+   "category": "issue",
+   "scope": "company",
+   "short": "Naik batas atas tanpa berita",
+   "impact": {
+    "score": -1,
+    "why": "Saham yang mentok batas naik harian tanpa berita perusahaan rawan berbalik turun tajam."
+   },
+   "headline": "Empat saham kena batas naik harian (ARA) tanpa berita perusahaan: TRON, VKTR, AGAR, dan AIMS",
+   "summary": "Kamis 12 November empat saham kena ARA (auto rejection atas, kenaikan maksimal yang diizinkan bursa dalam sehari): TRON naik 34,48% ke Rp78, VKTR naik 25% ke Rp320, AGAR naik 24,91% ke Rp1.755, dan AIMS naik 24,74% ke Rp1.185. AGAR juga kena ARA Rabu, jadi naik dua hari berturut-turut. Saham grup Bakrie lain ikut naik, misalnya BNBR naik 19,51% ke Rp49. Media tidak menyebut berita perusahaan yang menjelaskan kenaikan ini.",
+   "why_it_matters": "Jangan mengejar saham ini. Kenaikan tanpa berita sering diikuti turun cepat, seperti PTSP dan TFCO pekan ini.",
+   "status": "confirmed",
+   "event_date": null,
+   "expires": "2026-11-14",
+   "sources": [
+    {
+     "name": "investor.id",
+     "title": "IHSG Melesat, 4 Saham Mentok ARA",
+     "url": "https://investor.id/market/461733/ihsg-melesat-4-saham-mentok-ara",
+     "time": "2026-11-12 16:28 WIB",
+     "primary": false
+    },
+    {
+     "name": "Katadata",
+     "title": "IHSG Melonjak 2,66%, Saham Grup Bakrie VKTR, BNBR hingga ELTY Masuk Top Gainers",
+     "url": "https://katadata.co.id/finansial/bursa/6af589073ad9b/ihsg-melonjak-2-66-saham-grup-bakrie-vktr-bnbr-hingga-elty-masuk-top-gainers",
+     "time": "2026-11-12 16:38 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-12"
+  },
+  {
+   "id": "IHSG-naik-266-12nov",
+   "time": "16.06 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "IHSG naik 2,66% ke 5.250",
+   "impact": {
+    "score": 1,
+    "why": "Kenaikan luas dengan saham naik empat kali lebih banyak dari yang turun memperbaiki suasana pasar jangka pendek."
+   },
+   "headline": "IHSG naik 2,66% ke 5.250,90, ditutup di titik tertingginya hari ini; semua sektor naik",
+   "summary": "IHSG ditutup naik 135,86 poin atau 2,66% ke 5.250,90 pada Kamis 12 November, setelah dibuka di 5.119,53. Saham yang naik sekitar 496, yang turun 115. Nilai transaksi sekitar Rp11 triliun, lebih ramai dari Rabu (sekitar Rp8,74 triliun), tetapi angka antar media berbeda antara Rp10,68 triliun dan Rp11,94 triliun. Semua sektor naik, dipimpin industri naik 4,53%, transportasi naik 3,12%, dan energi naik 2,86%. Analis menyebut pemicunya kepastian pengunduran diri Wakil Presiden dan tekanan MSCI yang sudah masuk harga.",
+   "why_it_matters": "IHSG kini di atas rata-rata 20 harinya (sekitar 5.235 menurut catatan desk sebelumnya). Tetapi satu hari naik belum cukup untuk menyebut pasar berbalik naik; tunggu konfirmasi Jumat.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "CNBC Indonesia",
+     "title": "IHSG Ditutup Naik 2,66% ke 5.250,90 usai Gibran Mundur & Rilis MSCI",
+     "url": "https://www.cnbcindonesia.com/market/20261112152847-17-784722/ihsg-ditutup-naik-266-ke-525090-usai-gibran-mundur-rilis-msci",
+     "time": "2026-11-12 16:06 WIB",
+     "primary": false
+    },
+    {
+     "name": "Investortrust",
+     "title": "IHSG Ditutup Terbang 2,66% ke 5.250, Pasar Respons Positif MSCI dan Sikap Wapres Gibran",
+     "url": "https://investortrust.id/market/122368/ihsg-ditutup-terbang-2-66-ke-5250-pasar-respons-positif-msci-dan-sikap-wapres-gibran",
+     "time": "2026-11-12 16:09 WIB",
+     "primary": false
+    },
+    {
+     "name": "Katadata",
+     "title": "IHSG Melonjak 2,66%, Saham Grup Bakrie VKTR, BNBR hingga ELTY Masuk Top Gainers",
+     "url": "https://katadata.co.id/finansial/bursa/6af589073ad9b/ihsg-melonjak-2-66-saham-grup-bakrie-vktr-bnbr-hingga-elty-masuk-top-gainers",
+     "time": "2026-11-12 16:38 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-12"
+  },
+  {
+   "id": "wapres-gibran-mundur",
+   "time": "15.45 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Wapres Gibran resmi mundur, surat diterima MPR",
+   "impact": {
+    "score": 0,
+    "why": "Kepastian ini mengurangi ketidakpastian politik, dan IHSG sudah naik 2,66% hari ini, jadi dampak lanjutannya kecil."
+   },
+   "headline": "Gibran resmi menyerahkan surat pengunduran diri sebagai Wakil Presiden; Presiden menerima, MPR akan memilih pengganti dalam 60 hari",
+   "summary": "Kamis 12 November pukul 10.15 WIB, Gibran Rakabuming Raka menyerahkan surat pengunduran dirinya kepada Presiden Prabowo di Istana Merdeka. Presiden menyebut menerimanya \"dengan berat hati\". Ketua MPR Ahmad Muzani membenarkan sudah menerima surat itu langsung di gedung MPR. DPR membatalkan rapat paripurna soal hak menyatakan pendapat yang sebelumnya ditandatangani 120 anggota. Menurut UUD 1945, MPR punya waktu 60 hari untuk memilih wakil presiden baru dari dua calon yang diajukan Presiden.",
+   "why_it_matters": "Pasar menganggap kabar ini mengurangi ketidakpastian: IHSG naik 2,66% dan bank besar dibeli asing. Yang perlu dipantau sekarang adalah siapa calon pengganti dan seberapa cepat MPR bersidang.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "IDN Times",
+     "title": "Gibran Tanggalkan Jabatan Wapres Kamis 12 November 2026 Pukul 10.15",
+     "url": "https://www.idntimes.com/news/indonesia/gibran-tanggalkan-jabatan-wapres-kamis-12-november-2026-pukul-10-15-00-rgfwk-sjxxmw",
+     "time": "2026-11-12 15:45 WIB",
+     "primary": false
+    },
+    {
+     "name": "Warta Ekonomi",
+     "title": "Gibran Resmi Mundur, Rapat Paripurna DPR Bahas Pemakzulan Batal",
+     "url": "https://wartaekonomi.co.id/read647404/gibran-resmi-mundur-rapat-paripurna-dpr-bahas-pemakzulan-batal",
+     "time": "2026-11-12 13:36 WIB",
+     "primary": false
+    },
+    {
+     "name": "NU Online",
+     "title": "Wapres Gibran Mengundurkan Diri, Sampaikan Surat Resmi ke MPR dan DPR Kamis Besok",
+     "url": "https://www.nu.or.id/nasional/wapres-gibran-mengundurkan-diri-sampaikan-surat-resmi-ke-mpr-dan-dpr-kamis-besok-4K4pX",
+     "time": "2026-11-11 21:30 WIB",
+     "primary": false
+    },
+    {
+     "name": "Lampost",
+     "title": "Budi Arie Benarkan Gibran Mundur dari Jabatan Wapres, Istana Belum Umumkan Proses Resmi",
+     "url": "https://lampost.co/nasional/budi-arie-benarkan-gibran-mundur-dari-jabatan-wapres-istana-belum-umumkan-proses-resmi/",
+     "time": "2026-11-11 20:10 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kompas",
+     "title": "Gibran Dikabarkan Mundur, Sempat Terlihat \"Jogging\" Keluar Istana Wapres",
+     "url": "https://www.kompas.id/artikel/gibran-dikabarkan-mundur-sempat-terlihat-jogging-keluar-istana-wapres",
+     "time": "2026-11-11 malam",
+     "primary": false
+    },
+    {
+     "name": "Aktual",
+     "title": "Kronologi Polemik Ijazah Kesetaraan Gibran: Dari Surat 2019, Putusan MK & MA, Usulan HMP hingga Pengajuan Mundur",
+     "url": "https://aktual.com/kronologi-polemik-ijazah-kesetaraan-gibran-dari-surat-2019-putusan-mk-ma-usulan-hmp-hingga-pengajuan-mundur/",
+     "time": "2026-11-12 02:14 WIB",
      "primary": false
     }
    ],
@@ -281,6 +579,84 @@
    "date": "2026-11-12"
   },
   {
+   "id": "BBRI-diborong-asing-12nov",
+   "time": "13.01 WIB",
+   "tickers": [
+    "BBRI",
+    "BBCA",
+    "TLKM",
+    "ADRO"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Asing borong BBRI Rp255 miliar",
+   "impact": {
+    "score": 1,
+    "why": "Beli asing besar dua hari berturut-turut di bank besar menopang harganya dalam jangka pendek."
+   },
+   "impacts": {
+    "BBRI": 1
+   },
+   "headline": "Asing beli bersih Rp83,61 miliar di sesi pertama, BBRI dibeli Rp255,68 miliar; BBRI naik 5,94%",
+   "summary": "Di sesi pertama Kamis 12 November, asing membeli Rp1,95 triliun dan menjual Rp1,87 triliun, jadi beli bersih Rp83,61 miliar. Saham yang paling banyak dibeli asing: BBRI Rp255,68 miliar, ADRO Rp28,91 miliar, BBCA Rp24,66 miliar, dan TLKM Rp24,41 miliar. Yang paling banyak dijual: GOTO Rp67,99 miliar, BRMS Rp45,80 miliar, RAJA Rp32,55 miliar, dan TINS Rp32,54 miliar. BBRI ditutup naik 5,94%, setelah Rabu juga dibeli asing Rp138,05 miliar. Angka asing sepanjang hari belum terbit saat catatan ini ditulis.",
+   "why_it_matters": "Asing kembali ke bank besar, terutama BBRI. Cek apakah beli ini berlanjut Jumat sebelum menganggapnya tren.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "CNBC Indonesia",
+     "title": "Dana Asing Masuk Rp 83,6 M di Sesi I, Asing Borong 10 Saham Ini",
+     "url": "https://www.cnbcindonesia.com/market/20261112125718-17-784624/dana-asing-masuk-rp-836-m-di-sesi-i-asing-borong-10-saham-ini",
+     "time": "2026-11-12 13:01 WIB",
+     "primary": false
+    },
+    {
+     "name": "Investortrust",
+     "title": "IHSG Ditutup Terbang 2,66% ke 5.250, Pasar Respons Positif MSCI dan Sikap Wapres Gibran",
+     "url": "https://investortrust.id/market/122368/ihsg-ditutup-terbang-2-66-ke-5250-pasar-respons-positif-msci-dan-sikap-wapres-gibran",
+     "time": "2026-11-12 16:09 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-12"
+  },
+  {
+   "id": "SMAR-cum-dividen-12nov",
+   "time": "09.52 WIB",
+   "tickers": [
+    "SMAR"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Ex date dividen Rp490 besok",
+   "impact": {
+    "score": 2,
+    "why": "Dividen Rp490 per saham, imbal hasil sekitar 7%; harga biasanya turun sebesar dividen pada ex date Jumat."
+   },
+   "headline": "SMAR: Kamis 12 November hari terakhir beli (cum date) untuk dividen interim Rp490 per saham",
+   "summary": "SMAR membagikan dividen interim Rp490 per saham, total Rp1,407 triliun, dari laba sembilan bulan pertama 2026 sebesar Rp4,061 triliun. Kamis 12 November adalah hari terakhir beli di pasar reguler. Mulai Jumat 13 November (ex date) pembeli baru tidak mendapat dividen. Dividen dibayar 26 November. Mirae Asset memperkirakan imbal hasilnya sekitar 7%. Pembaruan Kamis sore: hari terakhir beli sudah lewat. Mulai Jumat 13 November harga SMAR biasanya turun sekitar Rp490, dan dividen dibayar Kamis 26 November.",
+   "why_it_matters": "Penurunan harga sekitar Rp490 pada Jumat bukan tanda saham lemah. Membeli hanya untuk dividen jarang menguntungkan setelah biaya.",
+   "status": "confirmed",
+   "event_date": "2026-11-13",
+   "sources": [
+    {
+     "name": "investor.id",
+     "title": "Hari Ini, 4 Emiten Masuki Cum Date Dividen, Ada SMAR",
+     "url": "https://investor.id/market/461657/hari-ini-4-emitenmasuki-cum-date-dividen-ada-smar",
+     "time": "2026-11-12 09:52 WIB",
+     "primary": false
+    },
+    {
+     "name": "BCA Sekuritas",
+     "title": "SMAR Akan Bagikan Dividen Interim pada 26 November 2026",
+     "url": "https://bcasekuritas.co.id/latest-news/news/smar-akan-bagikan-dividen-interim-pada-26-november-2026",
+     "time": "2026-11-05 17:45 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-12"
+  },
+  {
    "id": "analis-dampak-gibran-ihsg",
    "time": "05.30 WIB",
    "tickers": [],
@@ -292,7 +668,7 @@
     "why": "Satu pengamat memperkirakan IHSG turun tajam, analis lain hanya meminta waspada; arah belum pasti."
    },
    "headline": "Pengamat memperkirakan IHSG bisa turun sampai 7% dan rupiah ke Rp18.250 setelah kabar Gibran mundur; analis lain lebih tenang",
-   "summary": "Pengamat Ibrahim Assuaibi memperkirakan IHSG bisa turun sampai 7% dan rupiah melemah ke Rp18.220 sampai Rp18.250, bahkan menuju Rp18.500, karena kabar pengunduran diri Wakil Presiden dan risiko penurunan status Indonesia di MSCI. Analis Mirae Asset Nafan Aji Gusta tidak memberi angka. Ia meminta investor mencermati kejelasan status pengunduran diri, tanggapan Presiden, proses konstitusi, dan pelemahan rupiah. Rupiah ditutup Rp18.149 per dolar AS pada Rabu.",
+   "summary": "Pengamat Ibrahim Assuaibi memperkirakan IHSG bisa turun sampai 7% dan rupiah melemah ke Rp18.220 sampai Rp18.250, bahkan menuju Rp18.500, karena kabar pengunduran diri Wakil Presiden dan risiko penurunan status Indonesia di MSCI. Analis Mirae Asset Nafan Aji Gusta tidak memberi angka. Ia meminta investor mencermati kejelasan status pengunduran diri, tanggapan Presiden, proses konstitusi, dan pelemahan rupiah. Rupiah ditutup Rp18.149 per dolar AS pada Rabu. Pembaruan sore: perkiraan turun ini tidak terjadi. IHSG justru naik 2,66% ke 5.250,90.",
    "why_it_matters": "Perkiraan turun 7% datang dari satu pengamat dan belum terbukti. Lihat dulu reaksi pasar sebelum menjual atau membeli.",
    "status": "confirmed",
    "event_date": null,
@@ -312,6 +688,7 @@
      "primary": false
     }
    ],
+   "expires": "2026-11-12",
    "date": "2026-11-12"
   },
   {
@@ -2581,13 +2958,13 @@
   }
  ],
  "calendar": {
-  "updated": "2026-11-11T17:30+07:00",
+  "updated": "2026-11-12T17:40+07:00",
   "window_trading_days": 10,
   "window": [
-   "2026-11-12",
-   "2026-11-25"
+   "2026-11-13",
+   "2026-11-26"
   ],
-  "note": "Watchlist (desk/watchlist.json, 2026-11-05): SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, BRPT, ANTM, ENRG, SMAR; no paper holdings. Events for those names: CUAN, AMMN and BRPT buybacks, MSCI review 12 Nov (BRPT), SSIA option window to 11 Dec; no SMDR, AADI, OMED, BUMI, BABP, TMPO, ANTM, ENRG or SMAR event found in the next 10 trading days. Built from news by the cloud night shift: www.idx.id (GetCalendar) is blocked from the cloud. All dates unverified; re-check with tools/idx.py actions. 2026-11-05 evening: window moved to 6-19 Nov; removed BRIS proxy deadline and GDP release (passed; Q3 GDP 5.47% y/y); JPFA/UNTR cum passed, ex 6 Nov kept; added ITMG buyback and MSCI 12 Nov entry. 2026-11-09 evening: window moved to 10-23 Nov; removed passed events (JPFA, UNTR dividends, CNMA, BUAH, BRIS, GIAA and DOOH meetings, reserves release); SMSM cum passed (ex 10 Nov kept); added NFCX buyback and US CPI 10 Nov; BRPT closed Rp795 (-6.47%) on 9 Nov. Still built from news; www.idx.id blocked from the cloud. 2026-11-10 evening: window moved to 2026-11-11 to 2026-11-24; removed passed events (SMSM ex 10 Nov, delisting 10 Nov, BBRI results now out: 9M26 profit Rp48.16 T, +16.8%); merged the two MSCI entries into 12 Nov; cum 10 Nov dividends kept with ex 11 Nov wording; added SMAR cum 12 Nov, TGKA cum 18 Nov, ULTJ special dividend and rights issue (dates not found). Watchlist now also BBRI, ASII, ULTJ: no ASII event found. Still built from news; www.idx.id blocked from the cloud. 2026-11-11 evening: window moved to 2026-11-12 to 2026-11-25; removed passed events (TAPG, MEDC, ITMG, BWPT, SSMS, AVIA dividends, ex 11 Nov; US CPI 10 Nov); MIDI cum passed (ex 12 Nov kept); MSCI time set to about 04:00-05:00 WIB 12 Nov, effective at the 30 Nov close; ULTJ now has cum 16 Nov, pay 9 Dec and rights issue of 7.88 bn shares at Rp2,150; added SKBM (recording 20 Nov), YUPI, TOTL and PORT (cum 16 Nov). No new event found for the watchlist except ULTJ and SMAR (cum 12 Nov). Still built from news; www.idx.id blocked from the cloud.",
+  "note": "Watchlist (desk/watchlist.json, 2026-11-05): SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, BRPT, ANTM, ENRG, SMAR; no paper holdings. Events for those names: CUAN, AMMN and BRPT buybacks, MSCI review 12 Nov (BRPT), SSIA option window to 11 Dec; no SMDR, AADI, OMED, BUMI, BABP, TMPO, ANTM, ENRG or SMAR event found in the next 10 trading days. Built from news by the cloud night shift: www.idx.id (GetCalendar) is blocked from the cloud. All dates unverified; re-check with tools/idx.py actions. 2026-11-05 evening: window moved to 6-19 Nov; removed BRIS proxy deadline and GDP release (passed; Q3 GDP 5.47% y/y); JPFA/UNTR cum passed, ex 6 Nov kept; added ITMG buyback and MSCI 12 Nov entry. 2026-11-09 evening: window moved to 10-23 Nov; removed passed events (JPFA, UNTR dividends, CNMA, BUAH, BRIS, GIAA and DOOH meetings, reserves release); SMSM cum passed (ex 10 Nov kept); added NFCX buyback and US CPI 10 Nov; BRPT closed Rp795 (-6.47%) on 9 Nov. Still built from news; www.idx.id blocked from the cloud. 2026-11-10 evening: window moved to 2026-11-11 to 2026-11-24; removed passed events (SMSM ex 10 Nov, delisting 10 Nov, BBRI results now out: 9M26 profit Rp48.16 T, +16.8%); merged the two MSCI entries into 12 Nov; cum 10 Nov dividends kept with ex 11 Nov wording; added SMAR cum 12 Nov, TGKA cum 18 Nov, ULTJ special dividend and rights issue (dates not found). Watchlist now also BBRI, ASII, ULTJ: no ASII event found. Still built from news; www.idx.id blocked from the cloud. 2026-11-11 evening: window moved to 2026-11-12 to 2026-11-25; removed passed events (TAPG, MEDC, ITMG, BWPT, SSMS, AVIA dividends, ex 11 Nov; US CPI 10 Nov); MIDI cum passed (ex 12 Nov kept); MSCI time set to about 04:00-05:00 WIB 12 Nov, effective at the 30 Nov close; ULTJ now has cum 16 Nov, pay 9 Dec and rights issue of 7.88 bn shares at Rp2,150; added SKBM (recording 20 Nov), YUPI, TOTL and PORT (cum 16 Nov). No new event found for the watchlist except ULTJ and SMAR (cum 12 Nov). Still built from news; www.idx.id blocked from the cloud. 2026-11-12 evening: window moved to 2026-11-13 to 2026-11-26; removed passed events (MIDI ex 12 Nov, MSCI announcement 12 Nov); SMAR and ASSA cum passed (ex 13 Nov kept); added HSC exclusion from IHSG from 13 Nov, US PPI 13 Nov, MSCI effective 30 Nov close (BRPT, RAJA and others), EMAS RUPSLB 26 Nov, GIAA rights issue (cum 21 Dec, outside the window, watchlist). Watchlist now also RAJA and GIAA. No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, ANTM, ENRG, BBRI, ASII. Still built from news; www.idx.id blocked from the cloud.",
   "events": [
    {
     "ticker": "PRDA",
@@ -2755,23 +3132,12 @@
     "ex": "2026-11-13",
     "pay": "2026-11-20",
     "amount_rp": 20,
-    "detail": "Dividen interim Rp20 per saham, total Rp73,82 miliar, imbal hasil sekitar 4,22% pada harga Rp474. Kamis 12 November adalah hari terakhir beli (cum date) di pasar reguler. Mulai Jumat 13 November (ex date) harga biasanya turun sekitar Rp20. Dibayar 20 November.",
+    "detail": "Dividen interim Rp20 per saham, total Rp73,82 miliar. Hari terakhir beli (cum date) sudah lewat, Kamis 12 November. Mulai Jumat 13 November (ex date) harga biasanya turun sekitar Rp20. Dividen dibayar Jumat 20 November.",
     "source": "Kontan, Adi Sarana Armada (ASSA) Bagi Dividen Interim Rp 73,82 Miliar, Potensi Yield 4,22%, 2026-11-04 14:14 WIB",
     "verified": false,
     "cum_cash": "2026-11-16",
     "ex_cash": "2026-11-17",
     "recording": "2026-11-16"
-   },
-   {
-    "ticker": "MIDI",
-    "type": "dividend",
-    "cum": "2026-11-11",
-    "ex": "2026-11-12",
-    "pay": "2026-12-01",
-    "amount_rp": 3.8,
-    "detail": "Dividen interim Rp3,8 per saham, total Rp127,05 miliar. Hari terakhir beli (cum date) sudah lewat pada Rabu 11 November. Mulai Kamis 12 November (ex date) pembeli baru tidak mendapat dividen, dan harga biasanya turun sekitar Rp3,8. Dibayar 1 Desember.",
-    "source": "Katadata, 14 Emiten Tebar Dividen November, ITMG, JPFA hingga UNTR Cek Jadwal dan Nilainya, 2026-11-03 10:51 WIB; Fortune IDN, Daftar Saham Bagi Dividen November 2026, Cek Jadwal dan Nilainya, 2026-11-04 12:00 WIB",
-    "verified": false
    },
    {
     "ticker": "SSIA",
@@ -2803,14 +3169,6 @@
     "verified": false
    },
    {
-    "ticker": "*",
-    "type": "macro",
-    "date": "2026-11-12",
-    "detail": "Hasil penilaian ulang indeks MSCI diumumkan Kamis 12 November sekitar pukul 04.00 sampai 05.00 WIB, sebelum pasar buka. Perubahan dijalankan pada penutupan 30 November dan berlaku 1 Desember. Mirae Asset memperkirakan peluang BRMS turun ke indeks saham kecil sekitar 90% dan peluang BRPT keluar sekitar 40%. Saham yang dikeluarkan biasanya dijual dana asing sampai 30 November. Rabu 11 November BRPT turun 6,71% ke Rp765.",
-    "source": "CNBC Indonesia, IHSG Ditutup Melemah 0,21% ke 5.115,04 jelang Pengumuman MSCI, 2026-11-11 16:05 WIB; Bloomberg Technoz, Gelagat Investor Asing di Saham BRPT & BRMS Jelang Review MSCI, 2026-11-11 13:57 WIB",
-    "verified": false
-   },
-   {
     "ticker": "NFCX",
     "type": "buyback",
     "amount_rp": 86970000000,
@@ -2828,7 +3186,7 @@
     "recording": "2026-11-16",
     "pay": "2026-11-26",
     "amount_rp": 490,
-    "detail": "Dividen interim Rp490 per saham, total Rp1,407 triliun, dari laba sembilan bulan pertama 2026 sebesar Rp4,061 triliun. Kamis 12 November adalah hari terakhir beli (cum date) di pasar reguler. Mulai Jumat 13 November (ex date) harga biasanya turun sekitar Rp490. Menurut perkiraan Mirae Asset, imbal hasilnya sekitar 7% dari harga saham. Dibayar 26 November.",
+    "detail": "Dividen interim Rp490 per saham, total Rp1,407 triliun. Hari terakhir beli (cum date) sudah lewat, Kamis 12 November. Mulai Jumat 13 November (ex date, hari pertama pembeli tidak dapat dividen) harga biasanya turun sekitar Rp490. Dividen dibayar Kamis 26 November.",
     "source": "BCA Sekuritas, SMAR akan Bagikan Dividen Interim pada 26 November 2026, 2026-11-05 17:45 WIB (mengutip Emiten News)",
     "verified": false
    },
@@ -2894,6 +3252,60 @@
     "detail": "Dividen Rp35,6 per saham, total Rp100,25 miliar. Senin 16 November adalah hari terakhir beli (cum date) menurut daftar Kontan. Perlu dicek.",
     "source": "Kontan daftar cum date dividen, 2026-11-09 16:06 WIB (lewat catatan sapuan 10 Nov)",
     "verified": false
+   },
+   {
+    "ticker": "*",
+    "type": "index_rule",
+    "date": "2026-11-13",
+    "detail": "Mulai Jumat 13 November, 383 saham HSC (saham yang 92,5% atau lebih dimiliki 10 pemegang saham terbesar) tidak lagi dihitung dalam IHSG. Contohnya BREN, BYAN, BDMN, HMSP, TBIG, WIKA, dan MTEL. Bobot saham lain di IHSG ikut berubah, jadi gerak IHSG bisa sedikit berbeda dari biasanya.",
+    "source": "EmitenNews, Resmi! 383 Saham HSC Didepak dari IHSG, Efektif Mulai 13 November 2026, 2026-11-11 19:17 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "*",
+    "type": "macro",
+    "date": "2026-11-13",
+    "detail": "Data harga produsen Amerika (PPI) keluar Jumat 13 November pukul 20.30 WIB. Kalau lebih tinggi dari perkiraan, kekhawatiran kenaikan bunga Amerika bertambah dan rupiah bisa makin tertekan.",
+    "source": "Kontan, Rupiah Cetak Rekor Penutupan Terendah, Tekanan The Fed dan MSCI Membayangi, 2026-11-12 16:39 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "BRPT",
+    "type": "index_event",
+    "date": "2026-11-30",
+    "detail": "Perubahan indeks MSCI dijalankan pada penutupan Senin 30 November dan berlaku Selasa 1 Desember. BRPT dan BRMS keluar dari indeks utama MSCI (BRMS turun ke indeks saham kecil). RAJA, AVIA, CTRA, MTEL, EMTK, JSMR, dan WIFI keluar dari indeks saham kecil. Dana yang mengikuti indeks biasanya menjual sampai tanggal itu.",
+    "source": "CNBC Indonesia, 2026-11-12 05:56 WIB; CNN Indonesia, Daftar 8 Saham RI Didepak MSCI, 1 Turun Kelas, 2026-11-12 06:41 WIB",
+    "verified": false,
+    "tickers": [
+     "BRPT",
+     "BRMS",
+     "RAJA",
+     "AVIA",
+     "CTRA",
+     "MTEL",
+     "EMTK",
+     "JSMR",
+     "WIFI"
+    ]
+   },
+   {
+    "ticker": "EMAS",
+    "type": "rups",
+    "date": "2026-11-26",
+    "detail": "RUPS luar biasa (rapat umum pemegang saham luar biasa) Kamis 26 November. Agenda rincinya belum dibaca dari pengumuman resmi.",
+    "source": "laporan pra-pasar desk 12 Nov, dari Kontan 11 Nov 15.28 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "GIAA",
+    "type": "rights_issue",
+    "cum": "2026-12-21",
+    "ex": "2026-12-22",
+    "from": "2026-12-29",
+    "until": "2027-01-07",
+    "detail": "Rights issue (penawaran saham baru kepada pemegang saham lama) paling banyak 248,71 miliar saham baru, harga Rp58 sampai Rp68 per saham. Saham baru sekitar 37,92% dari modal setelah rights issue. Hari terakhir beli untuk dapat hak (cum date) Senin 21 Desember, perdagangan hak 29 Desember 2026 sampai 7 Januari 2027. Di luar jendela 10 hari, dicatat karena GIAA dipantau.",
+    "source": "Kontan, 2026-11-11 15:28 WIB (lewat laporan pra-pasar desk 12 Nov)",
+    "verified": false
    }
   ]
  },
@@ -2909,6 +3321,7 @@
   "AMMN": "Amman Mineral Internasional",
   "AMRT": "Sumber Alfaria Trijaya",
   "ANTM": "ANTAM (Persero)",
+  "ARCI": "Archi Indonesia",
   "ARKO": "Arkora Hydro",
   "ASII": "Astra International",
   "ASSA": "Adi Sarana Armada",
@@ -2952,8 +3365,8 @@
   "MBMA": "Merdeka Battery Materials",
   "MEDC": "Medco Energi Internasional",
   "MENN": "Menn Teknologi Indonesia",
-  "MIDI": "Midi Utama Indonesia",
   "MKNT": "Mitra Komunikasi Nusantara",
+  "MORA": "Ekamas Mora Republik",
   "MTEL": "Dayamitra Telekomunikasi",
   "NFCX": "NFC Indonesia",
   "OMED": "Jayamas Medica Industri",
@@ -2982,9 +3395,11 @@
   "TOWR": "Sarana Menara Nusantara",
   "TPIA": "Chandra Asri Pacific",
   "TRIS": "Trisula International",
+  "TRON": "Teknologi Karya Digital Nusa",
   "TRUS": "Trust Finance Indonesia",
   "ULTJ": "Ultrajaya Milk Industry & Trading Company",
   "UNTR": "United Tractors",
+  "VKTR": "VKTR Teknologi Mobilitas",
   "WIFI": "Solusi Sinergi Digital",
   "YUPI": "Yupi Indo Jelly Gum"
  }
