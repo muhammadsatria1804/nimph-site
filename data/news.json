@@ -46,48 +46,6 @@
    "date": "2026-11-12"
   },
   {
-   "id": "IHSG-prediksi-12nov",
-   "time": "19.22 WIB",
-   "tickers": [
-    "LSIP",
-    "AMMN",
-    "ANTM",
-    "DEWA",
-    "ELSA",
-    "PTRO"
-   ],
-   "category": "news",
-   "scope": "market",
-   "short": "Analis lihat IHSG 5.000 sampai 5.200",
-   "impact": {
-    "score": 0,
-    "why": "Perkiraan ini ditulis sebelum kabar politik dan hasil MSCI keluar."
-   },
-   "headline": "Analis memperkirakan IHSG bergerak di 5.000 sampai 5.200 hari ini, dengan batas bawah di sekitar 5.065 sampai 5.100",
-   "summary": "Phintraco Sekuritas memperkirakan IHSG di 5.000 sampai 5.200 karena ambil untung, emas yang melemah, penambahan saham HSC, dan penyesuaian posisi menjelang MSCI. WH-Project memperkirakan 5.065 sampai 5.200 dengan batas bawah sekitar 5.100, dan memilih LSIP (target Rp1.660) serta AMMN (target Rp4.000 sampai Rp4.200). MNC Sekuritas melihat ruang naik ke 5.356 sampai 5.520 tetapi mewaspadai koreksi ke 5.042 sampai 5.070, dengan pilihan ANTM, DEWA, ELSA, dan PTRO. Semua perkiraan ditulis Rabu sore, sebelum kabar Wakil Presiden dan hasil MSCI.",
-   "why_it_matters": "Batas bawah 5.000 lebih penting hari ini daripada target naiknya.",
-   "status": "confirmed",
-   "event_date": "2026-11-12",
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "IHSG Melemah 0,21%, Simak Proyeksi IHSG Kamis (12/11/2026)",
-     "url": "https://investasi.kontan.co.id/news/ihsg-melemah-021-simak-proyeksi-ihsg-kamis-12112026",
-     "time": "2026-11-11 19:22 WIB",
-     "primary": false
-    },
-    {
-     "name": "investor.id",
-     "title": "Prediksi IHSG dan Rekomendasi Saham Kamis, 12 November 2026",
-     "url": "https://investor.id/market/461588/prediksi-ihsg-dan-rekomendasi-saham-kamis-12-november-2026",
-     "time": "2026-11-11 18:30 WIB",
-     "primary": false
-    }
-   ],
-   "expires": "2026-11-12",
-   "date": "2026-11-12"
-  },
-  {
    "id": "BEI-HSC-383-saham",
    "time": "19.17 WIB",
    "tickers": [],
@@ -657,41 +615,6 @@
    "date": "2026-11-12"
   },
   {
-   "id": "analis-dampak-gibran-ihsg",
-   "time": "05.30 WIB",
-   "tickers": [],
-   "category": "news",
-   "scope": "market",
-   "short": "Analis beda pendapat soal dampak politik",
-   "impact": {
-    "score": -1,
-    "why": "Satu pengamat memperkirakan IHSG turun tajam, analis lain hanya meminta waspada; arah belum pasti."
-   },
-   "headline": "Pengamat memperkirakan IHSG bisa turun sampai 7% dan rupiah ke Rp18.250 setelah kabar Gibran mundur; analis lain lebih tenang",
-   "summary": "Pengamat Ibrahim Assuaibi memperkirakan IHSG bisa turun sampai 7% dan rupiah melemah ke Rp18.220 sampai Rp18.250, bahkan menuju Rp18.500, karena kabar pengunduran diri Wakil Presiden dan risiko penurunan status Indonesia di MSCI. Analis Mirae Asset Nafan Aji Gusta tidak memberi angka. Ia meminta investor mencermati kejelasan status pengunduran diri, tanggapan Presiden, proses konstitusi, dan pelemahan rupiah. Rupiah ditutup Rp18.149 per dolar AS pada Rabu. Pembaruan sore: perkiraan turun ini tidak terjadi. IHSG justru naik 2,66% ke 5.250,90.",
-   "why_it_matters": "Perkiraan turun 7% datang dari satu pengamat dan belum terbukti. Lihat dulu reaksi pasar sebelum menjual atau membeli.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Detik Finance",
-     "title": "Prediksi IHSG & Nilai Tukar Rupiah Usai Kabar Gibran Mundur dari Wapres",
-     "url": "https://finance.detik.com/bursa-dan-valas/d-8749022/prediksi-ihsg-nilai-tukar-rupiah-usai-kabar-gibran-mundur-dari-wapres",
-     "time": "2026-11-11 22:25 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kumparan",
-     "title": "Gibran Mundur, Analis Ungkap Dampak ke IHSG dan Rupiah",
-     "url": "https://kumparan.com/kumparanbisnis/gibran-mundur-analis-ungkap-dampak-ke-ihsg-dan-rupiah-28YOVRbZTiN",
-     "time": "2026-11-12 05:30 WIB",
-     "primary": false
-    }
-   ],
-   "expires": "2026-11-12",
-   "date": "2026-11-12"
-  },
-  {
    "id": "wallstreet-naik-11nov",
    "time": "04.01 WIB",
    "tickers": [],
@@ -755,158 +678,6 @@
    "date": "2026-11-11"
   },
   {
-   "id": "asing-sehari-10nov",
-   "time": "21.41 WIB",
-   "tickers": [
-    "ASII",
-    "TINS",
-    "BBCA",
-    "BMRI",
-    "ANTM",
-    "TLKM",
-    "BRPT",
-    "BREN"
-   ],
-   "category": "news",
-   "scope": "market",
-   "short": "Asing beli bersih Rp171,89 miliar",
-   "impact": {
-    "score": 1,
-    "why": "Beli asing tiga hari beruntun dan mulai menyebar ke lebih banyak saham adalah tanda awal dana asing kembali."
-   },
-   "headline": "Asing beli bersih Rp171,89 miliar sepanjang Selasa, ASII dan TINS paling diburu, TLKM dan BRPT paling dilepas",
-   "summary": "Pada Selasa 10 November asing membeli bersih Rp171,89 miliar di seluruh pasar, hari ketiga beruntun. Paling banyak dibeli: ASII Rp137,95 miliar, TINS Rp81,79 miliar, BBCA Rp81,61 miliar, BMRI Rp61,04 miliar, dan ANTM Rp43,37 miliar. Paling banyak dijual: TLKM Rp69,42 miliar, BRPT Rp51,05 miliar, BREN Rp41,19 miliar, ITMG Rp19,69 miliar, dan KLBF Rp17,85 miliar. Sumber lain menyebut angka beli bersih sekitar Rp118,59 miliar.",
-   "why_it_matters": "Beli asing tidak lagi hanya di BBCA dan ASII. Tetapi data inflasi Amerika semalam bisa membuat asing menahan diri hari ini.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "IHSG Naik 5 Hari Berturut-turut, Cek Saham Net Buy Terbesar Asing, Selasa (10/11)",
-     "url": "https://investasi.kontan.co.id/news/ihsg-naik-5-hari-berturut-turut-cek-saham-net-buy-terbesar-asing-selasa-1011",
-     "time": "2026-11-10 21:41 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "Asing Banyak Melepas Saham-Saham Ini Saat IHSG Menguat 1% ke 5.125, Selasa (10/11)",
-     "url": "https://investasi.kontan.co.id/news/asing-banyak-melepas-saham-saham-ini-saat-ihsg-menguat-1-ke-5125-selasa-1011",
-     "time": "2026-11-10 21:56 WIB",
-     "primary": false
-    },
-    {
-     "name": "Periskop",
-     "title": "Asing Net Buy Sekitar Rp118,59 Miliar Hari Ini, ASII Paling Diburu",
-     "url": "https://periskop.id/pasar-modal/20261110/asing-beli-bersih-saham-hari-ini-asii-paling-diburu",
-     "time": "2026-11-10 sore WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-11"
-  },
-  {
-   "id": "BEI-HSC-383-saham",
-   "time": "21.09 WIB",
-   "tickers": [],
-   "category": "issue",
-   "scope": "market",
-   "short": "383 saham akan keluar dari IHSG",
-   "impact": {
-    "score": -1,
-    "why": "Saham dengan pemilik sangat terkumpul bisa dijual dana indeks dan makin bergejolak setelah keluar dari perhitungan IHSG."
-   },
-   "headline": "BEI ubah cara menentukan saham berkepemilikan terkumpul (HSC): 383 saham masuk daftar dan akan dikeluarkan dari perhitungan IHSG",
-   "summary": "Pada Selasa 10 November bursa mengumumkan kriteria baru saham HSC (high shareholding concentration): 10 pemegang saham atau kurang menguasai minimal 92,5% saham. Batas nilai pasar minimal Rp5 triliun dan ukuran gerak harga dihapus, sehingga jumlahnya naik dari 83 menjadi 383 saham. Tambahan 300 saham ini sekitar 6,16% dari nilai pasar IHSG dan akan dikeluarkan dari perhitungan IHSG. Direktur Utama BEI Jeffrey Hendrik menyebut daftar baru diumumkan dalam waktu dekat; tanggal berlakunya dan nama sahamnya belum ada. Sampai Rabu sore 11 November daftar nama sahamnya belum diumumkan.",
-   "why_it_matters": "Hindari saham kecil yang naik tanpa berita sampai daftarnya keluar. Saham seperti ini mudah digerakkan sedikit pihak.",
-   "status": "official",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "BEI Ubah Metodologi, 383 Saham Masuk Daftar HSC",
-     "url": "https://investasi.kontan.co.id/news/bei-ubah-metodologi-383-saham-masuk-daftar-hsc",
-     "time": "2026-11-10 18:04 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "BEI Bakal Keluarkan 300 Saham Lagi dari Perhitungan IHSG, Ini Alasan dan Kriterianya",
-     "url": "https://investasi.kontan.co.id/news/bei-bakal-keluarkan-300-saham-lagi-dari-ihsg-ini-alasan-dan-kriterianya",
-     "time": "2026-11-10 21:09 WIB",
-     "primary": false
-    },
-    {
-     "name": "Bisnis.com",
-     "title": "BEI Umumkan 383 Saham Masuk Daftar HSC, Keluar dari Perhitungan IHSG",
-     "url": "https://market.bisnis.com/read/20261110/7/2020168/bei-umumkan-383-saham-masuk-daftar-hsc-keluar-dari-perhitungan-ihsg",
-     "time": "2026-11-10 sore WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-11"
-  },
-  {
-   "id": "asing-sesi1-11nov",
-   "time": "18.08 WIB",
-   "tickers": [
-    "BBRI",
-    "BMRI",
-    "BBCA",
-    "ASII",
-    "BBNI",
-    "PTRO",
-    "BRPT",
-    "BUVA",
-    "RAJA",
-    "ANTM",
-    "AMMN",
-    "CUAN"
-   ],
-   "category": "news",
-   "scope": "market",
-   "short": "Asing hanya jual bersih Rp20,76 miliar",
-   "impact": {
-    "score": 0,
-    "why": "Jual bersih asing sepanjang hari kecil sekali, dan asing membeli bank besar di sesi kedua."
-   },
-   "headline": "Asing hanya jual bersih Rp20,76 miliar sepanjang Rabu, setelah Rp287,01 miliar di sesi pertama; bank besar diborong",
-   "summary": "Sepanjang Rabu 11 November asing jual bersih Rp20,76 miliar di seluruh pasar, jauh lebih kecil dari Rp287,01 miliar di sesi pertama, jadi di sesi kedua asing membeli bersih sekitar Rp266 miliar. Paling banyak dibeli: BBRI Rp138,05 miliar, BMRI Rp87,59 miliar, BBCA Rp51,91 miliar, ASII Rp29,55 miliar, dan BBNI Rp21,33 miliar. Paling banyak dijual: PTRO Rp54,74 miliar, BRPT Rp50,32 miliar, BUVA Rp46,34 miliar, SINI Rp27,75 miliar, dan RAJA Rp25,36 miliar. ANTM dijual Rp23,06 miliar, AMMN Rp20,72 miliar, dan CUAN Rp12,98 miliar. Daftar Kontan tidak memuat BUVA dan RAJA, jadi angka keduanya perlu dicek.",
-   "why_it_matters": "Asing tidak lari dari pasar, tetapi memilih bank besar dan menjual saham tambang serta grup Prajogo. Ikuti arah itu, jangan melawannya.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Investortrust",
-     "title": "Pemodal Asing Net Sell Saham Rp 20,76 Miliar, Sebaliknya 4 Saham Bank Atas Ini Diborong",
-     "url": "https://investortrust.id/market/122235/pemodal-asing-net-sell-saham-rp-20-76-miliar-sebaliknya-4-saham-bank-atas-ini-diborong",
-     "time": "2026-11-11 18:08 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "Asing Net Sell Rp 20,7 Miliar Saat IHSG Turun Rabu (11/11), Cek Saham yang Dijual",
-     "url": "https://investasi.kontan.co.id/news/asing-net-sell-rp-207-miliar-saat-ihsg-turun-rabu-1111-cek-saham-yang-dijual",
-     "time": "2026-11-11 23:36 WIB",
-     "primary": false
-    },
-    {
-     "name": "CNBC Indonesia",
-     "title": "Dana Asing Kabur Rp287,01 M pada Sesi I, 10 Saham Ini Banyak Dilepas",
-     "url": "https://www.cnbcindonesia.com/market/20261111123141-17-784231/dana-asing-kabur-rp28701-m-pada-sesi-i-10-saham-ini-banyak-dilepas",
-     "time": "2026-11-11 12:45 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kumparan",
-     "title": "Investor Asing Jual Bersih Rp 287 M di Sesi I, Saham PTRO Paling Banyak Dilepas",
-     "url": "https://kumparan.com/kumparanbisnis/investor-asing-jual-bersih-rp-287-m-di-sesi-i-saham-ptro-paling-banyak-dilepas-28YGs3IXvn6",
-     "time": "2026-11-11 13:31 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-11"
-  },
-  {
    "id": "SMAR-cum-dividen-12nov",
    "time": "17.30 WIB",
    "tickers": [
@@ -930,33 +701,6 @@
      "title": "SMAR Akan Bagikan Dividen Interim pada 26 November 2026",
      "url": "https://bcasekuritas.co.id/latest-news/news/smar-akan-bagikan-dividen-interim-pada-26-november-2026",
      "time": "2026-11-05 17:45 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-11"
-  },
-  {
-   "id": "SUN-yield-7persen-10nov",
-   "time": "16.37 WIB",
-   "tickers": [],
-   "category": "news",
-   "scope": "market",
-   "short": "Obligasi negara dijual di bawah harga pokok",
-   "impact": {
-    "score": 0,
-    "why": "Imbal hasil obligasi yang tinggi menandakan investor meminta imbalan lebih karena risiko rupiah, tetapi tidak langsung mengubah laba perusahaan."
-   },
-   "headline": "Obligasi negara jangka panjang dijual di bawah harga pokok, imbal hasil 7,63% sampai 7,70%",
-   "summary": "Pada Selasa 10 November empat seri obligasi negara jangka panjang diperdagangkan dengan imbal hasil 7,63% sampai 7,70%. Contohnya seri FR0102 yang jatuh tempo 2054 di 7,70%, dengan harga 90,55% dari nilai pokok. Bunga acuan Bank Indonesia 5,75%. Analis menyebut imbal hasil bisa tetap tinggi kalau tekanan rupiah dan kebutuhan dana pemerintah berlanjut.",
-   "why_it_matters": "Bunga obligasi yang tinggi membuat saham harus menawarkan imbal hasil lebih besar supaya menarik, terutama saham bank dan properti.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "Obligasi Negara Dijual di Bawah Par, Yield SUN Tembus 7,7% Menggoda Investor",
-     "url": "https://investasi.kontan.co.id/news/obligasi-negara-dijual-di-bawah-par-yield-sun-tembus-77-menggoda-investor",
-     "time": "2026-11-10 16:37 WIB",
      "primary": false
     }
    ],
@@ -1007,118 +751,6 @@
      "title": "IHSG Sesi I Turun 0,22% ke 5.114, TAXI hingga TFCO Paling Tertekan",
      "url": "https://indikatorbisnis.com/detail/859242/ihsg-sesi-i-turun-022-ke-5114-taxi-hingga-tfco-paling-tertekan",
      "time": "2026-11-11 12:17 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-11"
-  },
-  {
-   "id": "IHSG-tutup-11nov",
-   "time": "16.09 WIB",
-   "tickers": [
-    "BRPT",
-    "MBMA",
-    "ITMG",
-    "AMRT",
-    "ICBP",
-    "KLBF"
-   ],
-   "category": "news",
-   "scope": "market",
-   "short": "IHSG turun tipis, mayoritas saham turun",
-   "impact": {
-    "score": -1,
-    "why": "IHSG hanya turun 0,21%, tetapi saham yang turun dua kali lebih banyak dari yang naik, tanda tekanan jual meluas."
-   },
-   "headline": "IHSG ditutup turun 0,21% ke 5.115,03; 383 saham turun dan hanya 180 naik",
-   "summary": "Pada Rabu 11 November IHSG turun 10,70 poin atau 0,21% ke 5.115,03 setelah naik dua hari. IHSG sempat naik ke 5.144,79 di awal sesi lalu turun sampai 5.086,02. Nilai transaksi sekitar Rp8,74 triliun. Sektor bahan baku paling turun (turun 1,86%), lalu industri (turun 0,93%); transportasi (naik 0,91%) dan energi (naik 0,50%) naik. Di LQ45 yang paling turun BRPT (turun 6,71% ke Rp765), MBMA (turun 5,10% ke Rp298), dan ITMG (turun 4,55% ke Rp23.625, karena ex date dividen).",
-   "why_it_matters": "Kenaikan dua hari terakhir tertahan dan lebih banyak saham turun. Belum saatnya mengejar saham; tunggu hasil MSCI besok pagi.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "IHSG Terkoreksi 0,21% ke 5.115, Top Losers LQ45: BRPT, MBMA, ITMG, Rabu (11/11)",
-     "url": "https://investasi.kontan.co.id/news/ihsg-terkoreksi-021-ke-5115-top-losers-lq45-brpt-mbma-itmg-rabu-1111",
-     "time": "2026-11-11 16:09 WIB",
-     "primary": false
-    },
-    {
-     "name": "CNBC Indonesia",
-     "title": "IHSG Ditutup Melemah 0,21% ke 5.115,04 jelang Pengumuman MSCI",
-     "url": "https://www.cnbcindonesia.com/market/20261111153604-17-784340/ihsg-ditutup-melemah-021-ke-511504-jelang-pengumuman-msci",
-     "time": "2026-11-11 16:05 WIB",
-     "primary": false
-    },
-    {
-     "name": "CNN Indonesia",
-     "title": "IHSG Ditutup Merah 5.115 Sore Ini, 383 Saham Berdarah",
-     "url": "https://www.cnnindonesia.com/ekonomi/20261111161347-92-1425966/ihsg-ditutup-merah-5115-sore-ini-383-saham-berdarah",
-     "time": "2026-11-11 16:22 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-11"
-  },
-  {
-   "id": "rupiah-melemah-11nov",
-   "time": "15.06 WIB",
-   "tickers": [],
-   "category": "news",
-   "scope": "market",
-   "short": "Rupiah melemah ke Rp18.149 per dolar",
-   "impact": {
-    "score": -1,
-    "why": "Rupiah yang melemah biasanya membuat dana asing menahan diri dan menekan saham bank dan properti."
-   },
-   "headline": "Rupiah ditutup melemah 0,48% ke Rp18.149 per dolar AS setelah inflasi Amerika lebih panas",
-   "summary": "Pada Rabu 11 November rupiah ditutup di Rp18.149 per dolar AS, melemah 0,48% dari Rp18.062 kemarin. Mata uang Asia bergerak campur: ringgit Malaysia turun 0,49% dan won Korea naik 0,59%. Data inflasi Amerika bulan Oktober yang lebih tinggi dari perkiraan membuat dolar menguat, dan pasar menganggap kenaikan bunga Amerika 0,25 poin persen pada Desember hampir pasti.",
-   "why_it_matters": "Selama rupiah melemah, beli asing di saham besar biasanya tertahan. Perhatikan saham bank dan properti.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "Rupiah Ditutup Melemah ke Rp 18.149 Per Dolar AS Hari Ini (11/11)",
-     "url": "https://investasi.kontan.co.id/news/rupiah-ditutup-melemah-ke-rp-18149-per-dolar-as-hari-ini-1111",
-     "time": "2026-11-11 15:06 WIB",
-     "primary": false
-    },
-    {
-     "name": "CNN Indonesia",
-     "title": "Rupiah Melemah ke Rp18.149 per Dolar AS Rabu Sore",
-     "url": "https://www.cnnindonesia.com/ekonomi/20261111160836-78-1425965/rupiah-melemah-ke-rp18149-per-dolar-as-rabu-sore",
-     "time": "2026-11-11 16:08 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-11"
-  },
-  {
-   "id": "BBKP-koperasi-akuisisi",
-   "time": "14.05 WIB",
-   "tickers": [
-    "BBKP"
-   ],
-   "category": "rumour",
-   "scope": "company",
-   "short": "Wacana koperasi beli KB Bank, dibantah",
-   "impact": {
-    "score": 0,
-    "why": "Perusahaan membantah ada rencana menjual saham, jadi kabar ini tidak mengubah apa pun untuk saat ini."
-   },
-   "headline": "Menteri Koperasi ingin koperasi membeli KB Bank; perusahaan membantah ada rencana jual saham",
-   "summary": "Menteri Koperasi Ferry Juliantono menyebut ingin membentuk konsorsium koperasi untuk membeli kembali KB Bank (dulu Bank Bukopin), dan menyebutnya baru wacana. Rabu 11 November PT Bank KB Indonesia Tbk menyatakan induknya, KB Financial Group, tidak berencana melepas saham apa pun. Kookmin Bank tetap pengendali, dan Indonesia disebut pasar jangka panjang bagi grup.",
-   "why_it_matters": "Jangan membeli BBKP karena kabar akuisisi. Perusahaan sudah membantahnya.",
-   "status": "denied",
-   "event_date": null,
-   "expires": "2026-11-12",
-   "sources": [
-    {
-     "name": "CNBC Indonesia",
-     "title": "Wacana Koperasi Akuisisi KB Bank Bergulir, Manajemen Buka Suara",
-     "url": "https://www.cnbcindonesia.com/market/20261111133219-17-784259/wacana-koperasi-akuisisi-kb-bank-bergulir-manajemen-buka-suara",
-     "time": "2026-11-11 14:05 WIB",
      "primary": false
     }
    ],
@@ -1304,47 +936,6 @@
    "date": "2026-11-11"
   },
   {
-   "id": "wallstreet-turun-10nov",
-   "time": "05.44 WIB",
-   "tickers": [],
-   "category": "news",
-   "scope": "market",
-   "short": "Wall Street turun setelah inflasi panas",
-   "impact": {
-    "score": -1,
-    "why": "Wall Street yang turun dan dolar yang menguat biasanya membuat IHSG dan rupiah dibuka lebih lemah."
-   },
-   "headline": "Wall Street turun Selasa: Nasdaq turun 0,74%, S&P 500 turun 0,38% setelah data inflasi Amerika lebih tinggi dari perkiraan",
-   "summary": "Pada Selasa 10 November waktu Amerika, Dow Jones turun 0,30% ke 52.231,89, S&P 500 turun 0,38% ke 7.520,93, dan Nasdaq turun 0,74% ke 25.065,87. Saham yang turun sekitar 2,3 kali lebih banyak dari yang naik, dan sektor teknologi paling lemah dengan turun 1,4%. Nvidia turun 5,4%, total 9,6% dalam dua hari, karena pemeriksaan internal yang menyangkut direktur utamanya. Indeks dolar naik 0,6% ke 102,26. Pasar saham Amerika tetap buka normal pada Rabu walau hari libur Veteran.",
-   "why_it_matters": "Kenaikan IHSG dua hari terakhir bisa tertahan pagi ini. Tunggu reaksi Asia dan rupiah sebelum membeli.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Reuters lewat GV Wire",
-     "title": "Wall St Ends Lower as Hot Inflation Data, Fed Comments Heighten Rate Worries",
-     "url": "https://gvwire.com/2026/11/10/wall-st-ends-lower-as-hot-inflation-data-fed-comments-heighten-rate-worries/",
-     "time": "2026-11-11 05:44 WIB",
-     "primary": false
-    },
-    {
-     "name": "JournalArta",
-     "title": "Stock Market Today: S&P 500 Slips 0.38%, Nasdaq Falls 0.74%",
-     "url": "https://journalarta.com/en/2026/11/11/stock-market-today-sp-500-slips-0-38-to-7520-93-and-nasdaq-falls-0-74-as-10-year-yield-rises-to-4-98/",
-     "time": "2026-11-11 04:15 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "Wall Street Melemah, Inflasi AS Picu Kekhawatiran Kenaikan Suku Bunga The Fed",
-     "url": "https://investasi.kontan.co.id/news/wall-street-melemah-inflasi-as-picu-kekhawatiran-kenaikan-suku-bunga-the-fed",
-     "time": "2026-11-10 22:28 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-11"
-  },
-  {
    "id": "inflasi-amerika-oktober-panas",
    "time": "05.44 WIB",
    "tickers": [],
@@ -1442,43 +1033,6 @@
      "title": "Gelagat Investor Asing di Saham BRPT & BRMS Jelang Review MSCI",
      "url": "https://www.bloombergtechnoz.com/detail-news/127399/gelagat-investor-asing-di-saham-brpt-brms-jelang-review-msci",
      "time": "2026-11-11 13:57 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-11"
-  },
-  {
-   "id": "minyak-terendah-dua-bulan-10nov",
-   "time": "04.15 WIB",
-   "tickers": [
-    "MEDC",
-    "ENRG"
-   ],
-   "category": "news",
-   "scope": "market",
-   "short": "Minyak di level terendah dua bulan",
-   "impact": {
-    "score": -1,
-    "why": "Minyak yang turun mengurangi pendapatan perusahaan minyak seperti MEDC dan ENRG."
-   },
-   "headline": "Minyak Brent turun ke 91,84 dolar AS per barel, terendah dalam dua bulan",
-   "summary": "Pada Selasa 10 November minyak Brent turun 0,79% ke 91,84 dolar AS per barel dan WTI turun 0,66% ke 86,28 dolar AS. Reuters menyebut minyak di level terendah dua bulan karena pejabat Amerika meredam kabar serangan militer ke Iran. Senin malam Brent sudah turun tajam sekitar 5,5%. Hari ini juga ex date dividen MEDC, jadi harganya biasanya turun sekitar Rp21,65.",
-   "why_it_matters": "Jangan beli saham minyak hanya karena sudah turun. Maskapai dan transportasi justru diuntungkan biaya bahan bakar yang lebih murah.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Reuters lewat GV Wire",
-     "title": "Wall St Ends Lower as Hot Inflation Data, Fed Comments Heighten Rate Worries",
-     "url": "https://gvwire.com/2026/11/10/wall-st-ends-lower-as-hot-inflation-data-fed-comments-heighten-rate-worries/",
-     "time": "2026-11-11 05:44 WIB",
-     "primary": false
-    },
-    {
-     "name": "JournalArta",
-     "title": "Stock Market Today: S&P 500 Slips 0.38%, Nasdaq Falls 0.74%",
-     "url": "https://journalarta.com/en/2026/11/11/stock-market-today-sp-500-slips-0-38-to-7520-93-and-nasdaq-falls-0-74-as-10-year-yield-rises-to-4-98/",
-     "time": "2026-11-11 04:15 WIB",
      "primary": false
     }
    ],
@@ -2549,51 +2103,6 @@
    "date": "2026-11-09"
   },
   {
-   "id": "MSCI-pengumuman-12nov-langkah-BEI",
-   "time": "05.00 WIB",
-   "tickers": [
-    "BRPT",
-    "BRMS",
-    "UNTR"
-   ],
-   "category": "issue",
-   "scope": "market",
-   "short": "Hasil MSCI keluar Kamis dini hari",
-   "impact": {
-    "score": -1,
-    "why": "Hasil peninjauan bisa memicu penjualan dana asing yang mengikuti indeks, terutama di saham yang terancam keluar."
-   },
-   "headline": "Hasil peninjauan indeks MSCI keluar Kamis 12 November dini hari WIB; analis sarankan tidak agresif sebelumnya",
-   "summary": "MSCI (penyedia indeks yang diikuti dana asing besar) mengumumkan hasil peninjauan November pada 11 November waktu Amerika, atau Kamis 12 November dini hari WIB. Ini bukan keputusan akhir soal usulan memindahkan Indonesia dari kelompok pasar negara berkembang ke kelompok pasar tersendiri (standalone); keputusan itu paling lambat 30 Juni 2027 setelah masukan sampai 30 April 2027. Sampai ada pemberitahuan baru MSCI tetap membekukan penambahan saham Indonesia ke indeks, jadi yang mungkin terjadi hanya pengurangan. Reuters, mengutip UBS, memperkirakan dana pasif bisa keluar sekitar 4 miliar dolar AS dan dana aktif sekitar 15 miliar dolar AS kalau skenario buruk terjadi. Asing sudah menjual bersih Rp127,26 triliun di pasar reguler sejak awal 2026.",
-   "why_it_matters": "Sampai Kamis, hindari membeli besar-besaran dan hindari utang margin (pinjaman dari sekuritas untuk membeli saham). Saham yang terancam keluar indeks paling berisiko.",
-   "status": "official",
-   "event_date": "2026-11-12",
-   "sources": [
-    {
-     "name": "MSCI",
-     "title": "MSCI Launches a Consultation on a Proposal to Reclassify the MSCI Indonesia Indexes",
-     "url": "https://www.msci.com/downloads/documents/press-releases/media-room/Indonesia_PR_Oct_26.pdf",
-     "time": "2026-10-15",
-     "primary": true
-    },
-    {
-     "name": "Kontan",
-     "title": "IHSG Diproyeksi Masih Tertekan Pekan Ini, Menjelang Pengumuman Review MSCI November",
-     "url": "https://investasi.kontan.co.id/news/ihsg-diproyeksi-masih-tertekan-pekan-ini-menjelang-pengumuman-review-msci-november",
-     "time": "2026-11-09 05:00 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "Pasar Saham RI Masih Tertekan Jelang Pengumuman MSCI November Pekan Ini",
-     "url": "https://investasi.kontan.co.id/news/pasar-saham-ri-masih-tertekan-jelang-pengumuman-msci-november-pekan-ini",
-     "time": "2026-11-08 17:31 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-09"
-  },
-  {
    "id": "AADI-dividen-spesial-kestrel",
    "time": "04.58 WIB",
    "tickers": [
@@ -2721,153 +2230,6 @@
     }
    ],
    "date": "2026-11-09"
-  },
-  {
-   "id": "MSCI-pengumuman-12nov-langkah-BEI",
-   "time": "05.46 WIB",
-   "tickers": [
-    "BRPT",
-    "UNTR",
-    "BRMS"
-   ],
-   "category": "issue",
-   "scope": "market",
-   "short": "BEI siapkan tiga langkah jelang MSCI",
-   "impact": {
-    "score": 0,
-    "why": "Langkah BEI bisa membantu penilaian MSCI, tetapi hasilnya baru diketahui 12 November."
-   },
-   "headline": "BEI siapkan tiga langkah pembenahan menjelang hasil peninjauan MSCI 12 November",
-   "summary": "MSCI (penyedia indeks yang diikuti dana asing besar) mengumumkan hasil peninjauan November pada 11 November waktu Amerika, atau Kamis 12 November dini hari WIB. BEI menyiapkan tiga langkah: membuka data pihak terkait untuk pemegang saham di atas 1%, cara pengawasan baru dengan tanda peringatan langsung untuk dugaan manipulasi, dan perbaikan likuiditas perdagangan. Direktur Utama BEI Jeffrey Hendrik berharap langkah ini dihargai penyedia indeks. Analis sebelumnya memperkirakan BRPT bisa dikeluarkan dari indeks MSCI Standard.",
-   "why_it_matters": "Saham yang terancam keluar dari indeks MSCI bisa terus dijual asing sampai 12 November. Hindari menangkap saham itu sebelum hasilnya keluar.",
-   "status": "confirmed",
-   "event_date": "2026-11-12",
-   "sources": [
-    {
-     "name": "JournalArta",
-     "title": "MSCI November 2026: Tiga Langkah BEI",
-     "url": "https://journalarta.com/news/2026/11/06/msci-november-2026-bei/",
-     "time": "2026-11-06 05:46 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "MSCI November 2026 Diprediksi Pasang Status Quo, Saham BRPT Terancam Keluar",
-     "url": "https://investasi.kontan.co.id/news/msci-november-2026-diprediksi-pasang-status-quo-saham-brpt-terancam-keluar",
-     "time": "2026-10-14 06:15 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-06"
-  },
-  {
-   "id": "BRPT-TPIA-tertekan-msci",
-   "time": "16.06 WIB",
-   "tickers": [
-    "BRPT",
-    "BRMS",
-    "CUAN",
-    "TPIA"
-   ],
-   "category": "issue",
-   "scope": "company",
-   "short": "Turun 6,67% lagi jelang hasil MSCI",
-   "impact": {
-    "score": -1,
-    "why": "Kalau keluar dari indeks, dana asing yang mengikuti indeks wajib menjual, tetapi ini masih perkiraan analis."
-   },
-   "impacts": {
-    "BRPT": -1,
-    "BRMS": -1,
-    "CUAN": -1,
-    "TPIA": -1
-   },
-   "headline": "BRPT turun 6,67% lagi, hari ketiga beruntun, menjelang hasil peninjauan MSCI",
-   "summary": "Pada Kamis 5 November BRPT turun 6,67% dan menjadi saham LQ45 yang paling turun, padahal IHSG naik 2,25%. Ini hari ketiga beruntun BRPT turun sekitar batas turun harian 7%. Dari Rp975 pada Rabu, BRPT ditutup di Rp910, menurut Kontan dan JournalArta. Volume 186,79 juta saham, sekitar 1,4 kali rata-rata 20 hari. Sepanjang hari asing menjual bersih TPIA Rp45,7 miliar; di sesi pertama asing juga menjual bersih BRPT Rp19,79 miliar. MSCI mengumumkan hasil peninjauan indeks pada Kamis 12 November dini hari WIB, berlaku 1 Desember. Mirae Asset memperkirakan BRPT bisa dikeluarkan dari indeks MSCI Standard dan BRMS bisa turun kelas, tetapi itu masih perkiraan analis.",
-   "why_it_matters": "Buyback perusahaan belum mampu menahan penjualan. Menangkap saham yang turun tiga hari beruntun sebelum hasil MSCI keluar sangat berisiko.",
-   "status": "unconfirmed",
-   "event_date": "2026-11-12",
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "Daftar Saham PER Terendah & Tertinggi LQ45 (5 November 2026), MDKA dan BBTN Melesat",
-     "url": "https://investasi.kontan.co.id/news/daftar-saham-per-terendah-tertinggi-lq45-5-november-2026-mdka-dan-bbtn-melesat",
-     "time": "2026-11-06 06:00 WIB",
-     "primary": false
-    },
-    {
-     "name": "JournalArta",
-     "title": "Analisis Saham BRPT: Melemah 6.67%, RSI Jenuh Jual",
-     "url": "https://journalarta.com/news/2026/11/06/analisis-saham-brpt-melemah-6-67-rsi-jenuh-jual/",
-     "time": "2026-11-06 05:49 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "IHSG Menguat 2,25% ke 5.030 pada Kamis (5/11), MDKA, AMMN, AMRT Top Gainers LQ45",
-     "url": "https://investasi.kontan.co.id/news/ihsg-menguat-225-ke-5030-pada-kamis-511-mdka-ammn-amrt-top-gainers-lq45",
-     "time": "2026-11-05 16:06 WIB",
-     "primary": false
-    },
-    {
-     "name": "CNBC Indonesia",
-     "title": "Asing Masuk Rp72,93 M di Sesi I, Asing Borong 10 Saham Ini",
-     "url": "https://www.cnbcindonesia.com/market/20261105124151-17-782605/asing-masuk-rp7293-m-di-sesi-i-asing-borong-10-saham-ini",
-     "time": "2026-11-05 12:43 WIB",
-     "primary": false
-    },
-    {
-     "name": "Warta Finansial (mengutip Mirae Asset Sekuritas)",
-     "title": "MSCI Review Diumumkan Besok, BRMS dan BRPT Berisiko Terdepak dari Indeks",
-     "url": "https://wartafinansial.com/detail/805086/msci-review-diumumkan-besok-brms-dan-brpt-berisiko-terdepak-dari-indeks",
-     "time": "2026-11-04 11:43 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "Simak Rekomendasi Saham BRPT, CPIN, dan BBCA untuk Perdagangan Kamis (5/11)",
-     "url": "https://investasi.kontan.co.id/news/simak-rekomendasi-saham-brpt-cpin-dan-bbca-untuk-perdagangan-kamis-511",
-     "time": "2026-11-05 06:05 WIB",
-     "primary": false
-    },
-    {
-     "name": "Katadata",
-     "title": "Asing Catat Net Buy Rp 265 Miliar saat IHSG Berbalik Menguat 0,32%",
-     "url": "https://katadata.co.id/finansial/bursa/6aeb0ff8882d1/asing-catat-net-buy-rp-265-miliar-saat-ihsg-berbalik-menguat-0-32",
-     "time": "2026-11-04 17:59 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-05"
-  },
-  {
-   "id": "ASSA-dividen-interim-rp20",
-   "time": "14.14 WIB",
-   "tickers": [
-    "ASSA"
-   ],
-   "category": "corporate-action",
-   "scope": "company",
-   "short": "Dividen interim Rp20 per saham",
-   "impact": {
-    "score": 1,
-    "why": "Dividen tunai dengan imbal hasil 4,22%, di bawah 5%."
-   },
-   "headline": "Adi Sarana Armada (ASSA) bagi dividen interim Rp20 per saham, cum date 12 November",
-   "summary": "Adi Sarana Armada (ASSA) membagikan dividen interim (dividen di tengah tahun buku) 2026 sebesar Rp20 per saham, total Rp73,82 miliar. Dengan harga Rp474 pada 4 November pukul 14.01 WIB, imbal hasilnya 4,22%. Hari terakhir membeli di pasar reguler supaya dapat dividen (cum date) Kamis 12 November. Mulai Jumat 13 November (ex date) harga biasanya turun sekitar Rp20. Dividen dibayar 20 November 2026.",
-   "why_it_matters": "Dividen ini cukup besar untuk saham kecil, tetapi harga biasanya turun sebesar dividen pada ex date. Jangan beli hanya untuk dividennya.",
-   "status": "unconfirmed",
-   "event_date": "2026-11-12",
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "Adi Sarana Armada (ASSA) Bagi Dividen Interim Rp 73,82 Miliar, Potensi Yield 4,22%",
-     "url": "https://investasi.kontan.co.id/news/adi-sarana-armada-assa-bagi-dividen-interim-rp-7382-miliar-potensi-yield-422",
-     "time": "2026-11-04 14:14 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-04"
   },
   {
    "id": "PKPK-stock-split-1-10",
@@ -3319,7 +2681,6 @@
   "AKRA": "AKR Corporindo",
   "AKSI": "Mineral Sumberdaya Mandiri",
   "AMMN": "Amman Mineral Internasional",
-  "AMRT": "Sumber Alfaria Trijaya",
   "ANTM": "ANTAM (Persero)",
   "ARCI": "Archi Indonesia",
   "ARKO": "Arkora Hydro",
@@ -3328,7 +2689,6 @@
   "AUTO": "Astra Otoparts",
   "AVIA": "Avia Avian",
   "BBCA": "Bank Central Asia",
-  "BBKP": "Bank KB Indonesia",
   "BBNI": "Bank Negara Indonesia (Persero)",
   "BBRI": "Bank Rakyat Indonesia (Persero)",
   "BMRI": "Bank Mandiri (Persero)",
@@ -3336,17 +2696,14 @@
   "BRIS": "Bank Syariah Indonesia (Persero)",
   "BRMS": "Bumi Resources Minerals",
   "BRPT": "Barito Pacific",
-  "BUVA": "Bukit Uluwatu Villa",
   "BWPT": "Eagle High Plantations",
   "BYAN": "Bayan Resources",
   "CBRE": "Cakra Buana Resources Energi",
   "CSRA": "Cisadane Sawit Raya",
   "CTRA": "Ciputra Development",
   "CUAN": "Petrindo Jaya Kreasi",
-  "DEWA": "Darma Henwa",
   "DOOH": "Era Media Sejahtera",
   "DSSA": "Dian Swastatika Sentosa",
-  "ELSA": "Elnusa",
   "EMAS": "Merdeka Gold Resources",
   "EMTK": "Elang Mahkota Teknologi",
   "ENRG": "Energi Mega Persada",
@@ -3361,7 +2718,6 @@
   "ITMG": "Indo Tambangraya Megah",
   "JSMR": "Jasa Marga",
   "KLBF": "Kalbe Farma",
-  "LSIP": "PP London Sumatra Indonesia",
   "MBMA": "Merdeka Battery Materials",
   "MEDC": "Medco Energi Internasional",
   "MENN": "Menn Teknologi Indonesia",
@@ -3388,7 +2744,6 @@
   "TAPG": "Triputra Agro Persada",
   "TGKA": "Tigaraksa Satria",
   "TIFA": "KDB Tifa Finance",
-  "TINS": "TIMAH (Persero)",
   "TLKM": "Telkom Indonesia (Persero)",
   "TMPO": "Tempo Inti Media",
   "TOTL": "Total Bangun Persada",
