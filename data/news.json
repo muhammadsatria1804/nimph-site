@@ -1,6 +1,393 @@
 {
  "items": [
   {
+   "id": "bank-besar-diborong-asing-12nov",
+   "time": "21.48 WIB",
+   "tickers": [
+    "BBRI",
+    "BBCA",
+    "ASII",
+    "BMRI",
+    "ADRO"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Asing borong BBRI, BBCA, ASII",
+   "impact": {
+    "score": 1,
+    "why": "Asing membeli bank besar dua hari berturut-turut, tanda ada dana asing yang masuk kembali."
+   },
+   "impacts": {
+    "BBRI": 1,
+    "BBCA": 1,
+    "ASII": 1,
+    "BMRI": 1,
+    "ADRO": 1
+   },
+   "headline": "Asing beli bersih sekitar Rp443,4 miliar Kamis; BBRI dibeli Rp495 miliar",
+   "summary": "Sepanjang Kamis 12 November, asing beli bersih Rp443,4 miliar di seluruh pasar menurut Suara yang memakai data Mirae Asset; periskop.id menulis Rp508,85 miliar. Di pasar reguler BBRI dibeli asing Rp495 miliar, BBCA Rp247 miliar, ASII Rp88 miliar, BMRI Rp51 miliar, dan ADRO Rp39 miliar. Di sesi pertama saja asing hanya beli bersih Rp83,61 miliar, jadi pembelian besar terjadi di sesi kedua.",
+   "why_it_matters": "Dana asing sedang terpusat di bank besar dan ASII. Kalau pembelian ini berlanjut walau rupiah melemah, saham-saham ini lebih kuat dari pasar.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Suara",
+     "title": "Ditinggal GOTO, Saham BBRI dan BBCA Diserbu Asing hingga Ratusan Miliar!",
+     "url": "https://www.suara.com/bisnis/2026/11/12/214828/ditinggal-goto-saham-bbri-dan-bbca-diserbu-asing-hingga-ratusan-miliar",
+     "time": "2026-11-12 21:48 WIB",
+     "primary": false
+    },
+    {
+     "name": "periskop.id",
+     "title": "Asing Ney Buy Rp508,85 Miliar Hari Ini, BBRI Paling Banyak Diborong",
+     "url": "https://periskop.id/pasar-modal/20261112/asing-beli-bersih-saham-hari-ini-bbri-paling-banyak-diborong",
+     "time": "2026-11-12, jam terbit tidak terbaca",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-13"
+  },
+  {
+   "id": "jual-asing-msci-12nov",
+   "time": "21.48 WIB",
+   "tickers": [
+    "GOTO",
+    "BRMS",
+    "TINS",
+    "RAJA",
+    "BRPT"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Asing jual GOTO, BRMS, RAJA, BRPT",
+   "impact": {
+    "score": -1,
+    "why": "Saham yang keluar dari indeks MSCI terus dijual asing dan biasanya tertekan sampai 30 November."
+   },
+   "impacts": {
+    "GOTO": -1,
+    "BRMS": -1,
+    "TINS": -1,
+    "RAJA": -1,
+    "BRPT": -1
+   },
+   "headline": "Asing paling banyak menjual GOTO, BRMS, TINS, RAJA, dan BRPT Kamis",
+   "summary": "Di pasar reguler Kamis 12 November, asing paling banyak menjual GOTO Rp80 miliar, BRMS Rp54 miliar, TINS Rp53 miliar, RAJA Rp52 miliar, dan BRPT Rp39 miliar. BRMS, RAJA, dan BRPT termasuk saham yang dikeluarkan dari indeks MSCI. Perubahan indeks itu dijalankan pada penutupan Senin 30 November.",
+   "why_it_matters": "Jangan menangkap saham yang dikeluarkan dari MSCI sebelum 30 November, karena dana indeks biasanya terus menjual sampai tanggal itu.",
+   "status": "confirmed",
+   "event_date": "2026-11-30",
+   "sources": [
+    {
+     "name": "Suara",
+     "title": "Ditinggal GOTO, Saham BBRI dan BBCA Diserbu Asing hingga Ratusan Miliar!",
+     "url": "https://www.suara.com/bisnis/2026/11/12/214828/ditinggal-goto-saham-bbri-dan-bbca-diserbu-asing-hingga-ratusan-miliar",
+     "time": "2026-11-12 21:48 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-13"
+  },
+  {
+   "id": "KETR-pengendali-baru-sinarmas",
+   "time": "18.28 WIB",
+   "tickers": [
+    "KETR",
+    "DSSA"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Pengendali baru dari grup Sinarmas",
+   "impact": {
+    "score": 1,
+    "why": "Masuknya grup besar bisa menambah dukungan usaha, tetapi dampaknya ke laba belum bisa dihitung."
+   },
+   "impacts": {
+    "KETR": 1,
+    "DSSA": 0
+   },
+   "headline": "KETR resmi punya pengendali baru dari grup Sinarmas setelah penawaran tender sukarela",
+   "summary": "PT Inti Mas Bangun Sejahtera menjadi pengendali KETR dengan 994.442.000 saham atau 35%, setelah penawaran tender sukarela (tawaran membeli saham dari publik) pada 28 September 2026. Perusahaan ini dimiliki anak usaha DSSA dan PT Sinarmas Sukses Sejahtera, dengan pemilik akhir Franky Oesman Widjaja. RUPS luar biasa pada Kamis 12 November menyetujui pengendali baru serta pergantian komisaris dan direksi. Kepemilikan publik kini 37,23%.",
+   "why_it_matters": "Pergantian pengendali sudah diketahui sejak tender September, jadi ini lebih ke peresmian. Belum ada rencana usaha baru atau angka yang diumumkan.",
+   "status": "unconfirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "CNBC Indonesia",
+     "title": "KETR Umumkan Pengendali Baru, Franky Oesman Widjaja Masuk?",
+     "url": "https://www.cnbcindonesia.com/market/20261112182414-17-784788/ketr-umumkan-pengendali-baru-franky-oesman-widjaja-masuk",
+     "time": "2026-11-12 18:28 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-13"
+  },
+  {
+   "id": "nikel-kuota-2027-dugaan",
+   "time": "17.11 WIB",
+   "tickers": [
+    "ANTM",
+    "INCO",
+    "NCKL",
+    "MBMA"
+   ],
+   "category": "rumour",
+   "scope": "market",
+   "short": "Kuota bijih nikel 2027 mungkin dipangkas",
+   "impact": {
+    "score": 1,
+    "why": "Kalau kuota dipangkas, harga nikel bisa naik, tetapi belum ada keputusan atau angka resmi."
+   },
+   "headline": "Media nikel menulis pemerintah mungkin memangkas kuota produksi bijih nikel 2027, belum ada pernyataan resmi",
+   "summary": "Media Nikel Indonesia menulis pada 12 November bahwa pemerintah mungkin mengurangi kuota produksi bijih nikel 2027 dibanding tahun ini, melalui persetujuan rencana kerja tambang (RKAB). Artikel itu tidak menyebut besarnya pemangkasan dan tidak mengutip pejabat atau dokumen pemerintah. Harga resmi nikel di bursa logam London pada Selasa 10 November 15.875 dolar AS per ton, turun 315 dolar AS.",
+   "why_it_matters": "Ini baru dugaan. Jangan membeli saham nikel karena kabar ini sebelum ada pernyataan resmi Kementerian ESDM.",
+   "status": "unconfirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Media Nikel Indonesia",
+     "title": "Rencana Pemangkasan Kuota Bijih Nikel Indonesia Mendukung Kenaikan Harga Nikel dan NPI",
+     "url": "https://nikel.co.id/2026/11/12/rencana-pemangkasan-kuota-bijih-nikel-indonesia-mendukung-kenaikan-harga-nikel-dan-npi/",
+     "time": "2026-11-12 17:11 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-13"
+  },
+  {
+   "id": "IHSG-prediksi-13nov",
+   "time": "06.03 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Analis: IHSG uji 5.280 sampai 5.320",
+   "impact": {
+    "score": 0,
+    "why": "Ini perkiraan analis, bukan kejadian, dan arahnya bergantung pada rupiah dan arus asing."
+   },
+   "headline": "Analis memperkirakan IHSG bisa menguji 5.280 sampai 5.320 kalau bertahan di atas 5.200, tetapi ada risiko ambil untung",
+   "summary": "BRI Danareksa Sekuritas memberi batas bawah 5.163 sampai 5.127 dan batas atas 5.305 sampai 5.360 untuk Jumat 13 November. MNC Sekuritas memberi batas bawah 5.214 dan batas atas 5.282, dan memperkirakan kenaikan terbatas karena rupiah lemah. Phintraco Sekuritas menyebut IHSG bisa menguji 5.280 sampai 5.320 kalau bertahan di atas 5.200. MNC memilih AMMN, HRTA, LSIP, dan BKSL; Phintraco menyebut BBRI.",
+   "why_it_matters": "Angka 5.200 jadi patokan pagi ini. AMMN dan HRTA adalah saham emas yang bisa tertekan oleh harga emas semalam, jadi rekomendasi itu perlu dicek ulang.",
+   "status": "confirmed",
+   "event_date": "2026-11-13",
+   "expires": "2026-11-13",
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "IHSG Melonjak 2,66% Jadi 5.250,90, Simak Analisis dan Rekomendasi Sahamnya",
+     "url": "https://investasi.kontan.co.id/news/ihsg-melonjak-266-jadi-525090-simak-analisis-dan-rekomendasi-sahamnya",
+     "time": "2026-11-12 20:12 WIB",
+     "primary": false
+    },
+    {
+     "name": "Investor Daily",
+     "title": "Prediksi IHSG dan Rekomendasi Saham Jumat, 13 November 2026",
+     "url": "https://investor.id/market/461749/prediksi-ihsg-dan-rekomendasi-saham-jumat-13-november-2026",
+     "time": "2026-11-12 18:30 WIB",
+     "primary": false
+    },
+    {
+     "name": "Investor Daily",
+     "title": "IHSG Siap Nanjak Lagi, 6 Saham Bisa Cuan",
+     "url": "https://investor.id/market/461797/ihsg-siap-nanjak-lagi-6-saham-bisa-cuan",
+     "time": "2026-11-13 06:03 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-13"
+  },
+  {
+   "id": "ITMG-dividen-interim-2026",
+   "time": "06.00 WIB",
+   "tickers": [
+    "ITMG"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Dividen interim Rp1.286 per saham",
+   "impact": {
+    "score": 1,
+    "why": "Hasil dividen sekitar 5,19% besar, tetapi cum date sudah lewat sehingga harga sudah menyesuaikan."
+   },
+   "headline": "ITMG membagikan dividen interim Rp1.286,83 per saham, dibayar Rabu 18 November",
+   "summary": "ITMG membagikan dividen interim 74,2 juta dolar AS atau Rp1.286,83 per saham, sebesar 70% dari laba bersih semester pertama 2026 yang 105,99 juta dolar AS. Jumlah per saham dihitung dari 1.047.183.500 saham beredar, tanpa 82.741.500 saham yang sudah dibeli kembali perusahaan. Cum date (hari terakhir beli untuk dapat dividen) sudah lewat pada 10 November dan dividen dibayar 18 November. Dengan harga Rp24.750 pada cum date, hasilnya sekitar 5,19%.",
+   "why_it_matters": "Kalau belum punya ITMG, dividen ini sudah tidak bisa didapat. Program pembelian kembali saham ITMG sampai Rp2,31 triliun masih berjalan sampai Februari 2027.",
+   "status": "confirmed",
+   "event_date": "2026-11-18",
+   "expires": "2026-11-18",
+   "sources": [
+    {
+     "name": "Investor Daily",
+     "title": "Emiten Putuskan Dividen Interim Rp 1.286 per Saham",
+     "url": "https://investor.id/market/461796/emiten-putuskan-dividen-interim-rp-1286-per-saham",
+     "time": "2026-11-13 06:00 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-13"
+  },
+  {
+   "id": "wallstreet-turun-12nov",
+   "time": "05.35 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Wall Street turun, bunga Amerika naik",
+   "impact": {
+    "score": -1,
+    "why": "Wall Street yang turun karena bunga Amerika naik biasanya membuat bursa Asia pagi ini berhati-hati."
+   },
+   "headline": "Wall Street turun tipis Kamis: S&P 500 turun 0,35% dan saham kecil Amerika turun 1,66%",
+   "summary": "Pada Kamis 12 November waktu Amerika, S&P 500 ditutup turun 0,35% ke 7.592,40, Dow Jones turun 0,36% ke 52.297,09, dan Nasdaq turun 0,39% ke 25.366,09. Indeks saham kecil Russell 2000 turun lebih dalam, 1,66%. Penyebab utamanya imbal hasil obligasi Amerika 10 tahun yang naik ke sekitar 5,10%. Saham Nvidia turun sekitar 4% setelah pendirinya Jensen Huang mundur sebagai CEO; Colette Kress menjadi CEO sementara. Data harga produsen Amerika bulan Oktober keluar Jumat pukul 20.30 WIB.",
+   "why_it_matters": "Kabar dari luar negeri pagi ini kurang mendukung setelah IHSG naik 2,66% Kamis. Risiko ambil untung di pembukaan lebih besar.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Vista Partners",
+     "title": "Stock Market Today, November 12, 2026: Stocks Fall as Treasury Yields Hit 5.10%, Oil Rises and Nvidia Faces Leadership Reset",
+     "url": "https://vistapglobal.com/stock-market-today-november-12-2026-stocks-fall-as-treasury-yields-hit-5-10-oil-rises-and-nvidia-faces-leadership-reset-amd-crwv-eprx-googl-modd-msft-nvda-ser-spcx-ttek-ual/",
+     "time": "2026-11-13 05:35 WIB",
+     "primary": false
+    },
+    {
+     "name": "Finwire",
+     "title": "Financial & Forex Market Recap: Nov. 12, 2026",
+     "url": "https://finwire.io/news/forex-news/financial-forex-market-recap-nov-12-2026",
+     "time": "2026-11-13 dini hari WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-13"
+  },
+  {
+   "id": "fed-desember-pasti-naik",
+   "time": "05.16 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Bunga Amerika hampir pasti naik Desember",
+   "impact": {
+    "score": -1,
+    "why": "Bunga Amerika yang naik dan dolar yang kuat menekan rupiah dan membuat dana asing menahan diri."
+   },
+   "headline": "Pasar kini hampir pasti The Fed menaikkan bunga 8 sampai 9 Desember; imbal hasil obligasi 10 tahun sekitar 5,10%",
+   "summary": "Pada Kamis 12 November, imbal hasil obligasi Amerika 10 tahun naik sekitar 0,10 poin persen ke sekitar 5,10%, dan yang 2 tahun di sekitar 4,86%. Peluang kenaikan bunga The Fed 0,25% pada rapat 8 sampai 9 Desember sekitar 85% menurut Kitco dan 89% menurut CME FedWatch yang dikutip USAGold; sisanya memperkirakan kenaikan 0,5%. Indeks dolar Amerika di 103,17, dekat titik tertingginya sejak April 2025. Yen di 159,89 per dolar dan dolar Australia di titik terendahnya sejak Januari.",
+   "why_it_matters": "Rupiah sudah di rekor terlemahnya Kamis. Dolar yang terus kuat bisa menahan kenaikan IHSG dan menekan saham yang punya utang dolar.",
+   "status": "confirmed",
+   "event_date": "2026-12-09",
+   "sources": [
+    {
+     "name": "Kitco",
+     "title": "Gold, silver slide as Treasury yields surge, Fed hike concerns intensify - Kitco PM Report",
+     "url": "https://www.kitco.com/news/article/2026-11-12/gold-silver-slide-treasury-yields-surge-fed-hike-concerns-intensify-kitco",
+     "time": "2026-11-13 05:16 WIB",
+     "primary": false
+    },
+    {
+     "name": "USAGold",
+     "title": "Gold Tumbles 3% To $3,866 As Dollar Hits 19-Month High On Fed Hike Bets; Silver Slides Under $50",
+     "url": "https://www.usagold.com/daily-precious-metals-market-report-november-12-2026/",
+     "time": "2026-11-12 22:46 WIB",
+     "primary": false
+    },
+    {
+     "name": "Finwire",
+     "title": "Financial & Forex Market Recap: Nov. 12, 2026",
+     "url": "https://finwire.io/news/forex-news/financial-forex-market-recap-nov-12-2026",
+     "time": "2026-11-13 dini hari WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-13"
+  },
+  {
+   "id": "emas-anjlok-12nov",
+   "time": "05.16 WIB",
+   "tickers": [
+    "ANTM",
+    "AMMN",
+    "MDKA",
+    "BRMS",
+    "HRTA",
+    "PSAB",
+    "ARCI"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Emas turun hampir 3%",
+   "impact": {
+    "score": -1,
+    "why": "Harga emas yang turun hampir 3% biasanya menekan saham tambang emas di pembukaan."
+   },
+   "headline": "Harga emas turun hampir 3% ke sekitar 3.870 dolar AS per ons karena bunga Amerika naik dan dolar kuat",
+   "summary": "Pada Kamis 12 November, emas turun sekitar 2,77% ke sekitar 3.876 dolar AS per ons menurut Kitco, dan USAGold mencatat 3.866,51 dolar AS, turun 3,05%, di siang hari. Perak turun 3,13% ke sekitar 49,93 dolar AS per ons. Penyebabnya imbal hasil obligasi Amerika yang naik dan dolar yang kuat. Ini hari kedua berturut-turut emas turun tajam.",
+   "why_it_matters": "Saham emas seperti ANTM, AMMN, MDKA, BRMS, dan HRTA bisa dibuka melemah. Jangan membeli hanya karena harganya turun.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kitco",
+     "title": "Gold, silver slide as Treasury yields surge, Fed hike concerns intensify - Kitco PM Report",
+     "url": "https://www.kitco.com/news/article/2026-11-12/gold-silver-slide-treasury-yields-surge-fed-hike-concerns-intensify-kitco",
+     "time": "2026-11-13 05:16 WIB",
+     "primary": false
+    },
+    {
+     "name": "USAGold",
+     "title": "Gold Tumbles 3% To $3,866 As Dollar Hits 19-Month High On Fed Hike Bets; Silver Slides Under $50",
+     "url": "https://www.usagold.com/daily-precious-metals-market-report-november-12-2026/",
+     "time": "2026-11-12 22:46 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-13"
+  },
+  {
+   "id": "minyak-naik-12nov",
+   "time": "05.16 WIB",
+   "tickers": [
+    "MEDC",
+    "ENRG",
+    "ELSA",
+    "GIAA"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Harga minyak naik sekitar 3%",
+   "impact": {
+    "score": 1,
+    "why": "Minyak yang naik mendukung saham minyak, tetapi menambah biaya maskapai."
+   },
+   "impacts": {
+    "MEDC": 1,
+    "ENRG": 1,
+    "ELSA": 1,
+    "GIAA": -1
+   },
+   "headline": "Harga minyak naik sekitar 3%: WTI ke 88,74 dolar AS dan Brent ke 95,82 dolar AS per barel",
+   "summary": "Pada Kamis 12 November, minyak Amerika (WTI) naik sekitar 2,6% ke 88,74 dolar AS per barel dan Brent naik sekitar 3,3% ke 95,82 dolar AS per barel menurut Kitco. Finwire mencatat WTI di 89,36 dolar AS. Kenaikan ini terjadi bersamaan dengan dolar yang kuat.",
+   "why_it_matters": "Saham produsen minyak seperti MEDC dan ENRG bisa didukung hari ini. Untuk GIAA, biaya bahan bakar bertambah.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kitco",
+     "title": "Gold, silver slide as Treasury yields surge, Fed hike concerns intensify - Kitco PM Report",
+     "url": "https://www.kitco.com/news/article/2026-11-12/gold-silver-slide-treasury-yields-surge-fed-hike-concerns-intensify-kitco",
+     "time": "2026-11-13 05:16 WIB",
+     "primary": false
+    },
+    {
+     "name": "Finwire",
+     "title": "Financial & Forex Market Recap: Nov. 12, 2026",
+     "url": "https://finwire.io/news/forex-news/financial-forex-market-recap-nov-12-2026",
+     "time": "2026-11-13 dini hari WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-13"
+  },
+  {
    "id": "prajogo-dijual-asing-11nov",
    "time": "23.36 WIB",
    "tickers": [
@@ -2704,26 +3091,33 @@
   "CUAN": "Petrindo Jaya Kreasi",
   "DOOH": "Era Media Sejahtera",
   "DSSA": "Dian Swastatika Sentosa",
+  "ELSA": "Elnusa",
   "EMAS": "Merdeka Gold Resources",
   "EMTK": "Elang Mahkota Teknologi",
   "ENRG": "Energi Mega Persada",
   "FLMC": "Falmaco Nonwoven Industri",
   "GIAA": "Garuda Indonesia (Persero)",
   "GMFI": "Garuda Maintenance Facility Aero Asia",
+  "GOTO": "GoTo Gojek Tokopedia",
   "HRME": "Menteng Heritage Realty",
+  "HRTA": "Hartadinata Abadi",
   "ICBP": "Indofood CBP Sukses Makmur",
   "IFII": "Indonesia Fibreboard Industry",
+  "INCO": "Vale Indonesia",
   "INDF": "Indofood Sukses Makmur",
   "INET": "Sinergi Inti Andalan Prima",
   "ITMG": "Indo Tambangraya Megah",
   "JSMR": "Jasa Marga",
+  "KETR": "Ketrosden Triasmitra",
   "KLBF": "Kalbe Farma",
   "MBMA": "Merdeka Battery Materials",
+  "MDKA": "Merdeka Copper Gold",
   "MEDC": "Medco Energi Internasional",
   "MENN": "Menn Teknologi Indonesia",
   "MKNT": "Mitra Komunikasi Nusantara",
   "MORA": "Ekamas Mora Republik",
   "MTEL": "Dayamitra Telekomunikasi",
+  "NCKL": "Trimegah Bangun Persada",
   "NFCX": "NFC Indonesia",
   "OMED": "Jayamas Medica Industri",
   "PACK": "Abadi Nusantara Hijau Investama",
@@ -2731,6 +3125,7 @@
   "POLU": "Golden Flower",
   "PORT": "Nusantara Pelabuhan Handal",
   "PRDA": "Prodia Widyahusada",
+  "PSAB": "J RESOURCES ASIA PASIFIK",
   "PTRO": "Petrosea",
   "PTSP": "Pioneerindo Gourmet International",
   "RAJA": "Rukun Raharja",
@@ -2744,6 +3139,7 @@
   "TAPG": "Triputra Agro Persada",
   "TGKA": "Tigaraksa Satria",
   "TIFA": "KDB Tifa Finance",
+  "TINS": "TIMAH (Persero)",
   "TLKM": "Telkom Indonesia (Persero)",
   "TMPO": "Tempo Inti Media",
   "TOTL": "Total Bangun Persada",
