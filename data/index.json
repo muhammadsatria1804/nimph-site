@@ -1,7 +1,47 @@
 [
  {
   "date": "2026-11-18",
-  "shifts": {}
+  "shifts": {
+   "premarket": {
+    "file": "data/2026-11-18-premarket.md",
+    "demo": false
+   }
+  }
+ },
+ {
+  "date": "2026-11-17",
+  "shifts": {
+   "evening": {
+    "file": "data/2026-11-17-evening.md",
+    "demo": false
+   },
+   "premarket": {
+    "file": "data/2026-11-17-premarket.md",
+    "demo": false
+   }
+  }
+ },
+ {
+  "date": "2026-11-16",
+  "shifts": {
+   "evening": {
+    "file": "data/2026-11-16-evening.md",
+    "demo": false
+   },
+   "premarket": {
+    "file": "data/2026-11-16-premarket.md",
+    "demo": false
+   }
+  }
+ },
+ {
+  "date": "2026-11-14",
+  "shifts": {
+   "weekly": {
+    "file": "data/2026-11-14-weekly.md",
+    "demo": false
+   }
+  }
  },
  {
   "date": "2026-11-13",
