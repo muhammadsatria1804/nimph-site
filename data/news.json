@@ -1,6 +1,589 @@
 {
  "items": [
   {
+   "id": "asing-18nov",
+   "time": "20.27 WIB",
+   "tickers": [
+    "BBRI",
+    "BBCA"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Asing jual BBRI Rp322,7 miliar, borong BBCA",
+   "impact": {
+    "score": -1,
+    "why": "Asing jual bersih Rp443,5 miliar dan BBRI dijual besar dua hari berturut-turut."
+   },
+   "impacts": {
+    "BBRI": -1,
+    "BBCA": 1
+   },
+   "headline": "Asing jual bersih Rp443,5 miliar Rabu: BBRI dijual Rp322,7 miliar, BBCA dibeli Rp689,8 miliar",
+   "summary": "Sepanjang Rabu 18 November asing jual bersih Rp443,5 miliar di seluruh pasar, sehingga jual bersih sejak awal tahun mencapai Rp98,7 triliun. BBRI paling banyak dijual asing di pasar reguler, Rp322,7 miliar, dan ditutup turun 1,94% ke Rp3.040. BBCA paling banyak dibeli, Rp689,8 miliar, dan naik 4,55% ke Rp5.750. IHSG turun 1,07% ke 5.247,88, penurunan hari ketiga berturut-turut.",
+   "why_it_matters": "Asing memindahkan uang dari BBRI ke BBCA. BBRI masih tertekan, jadi tunggu asing kembali membeli sebelum masuk.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Investor Daily (investor.id)",
+     "title": "Gerak-gerik Asing di Saham BBRI dan BBCA",
+     "url": "https://investor.id/market/462506/gerakgerik-asing-di-saham-bbri-dan-bbca",
+     "time": "2026-11-18 20.27 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Simak Rekomendasi Saham Big Banks Usai BI Kerek Suku Bunga Jadi 6%",
+     "url": "https://keuangan.kontan.co.id/news/simak-rekomendasi-saham-big-banks-usai-bi-kerek-suku-bunga-jadi-6",
+     "time": "2026-11-19 05.45 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "ARB-tambang-18nov",
+   "time": "17.39 WIB",
+   "tickers": [
+    "BUMI",
+    "INDY",
+    "MBMA",
+    "DEWA"
+   ],
+   "category": "issue",
+   "scope": "company",
+   "short": "Turun ke batas bawah harian",
+   "impact": {
+    "score": -1,
+    "why": "Turun ke batas bawah harian karena aturan tambang yang belum jelas; tekanan jual bisa berlanjut."
+   },
+   "impacts": {
+    "BUMI": -1,
+    "INDY": -1,
+    "MBMA": -1,
+    "DEWA": -1
+   },
+   "headline": "BUMI, INDY, dan MBMA turun ke batas bawah harian, DEWA turun 5,69%",
+   "summary": "Rabu 18 November BUMI turun 6,87% ke Rp122, INDY turun 6,87% ke Rp1.695, dan MBMA turun 6,63% ke Rp310. Menurut hitungan desk dari aturan batas per kelompok harga, ketiganya ditutup tepat di batas bawah harian 7% (ARB), tetapi ini belum dicek ke BEI. DEWA turun 5,69% ke Rp232. Pemicunya ketidakjelasan aturan 70% hasil tambang untuk negara, ditambah harga emas yang turun.",
+   "why_it_matters": "Saham yang ditutup di batas bawah sering masih turun keesokan harinya. Jangan menangkap pisau jatuh.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Daftar 10 Saham LQ45 dengan PER Terendah Tertinggi (18 Nov 2026), PGAS Melawan Arus",
+     "url": "https://investasi.kontan.co.id/news/daftar-10-saham-lq45-dengan-per-terendah-tertinggi-18-nov-2026-pgas-melawan-arus",
+     "time": "2026-11-18 sore WIB",
+     "primary": false
+    },
+    {
+     "name": "Viva",
+     "title": "IHSG Ditutup Anjlok 1,07 Persen ke Level 5.247, Dua Emiten Ini Jadi Pemberat",
+     "url": "https://www.viva.co.id/bisnis/1944615-ihsg-ditutup-anjlok-107-persen-ke-level-5247-dua-emiten-ini-jadi-pemberat",
+     "time": "2026-11-18 16.43 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "ANTM-emas-terendah-18nov",
+   "time": "17.39 WIB",
+   "tickers": [
+    "ANTM"
+   ],
+   "category": "news",
+   "scope": "company",
+   "short": "Turun 3,66%, emas dunia jatuh lagi",
+   "impact": {
+    "score": -1,
+    "why": "Emas yang turun mengurangi laba dari bisnis emas, tetapi besarnya untuk empat kuartal ke depan belum dihitung."
+   },
+   "headline": "ANTM turun 3,66% ke Rp2.630, harga emas dunia jatuh lagi semalam",
+   "summary": "Rabu 18 November ANTM ditutup Rp2.630, turun 3,66%, bukan Rp2.700 seperti angka siang hari di laporan sore desk. Semalam harga emas dunia turun lagi sekitar 3,27% ke sekitar 3.722,60 dolar AS per ons. Laba ANTM sembilan bulan pertama 2026 sekitar Rp9,7 triliun, naik 46%, dan banyak didorong emas. Analis Phintraco sebelumnya menyarankan beli saat turun dengan target Rp3.000 dan Rp3.340, tetapi itu sebelum emas jatuh lagi.",
+   "why_it_matters": "ANTM bisa turun lagi hari ini. Tunggu harga emas berhenti turun sebelum melirik.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Daftar 10 Saham LQ45 dengan PER Terendah Tertinggi (18 Nov 2026), PGAS Melawan Arus",
+     "url": "https://investasi.kontan.co.id/news/daftar-10-saham-lq45-dengan-per-terendah-tertinggi-18-nov-2026-pgas-melawan-arus",
+     "time": "2026-11-18 sore WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Simak Rekomendasi Saham dan Prospek Emiten Emas Saat Harga Emas Memudar",
+     "url": "https://investasi.kontan.co.id/news/simak-rekomendasi-saham-dan-prospek-emiten-emas-saat-harga-emas-memudar",
+     "time": "2026-11-18 07.38 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kitco",
+     "title": "Gold plunges below $3,750, silver tumbles as hawkish Fed minutes pressure metals",
+     "url": "https://www.kitco.com/news/article/2026-11-18/gold-plunges-below-3750-silver-tumbles-hawkish-fed-minutes-pressure-metals",
+     "time": "2026-11-19 05.02 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "analis-rekomendasi-19nov",
+   "time": "17.39 WIB",
+   "tickers": [
+    "AADI",
+    "ITMG",
+    "MAPA",
+    "UNTR",
+    "AKRA",
+    "BBCA"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Pilihan analis: AADI, ITMG, MAPA, UNTR, AKRA",
+   "impact": {
+    "score": 0,
+    "why": "Pendapat analis untuk trading harian, bukan kabar perusahaan."
+   },
+   "headline": "Saham pilihan analis untuk Kamis: AADI, ITMG, MAPA, UNTR, AKRA, dan BBCA",
+   "summary": "MNC Sekuritas memilih AADI di Rp10.700 sampai Rp11.225, ITMG di Rp25.075 sampai Rp25.625, dan MAPA di Rp650 sampai Rp675. Phintraco Sekuritas juga memilih AADI. Kiwoom Sekuritas menyarankan beli UNTR saat turun di Rp23.350 sampai Rp23.600, dan MNC menyarankan AKRA untuk trading dengan ambil untung Rp1.330 sampai Rp1.360. Rentang beli AADI dari MNC jauh di atas harga penutupan Rabu menurut Kontan (Rp10.100), jadi salah satu angka mungkin salah.",
+   "why_it_matters": "Dua pilihan adalah saham batu bara yang terkena risiko aturan 70%. Cek dulu harga dan risikonya sendiri.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "IHSG Masih Rawan Koreksi, Simak Proyeksi dan Rekomendasi Saham Kamis (19/11)",
+     "url": "https://investasi.kontan.co.id/news/ihsg-masih-rawan-koreksi-simak-proyeksi-dan-rekomendasi-saham-kamis-1911",
+     "time": "2026-11-18 17.03 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Simak Rekomendasi Teknikal Saham BBCA, UNTR dan AKRA untuk Kamis (19/11)",
+     "url": "https://investasi.kontan.co.id/news/simak-rekomendasi-teknikal-saham-bbca-untr-dan-akra-untuk-kamis-1911",
+     "time": "2026-11-18 17.39 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "ASII-penekan-18nov",
+   "time": "16.43 WIB",
+   "tickers": [
+    "ASII"
+   ],
+   "category": "news",
+   "scope": "company",
+   "short": "Ikut menekan IHSG setelah dibeli asing",
+   "impact": {
+    "score": 0,
+    "why": "Pergerakan harga sehari tanpa kabar perusahaan baru."
+   },
+   "headline": "ASII termasuk lima saham yang paling menekan IHSG Rabu",
+   "summary": "Menurut Viva, ASII termasuk saham yang paling menekan IHSG pada Rabu 18 November, bersama BBRI, AMMN, BUMI, dan BMRI. Harga penutupannya belum ditemukan. Dalam sebulan sampai 17 November ASII adalah saham yang paling banyak dibeli asing, sekitar Rp991,4 miliar. Rabu pagi MNC Sekuritas menyarankan beli saat turun di Rp5.575 sampai Rp5.650 dengan batas rugi di bawah Rp5.550.",
+   "why_it_matters": "Cek apakah asing masih membeli ASII sebelum menganggap penurunan ini sebagai kesempatan.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Viva",
+     "title": "IHSG Ditutup Anjlok 1,07 Persen ke Level 5.247, Dua Emiten Ini Jadi Pemberat",
+     "url": "https://www.viva.co.id/bisnis/1944615-ihsg-ditutup-anjlok-107-persen-ke-level-5247-dua-emiten-ini-jadi-pemberat",
+     "time": "2026-11-18 16.43 WIB",
+     "primary": false
+    },
+    {
+     "name": "Investor Daily (investor.id)",
+     "title": "Kepincut Saham ASII dan BBCA",
+     "url": "https://investor.id/market/462468/kepincut-saham-asii-dan-bbca",
+     "time": "2026-11-18 14.18 WIB",
+     "primary": false
+    },
+    {
+     "name": "Liputan6",
+     "title": "Rekomendasi Saham 18 November 2026: ASII, NCKL, RAJA, VKTR, DSSA, INET",
+     "url": "https://www.liputan6.com/saham/read/8337358/rekomendasi-saham-18-november-2026-asii-nckl-raja-vktr-dssa-inet",
+     "time": "2026-11-18 09.00 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "rupiah-proyeksi-19nov",
+   "time": "15.47 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Rupiah menguat tipis, dolar kini menguat",
+   "impact": {
+    "score": -1,
+    "why": "Dolar AS yang naik ke titik tertinggi sejak April 2025 bisa kembali menekan rupiah."
+   },
+   "headline": "Rupiah ditutup Rp18.232 setelah BI Rate naik, tetapi dolar AS menguat tajam semalam",
+   "summary": "Rabu 18 November rupiah ditutup Rp18.232 per dolar AS, menguat 0,13%, dan kurs acuan BI (JISDOR) Rp18.252. Ekonom Universitas Airlangga Rahma Gafmi memperkirakan rupiah Kamis di Rp18.150 sampai Rp18.325. Perkiraan itu dibuat sebelum risalah The Fed membuat indeks dolar AS naik ke sekitar 103,82, tertinggi sejak April 2025. Jadi rupiah lebih mungkin bergerak di sisi lemah rentang itu.",
+   "why_it_matters": "Rupiah yang lemah biasanya membuat asing menjual saham Indonesia.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Kenaikan BI-Rate Jadi Amunisi Rupiah Menguat ke Rp 18.232, Cek Proyeksi Kamis (19/11)",
+     "url": "https://investasi.kontan.co.id/news/kenaikan-bi-rate-jadi-amunisi-rupiah-menguat-ke-rp-18232-cek-proyeksi-kamis-1911",
+     "time": "2026-11-18 15.47 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kitco",
+     "title": "Gold plunges below $3,750, silver tumbles as hawkish Fed minutes pressure metals",
+     "url": "https://www.kitco.com/news/article/2026-11-18/gold-plunges-below-3750-silver-tumbles-hawkish-fed-minutes-pressure-metals",
+     "time": "2026-11-19 05.02 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "tambang-prabowo-70-persen",
+   "time": "15.13 WIB",
+   "tickers": [
+    "BUMI",
+    "ADRO",
+    "AADI",
+    "ITMG",
+    "PTBA",
+    "INDY",
+    "ANTM",
+    "INCO",
+    "MBMA",
+    "NCKL",
+    "AMMN",
+    "CUAN",
+    "MDKA"
+   ],
+   "category": "issue",
+   "scope": "market",
+   "short": "Aturan 70% tambang belum jelas, laba terancam",
+   "impact": {
+    "score": -1,
+    "why": "Belum ada aturan, tetapi satu analis memperkirakan laba penambang swasta bisa turun sampai separuh."
+   },
+   "headline": "Aturan 70% hasil tambang untuk negara masih belum jelas, analis: laba penambang swasta bisa turun sampai separuh",
+   "summary": "Sampai Kamis pagi Kementerian ESDM dan juru bicara Presiden belum menjelaskan cara menghitung permintaan Presiden agar minimal 70% manfaat tambang dinikmati negara. Analis Mirae Asset Sekuritas memperkirakan laba bersih penambang swasta bisa turun sampai separuh dan pemegang izin khusus (IUPK) sampai sepertiga, tergantung cara hitungnya. Asosiasi Profesi Pertambangan Indonesia menyebut penerimaan negara dari batu bara sudah sekitar 32% dari penjualan, sedangkan laba perusahaan di bawah 10%. Sejak pidato 14 November sektor energi turun 4,1% dan bahan baku turun 6,2%, dan Rabu BUMI, INDY, dan MBMA turun ke batas bawah harian.",
+   "why_it_matters": "Selama aturannya belum tertulis, saham tambang bisa terus dijual. Lebih aman menunggu kepastian.",
+   "status": "official",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan (mengutip Reuters)",
+     "title": "Prabowo Minta Negara Raup 70% Manfaat Tambang, Investor Khawatir Investasi Terhambat",
+     "url": "https://industri.kontan.co.id/news/prabowo-minta-negara-raup-70-manfaat-tambang-investor-khawatir-investasi-terhambat",
+     "time": "2026-11-18 15.13 WIB",
+     "primary": false
+    },
+    {
+     "name": "CNN Indonesia",
+     "title": "Prabowo Instruksikan Bahlil 70% Hasil Tambang Harus Dinikmati Negara",
+     "url": "https://www.cnnindonesia.com/ekonomi/20261114154915-532-1427196/prabowo-instruksikan-bahlil-70-hasil-tambang-harus-dinikmati-negara",
+     "time": "2026-11-14 15.49 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "EMAS-private-placement-2026",
+   "time": "13.46 WIB",
+   "tickers": [
+    "EMAS"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Private placement sampai 1,47 miliar saham",
+   "impact": {
+    "score": -2,
+    "why": "Saham baru sampai 10% mengecilkan porsi pemegang lama, dan harga emas sedang turun."
+   },
+   "headline": "Merdeka Gold (EMAS) siapkan private placement sampai 1,47 miliar saham baru",
+   "summary": "EMAS berencana menerbitkan sampai 1,47 miliar saham baru tanpa hak beli untuk pemegang saham lama (private placement), sekitar 10% dari 14,73 miliar saham beredar. Sekitar separuh dana untuk ekspansi, seperempat untuk modal kerja, dan seperempat untuk membayar utang. Pembeli dan harganya belum diumumkan. Rapat pemegang saham dijadwalkan Kamis 26 November.",
+   "why_it_matters": "Porsi pemegang lama bisa mengecil sekitar 9%. Ditambah emas yang jatuh, tekanan ke saham ini bisa berlanjut.",
+   "status": "confirmed",
+   "event_date": "2026-11-26",
+   "sources": [
+    {
+     "name": "Katadata",
+     "title": "EMAS Bersiap Private Placement 1,47 Miliar Saham, Apa Rencana di Baliknya?",
+     "url": "https://katadata.co.id/finansial/bursa/6af6a81169440/emas-bersiap-private-placement-1-47-miliar-saham-apa-rencana-di-baliknya",
+     "time": "2026-11-13 13.46 WIB",
+     "primary": false
+    },
+    {
+     "name": "EmitenNews",
+     "title": "EMAS Racik Private Placement 1,47 Miliar Helai, Simak Tujuannya",
+     "url": "https://emitennews.com/news/emas-racik-private-placement-147-miliar-helai-simak-tujuannya",
+     "time": "2026-11-13",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "jadwal-19-20nov",
+   "time": "06.30 WIB",
+   "tickers": [
+    "TGKA",
+    "SKBM",
+    "INDY",
+    "GMFI",
+    "POWR",
+    "MSTI",
+    "ASGR"
+   ],
+   "category": "corporate-action",
+   "scope": "market",
+   "short": "Jadwal: ex date, paparan publik, RUPSLB",
+   "impact": {
+    "score": 0,
+    "why": "Jadwal rutin; harga turun sekitar sebesar dividen pada ex date."
+   },
+   "headline": "Jadwal hari ini dan besok: ex date TGKA dan SKBM, paparan publik INDY, RUPSLB GMFI, cum date POWR dan MSTI",
+   "summary": "Kamis 19 November adalah ex date (hari pertama tanpa hak dividen) TGKA Rp100 dan SKBM Rp17,5. Hari ini juga ada paparan publik INDY soal tambang emas Awak Mas dan rapat pemegang saham luar biasa GMFI untuk rights issue sampai 22,03 miliar saham baru. Jumat 20 November adalah cum date (hari terakhir beli supaya dapat dividen) POWR Rp31,28 dan MSTI Rp48. Jumat juga ada RUPS luar biasa ASGR soal dividen Rp297 per saham.",
+   "why_it_matters": "Jangan kaget kalau TGKA dan SKBM turun hari ini, itu karena dividen. Hasil rapat GMFI dan paparan INDY perlu dicek sore ini.",
+   "status": "official",
+   "event_date": "2026-11-20",
+   "sources": [
+    {
+     "name": "Katadata",
+     "title": "Daftar 11 Saham Tebar Dividen Akhir November, ULTJ hingga KINO Mana Menarik?",
+     "url": "https://katadata.co.id/finansial/bursa/6afa784443ceb/daftar-11-saham-tebar-dividen-akhir-november-ultj-hingga-kino-mana-menarik",
+     "time": "2026-11",
+     "primary": false
+    },
+    {
+     "name": "Kabar Bursa",
+     "title": "Anak Usaha Garuda GMFI Siapkan Rights Issue 22,03 Miliar Saham, Intip Tujuannya",
+     "url": "https://www.kabarbursa.com/market-hari-ini/anak-usaha-garuda-gmfi-siapkan-rights-issue-2203-miliar-saham-intip-tujuannya",
+     "time": "2026-10",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "IHSG-prediksi-19nov",
+   "time": "05.45 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "IHSG diperkirakan masih rawan turun",
+   "impact": {
+    "score": -1,
+    "why": "Analis memperkirakan IHSG masih tertekan dengan support di sekitar 5.200."
+   },
+   "headline": "Analis: IHSG masih rawan turun hari ini, support 5.198 sampai 5.200",
+   "summary": "MNC Sekuritas menyebut IHSG masih rawan turun dengan support 5.198 dan resistance 5.304, dan memilih AADI, ITMG, dan MAPA untuk trading. Phintraco Sekuritas memperkirakan IHSG bergerak di 5.200 sampai 5.300 dengan support berikutnya 5.100. Rabu IHSG ditutup turun 1,07% ke 5.247,88, penurunan hari ketiga berturut-turut, setelah BI menaikkan bunga ke 6%. Sejak awal 2026 IHSG turun 39,31%.",
+   "why_it_matters": "Kalau 5.200 tembus, IHSG bisa turun ke 5.100. Pilihan analis adalah ide trading, bukan rekomendasi desk.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "IHSG Masih Rawan Koreksi, Simak Proyeksi dan Rekomendasi Saham Kamis (19/11)",
+     "url": "https://investasi.kontan.co.id/news/ihsg-masih-rawan-koreksi-simak-proyeksi-dan-rekomendasi-saham-kamis-1911",
+     "time": "2026-11-18 17.03 WIB",
+     "primary": false
+    },
+    {
+     "name": "Investor Daily (investor.id)",
+     "title": "IHSG Terancam Tertekan Lagi, Ini 5 Saham Pilihan",
+     "url": "https://investor.id/market/462523/ihsg-terancam-tertekan-lagi-ini-5-saham-pilihan",
+     "time": "2026-11-19 05.45 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Turun 3 Hari, Simak Prediksi IHSG dan Rekomendasi Saham Untuk Kamis (19/11)",
+     "url": "https://insight.kontan.co.id/news/turun-3-hari-simak-prediksi-ihsg-dan-rekomendasi-saham-untuk-kamis-1911",
+     "time": "2026-11-19 04.50 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "bank-besar-usai-BI-6persen",
+   "time": "05.45 WIB",
+   "tickers": [
+    "BBCA",
+    "BMRI",
+    "BBNI",
+    "BBRI"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Analis: saham bank besar layak dicicil",
+   "impact": {
+    "score": 0,
+    "why": "Pendapat analis tentang target harga, tidak mengubah laba bank."
+   },
+   "headline": "Mirae Asset sarankan beli bertahap saham bank besar setelah BI Rate naik ke 6%",
+   "summary": "Analis Mirae Asset Sekuritas Nafan Aji Gusta menilai kenaikan BI Rate ke 6% membantu menstabilkan rupiah dan bisa menarik dana asing. Ia menyarankan beli bertahap dengan target BBCA Rp6.775, BMRI Rp5.375, BBNI Rp4.230, dan BBRI Rp3.360. Rabu BBCA naik 4,55% ke Rp5.750, sedangkan BBRI turun 1,94% ke Rp3.040, BBNI turun 1,92% ke Rp3.570, dan BMRI turun 0,51% ke Rp3.920. Pendapat ini ditulis sebelum risalah The Fed membuat dolar menguat.",
+   "why_it_matters": "Target analis jauh di atas harga, tetapi dolar yang kuat dan jual asing bisa menunda pemulihan bank.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Simak Rekomendasi Saham Big Banks Usai BI Kerek Suku Bunga Jadi 6%",
+     "url": "https://keuangan.kontan.co.id/news/simak-rekomendasi-saham-big-banks-usai-bi-kerek-suku-bunga-jadi-6",
+     "time": "2026-11-19 05.45 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "minyak-turun-18nov",
+   "time": "05.28 WIB",
+   "tickers": [
+    "MEDC",
+    "ENRG",
+    "ELSA",
+    "GIAA"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Minyak WTI turun 3,2%, terendah sejak Agustus",
+   "impact": {
+    "score": -1,
+    "why": "Minyak yang turun menekan pendapatan produsen minyak dan gas, tetapi meringankan biaya maskapai."
+   },
+   "impacts": {
+    "MEDC": -1,
+    "ENRG": -1,
+    "ELSA": -1,
+    "GIAA": 1
+   },
+   "headline": "Harga minyak turun: WTI anjlok 3,2% ke 83,26 dolar AS, Brent ke 91,95 dolar AS",
+   "summary": "Rabu 18 November Brent kontrak Januari 2027 turun 1,19 dolar AS atau 1,28% ke 91,95 dolar AS per barel. WTI kontrak Desember turun 2,75 dolar AS atau 3,2% ke 83,26 dolar AS, terendah sejak 26 Agustus 2026. Stok minyak mentah Amerika naik 3,4 juta barel, jauh di atas perkiraan sekitar 58 ribu barel. Sepanjang November minyak sudah turun sekitar 20%, dan konflik Amerika dan Iran hanya sedikit menahan penurunan.",
+   "why_it_matters": "Saham minyak dan gas seperti MEDC dan ENRG bisa tertekan. Maskapai seperti GIAA justru terbantu karena biaya bahan bakar turun.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Harga Minyak Ditutup Melemah, WTI Anjlok 3,2% ke Level Terendah Sejak Agustus 2026",
+     "url": "https://internasional.kontan.co.id/news/harga-minyak-ditutup-melemah-wti-anjlok-32-ke-level-terendah-sejak-agustus-2026",
+     "time": "2026-11-19 05.28 WIB",
+     "primary": false
+    },
+    {
+     "name": "Reuters (lewat Euronext)",
+     "title": "Oil down 1% as US oil stocks post larger-than-expected rise, EIA says",
+     "url": "https://live.euronext.com/en/financial-news/oil-down-1-us-oil-stocks-post-larger-expected-rise-eia-says",
+     "time": "2026-11-18 22.46 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "emas-anjlok-18nov",
+   "time": "05.02 WIB",
+   "tickers": [
+    "ANTM",
+    "MDKA",
+    "BRMS",
+    "EMAS",
+    "PSAB",
+    "ARCI",
+    "AMMN"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Harga emas jatuh 3,3%, terendah setahun",
+   "impact": {
+    "score": -2,
+    "why": "Emas yang turun tajam menekan perkiraan laba penambang emas untuk kuartal-kuartal ke depan."
+   },
+   "impacts": {
+    "ANTM": -2,
+    "MDKA": -1,
+    "BRMS": -2,
+    "EMAS": -2,
+    "PSAB": -2,
+    "ARCI": -2,
+    "AMMN": -1
+   },
+   "headline": "Harga emas dunia jatuh sekitar 3,3% ke 3.723 dolar AS per ons setelah risalah The Fed",
+   "summary": "Pada sore 18 November waktu Amerika harga emas dunia sekitar 3.722,60 dolar AS per ons, turun 125,90 dolar AS atau 3,27%. Titik terendahnya 3.719,10 dolar AS, terendah sejak September 2025. Perak turun 4,95% ke 44,93 dolar AS. Penyebabnya risalah The Fed yang memberi sinyal bunga naik lagi dan dolar AS yang naik ke titik tertinggi sejak April 2025. Rabu ANTM sudah turun 3,66% ke Rp2.630 dan MDKA turun 2,58% ke Rp1.890.",
+   "why_it_matters": "Saham emas bisa turun lagi hari ini. Jangan buru-buru menangkap saham emas yang sedang jatuh.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kitco",
+     "title": "Gold plunges below $3,750, silver tumbles as hawkish Fed minutes pressure metals",
+     "url": "https://www.kitco.com/news/article/2026-11-18/gold-plunges-below-3750-silver-tumbles-hawkish-fed-minutes-pressure-metals",
+     "time": "2026-11-19 05.02 WIB",
+     "primary": false
+    },
+    {
+     "name": "Motley Fool",
+     "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
+     "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/",
+     "time": "2026-11-19 pagi WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "Daftar 10 Saham LQ45 dengan PER Terendah Tertinggi (18 Nov 2026), PGAS Melawan Arus",
+     "url": "https://investasi.kontan.co.id/news/daftar-10-saham-lq45-dengan-per-terendah-tertinggi-18-nov-2026-pgas-melawan-arus",
+     "time": "2026-11-18 sore WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
+   "id": "fed-risalah-wallstreet-18nov",
+   "time": "04.00 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Risalah The Fed keras, Dow turun 1,12%",
+   "impact": {
+    "score": -1,
+    "why": "Bunga Amerika yang bisa naik lagi dan dolar yang kuat biasanya membuat dana asing keluar dari bursa Indonesia."
+   },
+   "headline": "Risalah The Fed beri sinyal bunga naik lagi, Dow Jones turun 1,12% dan Nvidia turun 2,9%",
+   "summary": "Risalah rapat bank sentral Amerika bulan Oktober yang keluar Rabu 18 November menunjukkan hampir semua pejabat melihat bunga mungkin perlu naik lagi. Beberapa siap menaikkan 0,5 poin persen sekaligus kalau data inflasi buruk, dan pasar kini hampir pasti memperkirakan kenaikan 0,25 poin persen pada Desember. Dow Jones turun 566,39 poin atau 1,12% ke 50.193,03, S&P 500 turun 0,24% ke 7.322,53 dan turun di bawah rata-rata 200 hari, sedangkan Nasdaq naik 0,39% ke 24.429,89. Saham Nvidia turun sekitar 2,9% walau hasil kuartalnya di atas perkiraan. Indeks dolar AS naik ke sekitar 103,82, tertinggi sejak April 2025.",
+   "why_it_matters": "IHSG bisa dibuka tertekan dan rupiah bisa melemah lagi. Lebih baik menunggu pasar tenang sebelum membeli.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Reuters (lewat Lufkin Daily News)",
+     "title": "Wall Street ends mixed after Nvidia earnings, Fed minutes",
+     "url": "https://lufkindailynews.com/news_reuters/business/wall-street-ends-mixed-after-nvidia-earnings-fed-minutes/article_757d7e1e-451b-5fc3-914c-44086229e225.html",
+     "time": "2026-11-18 sore waktu Amerika",
+     "primary": false
+    },
+    {
+     "name": "Kitco",
+     "title": "Gold plunges below $3,750, silver tumbles as hawkish Fed minutes pressure metals",
+     "url": "https://www.kitco.com/news/article/2026-11-18/gold-plunges-below-3750-silver-tumbles-hawkish-fed-minutes-pressure-metals",
+     "time": "2026-11-19 05.02 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-19"
+  },
+  {
    "id": "ERAA-masuk-LQ45",
    "time": "18.42 WIB",
    "tickers": [
@@ -3038,10 +3621,12 @@
   "AALI": "Astra Agro Lestari",
   "ADMR": "Alamtri Minerals Indonesia",
   "ADRO": "Alamtri Resources Indonesia",
+  "AKRA": "AKR Corporindo",
   "ALKA": "Alakasa Industrindo",
   "AMMN": "Amman Mineral Internasional",
   "AMRT": "Sumber Alfaria Trijaya",
   "ANTM": "ANTAM (Persero)",
+  "ARCI": "Archi Indonesia",
   "AREA": "Dunia Virtual Online",
   "ASGR": "Astra Graphia",
   "ASII": "Astra International",
@@ -3067,6 +3652,7 @@
   "DOOH": "Era Media Sejahtera",
   "DSSA": "Dian Swastatika Sentosa",
   "EAST": "Eastparc Hotel",
+  "ELSA": "Elnusa",
   "EMAS": "Merdeka Gold Resources",
   "EMTK": "Elang Mahkota Teknologi",
   "ENRG": "Energi Mega Persada",
@@ -3091,6 +3677,7 @@
   "KMDS": "Kurniamitra Duta Sentosa",
   "KOCI": "Kokoh Exa Nusantara",
   "KOPI": "Mitra Energi Persada",
+  "MAPA": "Map Aktif Adiperkasa",
   "MAPI": "Mitra Adiperkasa",
   "MAYA": "Bank Mayapada Internasional",
   "MBMA": "Merdeka Battery Materials",
@@ -3104,6 +3691,7 @@
   "MORA": "Ekamas Mora Republik",
   "MSTI": "Mastersystem Infotama",
   "MTEL": "Dayamitra Telekomunikasi",
+  "NCKL": "Trimegah Bangun Persada",
   "NFCX": "NFC Indonesia",
   "NZIA": "Nusantara Almazia,",
   "PACK": "Abadi Nusantara Hijau Investama",
@@ -3112,6 +3700,8 @@
   "PORT": "Nusantara Pelabuhan Handal",
   "POWR": "Cikarang Listrindo",
   "PRDA": "Prodia Widyahusada",
+  "PSAB": "J RESOURCES ASIA PASIFIK",
+  "PTBA": "Bukit Asam (Persero)",
   "PTRO": "Petrosea",
   "RAJA": "Rukun Raharja",
   "RUNS": "Global Sukses Solusi",
