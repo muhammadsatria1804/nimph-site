@@ -3,11 +3,11 @@
   "date": "2026-11-19",
   "shift": "plan",
   "file": "data/events/2026-11-19-plan.json",
-  "status": "done",
+  "status": "running",
   "demo": false,
-  "started": 1795046469704,
-  "updated": 1795054931120,
-  "steps": 421
+  "started": null,
+  "updated": null,
+  "steps": 0
  },
  {
   "date": "2026-11-18",
