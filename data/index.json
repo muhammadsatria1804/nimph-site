@@ -1,7 +1,30 @@
 [
  {
+  "date": "2026-11-25",
+  "shifts": {
+   "evening": {
+    "file": "data/2026-11-25-evening.md",
+    "demo": false
+   }
+  }
+ },
+ {
   "date": "2026-11-23",
-  "shifts": {}
+  "shifts": {
+   "evening": {
+    "file": "data/2026-11-23-evening.md",
+    "demo": false
+   }
+  }
+ },
+ {
+  "date": "2026-11-21",
+  "shifts": {
+   "weekly": {
+    "file": "data/2026-11-21-weekly.md",
+    "demo": false
+   }
+  }
  },
  {
   "date": "2026-11-19",
