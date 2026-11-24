@@ -1,6 +1,624 @@
 {
  "items": [
   {
+   "id": "ARA-26nov",
+   "time": "16.34 WIB",
+   "tickers": [
+    "TOBA",
+    "SAPX",
+    "IDEA",
+    "SPRE",
+    "MANG",
+    "BTEK"
+   ],
+   "category": "issue",
+   "scope": "company",
+   "short": "Naik ke ARA tanpa berita",
+   "impact": {
+    "score": -1,
+    "why": "ARA tanpa berita perusahaan sering diikuti peringatan bursa atau penurunan."
+   },
+   "headline": "Enam saham naik ke batas atas harian tanpa berita perusahaan",
+   "summary": "Enam saham naik ke batas atas harian (ARA) pada Kamis 26 November 2026: TOBA naik 24,85% ke Rp412, SAPX naik 24,8% ke Rp312, IDEA naik 9,68% ke Rp476, SPRE naik 9,72% ke Rp79, MANG naik 10% ke Rp66, dan BTEK naik 10% ke Rp11. Tidak ditemukan pengumuman perusahaan yang menjelaskan kenaikan ini. Saham seperti ini bisa terkena UMA (peringatan bursa karena gerak harga tidak wajar).",
+   "why_it_matters": "Jangan mengejar saham yang naik ke ARA tanpa berita. Risikonya besar untuk pemula.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Investor Daily",
+     "title": "IHSG Naik, 6 Saham Mentok ARA",
+     "url": "https://investor.id/market/463471/ihsg-naik-6-saham-mentok-ara",
+     "time": "2026-11-26 16.34 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "BRPT-naik-tanpa-berita-26nov",
+   "time": "16.14 WIB",
+   "tickers": [
+    "BRPT"
+   ],
+   "category": "issue",
+   "scope": "company",
+   "short": "Naik 15% tanpa berita",
+   "impact": {
+    "score": 0,
+    "why": "Kenaikan tanpa berita, sementara tekanan jual dana indeks MSCI masih menunggu 30 November."
+   },
+   "headline": "BRPT melonjak 14,96% ke Rp730 tanpa berita yang jelas",
+   "summary": "BRPT naik 14,96% ke Rp730 pada Kamis 26 November 2026, setelah turun 6,85% dan 6,62% pada Selasa dan Rabu. Di sesi pertama BRPT termasuk saham yang paling banyak dibeli asing, sekitar Rp58,9 miliar. Tidak ditemukan pengumuman perusahaan yang menjelaskan kenaikan ini. BRPT tetap keluar dari indeks utama MSCI pada penutupan Senin 30 November.",
+   "why_it_matters": "Saham yang naik tajam tanpa berita mudah berbalik. Dana indeks masih harus menjual BRPT sampai 30 November.",
+   "status": "confirmed",
+   "event_date": "2026-11-30",
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "IHSG Ditutup Menguat ke 5.242,2 Hari Ini (26/11), Top Gainers LQ45: BRPT, AADI, ADRO",
+     "url": "https://investasi.kontan.co.id/news/ihsg-ditutup-menguat-ke-52422-hari-ini-2611-top-gainers-lq45-brpt-aadi-adro",
+     "time": "2026-11-26 16.14 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "HSG Rebound 1,01% ke 5.250 pada Pembukaan Kamis (26/11), BRPT Melonjak 11%",
+     "url": "https://investasi.kontan.co.id/news/hsg-rebound-101-ke-5250-pada-pembukaan-kamis-2611-brpt-melonjak-11",
+     "time": "2026-11-26 09.20 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "ISAT-turun-lagi-26nov",
+   "time": "16.14 WIB",
+   "tickers": [
+    "ISAT"
+   ],
+   "category": "issue",
+   "scope": "company",
+   "short": "Turun 6% lagi tanpa berita",
+   "impact": {
+    "score": -1,
+    "why": "Gerak naik turun tajam tanpa berita menunjukkan harga tidak stabil."
+   },
+   "headline": "ISAT turun lagi 6,05%, saham LQ45 paling turun",
+   "summary": "ISAT turun 6,05% pada Kamis 26 November 2026 dan menjadi saham LQ45 yang paling turun. Hari Rabu ISAT sudah turun 6,95%, setelah naik 11,03% pada Selasa. Tidak ditemukan pengumuman perusahaan yang menjelaskan gerak ini.",
+   "why_it_matters": "Kenaikan hari Selasa sudah habis. Saham besar pun bisa bergerak liar tanpa berita.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "IHSG Ditutup Menguat ke 5.242,2 Hari Ini (26/11), Top Gainers LQ45: BRPT, AADI, ADRO",
+     "url": "https://investasi.kontan.co.id/news/ihsg-ditutup-menguat-ke-52422-hari-ini-2611-top-gainers-lq45-brpt-aadi-adro",
+     "time": "2026-11-26 16.14 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "ENERGI-batubara-naik-26nov",
+   "time": "16.14 WIB",
+   "tickers": [
+    "AADI",
+    "ADRO",
+    "BUMI"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Saham energi pimpin kenaikan",
+   "impact": {
+    "score": 1,
+    "why": "Kabar dividen AADI, laba BUMI, dan minyak yang naik mengangkat saham energi."
+   },
+   "headline": "Sektor energi naik 1,4%, AADI dan ADRO masuk saham LQ45 paling naik",
+   "summary": "Sektor energi naik 1,4% pada Kamis 26 November 2026 dan menjadi sektor yang paling naik. AADI naik 5,56% setelah mengumumkan dividen interim besar, ADRO naik 4,29%, dan BUMI naik sekitar 3% sampai 4% setelah laporan laba. Minyak Brent naik sekitar 3,5% ke 94 dolar AS per barel.",
+   "why_it_matters": "Saham energi bergerak karena kabar perusahaan yang nyata. Tetapi aturan 70% hasil tambang untuk negara masih belum tertulis.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "IHSG Ditutup Menguat ke 5.242,2 Hari Ini (26/11), Top Gainers LQ45: BRPT, AADI, ADRO",
+     "url": "https://investasi.kontan.co.id/news/ihsg-ditutup-menguat-ke-52422-hari-ini-2611-top-gainers-lq45-brpt-aadi-adro",
+     "time": "2026-11-26 16.14 WIB",
+     "primary": false
+    },
+    {
+     "name": "Warta Ekonomi",
+     "title": "Jelang Akhir Pekan, IHSG Menguat 0,86% ke Level 5.242,17",
+     "url": "https://wartaekonomi.co.id/read650657/jelang-akhir-pekan-ihsg-menguat-086-ke-level-524217",
+     "time": "2026-11-26 16.08 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "IHSG-tutup-26nov",
+   "time": "16.03 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "IHSG naik 0,86% ke 5.242",
+   "impact": {
+    "score": 1,
+    "why": "Pasar pulih setelah turun hari Rabu, dipimpin saham energi dan bahan baku."
+   },
+   "headline": "IHSG naik 0,86% ke 5.242,17, sektor energi memimpin",
+   "summary": "IHSG ditutup di 5.242,17 pada Kamis 26 November 2026, naik 44,56 poin atau 0,86%. IHSG sempat naik ke 5.297,46 lalu kenaikannya terpangkas di sore hari. Nilai transaksi sekitar Rp7,6 triliun sampai Rp7,8 triliun, masih sepi. Sektor energi naik 1,4% dan bahan baku naik 1,0%, sedangkan hanya sektor infrastruktur yang turun tipis.",
+   "why_it_matters": "Kenaikan ini memulihkan penurunan hari Rabu, tetapi belum mengubah tren yang lemah. Lebih aman menunggu konfirmasi sebelum membeli.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "CNBC Indonesia",
+     "title": "IHSG Ditutup Menguat 0,86% di Level 5.242,17",
+     "url": "https://www.cnbcindonesia.com/market/20261126154436-17-788799/ihsg-ditutup-menguat-086-di-level-524217",
+     "time": "2026-11-26 16.03 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "IHSG Ditutup Menguat ke 5.242,2 Hari Ini (26/11), Top Gainers LQ45: BRPT, AADI, ADRO",
+     "url": "https://investasi.kontan.co.id/news/ihsg-ditutup-menguat-ke-52422-hari-ini-2611-top-gainers-lq45-brpt-aadi-adro",
+     "time": "2026-11-26 16.14 WIB",
+     "primary": false
+    },
+    {
+     "name": "Warta Ekonomi",
+     "title": "Jelang Akhir Pekan, IHSG Menguat 0,86% ke Level 5.242,17",
+     "url": "https://wartaekonomi.co.id/read650657/jelang-akhir-pekan-ihsg-menguat-086-ke-level-524217",
+     "time": "2026-11-26 16.08 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "RUPIAH-rekor-26nov",
+   "time": "15.09 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Rupiah rekor terlemah Rp18.364",
+   "impact": {
+    "score": -1,
+    "why": "Rupiah yang terus melemah membuat dana asing enggan masuk dan membebani perusahaan berutang dolar."
+   },
+   "headline": "Rupiah ditutup Rp18.364 per dolar AS, terlemah sepanjang sejarah",
+   "summary": "Rupiah ditutup di Rp18.364 per dolar AS pada Kamis 26 November 2026, turun 0,17%. Di siang hari rupiah sempat menembus Rp18.400, dengan titik terlemah Rp18.403. Penyebabnya antara lain risiko utang negara yang naik, kekhawatiran defisit anggaran, dan perkiraan bunga Amerika naik pada Desember. Bank Indonesia menyatakan sedang menahan pelemahan lewat pasar valas dan pembelian obligasi negara.",
+   "why_it_matters": "Selama rupiah terus mencetak rekor terlemah, saham besar yang disukai asing sulit naik lama. Hati-hati dengan saham perusahaan yang berutang dolar.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Rupiah Ditutup Melemah ke Rp 18.364 Per Dolar AS Hari Ini (26/11), Terburuk Lagi",
+     "url": "https://investasi.kontan.co.id/news/rupiah-ditutup-melemah-ke-rp-18364-per-dolar-as-hari-ini-2611-terburuk-lagi",
+     "time": "2026-11-26 15.09 WIB",
+     "primary": false
+    },
+    {
+     "name": "Antara",
+     "title": "Rupiah menembus Rp18.400 per dolar AS, risiko domestik tekan pasar",
+     "url": "https://www.antaranews.com/berita/5879659/rupiah-menembus-rp18400-per-dolar-as-risiko-domestik-tekan-pasar",
+     "time": "2026-11-26 12.59 WIB",
+     "primary": false
+    },
+    {
+     "name": "Beritasatu",
+     "title": "Rupiah Tembus Rp 18.400, Sentimen MSCI Kembali Hantam Pasar",
+     "url": "https://www.beritasatu.com/ekonomi/3043988/rupiah-tembus-rp-18400-sentimen-msci-kembali-hantam-pasar",
+     "time": "2026-11-26 13.20 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "BUMI-laba-9bulan-2026",
+   "time": "14.52 WIB",
+   "tickers": [
+    "BUMI"
+   ],
+   "category": "news",
+   "scope": "company",
+   "short": "Laba sembilan bulan naik 405%",
+   "impact": {
+    "score": 3,
+    "why": "Laba kuartal ketiga melonjak, sehingga laba setahun ke depan bisa naik jauh lebih dari 10%."
+   },
+   "headline": "Laba BUMI sembilan bulan 2026 naik 405% ke 148,5 juta dolar AS",
+   "summary": "Bumi Resources mencatat laba bersih 148,5 juta dolar AS pada sembilan bulan pertama 2026, naik 405% dari 29,4 juta dolar AS pada periode yang sama 2025. Pendapatan naik 38,8% ke 1,44 miliar dolar AS. Di kuartal ketiga saja laba 89,6 juta dolar AS, dan produksi batu bara sembilan bulan naik 11% ke 60,8 juta ton. Saham naik sekitar 3% sampai 4% ke Rp131 sampai Rp132. Tanggal laporan resminya belum pasti.",
+   "why_it_matters": "Laba yang melonjak bisa menopang harga. Tetapi aturan 70% hasil tambang untuk negara belum tertulis, jadi risiko kebijakan masih ada.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Investor Daily",
+     "title": "Saham BUMI Dapat Suntikan Tenaga, Sekuat Apa Melaju?",
+     "url": "https://investor.id/market/463461/saham-bumi-dapat-suntikan-tenaga-sekuat-apa-melaju",
+     "time": "2026-11-26 14.52 WIB",
+     "primary": false
+    },
+    {
+     "name": "Bisnis.com",
+     "title": "Bumi Resources (BUMI) Kerek Produksi Batu Bara 11% jadi 60,8 Juta Ton",
+     "url": "https://market.bisnis.com/read/20261126/192/2024641/bumi-resources-bumi-kerek-produksi-batu-bara-11-jadi-608-juta-ton",
+     "time": "2026-11-26",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "BTPN-go-private",
+   "time": "13.42 WIB",
+   "tickers": [
+    "BTPN"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Rencana keluar dari bursa",
+   "impact": {
+    "score": 1,
+    "why": "Harga beli untuk pemegang saham publik belum diumumkan, dan saham sedang dihentikan."
+   },
+   "headline": "SMBC Indonesia (BTPN) berencana keluar dari bursa",
+   "summary": "Bank SMBC Indonesia berencana go private (menjadi perusahaan tertutup) dan keluar dari Bursa Efek Indonesia. Rencana ini sudah disampaikan ke OJK dan BEI pada 19 November 2026. Pengumuman rapat pemegang saham dijadwalkan Senin 30 November. Harga pembelian saham publik belum ada, dan perdagangan saham dihentikan sejak 23 November di Rp2.340.",
+   "why_it_matters": "Saham ini tidak bisa dibeli atau dijual selama dihentikan. Pemegang saham menunggu harga penawaran yang akan diumumkan.",
+   "status": "official",
+   "event_date": "2026-11-30",
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "SMBC Indonesia Berencana Delisting dari BEI, Ini Alasannya",
+     "url": "https://investasi.kontan.co.id/news/smbc-indonesia-berencana-delisting-dari-bei-ini-alasannya",
+     "time": "2026-11-26 13.42 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "MSCI-standalone-tetap-26nov",
+   "time": "13.20 WIB",
+   "tickers": [
+    "BRPT",
+    "BRMS"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Usulan MSCI soal Indonesia tidak berubah",
+   "impact": {
+    "score": -1,
+    "why": "Risiko Indonesia diturunkan statusnya oleh MSCI tetap membayangi arus dana asing."
+   },
+   "headline": "Usulan MSCI menjadikan Indonesia pasar terpisah tetap berlaku",
+   "summary": "Menurut Beritasatu, usulan MSCI memindahkan Indonesia menjadi pasar terpisah (standalone) tidak berubah, setelah Presiden berbicara dengan pimpinan MSCI. Pernyataan resmi MSCI yang baru tidak ditemukan. Keputusan akhir paling lambat 30 Juni 2027. Perubahan indeks MSCI November tetap dijalankan pada penutupan Senin 30 November 2026, termasuk keluarnya BRPT dan BRMS dari indeks utama.",
+   "why_it_matters": "Saham yang keluar dari indeks MSCI masih bisa ditekan dana indeks sampai 30 November. Jangan terburu-buru membeli saham itu.",
+   "status": "unconfirmed",
+   "event_date": "2026-11-30",
+   "sources": [
+    {
+     "name": "Beritasatu",
+     "title": "Rupiah Tembus Rp 18.400, Sentimen MSCI Kembali Hantam Pasar",
+     "url": "https://www.beritasatu.com/ekonomi/3043988/rupiah-tembus-rp-18400-sentimen-msci-kembali-hantam-pasar",
+     "time": "2026-11-26 13.20 WIB",
+     "primary": false
+    },
+    {
+     "name": "CNBC Indonesia",
+     "title": "Terungkap! Ini Bocoran Isi Telepon Prabowo dengan Bos MSCI",
+     "url": "https://www.cnbcindonesia.com/market/20261126122728-17-788664/terungkap-ini-bocoran-isi-telepon-prabowo-dengan-bos-msci",
+     "time": "2026-11-26 12.27 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "ASING-sesi1-26nov",
+   "time": "12.57 WIB",
+   "tickers": [
+    "BBCA",
+    "BRPT",
+    "ASII"
+   ],
+   "category": "news",
+   "scope": "market",
+   "short": "Asing beli bersih Rp221 miliar sesi I",
+   "impact": {
+    "score": 1,
+    "why": "Asing kembali membeli setelah menjual Rp336 miliar hari Rabu, tetapi terpusat di BBCA."
+   },
+   "headline": "Asing beli bersih Rp221,82 miliar di sesi pertama, BBCA paling banyak dibeli",
+   "summary": "Di sesi pertama Kamis 26 November 2026, investor asing membeli bersih Rp221,82 miliar. BBCA paling banyak dibeli, sekitar Rp270,04 miliar, disusul BRPT sekitar Rp58,9 miliar dan ASII sekitar Rp33,24 miliar. Sehari sebelumnya, Rabu 25 November, asing menjual bersih Rp336,22 miliar sepanjang hari. Angka sepanjang hari Kamis belum terbit.",
+   "why_it_matters": "Asing masih fokus ke BBCA menjelang cum date dividennya hari Jumat. Belum ada tanda asing kembali membeli secara luas.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Katadata",
+     "title": "IHSG Sesi I Tumbuh 0,68%: Asing Net Buy Rp 221 M, Sasar Saham BBCA hingga ASII",
+     "url": "https://katadata.co.id/finansial/bursa/6b07ca52938fb/ihsg-sesi-i-tumbuh-0-68-asing-net-buy-rp-221-m-sasar-saham-bbca-hingga-asii",
+     "time": "2026-11-26 12.57 WIB",
+     "primary": false
+    },
+    {
+     "name": "Investor Daily",
+     "title": "Asing Makin Gemuk Timbun Saham BBCA",
+     "url": "https://investor.id/market/463439/asing-makin-gemuk-timbun-saham-bbca",
+     "time": "2026-11-26 13.17 WIB",
+     "primary": false
+    },
+    {
+     "name": "CNBC Indonesia",
+     "title": "AS Tiba-Tiba Kirim 2 Kabar Buruk Sekaligus, IHSG-Rupiah dalam Bahaya!",
+     "url": "https://www.cnbcindonesia.com/research/20261126045253-128-788536/as-tiba-tiba-kirim-2-kabar-buruk-sekaligus-ihsg-rupiah-dalam-bahaya",
+     "time": "2026-11-26 06.25 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "BRIS-rights-issue-6-8-miliar",
+   "time": "12.03 WIB",
+   "tickers": [
+    "BRIS"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Rights issue 6,8 miliar saham",
+   "impact": {
+    "score": -3,
+    "why": "Porsi pemegang saham yang tidak menebus bisa mengecil sampai 12,85%, lebih dari 10%."
+   },
+   "headline": "BRIS siapkan rights issue paling banyak 6,8 miliar saham",
+   "summary": "Bank Syariah Indonesia mengumumkan rencana rights issue (penawaran saham baru kepada pemegang saham lama) paling banyak 6,8 miliar saham. Pemegang saham yang tidak menebus haknya bisa terdilusi (porsinya mengecil) sampai 12,85%. Harga dan rasio belum ditentukan, dan tidak ada pembeli siaga. Jadwal sementara: perdagangan hak 18 sampai 24 Februari 2027.",
+   "why_it_matters": "Dananya untuk memperkuat modal, tetapi jadwalnya jauh di luar masa simpan swing. BRIS juga akan keluar dari indeks FTSE mulai 21 Desember.",
+   "status": "official",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "BSI (BRIS) Rights Issue Maksimal 6,8 Miliar Saham, Siap Perkuat Modal",
+     "url": "https://keuangan.kontan.co.id/news/bsi-bris-rights-issue-maksimal-68-miliar-saham-siap-perkuat-modal",
+     "time": "2026-11-26 12.03 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "BBCA-dividen-interim-cum-27nov",
+   "time": "10.52 WIB",
+   "tickers": [
+    "BBCA",
+    "PSGO"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Cum date dividen Jumat 27 November",
+   "impact": {
+    "score": 1,
+    "impacts": {
+     "BBCA": 1,
+     "PSGO": 1
+    },
+    "why": "Dividen kecil dibanding harga saham, dan harga turun sebesar dividen pada ex date."
+   },
+   "headline": "Jumat 27 November hari terakhir beli untuk dividen BBCA dan PSGO",
+   "summary": "BBCA membagi dividen interim Rp35 per saham dan PSGO Rp6 per saham. Jumat 27 November 2026 adalah cum date (hari terakhir beli supaya dapat dividen). Senin 30 November ex date, dan harga biasanya turun sekitar sebesar dividen. BBCA dibayar 16 Desember dan PSGO 18 Desember.",
+   "why_it_matters": "Dividen ini kecil dibanding harga saham, jadi bukan alasan untuk membeli. Asing tetap terus menumpuk BBCA.",
+   "status": "confirmed",
+   "event_date": "2026-11-27",
+   "sources": [
+    {
+     "name": "EmitenNews",
+     "title": "11 Saham Ini Masuk Radar Pengin Bagi Dividen, Cum Date Pekan Depan!",
+     "url": "https://emitennews.com/news/11-saham-ini-masuk-radar-pengin-bagi-dividen-cum-date-pekan-depan",
+     "time": "2026-11-22 10.52 WIB",
+     "primary": false
+    },
+    {
+     "name": "Investor Daily",
+     "title": "Agenda Aksi Korporasi Hari Ini, Ada Cum Date Dividen hingga RUPS",
+     "url": "https://investor.id/market/463263/agenda-aksi-korporasi-hari-ini-ada-cuma-date-dividen-hingga-rups",
+     "time": "2026-11-25 09.29 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "TENDER-TRUK-TGUK",
+   "time": "09.29 WIB",
+   "tickers": [
+    "TRUK",
+    "TGUK"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Penawaran tender masih berjalan",
+   "impact": {
+    "score": 1,
+    "impacts": {
+     "TRUK": 1,
+     "TGUK": 1
+    },
+    "why": "Penawaran beli memberi patokan harga bagi pemegang saham publik."
+   },
+   "headline": "Penawaran tender TRUK di Rp740 dan TGUK di Rp56 masih berjalan",
+   "summary": "Penawaran tender (penawaran beli kepada pemegang saham publik) TRUK di Rp740 per saham berjalan sampai Senin 7 Desember 2026. Penawaran tender wajib TGUK di Rp56 per saham untuk paling banyak 766,73 juta saham berjalan sampai Selasa 8 Desember 2026.",
+   "why_it_matters": "Pemegang saham bisa menjual ke penawar di harga itu. Bandingkan dulu dengan harga pasar sebelum memutuskan.",
+   "status": "confirmed",
+   "event_date": "2026-12-07",
+   "expires": "2026-12-08",
+   "sources": [
+    {
+     "name": "Investor Daily",
+     "title": "Agenda Aksi Korporasi Hari Ini, Ada Cum Date Dividen hingga RUPS",
+     "url": "https://investor.id/market/463263/agenda-aksi-korporasi-hari-ini-ada-cuma-date-dividen-hingga-rups",
+     "time": "2026-11-25 09.29 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "AADI-dividen-interim-2026",
+   "time": "06.53 WIB",
+   "tickers": [
+    "AADI"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "Dividen interim 500 juta dolar AS",
+   "impact": {
+    "score": 2,
+    "why": "Dividen sekitar 11% dari harga saham, tetapi harga akan turun sebesar dividen pada ex date."
+   },
+   "headline": "AADI bagi dividen interim 500 juta dolar AS, dua kali lipat tahun lalu",
+   "summary": "Adaro Andalan Indonesia memutuskan pada 25 November 2026 membagi dividen interim 500 juta dolar AS untuk tahun buku 2026, dua kali lipat dari 250 juta dolar AS tahun lalu. Dengan kurs hari ini, nilainya sekitar Rp9,18 triliun atau sekitar Rp1.179 per saham, hitungan desk yang belum pasti. Cum date (hari terakhir beli supaya dapat dividen) Kamis 3 Desember dan ex date Jumat 4 Desember. Dividen dibayar Jumat 11 Desember dalam rupiah. Saham AADI naik 5,56% hari ini.",
+   "why_it_matters": "Membeli hanya untuk dividen jarang untung, karena harga biasanya turun sebesar dividen pada ex date. Dividen besar ini menunjukkan arus kas perusahaan kuat.",
+   "status": "official",
+   "event_date": "2026-12-03",
+   "sources": [
+    {
+     "name": "Kontan",
+     "title": "Harga Saham Melesat 40%, Dividen Interim 2026 Emiten Boy Thohir Naik 2x Dari 2025",
+     "url": "https://investasi.kontan.co.id/news/harga-saham-melesat-40-dividen-interim-2026-emiten-boy-thohir-naik-2x-dari-2025",
+     "time": "2026-11-26 06.53 WIB",
+     "primary": false
+    },
+    {
+     "name": "StockWatch",
+     "title": "Adaro Andalan (AADI) Tebar Dividen Interim USD500 Juta, Catat Jadwal Cum Date",
+     "url": "https://stockwatch.id/adaro-andalan-aadi-tebar-dividen-interim-usd500-juta-catat-jadwal-cum-date/",
+     "time": "2026-11-25 16.47 WIB",
+     "primary": false
+    },
+    {
+     "name": "Kontan",
+     "title": "IHSG Ditutup Menguat ke 5.242,2 Hari Ini (26/11), Top Gainers LQ45: BRPT, AADI, ADRO",
+     "url": "https://investasi.kontan.co.id/news/ihsg-ditutup-menguat-ke-52422-hari-ini-2611-top-gainers-lq45-brpt-aadi-adro",
+     "time": "2026-11-26 16.14 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "KOTA-rupslb-rights-issue",
+   "time": "06.47 WIB",
+   "tickers": [
+    "KOTA"
+   ],
+   "category": "corporate-action",
+   "scope": "company",
+   "short": "RUPS rights issue Jumat 27 November",
+   "impact": {
+    "score": -3,
+    "why": "Rights issue sampai 100 miliar saham bisa mendilusi pemegang saham lama sekitar 90%."
+   },
+   "headline": "KOTA gelar rapat rights issue jumbo Jumat 27 November",
+   "summary": "DMS Propertindo dijadwalkan menggelar RUPS luar biasa (rapat pemegang saham untuk keputusan besar) pada Jumat 27 November 2026, menurut berita sebelumnya. Agendanya rights issue paling banyak 100 miliar saham baru untuk membeli dua perusahaan pemilik tanah senilai Rp4,4 triliun. Pemegang saham yang tidak menebus bisa terdilusi sampai sekitar 90%. Harga dan rasio belum ditentukan.",
+   "why_it_matters": "Kenaikan harga KOTA belakangan ini bertolak belakang dengan risiko dilusi yang sangat besar. Jangan ikut membeli.",
+   "status": "confirmed",
+   "event_date": "2026-11-27",
+   "sources": [
+    {
+     "name": "Kontan Insight",
+     "title": "Sinyal Rebound di Tengah Aksi Korporasi Jumbo, Saham KOTA Berpeluang Lanjut Menguat?",
+     "url": "https://insight.kontan.co.id/news/sinyal-rebound-di-tengah-aksi-korporasi-jumbo-saham-kota-berpeluang-lanjut-menguat",
+     "time": "2026-11-26 06.47 WIB",
+     "primary": false
+    },
+    {
+     "name": "Katadata",
+     "title": "KOTA Rights Issue 100 Miliar Saham, Siapkan Rp4,4 Triliun Akuisisi 2 Perusahaan",
+     "url": "https://katadata.co.id/finansial/korporasi/6b063a5bcc33a/kota-rights-issue-100-miliar-saham-siapkan-rp4-4-triliun-akuisisi-2-perusahaan",
+     "time": "2026-11-25 08.31 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "AS-tarif-301-indonesia",
+   "time": "06.25 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "AS usul tarif tambahan 18% Indonesia",
+   "impact": {
+    "score": -1,
+    "why": "Usulan tarif bisa memukul eksportir, tetapi besaran dan tanggalnya belum final."
+   },
+   "headline": "Amerika usulkan tarif tambahan sampai 18% untuk barang Indonesia",
+   "summary": "Kantor perwakilan dagang Amerika (USTR) mengusulkan tarif tambahan untuk 14 negara. Untuk Indonesia, tarif tambahan bisa sampai 18% untuk semua barang. Gedung Putih juga mengumumkan tarif baru untuk lebih dari sepuluh mitra dagang, termasuk China dan Uni Eropa. Ini masih usulan, dan konsultasinya bisa berlangsung sampai 2027.",
+   "why_it_matters": "Eksportir tekstil, sepatu, dan elektronik paling terancam. Kabar ini juga ikut menekan rupiah.",
+   "status": "confirmed",
+   "event_date": null,
+   "sources": [
+    {
+     "name": "CNBC Indonesia",
+     "title": "AS Tiba-Tiba Kirim 2 Kabar Buruk Sekaligus, IHSG-Rupiah dalam Bahaya!",
+     "url": "https://www.cnbcindonesia.com/research/20261126045253-128-788536/as-tiba-tiba-kirim-2-kabar-buruk-sekaligus-ihsg-rupiah-dalam-bahaya",
+     "time": "2026-11-26 06.25 WIB",
+     "primary": false
+    },
+    {
+     "name": "VIVA",
+     "title": "Rupiah Melemah ke Rp18.364 per Dolar, Ancaman Tarif AS Membayangi",
+     "url": "https://www.viva.co.id/bisnis/1946563-rupiah-melemah-ke-rp18364-per-dolar-ancaman-tarif-as-membayangi",
+     "time": "2026-11-26 16.12 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
+   "id": "AS-PCE-oktober",
+   "time": "06.25 WIB",
+   "tickers": [],
+   "category": "news",
+   "scope": "market",
+   "short": "Inflasi AS 3,8%, bunga diduga naik",
+   "impact": {
+    "score": -1,
+    "why": "Bunga Amerika yang naik menarik dana keluar dari pasar seperti Indonesia."
+   },
+   "headline": "Inflasi Amerika Oktober 3,8%, pasar yakin bunga naik Desember",
+   "summary": "Inflasi Amerika versi PCE bulan Oktober 3,8% dibanding setahun sebelumnya, sesuai perkiraan. Inflasi inti 3,3%, sedikit di atas perkiraan. Pasar sudah sepenuhnya memperkirakan bank sentral Amerika menaikkan bunga 0,25 poin persen pada rapat 8 sampai 9 Desember 2026. Bursa Amerika libur Kamis untuk Thanksgiving.",
+   "why_it_matters": "Kenaikan bunga Amerika biasanya membuat dolar menguat dan rupiah melemah. Ini menekan saham yang banyak dipegang asing.",
+   "status": "confirmed",
+   "event_date": "2026-12-09",
+   "sources": [
+    {
+     "name": "CNBC Indonesia",
+     "title": "AS Tiba-Tiba Kirim 2 Kabar Buruk Sekaligus, IHSG-Rupiah dalam Bahaya!",
+     "url": "https://www.cnbcindonesia.com/research/20261126045253-128-788536/as-tiba-tiba-kirim-2-kabar-buruk-sekaligus-ihsg-rupiah-dalam-bahaya",
+     "time": "2026-11-26 06.25 WIB",
+     "primary": false
+    },
+    {
+     "name": "Warta Ekonomi",
+     "title": "Jelang Akhir Pekan, IHSG Menguat 0,86% ke Level 5.242,17",
+     "url": "https://wartaekonomi.co.id/read650657/jelang-akhir-pekan-ihsg-menguat-086-ke-level-524217",
+     "time": "2026-11-26 16.08 WIB",
+     "primary": false
+    }
+   ],
+   "date": "2026-11-26"
+  },
+  {
    "id": "IHSG-tutup-24nov",
    "time": "19.06 WIB",
    "tickers": [],
@@ -2386,13 +3004,13 @@
   }
  ],
  "calendar": {
-  "updated": "2026-11-25T17:40+07:00",
+  "updated": "2026-11-26T17:45+07:00",
   "window_trading_days": 10,
   "window": [
-   "2026-11-26",
-   "2026-12-09"
+   "2026-11-27",
+   "2026-12-10"
   ],
-  "note": "Watchlist (desk/watchlist.json, 2026-11-05): SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, BRPT, ANTM, ENRG, SMAR; no paper holdings. Events for those names: CUAN, AMMN and BRPT buybacks, MSCI review 12 Nov (BRPT), SSIA option window to 11 Dec; no SMDR, AADI, OMED, BUMI, BABP, TMPO, ANTM, ENRG or SMAR event found in the next 10 trading days. Built from news by the cloud night shift: www.idx.id (GetCalendar) is blocked from the cloud. All dates unverified; re-check with tools/idx.py actions. 2026-11-05 evening: window moved to 6-19 Nov; removed BRIS proxy deadline and GDP release (passed; Q3 GDP 5.47% y/y); JPFA/UNTR cum passed, ex 6 Nov kept; added ITMG buyback and MSCI 12 Nov entry. 2026-11-09 evening: window moved to 10-23 Nov; removed passed events (JPFA, UNTR dividends, CNMA, BUAH, BRIS, GIAA and DOOH meetings, reserves release); SMSM cum passed (ex 10 Nov kept); added NFCX buyback and US CPI 10 Nov; BRPT closed Rp795 (-6.47%) on 9 Nov. Still built from news; www.idx.id blocked from the cloud. 2026-11-10 evening: window moved to 2026-11-11 to 2026-11-24; removed passed events (SMSM ex 10 Nov, delisting 10 Nov, BBRI results now out: 9M26 profit Rp48.16 T, +16.8%); merged the two MSCI entries into 12 Nov; cum 10 Nov dividends kept with ex 11 Nov wording; added SMAR cum 12 Nov, TGKA cum 18 Nov, ULTJ special dividend and rights issue (dates not found). Watchlist now also BBRI, ASII, ULTJ: no ASII event found. Still built from news; www.idx.id blocked from the cloud. 2026-11-11 evening: window moved to 2026-11-12 to 2026-11-25; removed passed events (TAPG, MEDC, ITMG, BWPT, SSMS, AVIA dividends, ex 11 Nov; US CPI 10 Nov); MIDI cum passed (ex 12 Nov kept); MSCI time set to about 04:00-05:00 WIB 12 Nov, effective at the 30 Nov close; ULTJ now has cum 16 Nov, pay 9 Dec and rights issue of 7.88 bn shares at Rp2,150; added SKBM (recording 20 Nov), YUPI, TOTL and PORT (cum 16 Nov). No new event found for the watchlist except ULTJ and SMAR (cum 12 Nov). Still built from news; www.idx.id blocked from the cloud. 2026-11-12 evening: window moved to 2026-11-13 to 2026-11-26; removed passed events (MIDI ex 12 Nov, MSCI announcement 12 Nov); SMAR and ASSA cum passed (ex 13 Nov kept); added HSC exclusion from IHSG from 13 Nov, US PPI 13 Nov, MSCI effective 30 Nov close (BRPT, RAJA and others), EMAS RUPSLB 26 Nov, GIAA rights issue (cum 21 Dec, outside the window, watchlist). Watchlist now also RAJA and GIAA. No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, ANTM, ENRG, BBRI, ASII. Still built from news; www.idx.id blocked from the cloud. 2026-11-13 evening: window moved to 2026-11-16 to 2026-11-27; removed passed events (CSRA paid 13 Nov, ASSA and SMAR ex 13 Nov, HSC exclusion now in effect, US PPI 13 Nov); ULTJ now has cum 16 Nov, ex 17 Nov, pay 9 Dec; added ITMG dividend payment 18 Nov (DPS differs by source) and Nvidia results 17 Nov. Watchlist now also KETR: its RUPSLB of 12 Nov approved the new Sinar Mas board; no further KETR date found. No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, BRPT (MSCI 30 Nov kept), ANTM, ENRG, BBRI, ASII, RAJA, GIAA. Still built from news; www.idx.id blocked from the cloud. 2026-11-16 evening: window moved to 2026-11-17 to 2026-11-30; ULTJ, TOTL, PORT and YUPI cum passed (ex 17 Nov kept, pay dates added); SKBM now has cum 18 Nov, ex 19 Nov, pay 30 Nov; added KINO and EAST (cum 17 Nov), POWR and MSTI (cum 20 Nov), KMDS (cum 23 Nov, now confirmed), GMFI RUPSLB 19 Nov (rights issue), TGUK tender offer to 8 Dec, BI rate decision 18 Nov, FTSE deletions 21 Dec (outside the window); MSCI 30 Nov entry updated (BRPT -6.83% on 16 Nov). No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, ANTM (dividend plan not dated), ENRG, BBRI, ASII, RAJA, KETR. Still built from news; www.idx.id blocked from the cloud. 2026-11-17 evening: window moved to 2026-11-18 to 2026-12-01; removed passed events (YUPI, TOTL, PORT ex 17 Nov); ULTJ ex passed (pay 9 Dec and rights issue kept); KINO and EAST cum passed (ex 18 Nov kept); Nvidia entry moved to 18 Nov WIB; added TOTO (cum 24 Nov, dates unreconciled), SPTO (cum 24 Nov), INDY public expose 19 Nov, ANDA listing 1 Dec; GMFI EGM date conflict noted (19 Nov vs 8 Dec). HRUM buyback ended 17 Nov (was not in the calendar). No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, BRPT (MSCI 30 Nov kept), ANTM, ENRG (loan signed, no date), BBRI, ASII, RAJA, GIAA, KETR. Still built from news; www.idx.id blocked from the cloud. 2026-11-18 evening: window moved to 2026-11-19 to 2026-12-02; removed passed events (BI rate decision and Nvidia results 18 Nov, KINO and EAST ex 18 Nov, ITMG dividend paid 18 Nov); TGKA and SKBM cum passed (ex 19 Nov kept, pay 30 Nov); GMFI EGM conflict resolved to 19 Nov (EmitenNews; the 8 Dec date matches MBMA's EGM); added ASGR EGM 20 Nov (dividend Rp297), JSMR EGM 25 Nov, SDRA EGM 26 Nov, MBMA private placement EGM 8 Dec (outside the window). No new event found for SMDR, CUAN, AMMN, AADI (only an unsourced estimate), OMED, BUMI, SSIA, BABP, TMPO, BRPT (MSCI 30 Nov kept), ANTM, ENRG, BBRI, ASII, RAJA (MSCI 30 Nov), ULTJ (pay 9 Dec kept), GIAA (cum 21 Dec kept), KETR. Still built from news; www.idx.id blocked from the cloud. 2026-11-19 evening: window moved to 2026-11-20 to 2026-12-03; removed passed events (GMFI EGM and INDY public expose 19 Nov; GMFI EGM result not found); TGKA and SKBM ex passed (pay 30 Nov kept); added ARII EGM 20 Nov (private placement), BMAS rights issue (cum 23 Nov) and MLBI dividend (cum 26 Nov), both reported 18 Nov but missing from the calendar, and PSGO dividend (cum 27 Nov). PACK EGM 30 Nov kept (PACK denied the Weda Bay rumour). No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, BRPT (MSCI 30 Nov kept), ANTM, ENRG, BBRI, ASII, RAJA (MSCI 30 Nov), ULTJ (pay 9 Dec kept), GIAA (cum 21 Dec kept), KETR. Still built from news; www.idx.id blocked from the cloud. 2026-11-23 evening: window moved to 2026-11-24 to 2026-12-07 (no IDX holiday inside; next holidays 24, 25 and 31 Dec). Removed passed events (PRDA EGM 23 Nov, result not found; POWR and MSTI ex 23 Nov; ASGR EGM 20 Nov, new dividend dates not found; ARII EGM 20 Nov, result not found). KMDS and BMAS cum passed (KMDS ex 24 Nov; BMAS rights trading 27 Nov to 3 Dec kept). Added BBCA Q4 interim dividend Rp35 (cum 27 Nov, ex 30 Nov, pay 16 Dec), DGWG interim dividend (cum 25 Nov), RDTX 1:20 split (new price from 24 Nov), PRDA 1:5 split 18 Dec (outside the window, EGM result unread), BPS November inflation 1 Dec and US jobs report 4 Dec (both by usual schedule, not checked). Updated ANDA (public offer 24-27 Nov, listing 1 Dec), JSMR EGM agenda (subsidiary merger, board change), EMAS (private placement of up to 1.47 bn shares announced 13 Nov; not confirmed as the 26 Nov agenda). Also seen: BYAN EGM 23 Nov (board change, passed), ADHI EGM moved to Dec 2026 (date unread), IGAR EGM 9 Dec on delisting (outside the window); ENRG rights issue seems done in Oct (KSEI notices), no new date. No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, BRPT (MSCI 30 Nov kept), ANTM, ENRG, BBRI, ASII, RAJA (MSCI 30 Nov), ULTJ (pay 9 Dec kept), GIAA (cum 21 Dec kept), KETR. Bisnis.com pages failed to load (headline-only). Still built from news; www.idx.id blocked from the cloud. 2026-11-25 evening (no 24 Nov evening run): window moved to 2026-11-26 to 2026-12-09; removed passed events (TOTO, SPTO cum 24 Nov; KMDS, TGKA, SKBM dividends; RDTX split 24 Nov; JSMR RUPSLB 25 Nov, result not found); DGWG cum passed (ex 26 Nov kept); BMAS offer period kept; MBMA 8 Dec now inside the window; added BTPN go-private notice 30 Nov, KOTA RUPSLB 27 Nov, TRUK tender to 7 Dec, BUAT IPO listing 9 Dec, RANC RUPSLB 9 Dec. Watchlist events unchanged (desk/watchlist.json 2026-11-13). Still built from news; www.idx.id blocked from the cloud.",
+  "note": "Watchlist (desk/watchlist.json, 2026-11-05): SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, BRPT, ANTM, ENRG, SMAR; no paper holdings. Events for those names: CUAN, AMMN and BRPT buybacks, MSCI review 12 Nov (BRPT), SSIA option window to 11 Dec; no SMDR, AADI, OMED, BUMI, BABP, TMPO, ANTM, ENRG or SMAR event found in the next 10 trading days. Built from news by the cloud night shift: www.idx.id (GetCalendar) is blocked from the cloud. All dates unverified; re-check with tools/idx.py actions. 2026-11-05 evening: window moved to 6-19 Nov; removed BRIS proxy deadline and GDP release (passed; Q3 GDP 5.47% y/y); JPFA/UNTR cum passed, ex 6 Nov kept; added ITMG buyback and MSCI 12 Nov entry. 2026-11-09 evening: window moved to 10-23 Nov; removed passed events (JPFA, UNTR dividends, CNMA, BUAH, BRIS, GIAA and DOOH meetings, reserves release); SMSM cum passed (ex 10 Nov kept); added NFCX buyback and US CPI 10 Nov; BRPT closed Rp795 (-6.47%) on 9 Nov. Still built from news; www.idx.id blocked from the cloud. 2026-11-10 evening: window moved to 2026-11-11 to 2026-11-24; removed passed events (SMSM ex 10 Nov, delisting 10 Nov, BBRI results now out: 9M26 profit Rp48.16 T, +16.8%); merged the two MSCI entries into 12 Nov; cum 10 Nov dividends kept with ex 11 Nov wording; added SMAR cum 12 Nov, TGKA cum 18 Nov, ULTJ special dividend and rights issue (dates not found). Watchlist now also BBRI, ASII, ULTJ: no ASII event found. Still built from news; www.idx.id blocked from the cloud. 2026-11-11 evening: window moved to 2026-11-12 to 2026-11-25; removed passed events (TAPG, MEDC, ITMG, BWPT, SSMS, AVIA dividends, ex 11 Nov; US CPI 10 Nov); MIDI cum passed (ex 12 Nov kept); MSCI time set to about 04:00-05:00 WIB 12 Nov, effective at the 30 Nov close; ULTJ now has cum 16 Nov, pay 9 Dec and rights issue of 7.88 bn shares at Rp2,150; added SKBM (recording 20 Nov), YUPI, TOTL and PORT (cum 16 Nov). No new event found for the watchlist except ULTJ and SMAR (cum 12 Nov). Still built from news; www.idx.id blocked from the cloud. 2026-11-12 evening: window moved to 2026-11-13 to 2026-11-26; removed passed events (MIDI ex 12 Nov, MSCI announcement 12 Nov); SMAR and ASSA cum passed (ex 13 Nov kept); added HSC exclusion from IHSG from 13 Nov, US PPI 13 Nov, MSCI effective 30 Nov close (BRPT, RAJA and others), EMAS RUPSLB 26 Nov, GIAA rights issue (cum 21 Dec, outside the window, watchlist). Watchlist now also RAJA and GIAA. No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, ANTM, ENRG, BBRI, ASII. Still built from news; www.idx.id blocked from the cloud. 2026-11-13 evening: window moved to 2026-11-16 to 2026-11-27; removed passed events (CSRA paid 13 Nov, ASSA and SMAR ex 13 Nov, HSC exclusion now in effect, US PPI 13 Nov); ULTJ now has cum 16 Nov, ex 17 Nov, pay 9 Dec; added ITMG dividend payment 18 Nov (DPS differs by source) and Nvidia results 17 Nov. Watchlist now also KETR: its RUPSLB of 12 Nov approved the new Sinar Mas board; no further KETR date found. No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, BRPT (MSCI 30 Nov kept), ANTM, ENRG, BBRI, ASII, RAJA, GIAA. Still built from news; www.idx.id blocked from the cloud. 2026-11-16 evening: window moved to 2026-11-17 to 2026-11-30; ULTJ, TOTL, PORT and YUPI cum passed (ex 17 Nov kept, pay dates added); SKBM now has cum 18 Nov, ex 19 Nov, pay 30 Nov; added KINO and EAST (cum 17 Nov), POWR and MSTI (cum 20 Nov), KMDS (cum 23 Nov, now confirmed), GMFI RUPSLB 19 Nov (rights issue), TGUK tender offer to 8 Dec, BI rate decision 18 Nov, FTSE deletions 21 Dec (outside the window); MSCI 30 Nov entry updated (BRPT -6.83% on 16 Nov). No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, ANTM (dividend plan not dated), ENRG, BBRI, ASII, RAJA, KETR. Still built from news; www.idx.id blocked from the cloud. 2026-11-17 evening: window moved to 2026-11-18 to 2026-12-01; removed passed events (YUPI, TOTL, PORT ex 17 Nov); ULTJ ex passed (pay 9 Dec and rights issue kept); KINO and EAST cum passed (ex 18 Nov kept); Nvidia entry moved to 18 Nov WIB; added TOTO (cum 24 Nov, dates unreconciled), SPTO (cum 24 Nov), INDY public expose 19 Nov, ANDA listing 1 Dec; GMFI EGM date conflict noted (19 Nov vs 8 Dec). HRUM buyback ended 17 Nov (was not in the calendar). No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, BRPT (MSCI 30 Nov kept), ANTM, ENRG (loan signed, no date), BBRI, ASII, RAJA, GIAA, KETR. Still built from news; www.idx.id blocked from the cloud. 2026-11-18 evening: window moved to 2026-11-19 to 2026-12-02; removed passed events (BI rate decision and Nvidia results 18 Nov, KINO and EAST ex 18 Nov, ITMG dividend paid 18 Nov); TGKA and SKBM cum passed (ex 19 Nov kept, pay 30 Nov); GMFI EGM conflict resolved to 19 Nov (EmitenNews; the 8 Dec date matches MBMA's EGM); added ASGR EGM 20 Nov (dividend Rp297), JSMR EGM 25 Nov, SDRA EGM 26 Nov, MBMA private placement EGM 8 Dec (outside the window). No new event found for SMDR, CUAN, AMMN, AADI (only an unsourced estimate), OMED, BUMI, SSIA, BABP, TMPO, BRPT (MSCI 30 Nov kept), ANTM, ENRG, BBRI, ASII, RAJA (MSCI 30 Nov), ULTJ (pay 9 Dec kept), GIAA (cum 21 Dec kept), KETR. Still built from news; www.idx.id blocked from the cloud. 2026-11-19 evening: window moved to 2026-11-20 to 2026-12-03; removed passed events (GMFI EGM and INDY public expose 19 Nov; GMFI EGM result not found); TGKA and SKBM ex passed (pay 30 Nov kept); added ARII EGM 20 Nov (private placement), BMAS rights issue (cum 23 Nov) and MLBI dividend (cum 26 Nov), both reported 18 Nov but missing from the calendar, and PSGO dividend (cum 27 Nov). PACK EGM 30 Nov kept (PACK denied the Weda Bay rumour). No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, BRPT (MSCI 30 Nov kept), ANTM, ENRG, BBRI, ASII, RAJA (MSCI 30 Nov), ULTJ (pay 9 Dec kept), GIAA (cum 21 Dec kept), KETR. Still built from news; www.idx.id blocked from the cloud. 2026-11-23 evening: window moved to 2026-11-24 to 2026-12-07 (no IDX holiday inside; next holidays 24, 25 and 31 Dec). Removed passed events (PRDA EGM 23 Nov, result not found; POWR and MSTI ex 23 Nov; ASGR EGM 20 Nov, new dividend dates not found; ARII EGM 20 Nov, result not found). KMDS and BMAS cum passed (KMDS ex 24 Nov; BMAS rights trading 27 Nov to 3 Dec kept). Added BBCA Q4 interim dividend Rp35 (cum 27 Nov, ex 30 Nov, pay 16 Dec), DGWG interim dividend (cum 25 Nov), RDTX 1:20 split (new price from 24 Nov), PRDA 1:5 split 18 Dec (outside the window, EGM result unread), BPS November inflation 1 Dec and US jobs report 4 Dec (both by usual schedule, not checked). Updated ANDA (public offer 24-27 Nov, listing 1 Dec), JSMR EGM agenda (subsidiary merger, board change), EMAS (private placement of up to 1.47 bn shares announced 13 Nov; not confirmed as the 26 Nov agenda). Also seen: BYAN EGM 23 Nov (board change, passed), ADHI EGM moved to Dec 2026 (date unread), IGAR EGM 9 Dec on delisting (outside the window); ENRG rights issue seems done in Oct (KSEI notices), no new date. No new event found for SMDR, CUAN, AMMN, AADI, OMED, BUMI, SSIA, BABP, TMPO, BRPT (MSCI 30 Nov kept), ANTM, ENRG, BBRI, ASII, RAJA (MSCI 30 Nov), ULTJ (pay 9 Dec kept), GIAA (cum 21 Dec kept), KETR. Bisnis.com pages failed to load (headline-only). Still built from news; www.idx.id blocked from the cloud. 2026-11-25 evening (no 24 Nov evening run): window moved to 2026-11-26 to 2026-12-09; removed passed events (TOTO, SPTO cum 24 Nov; KMDS, TGKA, SKBM dividends; RDTX split 24 Nov; JSMR RUPSLB 25 Nov, result not found); DGWG cum passed (ex 26 Nov kept); BMAS offer period kept; MBMA 8 Dec now inside the window; added BTPN go-private notice 30 Nov, KOTA RUPSLB 27 Nov, TRUK tender to 7 Dec, BUAT IPO listing 9 Dec, RANC RUPSLB 9 Dec. Watchlist events unchanged (desk/watchlist.json 2026-11-13). Still built from news; www.idx.id blocked from the cloud. 2026-11-26 evening: window moved to 2026-11-27 to 2026-12-10; removed passed events (DGWG ex 26 Nov, EMAS and SDRA RUPSLB 26 Nov, results not found); MLBI cum passed (ex 27 Nov kept); added AADI interim dividend (cum 3 Dec, ex 4 Dec, pay 11 Dec), BRIS rights issue (Feb 2027) and the Fed meeting 8-9 Dec; BTPN updated. Still built from news; www.idx.id blocked from the cloud.",
   "events": [
    {
     "ticker": "PACK",
@@ -2590,7 +3208,7 @@
     "ticker": "BRPT",
     "type": "index_event",
     "date": "2026-11-30",
-    "detail": "Perubahan indeks MSCI dijalankan pada penutupan Senin 30 November dan berlaku Selasa 1 Desember. BRPT dan BRMS keluar dari indeks utama. RAJA, AVIA, CTRA, MTEL, EMTK, JSMR, dan WIFI keluar dari indeks saham kecil. Dana yang mengikuti indeks biasanya menjual saham ini sampai penutupan 30 November, sehingga volume dan tekanan jual bisa besar hari itu. Perkiraan dana keluar dari BRPT sekitar Rp700 miliar dan dari BRMS sekitar Rp280 miliar. Senin 16 November BRPT turun 6,83% dan WIFI turun 6,78%.",
+    "detail": "Perubahan indeks MSCI dijalankan pada penutupan Senin 30 November dan berlaku Selasa 1 Desember. BRPT dan BRMS keluar dari indeks utama. RAJA, AVIA, CTRA, MTEL, EMTK, JSMR, dan WIFI keluar dari indeks saham kecil. Dana yang mengikuti indeks biasanya menjual saham ini sampai penutupan 30 November, sehingga volume dan tekanan jual bisa besar hari itu. Perkiraan dana keluar dari BRPT sekitar Rp700 miliar dan dari BRMS sekitar Rp280 miliar. Senin 16 November BRPT turun 6,83% dan WIFI turun 6,78%. Kamis 26 November BRPT naik 14,96% ke Rp730 tanpa berita yang jelas, setelah turun ke Rp635 hari Rabu.",
     "source": "CNBC Indonesia, 2026-11-12 05:56 WIB; CNN Indonesia, Daftar 8 Saham RI Didepak MSCI, 1 Turun Kelas, 2026-11-12 06:41 WIB",
     "verified": false,
     "tickers": [
@@ -2604,14 +3222,6 @@
      "JSMR",
      "WIFI"
     ]
-   },
-   {
-    "ticker": "EMAS",
-    "type": "rups",
-    "date": "2026-11-26",
-    "detail": "RUPS luar biasa (rapat umum pemegang saham luar biasa) Kamis 26 November. Agenda resminya belum terbaca. Pada 13 November EMAS mengumumkan rencana private placement (penjualan saham baru ke investor tertentu, tanpa hak beli untuk pemegang saham lama) paling banyak 1,47 miliar saham, sekitar 10% dari modal. Rencana ini perlu restu RUPS, tetapi belum pasti dibahas di rapat 26 November. Harga saham baru belum diumumkan. Kalau terjadi, porsi pemegang saham lama turun sekitar 9%.",
-    "source": "laporan pra-pasar desk 12 Nov, dari Kontan 11 Nov 15.28 WIB; Katadata, EMAS Bersiap Private Placement 1,47 Miliar Saham, Apa Rencana di Baliknya?, 2026-11-13 13:46 WIB",
-    "verified": false
    },
    {
     "ticker": "GIAA",
@@ -2667,14 +3277,6 @@
     "verified": false
    },
    {
-    "ticker": "SDRA",
-    "type": "rups",
-    "date": "2026-11-26",
-    "detail": "RUPS luar biasa Bank Woori Saudara Kamis 26 November pukul 10.00 WIB di Jakarta. Agendanya belum terbaca dari berita. Pemegang saham yang tercatat 3 November berhak hadir.",
-    "source": "Kontan, Bank Woori Saudara (SDRA) Gelar RUPSLB 26 November 2026, Apa Agendanya?, 2026-10-20 18:16 WIB",
-    "verified": false
-   },
-   {
     "ticker": "MBMA",
     "type": "rups_private_placement",
     "date": "2026-12-08",
@@ -2701,7 +3303,7 @@
     "ex": "2026-11-27",
     "pay": "2026-12-15",
     "amount_rp": 228,
-    "detail": "Dividen interim Rp228 per saham, total sekitar Rp480,4 miliar. Kamis 26 November hari terakhir beli supaya dapat dividen (cum date). Jumat 27 November hari pertama tanpa dividen (ex date), harga biasanya turun sekitar Rp228. Dibayar Selasa 15 Desember. Baru satu media yang terbaca, jadi jadwal ini belum pasti. MLBI juga akan dikeluarkan dari indeks FTSE mulai 21 Desember.",
+    "detail": "Dividen interim Rp228 per saham, total sekitar Rp480,4 miliar. Cum date (hari terakhir beli supaya dapat dividen) Kamis 26 November sudah lewat. Jumat 27 November hari pertama tanpa dividen (ex date), jadi harga biasanya turun sekitar Rp228. Membeli sekarang tidak memberi hak atas dividen ini. Dibayar Selasa 15 Desember. MLBI juga akan dikeluarkan dari indeks FTSE mulai 21 Desember.",
     "source": "laporan sore desk 18 Nov (Akurat, 18 Nov 15:20 WIB)",
     "verified": false
    },
@@ -2734,20 +3336,6 @@
     "verified": false
    },
    {
-    "ticker": "DGWG",
-    "type": "dividend",
-    "cum": "2026-11-25",
-    "ex": "2026-11-26",
-    "cum_cash": "2026-11-27",
-    "ex_cash": "2026-11-30",
-    "recording": "2026-11-27",
-    "pay": "2026-12-17",
-    "amount_rp": 19.5,
-    "detail": "Dividen interim Delta Giri Wacana sekitar Rp19,5 per saham, total Rp114,7 miliar. Hari terakhir beli supaya dapat dividen (cum date) Rabu 25 November sudah lewat. Kamis 26 November hari pertama tanpa dividen (ex date), jadi harga wajar turun sekitar Rp19,5. Membeli sekarang tidak memberi hak atas dividen ini. Dibayar Kamis 17 Desember.",
-    "source": "BCA Sekuritas, DGWG Akan Bagikan Dividen Interm Rp114,70 Miliar, 2026-11-17; Bisnis.com, Delta Giri (DGWG) Tebar Dividen Rp114,7 Miliar ke Pemegang Saham, 2026-11-17 (judul saja)",
-    "verified": false
-   },
-   {
     "ticker": "PRDA",
     "type": "stock_split",
     "date": "2026-12-18",
@@ -2776,8 +3364,8 @@
     "ticker": "BTPN",
     "type": "go_private",
     "date": "2026-11-30",
-    "detail": "Bank SMBC Indonesia berencana go private (menjadi perusahaan tertutup) dan keluar dari bursa. Perdagangan sahamnya dihentikan sementara sejak Senin 23 November, harga terakhir Rp2.340. Pengumuman rapat pemegang saham dijadwalkan Senin 30 November, dan harga pembelian saham publik biasanya ikut diumumkan. Saham tidak bisa dibeli atau dijual selama dihentikan.",
-    "source": "Infobank News, 2026-11-23 10:03 WIB; SWA, 2026-11-23 13:02 WIB",
+    "detail": "Bank SMBC Indonesia berencana go private (menjadi perusahaan tertutup) dan keluar dari bursa. Rencana ini sudah disampaikan ke OJK dan BEI pada 19 November. Perdagangan sahamnya dihentikan sementara sejak Senin 23 November, harga terakhir Rp2.340. Pengumuman rapat pemegang saham dijadwalkan Senin 30 November, dan harga pembelian saham publik biasanya ikut diumumkan. Saham tidak bisa dibeli atau dijual selama dihentikan.",
+    "source": "Infobank News, 2026-11-23 10:03 WIB; SWA, 2026-11-23 13:02 WIB; Kontan, SMBC Indonesia Berencana Delisting dari BEI, Ini Alasannya, 2026-11-26 13:42 WIB",
     "verified": false
    },
    {
@@ -2812,12 +3400,45 @@
     "detail": "RUPS luar biasa Rabu 9 Desember untuk menambah empat bidang usaha baru (penjualan minuman beralkohol, gudang, gudang berpendingin, dan grosir obat), dengan investasi awal sekitar Rp21 miliar. Dampaknya ke laba kecil.",
     "source": "Kontan, RANC Tambah Empat Bisnis Baru, Siapkan Investasi Rp 21 Miliar, 2026-11-25 14:54 WIB",
     "verified": false
+   },
+   {
+    "ticker": "AADI",
+    "type": "dividend",
+    "cum": "2026-12-03",
+    "ex": "2026-12-04",
+    "cum_cash": "2026-12-07",
+    "ex_cash": "2026-12-08",
+    "recording": "2026-12-07",
+    "pay": "2026-12-11",
+    "amount_usd": 500000000,
+    "detail": "Dividen interim (dividen sementara sebelum tutup buku) tahun 2026 sebesar 500 juta dolar AS, dua kali lipat dari 250 juta dolar AS tahun lalu. Dengan kurs 26 November sekitar Rp9,18 triliun atau sekitar Rp1.179 per saham, sekitar 11% dari harga saham (hitungan desk, belum pasti). Kamis 3 Desember hari terakhir beli supaya dapat dividen (cum date). Jumat 4 Desember hari pertama tanpa dividen (ex date), harga biasanya turun sekitar sebesar dividen. Dibayar Jumat 11 Desember dalam rupiah dengan kurs Bank Indonesia 7 Desember.",
+    "source": "Kontan, Harga Saham Melesat 40%, Dividen Interim 2026 Emiten Boy Thohir Naik 2x Dari 2025, 2026-11-26 06:53 WIB; StockWatch, Adaro Andalan (AADI) Tebar Dividen Interim USD500 Juta, Catat Jadwal Cum Date, 2026-11-25 16:47 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "BRIS",
+    "type": "rights_issue",
+    "from": "2027-02-18",
+    "until": "2027-02-24",
+    "recording": "2027-02-16",
+    "detail": "Rights issue (penawaran saham baru kepada pemegang saham lama) paling banyak 6,8 miliar saham, tanpa pembeli siaga. Pemegang saham yang tidak menebus porsinya bisa mengecil sampai 12,85%. Harga dan rasio belum ditentukan. Jadwal sementara: pencatatan pemegang saham 16 Februari 2027 dan perdagangan hak 18 sampai 24 Februari 2027. Jauh di luar jendela 10 hari, dicatat lebih awal.",
+    "source": "Kontan, BSI (BRIS) Rights Issue Maksimal 6,8 Miliar Saham, Siap Perkuat Modal, 2026-11-26 12:03 WIB",
+    "verified": false
+   },
+   {
+    "ticker": "*",
+    "type": "macro",
+    "date": "2026-12-09",
+    "detail": "Rapat bank sentral Amerika 8 sampai 9 Desember. Pasar sudah sepenuhnya memperkirakan kenaikan bunga 0,25 poin persen. Hasilnya keluar Kamis 10 Desember dini hari waktu Indonesia, sehingga dampaknya terasa di bursa Indonesia hari Kamis 10 Desember.",
+    "source": "CNBC Indonesia, AS Tiba-Tiba Kirim 2 Kabar Buruk Sekaligus, IHSG-Rupiah dalam Bahaya!, 2026-11-26 06:25 WIB",
+    "verified": false
    }
   ]
  },
  "names": {
   "AADI": "Adaro Andalan Indonesia",
   "AALI": "Astra Agro Lestari",
+  "ADRO": "Alamtri Resources Indonesia",
   "AMMN": "Amman Mineral Internasional",
   "ANTM": "ANTAM (Persero)",
   "ARII": "Atlas Resources",
@@ -2835,6 +3456,7 @@
   "BRIS": "Bank Syariah Indonesia (Persero)",
   "BRMS": "Bumi Resources Minerals",
   "BRPT": "Barito Pacific",
+  "BTEK": "Bumi Teknokultura Unggul",
   "BTPN": "Bank SMBC Indonesia",
   "BUMI": "Bumi Resources",
   "BVIC": "Bank Victoria International",
@@ -2853,6 +3475,7 @@
   "HOMI": "Grand House Mulia",
   "HRUM": "Harum Energy",
   "ICBP": "Indofood CBP Sukses Makmur",
+  "IDEA": "Idea Indonesia Akademi",
   "IMAS": "Indomobil Sukses Internasional",
   "INCO": "Vale Indonesia",
   "INDF": "Indofood Sukses Makmur",
@@ -2862,6 +3485,7 @@
   "JSMR": "Jasa Marga",
   "KLBF": "Kalbe Farma",
   "KOTA": "DMS Propertindo",
+  "MANG": "Manggung Polahraya",
   "MAPI": "Mitra Adiperkasa",
   "MAYA": "Bank Mayapada Internasional",
   "MBMA": "Merdeka Battery Materials",
@@ -2879,8 +3503,9 @@
   "RANC": "Supra Boga Lestari",
   "SAME": "Sarana Meditama Metropolitan",
   "SAMF": "Saraswanti Anugerah Makmur",
-  "SDRA": "Bank Woori Saudara Indonesia 1906",
+  "SAPX": "Satria Antaran Prima",
   "SMDM": "Suryamas Dutamakmur",
+  "SPRE": "Soraya Berjaya Indonesia",
   "SPTO": "Surya Pertiwi",
   "SSIA": "Surya Semesta Internusa",
   "SSMS": "Sawit Sumbermas Sarana",
@@ -2894,6 +3519,7 @@
   "TLKM": "Telkom Indonesia (Persero)",
   "TMAS": "Temas",
   "TMPO": "Tempo Inti Media",
+  "TOBA": "TBS Energi Utama",
   "TOTO": "Surya Toto Indonesia",
   "TOWR": "Sarana Menara Nusantara",
   "TPIA": "Chandra Asri Pacific",

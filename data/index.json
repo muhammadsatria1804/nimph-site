@@ -1,5 +1,14 @@
 [
  {
+  "date": "2026-11-26",
+  "shifts": {
+   "evening": {
+    "file": "data/2026-11-26-evening.md",
+    "demo": false
+   }
+  }
+ },
+ {
   "date": "2026-11-25",
   "shifts": {
    "evening": {
