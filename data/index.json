@@ -58,6 +58,10 @@
    "premarket": {
     "file": "data/2026-11-18-premarket.md",
     "demo": false
+   },
+   "plan": {
+    "file": "data/2026-11-18-plan.md",
+    "demo": false
    }
   }
  },
