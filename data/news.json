@@ -1517,61 +1517,6 @@
    "date": "2026-11-23"
   },
   {
-   "id": "IHSG-tutup-23nov",
-   "time": "16.06 WIB",
-   "tickers": [],
-   "category": "news",
-   "scope": "market",
-   "short": "IHSG naik 1,35%, putus turun lima hari",
-   "impact": {
-    "score": 1,
-    "why": "Pasar berhenti turun untuk sementara, tetapi asing masih menjual."
-   },
-   "headline": "IHSG naik 1,35% ke 5.215,85 dan memutus penurunan lima hari berturut-turut",
-   "summary": "IHSG ditutup di 5.215,85 pada Senin 23 November 2026, naik 69,52 poin atau 1,35% dari 5.146,33. Pagi IHSG sempat jatuh ke 5.062, lalu berbalik naik sampai 5.244 sebelum pukul 11.00 WIB. Nilai transaksi sekitar Rp10,9 triliun, dengan 398 saham naik, 278 turun, dan 269 tetap. Saham tambang memimpin: sektor bahan baku naik 4,42% dan energi naik 3,18%, sedangkan barang konsumsi pokok turun 0,41%. Hari Jumat 20 November IHSG masih turun 0,92% ke 5.146,33, sehingga dalam sepekan 16 sampai 20 November IHSG turun 3,71%.",
-   "why_it_matters": "Satu hari naik belum berarti tren berbalik. Analis menyebut batas bawah sekitar 5.027 pekan ini, jadi tunggu IHSG bertahan beberapa hari sebelum membeli.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "CNBC Indonesia",
-     "title": "IHSG Ditutup di Zona Hijau, Naik 1,35% ke Level 5.215,85",
-     "url": "https://www.cnbcindonesia.com/market/20261123153712-17-787685/ihsg-ditutup-di-zona-hijau-naik-135-ke-level-521585",
-     "time": "2026-11-23 16.06 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "IHSG Menguat 1,35% ke 5.215 pada Senin (23/11), BRPT, DEWA, WIFI Top Gainers LQ45",
-     "url": "https://investasi.kontan.co.id/news/ihsg-menguat-135-ke-5215-pada-senin-2311-brpt-dewa-wifi-top-gainers-lq45",
-     "time": "2026-11-23 16.12 WIB",
-     "primary": false
-    },
-    {
-     "name": "IDN Times",
-     "title": "IHSG Rebound di Penutupan, Ini Daftar Saham yang Paling Cuan",
-     "url": "https://www.idntimes.com/business/economy/ihsg-rebound-di-penutupan-ini-daftar-saham-yang-paling-cuan-00-bvq5c-btp5hk",
-     "time": "2026-11-23 16.19 WIB",
-     "primary": false
-    },
-    {
-     "name": "CNBC Indonesia",
-     "title": "IHSG Ditutup Melemah 0,92% ke Level 5.146,33",
-     "url": "https://www.cnbcindonesia.com/market/20261120151936-17-787030/ihsg-ditutup-melemah-092-ke-level-514633",
-     "time": "2026-11-20 16.04 WIB",
-     "primary": false
-    },
-    {
-     "name": "Liputan6",
-     "title": "IHSG Dibayangi Aksi Jual Asing, Waspadai Level Kritis Pekan Ini",
-     "url": "https://www.liputan6.com/bisnis/read/8340390/ihsg-dibayangi-aksi-jual-asing-waspadai-level-kritis-pekan-ini",
-     "time": "2026-11-23 08.30 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-23"
-  },
-  {
    "id": "BVIC-pengendali-jual",
    "time": "15.49 WIB",
    "tickers": [
@@ -1595,56 +1540,6 @@
      "title": "Chemical Asia Jual 283,18 Juta Saham Bank Victoria, Kepemilikan Turun Jadi 7,26%",
      "url": "https://keuangan.kontan.co.id/news/chemical-asia-jual-28318-juta-saham-bank-victoria-kepemilikan-turun-jadi-726",
      "time": "2026-11-23 15.49 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-23"
-  },
-  {
-   "id": "tambang-prabowo-70-persen",
-   "time": "15.37 WIB",
-   "tickers": [
-    "ANTM",
-    "AMMN",
-    "MDKA",
-    "MBMA",
-    "BUMI",
-    "AADI",
-    "HRUM",
-    "INCO"
-   ],
-   "category": "news",
-   "scope": "market",
-   "short": "Bahlil siapkan dua opsi aturan 70% tambang",
-   "impact": {
-    "score": -1,
-    "why": "Aturannya masih belum tertulis, dan salah satu opsinya negara menguasai 70% saham perusahaan tambang."
-   },
-   "headline": "Bahlil: aturan 70% hasil tambang untuk negara masih disusun, ada dua pilihan",
-   "summary": "Menteri ESDM Bahlil Lahadalia pada Senin 23 November menyebut dua pilihan untuk permintaan Presiden agar minimal 70% manfaat izin tambang (IUP) dinikmati negara. Pilihan pertama, 70% pendapatan perusahaan tambang masuk ke negara. Pilihan kedua, negara menguasai 70% saham perusahaan tambang. Menurut Liputan6, Bahlil juga mengatakan kontrak tambang yang sudah ada akan dihormati dan aturan ini untuk kegiatan tambang ke depan, tetapi rumus dan jadwalnya belum ditetapkan. Saham tambang naik tajam hari ini: sektor bahan baku naik 4,42% dan energi naik 3,18%, setelah sepekan sebelumnya turun 10,73% dan 8,81%.",
-   "why_it_matters": "Kenaikan hari ini hanya karena kabar sedikit melegakan. Selama aturan tertulisnya belum ada, saham tambang masih bisa jatuh lagi, jadi jangan membeli dulu.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Liputan6",
-     "title": "Bahlil Siapkan Skema 70% Hasil Tambang Masuk ke Negara",
-     "url": "https://www.liputan6.com/bisnis/read/8340725/bahlil-siapkan-skema-70-hasil-tambang-masuk-ke-negara",
-     "time": "2026-11-23 15.37 WIB",
-     "primary": false
-    },
-    {
-     "name": "CNBC Indonesia",
-     "title": "Prabowo Mau 70% Hasil Tambang Buat Negara, Bahlil Siapkan 2 Opsi Ini",
-     "url": "https://www.cnbcindonesia.com/news/20261123124521-4-787581/prabowo-mau-70-hasil-tambang-buat-negara-bahlil-siapkan-2-opsi-ini",
-     "time": "2026-11-23 12.56 WIB",
-     "primary": false
-    },
-    {
-     "name": "Investor Daily",
-     "title": "IHSG Melaju, 4 Saham Mentok ARA",
-     "url": "https://investor.id/market/463017/ihsg-melaju-4-saham-mentok-ara",
-     "time": "2026-11-23 16.30 WIB",
      "primary": false
     }
    ],
@@ -1680,40 +1575,6 @@
    "date": "2026-11-23"
   },
   {
-   "id": "rupiah-23nov",
-   "time": "15.26 WIB",
-   "tickers": [],
-   "category": "news",
-   "scope": "market",
-   "short": "Rupiah menguat 0,37%, terkuat di Asia",
-   "impact": {
-    "score": 1,
-    "why": "Rupiah yang menguat biasanya mengurangi tekanan jual asing."
-   },
-   "headline": "Rupiah menguat 0,37% ke Rp18.203 per dolar AS, terkuat di Asia",
-   "summary": "Rupiah ditutup di Rp18.203 per dolar AS pada Senin 23 November, menguat 0,37% dari Rp18.272 hari Jumat. Ini mata uang yang paling menguat di Asia hari ini. Media menyebut tiga penyebab: disahkannya undang-undang perampasan aset, Presiden Amerika menunda serangan baru ke Iran, dan berkurangnya perkiraan kenaikan bunga Amerika. Sejak awal tahun rupiah masih melemah sekitar 8,47%.",
-   "why_it_matters": "Rupiah yang stabil membantu saham bank dan konsumsi. Tetapi rupiah masih di dekat titik terlemahnya, jadi satu hari menguat belum cukup.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "Kurs Rupiah Menguat 0,37% ke Rp 18.203 per Dolar AS di Senin (23/11), Terkuat di Asia",
-     "url": "https://investasi.kontan.co.id/news/kurs-rupiah-menguat-037-ke-rp-18203-per-dolar-as-di-senin-2311-terkuat-di-asia",
-     "time": "2026-11-23 15.26 WIB",
-     "primary": false
-    },
-    {
-     "name": "Investor Daily",
-     "title": "Rupiah Tiba-tiba Melejit Kencang",
-     "url": "https://investor.id/market/462992/rupiah-tibatiba-melejit-kencang",
-     "time": "2026-11-23 16.18 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-23"
-  },
-  {
    "id": "HRUM-pengalihan-saham-grup",
    "time": "14.42 WIB",
    "tickers": [
@@ -1737,107 +1598,6 @@
      "title": "Pengendali Harum Energy (HRUM) Alihkan 50% Saham, Nilai Transaksi Capai Rp 4,46 T",
      "url": "https://investasi.kontan.co.id/news/pengendali-harum-energy-hrum-alihkan-50-saham-nilai-transaksi-capai-rp-446-t",
      "time": "2026-11-23 14.42 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-23"
-  },
-  {
-   "id": "asing-20-23nov",
-   "time": "13.57 WIB",
-   "tickers": [
-    "BBRI",
-    "BMRI",
-    "GOTO",
-    "BBCA",
-    "BRPT"
-   ],
-   "category": "news",
-   "scope": "market",
-   "short": "Asing masih jual bersih, bank BUMN dilepas",
-   "impact": {
-    "score": -1,
-    "why": "Jual bersih asing yang terus berlanjut menahan kenaikan saham besar."
-   },
-   "headline": "Asing jual bersih sekitar Rp947 miliar hari Jumat dan Rp512 miliar di sesi pertama Senin",
-   "summary": "Pada Jumat 20 November asing jual bersih (lebih banyak menjual daripada membeli) sekitar Rp947,41 miliar menurut Katadata, atau sekitar Rp855 miliar menurut Liputan6. Dalam sepekan 16 sampai 20 November jual bersih asing sekitar Rp2,6 triliun, dengan TLKM paling banyak dijual (Rp411,2 miliar) dan ASII paling banyak dibeli (Rp122,2 miliar). Di sesi pertama Senin 23 November asing kembali jual bersih Rp512,22 miliar. BBRI paling banyak dijual (Rp193,54 miliar), lalu BMRI (Rp132,88 miliar) dan GOTO (Rp117,18 miliar). Yang paling banyak dibeli BBCA (Rp87,80 miliar) dan BRPT (Rp39,54 miliar). Angka sepanjang hari Senin belum terbit sampai sekitar pukul 17.30 WIB.",
-   "why_it_matters": "Kenaikan IHSG hari ini tidak didorong dana asing. Hati-hati dengan saham bank BUMN yang terus dilepas asing.",
-   "status": "confirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "Asing Serok Saham BBCA pada Sesi I (23/11), Tiga Bank BUMN Kompak Dilepas",
-     "url": "https://investasi.kontan.co.id/news/asing-serok-saham-bbca-pada-sesi-i-2311-tiga-bank-bumn-kompak-dilepas",
-     "time": "2026-11-23 13.45 WIB",
-     "primary": false
-    },
-    {
-     "name": "CNBC Indonesia",
-     "title": "IHSG Menguat Sepanjang Sesi I, Asing borong 10 Saham Ini",
-     "url": "https://www.cnbcindonesia.com/market/20261123135150-17-787619/ihsg-menguat-sepanjang-sesi-i-asing-borong-10-saham-ini",
-     "time": "2026-11-23 13.57 WIB",
-     "primary": false
-    },
-    {
-     "name": "Katadata",
-     "title": "Net Sell Asing Tembus Rp 2,6 T Sepekan, Saham GOTO dan BUMI Ramai Diperdagangkan",
-     "url": "https://katadata.co.id/finansial/bursa/6b0101f0bad2c/net-sell-asing-tembus-rp-2-6-t-sepekan-saham-goto-dan-bumi-ramai-diperdagangkan",
-     "time": "2026-11-21 09.29 WIB",
-     "primary": false
-    },
-    {
-     "name": "CNBC Indonesia",
-     "title": "10 Saham Paling Banyak Dilepas Asing saat IHSG Babak Belur",
-     "url": "https://www.cnbcindonesia.com/market/20261123073208-17-787418/10-saham-paling-banyak-dilepas-asing-saat-ihsg-babak-belur",
-     "time": "2026-11-23 08.40 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-23"
-  },
-  {
-   "id": "msci-indonesia-downgrade",
-   "time": "10.57 WIB",
-   "tickers": [
-    "BRPT",
-    "CUAN",
-    "CDIA",
-    "TPIA",
-    "BRMS"
-   ],
-   "category": "rumour",
-   "scope": "market",
-   "short": "Kabar MSCI tak turunkan status Indonesia",
-   "impact": {
-    "score": 1,
-    "why": "Kalau benar, risiko dana asing pasif keluar besar-besaran berkurang, tetapi belum resmi."
-   },
-   "headline": "Bloomberg: bos MSCI bilang ke Presiden tidak harus menurunkan status pasar saham Indonesia",
-   "summary": "MSCI (penyusun indeks saham global yang diikuti dana asing) sejak 15 Oktober 2026 menimbang memindahkan Indonesia dari kelompok pasar berkembang ke kelompok pasar terpisah (standalone). Bloomberg melaporkan, mengutip sumber, bahwa CEO MSCI Henry Fernandez lewat telepon pada 10 November menyampaikan kepada Presiden Prabowo bahwa MSCI tidak harus menurunkan status Indonesia. MSCI tidak berkomentar dan Reuters belum bisa memastikan kabar ini. Keputusan akhir paling lambat 30 Juni 2027. Kabar ini ikut mendorong saham grup Prajogo Pangestu: BRPT naik 16,80% ke Rp730, CUAN naik 25% ke Rp400, dan TPIA naik sekitar 9,96%.",
-   "why_it_matters": "Ini baru kabar dari satu sumber, belum pengumuman resmi MSCI. Jangan membeli saham yang sudah melonjak hanya karena kabar ini.",
-   "status": "unconfirmed",
-   "event_date": null,
-   "sources": [
-    {
-     "name": "Kontan English (mengutip Bloomberg)",
-     "title": "MSCI Discussed Avoiding Indonesia Downgrade with Prabowo, Dalio",
-     "url": "https://english.kontan.co.id/news/msci-discussed-avoiding-indonesia-downgrade-with-prabowo-dalio",
-     "time": "2026-11-23 10.57 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "MSCI Buka Peluang Pertahankan Pasar Saham RI Di Emerging Market, IHSG Hijau",
-     "url": "https://investasi.kontan.co.id/news/msci-buka-peluang-pertahankan-pasar-saham-ri-di-emerging-market-ihsg-hijau",
-     "time": "2026-11-23 15.09 WIB",
-     "primary": false
-    },
-    {
-     "name": "Kontan",
-     "title": "IHSG Menguat 1,35% ke 5.215 pada Senin (23/11), BRPT, DEWA, WIFI Top Gainers LQ45",
-     "url": "https://investasi.kontan.co.id/news/ihsg-menguat-135-ke-5215-pada-senin-2311-brpt-dewa-wifi-top-gainers-lq45",
-     "time": "2026-11-23 16.12 WIB",
      "primary": false
     }
    ],
@@ -2089,42 +1849,6 @@
    "date": "2026-11-18"
   },
   {
-   "id": "TOTO-dividen-interim-2026",
-   "time": "05.20 WIB",
-   "tickers": [
-    "TOTO"
-   ],
-   "category": "corporate-action",
-   "scope": "company",
-   "short": "Dividen Rp10, cum date 24 November",
-   "impact": {
-    "score": 1,
-    "why": "Dividen tunai kecil; harga biasanya turun sebesar dividen pada ex date."
-   },
-   "headline": "Surya Toto (TOTO) bagi dividen interim Rp10 per saham; cum date Selasa 24 November",
-   "summary": "TOTO membagikan dividen interim Rp10 per saham, total sekitar Rp103,2 miliar. Cum date di pasar reguler Selasa 24 November dan ex date Rabu 25 November. Tanggal pencatatan pemegang saham 26 November pukul 16.00 WIB, dan dividen dibayar 15 Desember. Jadwal ini menyelesaikan perbedaan tanggal yang ditulis sebelumnya.",
-   "why_it_matters": "Dividennya kecil. Jangan membeli hanya untuk dividen ini.",
-   "status": "confirmed",
-   "event_date": "2026-11-24",
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "Surya Toto (TOTO) Tebar Dividen Interim, Cek Jadwalnya",
-     "url": "https://investasi.kontan.co.id/",
-     "time": "2026-11-17 05:20 WIB",
-     "primary": false
-    },
-    {
-     "name": "Investor Daily (investor.id)",
-     "title": "Jangan Terlewat! 2 Emiten Ini Cum Date Dividen Hari Ini",
-     "url": "https://investor.id/market/462419/jangan-terlewat-2-emiten-ini-cum-date-dividen-hari-ini",
-     "time": "2026-11-18 09:29 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-18"
-  },
-  {
    "id": "BRPT-MSCI-tekanan-16nov",
    "time": "16.11 WIB",
    "tickers": [
@@ -2205,71 +1929,6 @@
      "title": "Harga Batubara Terus Naik, Momentum Tepat ANDA Melantai di Bursa",
      "url": "https://investor.id/market/462168/harga-batubara-terus-naik-momentum-tepat-anda-melantai-di-bursa",
      "time": "2026-11-16 14:14 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-17"
-  },
-  {
-   "id": "SPTO-dividen-interim-2026",
-   "time": "11.22 WIB",
-   "tickers": [
-    "SPTO"
-   ],
-   "category": "corporate-action",
-   "scope": "company",
-   "short": "Dividen interim Rp35 per saham",
-   "impact": {
-    "score": 1,
-    "why": "Dividen tunai; harga biasanya turun sebesar dividen pada ex date."
-   },
-   "headline": "Surya Pertiwi (SPTO) bagi dividen interim Rp35 per saham, cum date 24 November",
-   "summary": "SPTO membagikan dividen interim Rp35 per saham, total Rp94,5 miliar, atau 64,10% dari laba bersih sembilan bulan pertama 2026 sebesar Rp147,43 miliar. Cum date (hari terakhir beli supaya dapat dividen) di pasar reguler Selasa 24 November, ex date 25 November, pencatatan 26 November, dan pembayaran 10 Desember.",
-   "why_it_matters": "Harga biasanya turun sekitar Rp35 pada 25 November. Membeli hanya demi dividen jarang menguntungkan.",
-   "status": "confirmed",
-   "event_date": "2026-11-24",
-   "sources": [
-    {
-     "name": "Investor Daily (investor.id)",
-     "title": "Surya Pertiwi (SPTO) Bagikan Dividen Interim 64% dari Laba",
-     "url": "https://investor.id/market/462286/surya-pertiwi-spto-bagikan-dividen-interim-64-dari-laba",
-     "time": "2026-11-17 11:22 WIB",
-     "primary": false
-    }
-   ],
-   "date": "2026-11-17"
-  },
-  {
-   "id": "TOTO-dividen-interim-2026",
-   "time": "05.20 WIB",
-   "tickers": [
-    "TOTO"
-   ],
-   "category": "corporate-action",
-   "scope": "company",
-   "short": "Dividen interim Rp10 per saham",
-   "impact": {
-    "score": 1,
-    "why": "Dividen tunai; harga biasanya turun sebesar dividen pada ex date."
-   },
-   "headline": "Surya Toto (TOTO) bagi dividen interim Rp10 per saham, cum date 24 November",
-   "summary": "TOTO membagikan dividen interim tahun buku 2026 sebesar Rp10 per saham, total Rp103,2 miliar, berdasarkan laporan keuangan per 30 September 2026. Cum date di pasar reguler Selasa 24 November dan ex date 25 November. Pencatatan pemegang saham 26 November dan pembayaran 15 Desember. Pengumumannya terbit di keterbukaan informasi BEI Senin 16 November. Catatan: jadwal ini baru dari satu media. IDX Channel menulis tanggal pencatatan 28 November, berbeda dari 26 November, jadi tanggalnya belum pasti.",
-   "why_it_matters": "Membeli hanya demi dividen jarang menguntungkan, karena harga biasanya turun sekitar Rp10 pada ex date.",
-   "status": "unconfirmed",
-   "event_date": "2026-11-24",
-   "sources": [
-    {
-     "name": "Kontan",
-     "title": "Surya Toto (TOTO) Tebar Dividen Interim Rp 103,2 Miliar, Cek Jadwalnya",
-     "url": "https://investasi.kontan.co.id/news/surya-toto-toto-tebar-dividen-interim-rp-1032-miliar-cek-jadwalnya",
-     "time": "2026-11-17 05:20 WIB",
-     "primary": false
-    },
-    {
-     "name": "IDX Channel",
-     "title": "TOTO Tebar Dividen Interim Rp103 Miliar, Catat Waktunya",
-     "url": "https://www.idxchannel.com/market-news/toto-tebar-dividen-interim-rp103-miliar-catat-waktunya",
-     "time": "2026-11-17 05:03 WIB",
      "primary": false
     }
    ],
@@ -3506,7 +3165,6 @@
   "SAPX": "Satria Antaran Prima",
   "SMDM": "Suryamas Dutamakmur",
   "SPRE": "Soraya Berjaya Indonesia",
-  "SPTO": "Surya Pertiwi",
   "SSIA": "Surya Semesta Internusa",
   "SSMS": "Sawit Sumbermas Sarana",
   "STAA": "Sumber Tani Agung Resources",
@@ -3520,7 +3178,6 @@
   "TMAS": "Temas",
   "TMPO": "Tempo Inti Media",
   "TOBA": "TBS Energi Utama",
-  "TOTO": "Surya Toto Indonesia",
   "TOWR": "Sarana Menara Nusantara",
   "TPIA": "Chandra Asri Pacific",
   "TRIN": "Perintis Triniti Properti",

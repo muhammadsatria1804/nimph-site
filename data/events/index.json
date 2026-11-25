@@ -1,5 +1,15 @@
 [
  {
+  "date": "2026-11-25",
+  "shift": "plan",
+  "file": "data/events/2026-11-25-plan.json",
+  "status": "running",
+  "demo": false,
+  "started": null,
+  "updated": null,
+  "steps": 0
+ },
+ {
   "date": "2026-11-24",
   "shift": "plan",
   "file": "data/events/2026-11-24-plan.json",
@@ -128,15 +138,5 @@
   "started": 1793750411092,
   "updated": 1793759265701,
   "steps": 415
- },
- {
-  "date": "2026-11-03",
-  "shift": "plan",
-  "file": "data/events/2026-11-03-plan.json",
-  "status": "done",
-  "demo": true,
-  "started": 1793679416883,
-  "updated": 1793680501523,
-  "steps": 359
  }
 ]
